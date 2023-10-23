@@ -45,7 +45,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -500,6 +500,10 @@
     [
       "c1fc2aff-2b12-4e41-a798-c0c7c2bf1b4c",
       "sw_source"
+    ],
+    [
+      "d5932c4a-3091-40b8-906b-66d992253a75",
+      "External_connector"
     ]
   ],
   "text_variables": {}
