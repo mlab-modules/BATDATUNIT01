@@ -5,6 +5,69 @@
   (paper "A4")
 
   (lib_symbols
+    (symbol "Device:Buzzer" (pin_names (offset 0.0254) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "BZ" (at 3.81 1.27 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Value" "Buzzer" (at 3.81 -1.27 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Footprint" "" (at -0.635 2.54 90)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at -0.635 2.54 90)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "quartz resonator ceramic" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Buzzer, polarized" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "*Buzzer*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "Buzzer_0_1"
+        (arc (start 0 -3.175) (mid 3.1612 0) (end 0 3.175)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.651 1.905)
+            (xy -1.143 1.905)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.397 2.159)
+            (xy -1.397 1.651)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 3.175)
+            (xy 0 -3.175)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "Buzzer_1_1"
+        (pin passive line (at -2.54 2.54 0) (length 2.54)
+          (name "-" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -2.54 -2.54 0) (length 2.54)
+          (name "+" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "Device:C_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.254 1.778 0)
         (effects (font (size 1.27 1.27)) (justify left))
@@ -219,6 +282,83 @@
         (pin passive line (at 2.54 0 180) (length 1.778)
           (name "A" (effects (font (size 1.27 1.27))))
           (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "Device:Q_NPN_BEC" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "Q" (at 5.08 1.27 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Value" "Q_NPN_BEC" (at 5.08 -1.27 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Footprint" "" (at 5.08 2.54 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "transistor NPN" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "NPN transistor, base/emitter/collector" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "Q_NPN_BEC_0_1"
+        (polyline
+          (pts
+            (xy 0.635 0.635)
+            (xy 2.54 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.635 -0.635)
+            (xy 2.54 -2.54)
+            (xy 2.54 -2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.635 1.905)
+            (xy 0.635 -1.905)
+            (xy 0.635 -1.905)
+          )
+          (stroke (width 0.508) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.27 -1.778)
+            (xy 1.778 -1.27)
+            (xy 2.286 -2.286)
+            (xy 1.27 -1.778)
+            (xy 1.27 -1.778)
+          )
+          (stroke (width 0) (type default))
+          (fill (type outline))
+        )
+        (circle (center 1.27 0) (radius 2.8194)
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "Q_NPN_BEC_1_1"
+        (pin input line (at -5.08 0 0) (length 5.715)
+          (name "B" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 2.54 -5.08 90) (length 2.54)
+          (name "E" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 2.54 5.08 270) (length 2.54)
+          (name "C" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -1332,51 +1472,6 @@
         )
       )
     )
-    (symbol "SPACEDOS01A_PCB01A-rescue:L-device-DATALOGGER01A-rescue-CCP2019V01A-rescue" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "L" (at -1.27 0 90)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "L-device-DATALOGGER01A-rescue-CCP2019V01A-rescue" (at 1.905 0 90)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "L-device-DATALOGGER01A-rescue-CCP2019V01A-rescue_0_1"
-        (arc (start 0 -2.54) (mid 0.6323 -1.905) (end 0 -1.27)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (arc (start 0 -1.27) (mid 0.6323 -0.635) (end 0 0)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (arc (start 0 0) (mid 0.6323 0.635) (end 0 1.27)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (arc (start 0 1.27) (mid 0.6323 1.905) (end 0 2.54)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "L-device-DATALOGGER01A-rescue-CCP2019V01A-rescue_1_1"
-        (pin passive line (at 0 3.81 270) (length 1.27)
-          (name "1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -3.81 90) (length 1.27)
-          (name "2" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "SPACEDOS01A_PCB01A-rescue:R-device-DATALOGGER01A-rescue-CCP2019V01A-rescue" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 2.032 0 90)
         (effects (font (size 1.27 1.27)))
@@ -1440,116 +1535,6 @@
         (pin passive line (at 0 -3.81 90) (length 1.27)
           (name "~" (effects (font (size 1.27 1.27))))
           (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Simulation_SPICE:NPN" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "Q" (at -2.54 7.62 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "NPN" (at -2.54 5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 63.5 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 63.5 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Sim.Device" "NPN" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Sim.Type" "GUMMELPOON" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Sim.Pins" "1=C 2=B 3=E" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "simulation" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "NPN_0_1"
-        (polyline
-          (pts
-            (xy -2.54 0)
-            (xy 0.635 0)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.635 0.635)
-            (xy 2.54 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.794 -1.27)
-            (xy 2.794 -1.27)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.794 -1.27)
-            (xy 2.794 -1.27)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.635 -0.635)
-            (xy 2.54 -2.54)
-            (xy 2.54 -2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.635 1.905)
-            (xy 0.635 -1.905)
-            (xy 0.635 -1.905)
-          )
-          (stroke (width 0.508) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.27 -1.778)
-            (xy 1.778 -1.27)
-            (xy 2.286 -2.286)
-            (xy 1.27 -1.778)
-            (xy 1.27 -1.778)
-          )
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-        (circle (center 1.27 0) (radius 2.8194)
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "NPN_1_1"
-        (pin open_collector line (at 2.54 5.08 270) (length 2.54)
-          (name "C" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -5.08 0 0) (length 2.54)
-          (name "B" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin open_emitter line (at 2.54 -5.08 90) (length 2.54)
-          (name "E" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -1699,46 +1684,6 @@
         )
       )
     )
-    (symbol "power:PWR_FLAG" (power) (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "#FLG" (at 0 1.905 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "PWR_FLAG" (at 0 3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "flag power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Special symbol for telling ERC where power comes from" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "PWR_FLAG_0_0"
-        (pin power_out line (at 0 0 90) (length 0)
-          (name "pwr" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-      (symbol "PWR_FLAG_0_1"
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 1.27)
-            (xy -1.016 1.905)
-            (xy 0 2.54)
-            (xy 1.016 1.905)
-            (xy 0 1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-    )
     (symbol "power:VBUS" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -1820,14 +1765,8 @@
   (junction (at 19.05 22.86) (diameter 1.016) (color 0 0 0 0)
     (uuid 58020c5c-36ed-4a7b-8165-a3a68eaf3a72)
   )
-  (junction (at 63.5 60.96) (diameter 0) (color 0 0 0 0)
-    (uuid 639470a1-57b7-4726-92a8-44e60eccf482)
-  )
   (junction (at 113.03 96.52) (diameter 0) (color 0 0 0 0)
     (uuid 6abe42e9-d62e-4e5d-99e5-87b8751470b2)
-  )
-  (junction (at 26.67 60.96) (diameter 0) (color 0 0 0 0)
-    (uuid 74036c18-e7be-4ba2-ae29-d044b0a44847)
   )
   (junction (at 144.78 33.02) (diameter 1.016) (color 0 0 0 0)
     (uuid 8526f330-8bac-4800-b301-7e3631c1ef81)
@@ -1838,17 +1777,8 @@
   (junction (at 257.81 149.86) (diameter 0) (color 0 0 0 0)
     (uuid 86823d41-17e9-40c7-8ab2-9f65f4db7397)
   )
-  (junction (at 26.67 90.17) (diameter 0) (color 0 0 0 0)
-    (uuid 872df843-91ca-4de9-a731-c2baf7c6175b)
-  )
   (junction (at 134.62 53.34) (diameter 1.016) (color 0 0 0 0)
     (uuid 9548324b-3978-4091-ad61-b09cee754572)
-  )
-  (junction (at 29.21 22.86) (diameter 0) (color 0 0 0 0)
-    (uuid 9c2f7908-0d8a-498f-9680-ba9777d9a42f)
-  )
-  (junction (at 46.99 22.86) (diameter 1.016) (color 0 0 0 0)
-    (uuid a47b4d59-a440-4fd5-ae57-fd05ec335635)
   )
   (junction (at 242.57 81.28) (diameter 0) (color 0 0 0 0)
     (uuid b4debccc-6b95-4835-b91b-2ca7dd1b8666)
@@ -1864,6 +1794,9 @@
   )
   (junction (at 201.93 158.75) (diameter 0) (color 0 0 0 0)
     (uuid d11fcffb-478c-4c52-aa80-85e4fca8bc31)
+  )
+  (junction (at 171.45 24.13) (diameter 0) (color 0 0 0 0)
+    (uuid dc78473b-ed3f-45f0-8363-666520148a96)
   )
   (junction (at 142.24 125.73) (diameter 0) (color 0 0 0 0)
     (uuid e09e028c-4a25-4f89-a25b-ac6fee06930a)
@@ -1888,7 +1821,7 @@
   (no_connect (at 199.39 40.64) (uuid f7013320-925e-423a-a443-2615cd847b0b))
   (no_connect (at 130.81 120.65) (uuid f823db71-867f-4523-ae0f-28f8a1e3552f))
 
-  (wire (pts (xy 19.05 60.96) (xy 26.67 60.96))
+  (wire (pts (xy 19.05 60.96) (xy 27.94 60.96))
     (stroke (width 0) (type default))
     (uuid 0087020d-75bb-4428-a9f3-98d2b728e32e)
   )
@@ -1948,6 +1881,10 @@
     (stroke (width 0) (type solid))
     (uuid 1186390c-bb68-4e77-8d95-2243df5cbc6f)
   )
+  (wire (pts (xy 201.93 63.5) (xy 199.39 63.5))
+    (stroke (width 0) (type default))
+    (uuid 156bbfa2-19a5-4a4f-83fa-abd1b2eb3c04)
+  )
   (wire (pts (xy 242.57 83.82) (xy 242.57 86.36))
     (stroke (width 0) (type default))
     (uuid 167c807c-f927-4b5f-9e50-a6c52050d08d)
@@ -1975,10 +1912,6 @@
   (wire (pts (xy 137.16 140.97) (xy 130.81 140.97))
     (stroke (width 0) (type default))
     (uuid 20e222a3-4516-4471-8d35-873298531c66)
-  )
-  (wire (pts (xy 182.88 24.13) (xy 176.53 24.13))
-    (stroke (width 0) (type default))
-    (uuid 2194607e-a216-4008-a556-625ab9290579)
   )
   (wire (pts (xy 132.08 33.02) (xy 135.89 33.02))
     (stroke (width 0) (type default))
@@ -2032,14 +1965,6 @@
     (stroke (width 0) (type default))
     (uuid 328c882e-65ea-4b59-a177-90e2f5a7f4fc)
   )
-  (wire (pts (xy 63.5 60.96) (xy 64.77 60.96))
-    (stroke (width 0) (type default))
-    (uuid 3398dfe7-7f6b-4112-9410-85bbda3bf704)
-  )
-  (wire (pts (xy 29.21 22.86) (xy 33.02 22.86))
-    (stroke (width 0) (type solid))
-    (uuid 3572ae1e-43af-4453-8c0a-694c17200d60)
-  )
   (wire (pts (xy 168.91 24.13) (xy 171.45 24.13))
     (stroke (width 0) (type solid))
     (uuid 36093dd7-0558-4955-9055-527afa73efa3)
@@ -2047,14 +1972,6 @@
   (wire (pts (xy 278.13 144.78) (xy 278.13 142.24))
     (stroke (width 0) (type solid))
     (uuid 365e66b5-6072-432f-9cc8-391aa22ef01b)
-  )
-  (wire (pts (xy 29.21 109.22) (xy 29.21 114.3))
-    (stroke (width 0) (type default))
-    (uuid 37ad3c6a-ed9c-4154-9593-58ca079d7d8c)
-  )
-  (wire (pts (xy 46.99 20.32) (xy 46.99 22.86))
-    (stroke (width 0) (type default))
-    (uuid 37b984b4-1de1-41f6-8c2b-ef4fa6042baa)
   )
   (wire (pts (xy 58.42 127) (xy 58.42 134.62))
     (stroke (width 0) (type default))
@@ -2088,6 +2005,10 @@
     (stroke (width 0) (type default))
     (uuid 45779b09-2052-4a1c-aa28-6818a3439cff)
   )
+  (wire (pts (xy 77.47 82.55) (xy 77.47 85.09))
+    (stroke (width 0) (type default))
+    (uuid 473ee613-ee63-4d47-8bdd-be867e6b5f4b)
+  )
   (wire (pts (xy 110.49 96.52) (xy 110.49 97.79))
     (stroke (width 0) (type default))
     (uuid 4757e644-4b42-4f90-a886-c4b1411f3d4a)
@@ -2107,6 +2028,10 @@
   (wire (pts (xy 137.16 143.51) (xy 130.81 143.51))
     (stroke (width 0) (type default))
     (uuid 4a7c0244-971c-4c68-9a01-05fc4d179c41)
+  )
+  (wire (pts (xy 171.45 24.13) (xy 176.53 24.13))
+    (stroke (width 0) (type default))
+    (uuid 4b2c50dc-54d9-48ed-a5f3-48f197a447dc)
   )
   (wire (pts (xy 199.39 119.38) (xy 201.93 119.38))
     (stroke (width 0) (type default))
@@ -2160,10 +2085,6 @@
     (stroke (width 0) (type default))
     (uuid 6a951a24-3ae7-466a-8d7f-ed60358629a0)
   )
-  (wire (pts (xy 26.67 60.96) (xy 27.94 60.96))
-    (stroke (width 0) (type default))
-    (uuid 70b2818c-1feb-4c55-bae0-700f6ea972b8)
-  )
   (wire (pts (xy 241.3 26.67) (xy 241.3 31.75))
     (stroke (width 0) (type solid))
     (uuid 70d5373e-a5a9-44ab-9ec7-6c894ce768b3)
@@ -2196,6 +2117,10 @@
     (stroke (width 0) (type default))
     (uuid 8b104c37-077f-44c9-bb7a-d0153afd9c21)
   )
+  (wire (pts (xy 77.47 77.47) (xy 77.47 74.93))
+    (stroke (width 0) (type default))
+    (uuid 8d7d3422-c0b8-4525-8139-e376970e8145)
+  )
   (wire (pts (xy 242.57 81.28) (xy 242.57 78.74))
     (stroke (width 0) (type default))
     (uuid 8dbb72c6-034e-4795-beca-bf3ed03f31ae)
@@ -2220,9 +2145,9 @@
     (stroke (width 0) (type default))
     (uuid 959defa5-3da1-461b-b51a-2cd9306a21ac)
   )
-  (wire (pts (xy 19.05 90.17) (xy 26.67 90.17))
+  (wire (pts (xy 55.88 90.17) (xy 64.77 90.17))
     (stroke (width 0) (type default))
-    (uuid 96da51c6-5375-410d-9c52-fbe35f41b634)
+    (uuid 9615f2bc-33c8-469e-84ed-cb459c8e6d2a)
   )
   (wire (pts (xy 234.95 115.57) (xy 242.57 115.57))
     (stroke (width 0) (type default))
@@ -2248,10 +2173,6 @@
     (stroke (width 0) (type solid))
     (uuid a261bf72-75ae-4d42-b2b4-c5b4350ed036)
   )
-  (wire (pts (xy 199.39 63.5) (xy 208.28 63.5))
-    (stroke (width 0) (type default))
-    (uuid a3882176-86be-4bc5-ab73-2ab02448e64f)
-  )
   (wire (pts (xy 247.65 149.86) (xy 257.81 149.86))
     (stroke (width 0) (type solid))
     (uuid a90338f9-6f47-4696-aa67-9b62f13b9abf)
@@ -2271,10 +2192,6 @@
   (wire (pts (xy 130.81 130.81) (xy 132.08 130.81))
     (stroke (width 0) (type default))
     (uuid af819fa6-9f68-45bf-a6e8-b32d7d65fe9e)
-  )
-  (wire (pts (xy 52.07 22.86) (xy 46.99 22.86))
-    (stroke (width 0) (type solid))
-    (uuid afa2c407-8d7d-4892-9493-d3f678bbd261)
   )
   (wire (pts (xy 170.18 129.54) (xy 170.18 128.27))
     (stroke (width 0) (type solid))
@@ -2404,11 +2321,7 @@
     (stroke (width 0) (type default))
     (uuid e4396ce9-0954-4654-a7b7-983805d9c038)
   )
-  (wire (pts (xy 40.64 22.86) (xy 46.99 22.86))
-    (stroke (width 0) (type solid))
-    (uuid e4f836b7-749c-4bda-ae38-e8c4ea6b5e87)
-  )
-  (wire (pts (xy 26.67 90.17) (xy 27.94 90.17))
+  (wire (pts (xy 19.05 90.17) (xy 27.94 90.17))
     (stroke (width 0) (type default))
     (uuid e5282f14-f403-497d-9e98-c95109e4ad04)
   )
@@ -2444,7 +2357,7 @@
     (stroke (width 0) (type default))
     (uuid fd2abf41-e38a-4c01-8377-b24fab0abcc4)
   )
-  (wire (pts (xy 55.88 60.96) (xy 63.5 60.96))
+  (wire (pts (xy 55.88 60.96) (xy 64.77 60.96))
     (stroke (width 0) (type default))
     (uuid fed01c94-62c3-4822-9062-586f8db3c962)
   )
@@ -2456,10 +2369,6 @@
   (label "CDAT2" (at 88.9 177.8 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 01c5b329-fa29-4794-95c3-1045b166ba31)
-  )
-  (label "VCC" (at 29.21 109.22 270) (fields_autoplaced)
-    (effects (font (size 1.524 1.524)) (justify right bottom))
-    (uuid 0bd471c2-cd22-44f7-938d-9691bbfb61f6)
   )
   (label "SDA" (at 247.65 45.72 0) (fields_autoplaced)
     (effects (font (size 1 1)) (justify left bottom))
@@ -2525,6 +2434,10 @@
     (effects (font (size 1.524 1.524)) (justify right bottom))
     (uuid 377e6b6e-a2af-48ec-b89e-75a3eaf70f70)
   )
+  (label "buzzer" (at 201.93 119.38 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 39fb5bbb-a400-42db-b43b-103e707f2259)
+  )
   (label "CS_SD" (at 201.93 66.04 0) (fields_autoplaced)
     (effects (font (size 1 1)) (justify left bottom))
     (uuid 431549f6-b7ab-4469-a0f6-0f605abf716e)
@@ -2557,10 +2470,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 528407dc-7994-4eaf-a7c3-69ae35a56d53)
   )
-  (label "AVCC" (at 52.07 22.86 180) (fields_autoplaced)
-    (effects (font (size 1 1)) (justify right bottom))
-    (uuid 572b8f6a-2568-4407-b64d-738c5a7ab13e)
-  )
   (label "RST#_P" (at 247.65 149.86 0) (fields_autoplaced)
     (effects (font (size 1 1)) (justify left bottom))
     (uuid 5ca24b4d-9288-44b9-82b4-601795515c16)
@@ -2568,10 +2477,6 @@
   (label "MOSI_SD" (at 123.19 97.79 90) (fields_autoplaced)
     (effects (font (size 1 1)) (justify left bottom))
     (uuid 5ff521b8-da25-4ea9-9fd7-491b26b0cfdb)
-  )
-  (label "AVCC" (at 182.88 24.13 180) (fields_autoplaced)
-    (effects (font (size 1 1)) (justify right bottom))
-    (uuid 662ad459-f96b-4d63-8732-faa7a818b1b4)
   )
   (label "VIO" (at 58.42 109.22 270) (fields_autoplaced)
     (effects (font (size 1.524 1.524)) (justify right bottom))
@@ -2704,6 +2609,10 @@
   (label "mode" (at 90.17 138.43 180) (fields_autoplaced)
     (effects (font (size 1.524 1.524)) (justify right bottom))
     (uuid d9a9c4a4-aded-42d8-96fb-118f61ae9585)
+  )
+  (label "buzzer" (at 55.88 90.17 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid e0b6fb85-6837-4039-adc5-8eb3ab368c77)
   )
   (label "SCLK_MCU" (at 247.65 147.32 0) (fields_autoplaced)
     (effects (font (size 1 1)) (justify left bottom))
@@ -2927,19 +2836,19 @@
     (uuid b24c53e1-38d2-4aae-a8cb-af6da203392b)
   )
 
-  (symbol (lib_id "Device:R_Small") (at 77.47 48.26 0) (unit 1)
+  (symbol (lib_id "Device:R_Small") (at 77.47 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 015a26ee-2080-461b-aca8-9aff1be9fb29)
-    (property "Reference" "R54" (at 76.2 48.26 90)
+    (property "Reference" "R54" (at 76.2 53.34 90)
       (effects (font (size 1 1)))
     )
-    (property "Value" "R" (at 77.47 48.26 90)
+    (property "Value" "R" (at 77.47 53.34 90)
       (effects (font (size 1 1)))
     )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 77.47 48.26 0)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 77.47 53.34 0)
       (effects (font (size 1 1)) hide)
     )
-    (property "Datasheet" "~" (at 77.47 48.26 0)
+    (property "Datasheet" "~" (at 77.47 53.34 0)
       (effects (font (size 1 1)) hide)
     )
     (pin "1" (uuid 9389ed53-e234-4d94-a036-9b8956d2cb93))
@@ -2950,36 +2859,36 @@
           (reference "R54") (unit 1)
         )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "R59") (unit 1)
+          (reference "R54") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:R_Small") (at 40.64 77.47 0) (unit 1)
+  (symbol (lib_id "Device:R_Small") (at 40.64 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0a0e8a0d-5479-42fa-a6b1-62674c831c21)
-    (property "Reference" "R54" (at 39.37 77.47 90)
+    (property "Reference" "R54" (at 39.37 82.55 90)
       (effects (font (size 1 1)))
     )
-    (property "Value" "R" (at 40.64 77.47 90)
+    (property "Value" "R" (at 40.64 82.55 90)
       (effects (font (size 1 1)))
     )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 40.64 77.47 0)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 40.64 82.55 0)
       (effects (font (size 1 1)) hide)
     )
-    (property "Datasheet" "~" (at 40.64 77.47 0)
+    (property "Datasheet" "~" (at 40.64 82.55 0)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid eb5241e8-737a-45c2-95c0-ed0ec98abadc))
-    (pin "2" (uuid 5b160201-1c62-435f-a70e-b32d1f78bfa2))
+    (pin "1" (uuid f96cb5fb-f9ac-4bb9-8518-281f572e5e1f))
+    (pin "2" (uuid 26b0e3d9-0c6b-48da-a168-dde1b7120240))
     (instances
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
           (reference "R54") (unit 1)
         )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "R63") (unit 1)
+          (reference "R44") (unit 1)
         )
       )
     )
@@ -2991,7 +2900,7 @@
     (property "Reference" "C27" (at 32.131 24.2316 0)
       (effects (font (size 1 1)) (justify left))
     )
-    (property "Value" "100nF" (at 32.131 26.543 0)
+    (property "Value" "100n" (at 32.131 26.543 0)
       (effects (font (size 1 1)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 29.21 25.4 0)
@@ -3015,7 +2924,39 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "C28") (unit 1)
+          (reference "C22") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_Small") (at 67.31 90.17 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 14eda32b-dd29-401b-b2c2-68899bb6db9c)
+    (property "Reference" "R1" (at 67.31 92.71 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "1k" (at 67.31 95.25 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 67.31 90.17 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 67.31 90.17 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 6e862828-2ea4-4ce2-a34a-6413a649571e))
+    (pin "2" (uuid 800b42f9-878b-4f96-bfb8-4be8efc4ea9d))
+    (instances
+      (project "LION5CELL01"
+        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
+          (reference "R1") (unit 1)
+        )
+        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
+          (reference "R4") (unit 1)
+        )
+        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
+          (reference "R47") (unit 1)
         )
       )
     )
@@ -3051,7 +2992,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "C38") (unit 1)
+          (reference "C30") (unit 1)
         )
       )
     )
@@ -3086,7 +3027,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "#PWR0100") (unit 1)
+          (reference "#PWR089") (unit 1)
         )
       )
     )
@@ -3121,7 +3062,49 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "#PWR087") (unit 1)
+          (reference "#PWR097") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:Q_NPN_BEC") (at 74.93 90.17 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 1d44f5dc-d5f8-46ba-924a-21cad6c614cf)
+    (property "Reference" "Q4" (at 80.01 88.9 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "BC817-25" (at 80.01 91.44 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23-3" (at 80.01 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 74.93 90.17 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Device" "NPN" (at 74.93 90.17 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Type" "GUMMELPOON" (at 74.93 90.17 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Pins" "1=C 2=B 3=E" (at 74.93 90.17 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 1dc3a0ed-5347-4e47-9062-29d7eca68ea2))
+    (pin "2" (uuid 03139377-cf88-4070-9d3c-6c342c383838))
+    (pin "3" (uuid 9fcb3377-ca82-4e83-ba39-65e237c8a7ae))
+    (instances
+      (project "LION5CELL01"
+        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
+          (reference "Q4") (unit 1)
+        )
+        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
+          (reference "Q2") (unit 1)
+        )
+        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
+          (reference "Q7") (unit 1)
         )
       )
     )
@@ -3152,7 +3135,7 @@
           (reference "#PWR0166") (unit 1)
         )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "#PWR0178") (unit 1)
+          (reference "#PWR085") (unit 1)
         )
       )
       (project "USBPDSINK01"
@@ -3188,7 +3171,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "C55") (unit 1)
+          (reference "C23") (unit 1)
         )
       )
     )
@@ -3218,7 +3201,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "#PWR0159") (unit 1)
+          (reference "#PWR090") (unit 1)
         )
       )
     )
@@ -3253,7 +3236,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "#PWR0165") (unit 1)
+          (reference "#PWR0111") (unit 1)
         )
       )
     )
@@ -3284,7 +3267,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "C57") (unit 1)
+          (reference "C26") (unit 1)
         )
       )
     )
@@ -3323,42 +3306,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "R91") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+3.3V") (at 77.47 24.13 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 285e2093-4c1d-4575-bb62-4a093a6fe4ba)
-    (property "Reference" "#PWR0131" (at 77.47 27.94 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Value" "+3.3V" (at 77.851 19.7358 0)
-      (effects (font (size 1 1)))
-    )
-    (property "Footprint" "" (at 77.47 24.13 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Datasheet" "" (at 77.47 24.13 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (pin "1" (uuid 87c50ea9-97e7-4a8c-af2e-1fe5c7b5e8e9))
-    (instances
-      (project "USTSIPIN02A"
-        (path "/0a87ced0-2af2-43c5-a56c-218f7013d76f/00000000-0000-0000-0000-00005c4aedd8"
-          (reference "#PWR0131") (unit 1)
-        )
-      )
-      (project "cpu"
-        (path "/4af4b710-5b7c-4fa3-ad36-3ed9c7e42fc3"
-          (reference "#PWR0131") (unit 1)
-        )
-      )
-      (project "LION5CELL01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "#PWR092") (unit 1)
+          (reference "R53") (unit 1)
         )
       )
     )
@@ -3370,7 +3318,7 @@
     (property "Reference" "C26" (at 21.971 24.2316 0)
       (effects (font (size 1 1)) (justify left))
     )
-    (property "Value" "100nF" (at 21.971 26.543 0)
+    (property "Value" "100n" (at 21.971 26.543 0)
       (effects (font (size 1 1)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 19.05 25.4 0)
@@ -3394,7 +3342,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "C27") (unit 1)
+          (reference "C21") (unit 1)
         )
       )
     )
@@ -3429,7 +3377,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "#PWR0104") (unit 1)
+          (reference "#PWR0112") (unit 1)
         )
       )
     )
@@ -3468,7 +3416,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "J11") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
     )
@@ -3508,13 +3456,13 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "J6") (unit 1)
+          (reference "J4") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Simulation_SPICE:NPN") (at 38.1 60.96 0) (unit 1)
+  (symbol (lib_id "Device:Q_NPN_BEC") (at 38.1 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 315221e5-765b-41d2-9d50-66a0971a893a)
     (property "Reference" "Q4" (at 43.18 59.69 0)
@@ -3523,10 +3471,10 @@
     (property "Value" "BC817-25" (at 43.18 62.23 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23-3" (at 35.56 73.66 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23-3" (at 43.18 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 101.6 60.96 0)
+    (property "Datasheet" "~" (at 38.1 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Sim.Device" "NPN" (at 38.1 60.96 0)
@@ -3550,7 +3498,7 @@
           (reference "Q2") (unit 1)
         )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "Q3") (unit 1)
+          (reference "Q4") (unit 1)
         )
       )
     )
@@ -3559,7 +3507,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 257.81 154.94 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 316fcd6a-3b12-4969-aa47-b6263831c30b)
-    (property "Reference" "SW2" (at 259.08 153.67 90)
+    (property "Reference" "SW4" (at 259.08 153.67 90)
       (effects (font (size 1 1)) (justify right))
     )
     (property "Value" "MCU_RST" (at 259.08 156.21 90)
@@ -3576,7 +3524,7 @@
     (instances
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "SW2") (unit 1)
+          (reference "SW4") (unit 1)
         )
       )
     )
@@ -3612,7 +3560,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "C35") (unit 1)
+          (reference "C28") (unit 1)
         )
       )
     )
@@ -3642,7 +3590,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "#PWR0161") (unit 1)
+          (reference "#PWR092") (unit 1)
         )
       )
     )
@@ -3674,7 +3622,7 @@
           (reference "R4") (unit 1)
         )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "R6") (unit 1)
+          (reference "R41") (unit 1)
         )
       )
     )
@@ -3710,7 +3658,48 @@
           (reference "#PWR0160") (unit 1)
         )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "#PWR0180") (unit 1)
+          (reference "#PWR076") (unit 1)
+        )
+      )
+      (project "DATALOGGER02"
+        (path "/d5fa3405-b56f-43e6-a8bd-3ff789d79996/8c16a5bf-8019-4e77-9247-0011396b8bad"
+          (reference "#PWR?") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+3.3V") (at 77.47 74.93 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 38dedf40-aa5f-4dfe-b220-8b0a0c5356f9)
+    (property "Reference" "#PWR?" (at 77.47 78.74 0)
+      (effects (font (size 1 1)) hide)
+    )
+    (property "Value" "+3.3V" (at 77.47 71.12 0)
+      (effects (font (size 1 1)))
+    )
+    (property "Footprint" "" (at 77.47 74.93 0)
+      (effects (font (size 1 1)) hide)
+    )
+    (property "Datasheet" "" (at 77.47 74.93 0)
+      (effects (font (size 1 1)) hide)
+    )
+    (pin "1" (uuid 34386a53-3c4a-4580-8558-2eceb178d3dc))
+    (instances
+      (project "Peripherals"
+        (path "/5251a3af-ca7f-447d-b796-a6d47f48d23f"
+          (reference "#PWR?") (unit 1)
+        )
+      )
+      (project "LION5CELL01"
+        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
+          (reference "#PWR015") (unit 1)
+        )
+        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
+          (reference "#PWR0160") (unit 1)
+        )
+        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
+          (reference "#PWR086") (unit 1)
         )
       )
       (project "DATALOGGER02"
@@ -3746,7 +3735,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "C59") (unit 1)
+          (reference "C24") (unit 1)
         )
       )
     )
@@ -3781,7 +3770,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "#PWR0111") (unit 1)
+          (reference "#PWR0121") (unit 1)
         )
       )
     )
@@ -3816,46 +3805,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "#PWR098") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "SPACEDOS01A_PCB01A-rescue:L-device-DATALOGGER01A-rescue-CCP2019V01A-rescue") (at 36.83 22.86 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 403298cf-9701-42b0-a886-e560098345bb)
-    (property "Reference" "L1" (at 36.83 18.034 90)
-      (effects (font (size 1 1)))
-    )
-    (property "Value" "10uH - LQH32CN100K23L" (at 31.75 20.32 90)
-      (effects (font (size 1 1)))
-    )
-    (property "Footprint" "Inductor_SMD:L_1210_3225Metric_Pad1.42x2.65mm_HandSolder" (at 36.83 22.86 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Datasheet" "" (at 36.83 22.86 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "UST_ID" "5c70984412875079b91f87ff" (at 36.83 22.86 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (pin "1" (uuid 1a1b2b0a-7cef-4c28-8d3f-2a4725071aae))
-    (pin "2" (uuid 5d8709f8-f3f4-4c48-83cf-ee7b56406aab))
-    (instances
-      (project "USTSIPIN02A"
-        (path "/0a87ced0-2af2-43c5-a56c-218f7013d76f/00000000-0000-0000-0000-00005c4aedd8"
-          (reference "L1") (unit 1)
-        )
-      )
-      (project "cpu"
-        (path "/4af4b710-5b7c-4fa3-ad36-3ed9c7e42fc3"
-          (reference "L1") (unit 1)
-        )
-      )
-      (project "LION5CELL01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "L2") (unit 1)
+          (reference "#PWR0103") (unit 1)
         )
       )
     )
@@ -3864,7 +3814,7 @@
   (symbol (lib_id "Device:R_Small") (at 227.33 110.49 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 403be623-e214-4426-9160-4bd586b2160a)
-    (property "Reference" "R11" (at 227.33 105.41 90)
+    (property "Reference" "R60" (at 227.33 105.41 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 227.33 107.95 90)
@@ -3881,7 +3831,7 @@
     (instances
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "R11") (unit 1)
+          (reference "R60") (unit 1)
         )
       )
     )
@@ -3911,7 +3861,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "#PWR0158") (unit 1)
+          (reference "#PWR083") (unit 1)
         )
       )
     )
@@ -3984,7 +3934,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "#PWR0103") (unit 1)
+          (reference "#PWR0110") (unit 1)
         )
       )
     )
@@ -4019,7 +3969,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "#PWR0110") (unit 1)
+          (reference "#PWR0117") (unit 1)
         )
       )
     )
@@ -4028,7 +3978,7 @@
   (symbol (lib_id "power:GND") (at 142.24 130.81 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 50dd41b0-59ea-44ca-b49d-0f4153a5be17)
-    (property "Reference" "#PWR09" (at 142.24 137.16 0)
+    (property "Reference" "#PWR0100" (at 142.24 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 146.05 132.08 0)
@@ -4044,7 +3994,7 @@
     (instances
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR0100") (unit 1)
         )
       )
     )
@@ -4072,7 +4022,7 @@
           (reference "#PWR070") (unit 1)
         )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "#PWR0184") (unit 1)
+          (reference "#PWR0105") (unit 1)
         )
       )
     )
@@ -4104,48 +4054,7 @@
           (reference "R4") (unit 1)
         )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "R58") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+3.3V") (at 26.67 55.88 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 5725e5b1-8a1e-49af-be92-6db4c4e64551)
-    (property "Reference" "#PWR?" (at 26.67 59.69 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Value" "+3.3V" (at 26.67 52.07 0)
-      (effects (font (size 1 1)))
-    )
-    (property "Footprint" "" (at 26.67 55.88 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Datasheet" "" (at 26.67 55.88 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (pin "1" (uuid 7830906e-f289-4b56-8e6b-8e4280a50f8c))
-    (instances
-      (project "Peripherals"
-        (path "/5251a3af-ca7f-447d-b796-a6d47f48d23f"
-          (reference "#PWR?") (unit 1)
-        )
-      )
-      (project "LION5CELL01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "#PWR02") (unit 1)
-        )
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "#PWR071") (unit 1)
-        )
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "#PWR0173") (unit 1)
-        )
-      )
-      (project "DATALOGGER02"
-        (path "/d5fa3405-b56f-43e6-a8bd-3ff789d79996/8c16a5bf-8019-4e77-9247-0011396b8bad"
-          (reference "#PWR?") (unit 1)
+          (reference "R46") (unit 1)
         )
       )
     )
@@ -4180,25 +4089,25 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "#PWR0157") (unit 1)
+          (reference "#PWR0125") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:LED_Small") (at 40.64 53.34 90) (unit 1)
+  (symbol (lib_id "Device:LED_Small") (at 40.64 48.26 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 58f2b010-fecc-4c26-8b1b-68920268d024)
-    (property "Reference" "D16" (at 43.18 52.0065 90)
+    (property "Reference" "D16" (at 43.18 46.9265 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "ORANGE" (at 43.18 54.61 90)
+    (property "Value" "ORANGE" (at 43.18 49.53 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Mlab_D:SMD_LED_RIGHT_KINGBRIGHT_1605" (at 40.64 53.34 90)
+    (property "Footprint" "Mlab_D:SMD_LED_RIGHT_KINGBRIGHT_1605" (at 40.64 48.26 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 40.64 53.34 90)
+    (property "Datasheet" "~" (at 40.64 48.26 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 6337366f-473a-4bea-bc8f-f763b5694a5f))
@@ -4209,85 +4118,54 @@
           (reference "D16") (unit 1)
         )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "D17") (unit 1)
+          (reference "D13") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:LED_Small") (at 40.64 82.55 90) (unit 1)
+  (symbol (lib_id "Device:LED_Small") (at 40.64 77.47 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5a1e94b0-34a3-4a6a-884b-fefd15075149)
-    (property "Reference" "D16" (at 43.18 81.2165 90)
+    (property "Reference" "D16" (at 43.18 76.1365 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "ORANGE" (at 43.18 83.82 90)
+    (property "Value" "ORANGE" (at 43.18 78.74 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Mlab_D:SMD_LED_RIGHT_KINGBRIGHT_1605" (at 40.64 82.55 90)
+    (property "Footprint" "Mlab_D:SMD_LED_RIGHT_KINGBRIGHT_1605" (at 40.64 77.47 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 40.64 82.55 90)
+    (property "Datasheet" "~" (at 40.64 77.47 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7bd1ec15-3466-4e63-9ea0-8cadf34775d6))
-    (pin "2" (uuid 3fadbfd2-89cf-435e-b802-1e71a0bd7b36))
+    (pin "1" (uuid f1784000-d3b3-45a6-b348-a905e7f1037c))
+    (pin "2" (uuid 2aa2b1ff-e5b2-4738-9f96-497e8d63771f))
     (instances
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
           (reference "D16") (unit 1)
         )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "D19") (unit 1)
+          (reference "D14") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:C_Small") (at 29.21 116.84 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 5b32c372-3437-434e-9a19-e9303f6b34f9)
-    (property "Reference" "C4" (at 31.75 115.5763 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "C_Small" (at 31.75 118.1163 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 29.21 116.84 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 29.21 116.84 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 99eff20f-9a01-48dd-a1e2-adcbbfb3a3f0))
-    (pin "2" (uuid e4c6fde4-89cb-4459-8ff6-01dd7c626a80))
-    (instances
-      (project "USBSDREADER01"
-        (path "/2ae32537-a16f-4c5b-a56b-c6dddfb8ddb4"
-          (reference "C4") (unit 1)
-        )
-      )
-      (project "LION5CELL01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "C58") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:LED_Small") (at 77.47 53.34 90) (unit 1)
+  (symbol (lib_id "Device:LED_Small") (at 77.47 48.26 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5de31c96-c055-4f15-ae8b-43dbf4fab5c5)
-    (property "Reference" "D16" (at 80.01 52.0065 90)
+    (property "Reference" "D16" (at 80.01 46.9265 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "ORANGE" (at 80.01 54.61 90)
+    (property "Value" "ORANGE" (at 80.01 49.53 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Mlab_D:SMD_LED_RIGHT_KINGBRIGHT_1605" (at 77.47 53.34 90)
+    (property "Footprint" "Mlab_D:SMD_LED_RIGHT_KINGBRIGHT_1605" (at 77.47 48.26 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 77.47 53.34 90)
+    (property "Datasheet" "~" (at 77.47 48.26 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 566b52ee-005c-46a8-bcb4-700931be8c81))
@@ -4298,7 +4176,7 @@
           (reference "D16") (unit 1)
         )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "D18") (unit 1)
+          (reference "D15") (unit 1)
         )
       )
     )
@@ -4333,7 +4211,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "#PWR086") (unit 1)
+          (reference "#PWR096") (unit 1)
         )
       )
     )
@@ -4363,7 +4241,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "#PWR0148") (unit 1)
+          (reference "#PWR088") (unit 1)
         )
       )
     )
@@ -4375,7 +4253,7 @@
     (property "Reference" "C60" (at 243.84 56.1086 0)
       (effects (font (size 1 1)) (justify left))
     )
-    (property "Value" "100nF" (at 243.84 58.42 0)
+    (property "Value" "100n" (at 243.84 58.42 0)
       (effects (font (size 1 1)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 250.19 57.15 0)
@@ -4399,7 +4277,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "C44") (unit 1)
+          (reference "C32") (unit 1)
         )
       )
     )
@@ -4408,7 +4286,7 @@
   (symbol (lib_id "power:+3.3V") (at 201.93 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6722971d-e495-4ef2-b6ca-42bfc1cde323)
-    (property "Reference" "#PWR0185" (at 201.93 143.51 0)
+    (property "Reference" "#PWR0107" (at 201.93 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 201.93 134.62 0)
@@ -4424,39 +4302,7 @@
     (instances
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "#PWR0185") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R_Small") (at 63.5 58.42 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 6727c185-3dea-42ac-876d-4f6ed92afce2)
-    (property "Reference" "R2" (at 66.04 57.15 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "10k" (at 66.04 54.61 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 63.5 58.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 63.5 58.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 5de66c19-d133-4b5b-9398-cc058f741bd7))
-    (pin "2" (uuid bd2e8935-75e1-4b83-9ead-d346f211ebaa))
-    (instances
-      (project "LION5CELL01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "R2") (unit 1)
-        )
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "R3") (unit 1)
-        )
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "R55") (unit 1)
+          (reference "#PWR0107") (unit 1)
         )
       )
     )
@@ -4486,7 +4332,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "#PWR0153") (unit 1)
+          (reference "#PWR071") (unit 1)
         )
       )
     )
@@ -4495,7 +4341,7 @@
   (symbol (lib_id "Device:R_Small") (at 201.93 156.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6d483f4c-53cd-4ac2-8014-124ea722daaf)
-    (property "Reference" "R78" (at 204.47 154.94 0)
+    (property "Reference" "R59" (at 204.47 154.94 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R_Small" (at 204.47 157.48 0)
@@ -4512,7 +4358,7 @@
     (instances
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "R78") (unit 1)
+          (reference "R59") (unit 1)
         )
       )
     )
@@ -4547,7 +4393,43 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "#PWR091") (unit 1)
+          (reference "#PWR098") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 77.47 95.25 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 7198a4e6-adf5-4dbc-98af-749212f028d4)
+    (property "Reference" "#PWR028" (at 77.47 101.6 0)
+      (effects (font (size 1 1)) hide)
+    )
+    (property "Value" "GND" (at 74.93 97.79 0)
+      (effects (font (size 1 1)))
+    )
+    (property "Footprint" "" (at 77.47 95.25 0)
+      (effects (font (size 1 1)) hide)
+    )
+    (property "Datasheet" "" (at 77.47 95.25 0)
+      (effects (font (size 1 1)) hide)
+    )
+    (pin "1" (uuid b98a6786-e00f-43a0-8917-e6e2a400afe7))
+    (instances
+      (project "LION5CELL01"
+        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
+          (reference "#PWR028") (unit 1)
+        )
+        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
+          (reference "#PWR0166") (unit 1)
+        )
+        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
+          (reference "#PWR087") (unit 1)
+        )
+      )
+      (project "USBPDSINK01"
+        (path "/f63f6bfb-245c-4f6e-bf20-d0a44cb47b8c"
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -4575,7 +4457,7 @@
           (reference "#PWR070") (unit 1)
         )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "#PWR0186") (unit 1)
+          (reference "#PWR0106") (unit 1)
         )
       )
     )
@@ -4605,7 +4487,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "#PWR0154") (unit 1)
+          (reference "#PWR078") (unit 1)
         )
       )
     )
@@ -4614,7 +4496,7 @@
   (symbol (lib_id "Device:R_Small") (at 142.24 128.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 77645849-4dca-4cbd-a4c1-81350529300d)
-    (property "Reference" "R57" (at 144.78 127 0)
+    (property "Reference" "R56" (at 144.78 127 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 144.78 129.54 0)
@@ -4631,7 +4513,7 @@
     (instances
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "R57") (unit 1)
+          (reference "R56") (unit 1)
         )
       )
     )
@@ -4666,7 +4548,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "#PWR0114") (unit 1)
+          (reference "#PWR0124") (unit 1)
         )
       )
     )
@@ -4701,7 +4583,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "#PWR096") (unit 1)
+          (reference "#PWR0102") (unit 1)
         )
       )
     )
@@ -4736,7 +4618,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "#PWR097") (unit 1)
+          (reference "#PWR091") (unit 1)
         )
       )
     )
@@ -4771,7 +4653,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "#PWR072") (unit 1)
+          (reference "#PWR069") (unit 1)
         )
       )
     )
@@ -4799,7 +4681,7 @@
           (reference "#PWR03") (unit 1)
         )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR099") (unit 1)
         )
       )
       (project "USBPDSINK01"
@@ -4885,7 +4767,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "U12") (unit 1)
+          (reference "U10") (unit 1)
         )
       )
     )
@@ -4917,42 +4799,7 @@
           (reference "R4") (unit 1)
         )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "R61") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 46.99 27.94 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 839e3854-f3ec-4d94-adfe-850c24c4a83f)
-    (property "Reference" "#PWR0124" (at 46.99 34.29 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Value" "GND" (at 47.117 32.3342 0)
-      (effects (font (size 1 1)))
-    )
-    (property "Footprint" "" (at 46.99 27.94 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Datasheet" "" (at 46.99 27.94 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (pin "1" (uuid 9883b075-7c2c-47c8-ba3b-2ac8a9c90498))
-    (instances
-      (project "USTSIPIN02A"
-        (path "/0a87ced0-2af2-43c5-a56c-218f7013d76f/00000000-0000-0000-0000-00005c4aedd8"
-          (reference "#PWR0124") (unit 1)
-        )
-      )
-      (project "cpu"
-        (path "/4af4b710-5b7c-4fa3-ad36-3ed9c7e42fc3"
-          (reference "#PWR0124") (unit 1)
-        )
-      )
-      (project "LION5CELL01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "#PWR080") (unit 1)
+          (reference "R42") (unit 1)
         )
       )
     )
@@ -4987,7 +4834,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "#PWR0112") (unit 1)
+          (reference "#PWR0122") (unit 1)
         )
       )
     )
@@ -5026,7 +4873,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "R93") (unit 1)
+          (reference "R49") (unit 1)
         )
       )
     )
@@ -5061,7 +4908,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "#PWR077") (unit 1)
+          (reference "#PWR0109") (unit 1)
         )
       )
     )
@@ -5091,7 +4938,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "#PWR0151") (unit 1)
+          (reference "#PWR082") (unit 1)
         )
       )
     )
@@ -5126,7 +4973,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "#PWR0163") (unit 1)
+          (reference "#PWR0119") (unit 1)
         )
       )
     )
@@ -5161,7 +5008,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "#PWR085") (unit 1)
+          (reference "#PWR095") (unit 1)
         )
       )
     )
@@ -5191,42 +5038,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "#PWR0156") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+3.3V") (at 67.31 24.13 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 8e4fb13d-ecdc-4c05-9694-8b999213eb0a)
-    (property "Reference" "#PWR0130" (at 67.31 27.94 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Value" "+3.3V" (at 67.691 19.7358 0)
-      (effects (font (size 1 1)))
-    )
-    (property "Footprint" "" (at 67.31 24.13 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Datasheet" "" (at 67.31 24.13 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (pin "1" (uuid abef037e-9278-457f-a6ac-c4d5a9080cf6))
-    (instances
-      (project "USTSIPIN02A"
-        (path "/0a87ced0-2af2-43c5-a56c-218f7013d76f/00000000-0000-0000-0000-00005c4aedd8"
-          (reference "#PWR0130") (unit 1)
-        )
-      )
-      (project "cpu"
-        (path "/4af4b710-5b7c-4fa3-ad36-3ed9c7e42fc3"
-          (reference "#PWR0130") (unit 1)
-        )
-      )
-      (project "LION5CELL01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "#PWR089") (unit 1)
+          (reference "#PWR081") (unit 1)
         )
       )
     )
@@ -5256,7 +5068,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "#PWR0164") (unit 1)
+          (reference "#PWR093") (unit 1)
         )
       )
     )
@@ -5286,39 +5098,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "#PWR0147") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R_Small") (at 26.67 87.63 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 91a6da76-5bdc-4aa3-bc67-29a02b243588)
-    (property "Reference" "R2" (at 29.21 86.36 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "10k" (at 29.21 83.82 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 26.67 87.63 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 26.67 87.63 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid b14158ba-f12b-43c1-946c-a879b2d0adc8))
-    (pin "2" (uuid 56973d7a-6a3c-44ea-836f-3c555c27af46))
-    (instances
-      (project "LION5CELL01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "R2") (unit 1)
-        )
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "R3") (unit 1)
-        )
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "R60") (unit 1)
+          (reference "#PWR079") (unit 1)
         )
       )
     )
@@ -5353,7 +5133,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "#PWR0109") (unit 1)
+          (reference "#PWR0116") (unit 1)
         )
       )
     )
@@ -5365,7 +5145,7 @@
     (property "Reference" "C44" (at 146.05 64.77 0)
       (effects (font (size 1 1)) (justify left))
     )
-    (property "Value" "100nF" (at 146.05 67.31 0)
+    (property "Value" "100n" (at 146.05 67.31 0)
       (effects (font (size 1 1)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 143.51 66.04 0)
@@ -5389,7 +5169,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "C42") (unit 1)
+          (reference "C31") (unit 1)
         )
       )
     )
@@ -5464,7 +5244,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "C61") (unit 1)
+          (reference "C34") (unit 1)
         )
       )
     )
@@ -5495,47 +5275,12 @@
           (reference "#PWR0166") (unit 1)
         )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "#PWR0181") (unit 1)
+          (reference "#PWR077") (unit 1)
         )
       )
       (project "USBPDSINK01"
         (path "/f63f6bfb-245c-4f6e-bf20-d0a44cb47b8c"
           (reference "#PWR01") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+3.3V") (at 58.42 24.13 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 9fd6fdad-9d07-4cc6-9eb0-68dce0610bb5)
-    (property "Reference" "#PWR0120" (at 58.42 27.94 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Value" "+3.3V" (at 58.801 19.7358 0)
-      (effects (font (size 1 1)))
-    )
-    (property "Footprint" "" (at 58.42 24.13 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Datasheet" "" (at 58.42 24.13 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (pin "1" (uuid f0edb79a-f132-4abc-b8ea-3e81572bdba1))
-    (instances
-      (project "USTSIPIN02A"
-        (path "/0a87ced0-2af2-43c5-a56c-218f7013d76f/00000000-0000-0000-0000-00005c4aedd8"
-          (reference "#PWR0120") (unit 1)
-        )
-      )
-      (project "cpu"
-        (path "/4af4b710-5b7c-4fa3-ad36-3ed9c7e42fc3"
-          (reference "#PWR0120") (unit 1)
-        )
-      )
-      (project "LION5CELL01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "#PWR083") (unit 1)
         )
       )
     )
@@ -5570,43 +5315,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "#PWR0107") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C_Small") (at 77.47 26.67 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid a0cae2dd-1709-4fd1-9ce9-1e7279938634)
-    (property "Reference" "C39" (at 80.391 25.5016 0)
-      (effects (font (size 1 1)) (justify left))
-    )
-    (property "Value" "100nF" (at 80.391 27.813 0)
-      (effects (font (size 1 1)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 77.47 26.67 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Datasheet" "~" (at 77.47 26.67 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (pin "1" (uuid f23f0f65-af7a-4719-8b3c-625d7134664c))
-    (pin "2" (uuid 4d8f4ea8-886b-46f9-aeb6-ca53e5d7c96f))
-    (instances
-      (project "USTSIPIN02A"
-        (path "/0a87ced0-2af2-43c5-a56c-218f7013d76f/00000000-0000-0000-0000-00005c4aedd8"
-          (reference "C39") (unit 1)
-        )
-      )
-      (project "cpu"
-        (path "/4af4b710-5b7c-4fa3-ad36-3ed9c7e42fc3"
-          (reference "C39") (unit 1)
-        )
-      )
-      (project "LION5CELL01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "C39") (unit 1)
+          (reference "#PWR0118") (unit 1)
         )
       )
     )
@@ -5641,42 +5350,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "#PWR0113") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:PWR_FLAG") (at 46.99 20.32 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid a38d5463-ed16-4e48-9307-5513d7b72a49)
-    (property "Reference" "#FLG0109" (at 46.99 18.415 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Value" "PWR_FLAG" (at 46.99 16.7442 0)
-      (effects (font (size 1 1)))
-    )
-    (property "Footprint" "" (at 46.99 20.32 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Datasheet" "~" (at 46.99 20.32 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (pin "1" (uuid 9323f99a-b7ea-41dc-b4c3-d2cf1024c431))
-    (instances
-      (project "USTSIPIN02A"
-        (path "/0a87ced0-2af2-43c5-a56c-218f7013d76f/00000000-0000-0000-0000-00005c4aedd8"
-          (reference "#FLG0109") (unit 1)
-        )
-      )
-      (project "cpu"
-        (path "/4af4b710-5b7c-4fa3-ad36-3ed9c7e42fc3"
-          (reference "#FLG0109") (unit 1)
-        )
-      )
-      (project "LION5CELL01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "#FLG01") (unit 1)
+          (reference "#PWR0123") (unit 1)
         )
       )
     )
@@ -5705,7 +5379,7 @@
           (reference "SW3") (unit 1)
         )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "SW4") (unit 1)
+          (reference "SW3") (unit 1)
         )
       )
     )
@@ -5740,43 +5414,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "#PWR073") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C_Small") (at 58.42 26.67 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid aa44e927-d7ea-4903-a765-5d1acebb98d7)
-    (property "Reference" "C34" (at 61.341 25.5016 0)
-      (effects (font (size 1 1)) (justify left))
-    )
-    (property "Value" "100nF" (at 61.341 27.813 0)
-      (effects (font (size 1 1)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 58.42 26.67 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Datasheet" "~" (at 58.42 26.67 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (pin "1" (uuid 7f6bd872-c22a-46cf-9a41-693aadeda900))
-    (pin "2" (uuid 6080c487-680d-4213-826f-59577a1fda07))
-    (instances
-      (project "USTSIPIN02A"
-        (path "/0a87ced0-2af2-43c5-a56c-218f7013d76f/00000000-0000-0000-0000-00005c4aedd8"
-          (reference "C34") (unit 1)
-        )
-      )
-      (project "cpu"
-        (path "/4af4b710-5b7c-4fa3-ad36-3ed9c7e42fc3"
-          (reference "C34") (unit 1)
-        )
-      )
-      (project "LION5CELL01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "C34") (unit 1)
+          (reference "#PWR070") (unit 1)
         )
       )
     )
@@ -5811,37 +5449,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "#PWR099") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_name "GND_1") (lib_id "power:GND") (at 29.21 119.38 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid ae9019c9-c917-40d9-bbc9-9a33b420519d)
-    (property "Reference" "#PWR05" (at 29.21 125.73 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 29.21 123.19 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 29.21 119.38 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 29.21 119.38 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 0b772afa-8de0-4f6b-bf8c-bc45a73d4f57))
-    (instances
-      (project "USBSDREADER01"
-        (path "/2ae32537-a16f-4c5b-a56b-c6dddfb8ddb4"
-          (reference "#PWR05") (unit 1)
-        )
-      )
-      (project "LION5CELL01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "#PWR0152") (unit 1)
+          (reference "#PWR0104") (unit 1)
         )
       )
     )
@@ -5850,7 +5458,7 @@
   (symbol (lib_id "Device:R_Small") (at 201.93 142.24 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b056a61e-ade5-4a5a-8470-607826efb35c)
-    (property "Reference" "R40" (at 204.47 140.97 0)
+    (property "Reference" "R58" (at 204.47 140.97 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R_Small" (at 204.47 143.51 0)
@@ -5867,7 +5475,7 @@
     (instances
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "R40") (unit 1)
+          (reference "R58") (unit 1)
         )
       )
     )
@@ -5879,7 +5487,7 @@
     (property "Reference" "C6" (at 60.96 115.5763 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100nF" (at 60.96 118.1163 0)
+    (property "Value" "100n" (at 60.96 118.1163 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 58.42 116.84 0)
@@ -5898,48 +5506,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "C60") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+3.3V") (at 63.5 55.88 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid b2f41354-c1e3-4789-b663-dffb918bf94f)
-    (property "Reference" "#PWR?" (at 63.5 59.69 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Value" "+3.3V" (at 63.5 52.07 0)
-      (effects (font (size 1 1)))
-    )
-    (property "Footprint" "" (at 63.5 55.88 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Datasheet" "" (at 63.5 55.88 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (pin "1" (uuid 413ac75e-943e-41fb-9cb5-92020f0ebfc3))
-    (instances
-      (project "Peripherals"
-        (path "/5251a3af-ca7f-447d-b796-a6d47f48d23f"
-          (reference "#PWR?") (unit 1)
-        )
-      )
-      (project "LION5CELL01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "#PWR02") (unit 1)
-        )
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "#PWR071") (unit 1)
-        )
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "#PWR0176") (unit 1)
-        )
-      )
-      (project "DATALOGGER02"
-        (path "/d5fa3405-b56f-43e6-a8bd-3ff789d79996/8c16a5bf-8019-4e77-9247-0011396b8bad"
-          (reference "#PWR?") (unit 1)
+          (reference "C25") (unit 1)
         )
       )
     )
@@ -5974,7 +5541,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "#PWR0106") (unit 1)
+          (reference "#PWR0114") (unit 1)
         )
       )
     )
@@ -6009,7 +5576,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "#PWR047") (unit 1)
+          (reference "#PWR0120") (unit 1)
         )
       )
     )
@@ -6044,7 +5611,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "#PWR0105") (unit 1)
+          (reference "#PWR0113") (unit 1)
         )
       )
     )
@@ -6080,48 +5647,12 @@
           (reference "#PWR0160") (unit 1)
         )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "#PWR0174") (unit 1)
+          (reference "#PWR074") (unit 1)
         )
       )
       (project "DATALOGGER02"
         (path "/d5fa3405-b56f-43e6-a8bd-3ff789d79996/8c16a5bf-8019-4e77-9247-0011396b8bad"
           (reference "#PWR?") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C_Small") (at 46.99 25.4 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid bf5c9d83-278c-4b7c-926e-238b9a3f3b42)
-    (property "Reference" "C31" (at 49.911 24.2316 0)
-      (effects (font (size 1 1)) (justify left))
-    )
-    (property "Value" "100nF" (at 49.911 26.543 0)
-      (effects (font (size 1 1)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 46.99 25.4 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Datasheet" "~" (at 46.99 25.4 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (pin "1" (uuid c39ab2f6-9374-4fc9-900e-da7337fe7248))
-    (pin "2" (uuid 5d518f75-1eed-427d-8ffb-8df09e3ae53b))
-    (instances
-      (project "USTSIPIN02A"
-        (path "/0a87ced0-2af2-43c5-a56c-218f7013d76f/00000000-0000-0000-0000-00005c4aedd8"
-          (reference "C31") (unit 1)
-        )
-      )
-      (project "cpu"
-        (path "/4af4b710-5b7c-4fa3-ad36-3ed9c7e42fc3"
-          (reference "C31") (unit 1)
-        )
-      )
-      (project "LION5CELL01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "C31") (unit 1)
         )
       )
     )
@@ -6160,83 +5691,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "R62") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+3.3V") (at 26.67 85.09 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid c41a2de3-03cd-4311-8c50-3bb73a2335b8)
-    (property "Reference" "#PWR?" (at 26.67 88.9 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Value" "+3.3V" (at 26.67 81.28 0)
-      (effects (font (size 1 1)))
-    )
-    (property "Footprint" "" (at 26.67 85.09 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Datasheet" "" (at 26.67 85.09 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (pin "1" (uuid c8872b9e-5c19-4ed4-b290-79bd8838c00b))
-    (instances
-      (project "Peripherals"
-        (path "/5251a3af-ca7f-447d-b796-a6d47f48d23f"
-          (reference "#PWR?") (unit 1)
-        )
-      )
-      (project "LION5CELL01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "#PWR02") (unit 1)
-        )
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "#PWR071") (unit 1)
-        )
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "#PWR0179") (unit 1)
-        )
-      )
-      (project "DATALOGGER02"
-        (path "/d5fa3405-b56f-43e6-a8bd-3ff789d79996/8c16a5bf-8019-4e77-9247-0011396b8bad"
-          (reference "#PWR?") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 58.42 29.21 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid c9660d38-f361-439e-9bc3-848f6ea9b7de)
-    (property "Reference" "#PWR0154" (at 58.42 35.56 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Value" "GND" (at 58.547 33.6042 0)
-      (effects (font (size 1 1)))
-    )
-    (property "Footprint" "" (at 58.42 29.21 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Datasheet" "" (at 58.42 29.21 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (pin "1" (uuid 4d75272c-e178-4e61-8d1e-16bbbf4c2c9a))
-    (instances
-      (project "USTSIPIN02A"
-        (path "/0a87ced0-2af2-43c5-a56c-218f7013d76f/00000000-0000-0000-0000-00005c4aedd8"
-          (reference "#PWR0154") (unit 1)
-        )
-      )
-      (project "cpu"
-        (path "/4af4b710-5b7c-4fa3-ad36-3ed9c7e42fc3"
-          (reference "#PWR0154") (unit 1)
-        )
-      )
-      (project "LION5CELL01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "#PWR084") (unit 1)
+          (reference "R57") (unit 1)
         )
       )
     )
@@ -6272,7 +5727,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "C41") (unit 1)
+          (reference "C29") (unit 1)
         )
       )
     )
@@ -6402,7 +5857,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "R79") (unit 1)
+          (reference "R48") (unit 1)
         )
       )
     )
@@ -6437,7 +5892,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "#PWR0108") (unit 1)
+          (reference "#PWR0115") (unit 1)
         )
       )
     )
@@ -6468,7 +5923,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "R76") (unit 1)
+          (reference "R45") (unit 1)
         )
       )
     )
@@ -6507,7 +5962,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "R92") (unit 1)
+          (reference "R51") (unit 1)
         )
       )
     )
@@ -6554,7 +6009,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "U14") (unit 1)
+          (reference "U12") (unit 1)
         )
       )
     )
@@ -6590,7 +6045,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "C40") (unit 1)
+          (reference "C27") (unit 1)
         )
       )
     )
@@ -6625,7 +6080,33 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "#PWR095") (unit 1)
+          (reference "#PWR0101") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:Buzzer") (at 80.01 80.01 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid d4a3991c-4b48-4f70-bc71-14cd7cb7ae80)
+    (property "Reference" "BZ1" (at 72.39 78.74 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Buzzer" (at 69.85 81.28 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 79.375 77.47 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 79.375 77.47 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid fe5956c5-dc28-4a7c-a271-b3953e1f935f))
+    (pin "2" (uuid a4e01c93-565c-4f79-85c0-3c055926b726))
+    (instances
+      (project "LION5CELL01"
+        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
+          (reference "BZ1") (unit 1)
         )
       )
     )
@@ -6655,13 +6136,13 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "#PWR0144") (unit 1)
+          (reference "#PWR073") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Simulation_SPICE:NPN") (at 38.1 90.17 0) (unit 1)
+  (symbol (lib_id "Device:Q_NPN_BEC") (at 38.1 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid decc3fa8-6172-484e-88d8-51869da4ca72)
     (property "Reference" "Q4" (at 43.18 88.9 0)
@@ -6670,10 +6151,10 @@
     (property "Value" "BC817-25" (at 43.18 91.44 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23-3" (at 35.56 102.87 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23-3" (at 43.18 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 101.6 90.17 0)
+    (property "Datasheet" "~" (at 38.1 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Sim.Device" "NPN" (at 38.1 90.17 0)
@@ -6697,39 +6178,7 @@
           (reference "Q2") (unit 1)
         )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "Q6") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R_Small") (at 26.67 58.42 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid e45e7622-339e-4b13-b69c-3c29f7a845aa)
-    (property "Reference" "R2" (at 29.21 57.15 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "10k" (at 29.21 54.61 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 26.67 58.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 26.67 58.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid cde8138d-b1ce-4dff-99ba-6627dc088a25))
-    (pin "2" (uuid 4b2e6d7a-c9e7-4d71-8e00-578101f43757))
-    (instances
-      (project "LION5CELL01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "R2") (unit 1)
-        )
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "R3") (unit 1)
-        )
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "R5") (unit 1)
+          (reference "Q5") (unit 1)
         )
       )
     )
@@ -6738,7 +6187,7 @@
   (symbol (lib_id "Device:R_Small") (at 142.24 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e70b6c4b-48a6-4e1b-8530-e65d5b2b605c)
-    (property "Reference" "R56" (at 144.78 121.92 0)
+    (property "Reference" "R55" (at 144.78 121.92 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 144.78 124.46 0)
@@ -6755,7 +6204,7 @@
     (instances
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "R56") (unit 1)
+          (reference "R55") (unit 1)
         )
       )
     )
@@ -6794,7 +6243,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "R80") (unit 1)
+          (reference "R52") (unit 1)
         )
       )
     )
@@ -6829,7 +6278,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "#PWR074") (unit 1)
+          (reference "#PWR072") (unit 1)
         )
       )
     )
@@ -6864,13 +6313,13 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "#PWR0155") (unit 1)
+          (reference "#PWR080") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Simulation_SPICE:NPN") (at 74.93 60.96 0) (unit 1)
+  (symbol (lib_id "Device:Q_NPN_BEC") (at 74.93 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ed5709b8-ccc2-4786-92a1-f27bb65c7f8c)
     (property "Reference" "Q4" (at 80.01 59.69 0)
@@ -6879,10 +6328,10 @@
     (property "Value" "BC817-25" (at 80.01 62.23 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23-3" (at 72.39 73.66 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23-3" (at 80.01 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 138.43 60.96 0)
+    (property "Datasheet" "~" (at 74.93 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Sim.Device" "NPN" (at 74.93 60.96 0)
@@ -6906,7 +6355,7 @@
           (reference "Q2") (unit 1)
         )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "Q5") (unit 1)
+          (reference "Q6") (unit 1)
         )
       )
     )
@@ -6942,7 +6391,7 @@
           (reference "#PWR0160") (unit 1)
         )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "#PWR0177") (unit 1)
+          (reference "#PWR084") (unit 1)
         )
       )
       (project "DATALOGGER02"
@@ -6982,7 +6431,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "#PWR0162") (unit 1)
+          (reference "#PWR0126") (unit 1)
         )
       )
     )
@@ -6994,7 +6443,7 @@
     (property "Reference" "C36" (at 275.971 81.3816 0)
       (effects (font (size 1 1)) (justify left))
     )
-    (property "Value" "100nF" (at 275.971 83.693 0)
+    (property "Value" "100n" (at 275.971 83.693 0)
       (effects (font (size 1 1)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 273.05 82.55 0)
@@ -7021,42 +6470,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "C45") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 77.47 29.21 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid efde6e5e-a5e5-4380-92a7-01646dd4a241)
-    (property "Reference" "#PWR0158" (at 77.47 35.56 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Value" "GND" (at 77.597 33.6042 0)
-      (effects (font (size 1 1)))
-    )
-    (property "Footprint" "" (at 77.47 29.21 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Datasheet" "" (at 77.47 29.21 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (pin "1" (uuid 447722b0-297d-4978-83ae-09e889f7680f))
-    (instances
-      (project "USTSIPIN02A"
-        (path "/0a87ced0-2af2-43c5-a56c-218f7013d76f/00000000-0000-0000-0000-00005c4aedd8"
-          (reference "#PWR0158") (unit 1)
-        )
-      )
-      (project "cpu"
-        (path "/4af4b710-5b7c-4fa3-ad36-3ed9c7e42fc3"
-          (reference "#PWR0158") (unit 1)
-        )
-      )
-      (project "LION5CELL01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "#PWR093") (unit 1)
+          (reference "C33") (unit 1)
         )
       )
     )
@@ -7065,7 +6479,7 @@
   (symbol (lib_id "power:+3.3V") (at 201.93 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f029a6d6-adf4-46ac-b5b0-b3b4f5498f0b)
-    (property "Reference" "#PWR0187" (at 201.93 157.48 0)
+    (property "Reference" "#PWR0108" (at 201.93 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 201.93 148.59 0)
@@ -7081,25 +6495,25 @@
     (instances
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "#PWR0187") (unit 1)
+          (reference "#PWR0108") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:R_Small") (at 40.64 48.26 0) (unit 1)
+  (symbol (lib_id "Device:R_Small") (at 40.64 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f177b91c-0a0c-4872-a04d-c6a2867e2230)
-    (property "Reference" "R54" (at 39.37 48.26 90)
+    (property "Reference" "R54" (at 39.37 53.34 90)
       (effects (font (size 1 1)))
     )
-    (property "Value" "R" (at 40.64 48.26 90)
+    (property "Value" "R" (at 40.64 53.34 90)
       (effects (font (size 1 1)))
     )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 40.64 48.26 0)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 40.64 53.34 0)
       (effects (font (size 1 1)) hide)
     )
-    (property "Datasheet" "~" (at 40.64 48.26 0)
+    (property "Datasheet" "~" (at 40.64 53.34 0)
       (effects (font (size 1 1)) hide)
     )
     (pin "1" (uuid 9326d602-8ee1-4c18-83cb-5ce5302bc12c))
@@ -7110,7 +6524,7 @@
           (reference "R54") (unit 1)
         )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "R7") (unit 1)
+          (reference "R43") (unit 1)
         )
       )
     )
@@ -7251,42 +6665,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "U13") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 67.31 29.21 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid f7e28456-837f-440d-9f3e-9b837fdc7beb)
-    (property "Reference" "#PWR0156" (at 67.31 35.56 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Value" "GND" (at 67.437 33.6042 0)
-      (effects (font (size 1 1)))
-    )
-    (property "Footprint" "" (at 67.31 29.21 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Datasheet" "" (at 67.31 29.21 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (pin "1" (uuid 26b99c3c-0ca0-4f75-a393-de631a95bdb7))
-    (instances
-      (project "USTSIPIN02A"
-        (path "/0a87ced0-2af2-43c5-a56c-218f7013d76f/00000000-0000-0000-0000-00005c4aedd8"
-          (reference "#PWR0156") (unit 1)
-        )
-      )
-      (project "cpu"
-        (path "/4af4b710-5b7c-4fa3-ad36-3ed9c7e42fc3"
-          (reference "#PWR0156") (unit 1)
-        )
-      )
-      (project "LION5CELL01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "#PWR090") (unit 1)
+          (reference "U11") (unit 1)
         )
       )
     )
@@ -7317,7 +6696,7 @@
           (reference "#PWR0166") (unit 1)
         )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "#PWR0175") (unit 1)
+          (reference "#PWR075") (unit 1)
         )
       )
       (project "USBPDSINK01"
@@ -7361,7 +6740,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "R94") (unit 1)
+          (reference "R50") (unit 1)
         )
       )
     )
@@ -7390,43 +6769,7 @@
           (reference "SW3") (unit 1)
         )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "SW1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C_Small") (at 67.31 26.67 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid fc21d445-34ff-414e-ba42-640d0e9be008)
-    (property "Reference" "C35" (at 70.231 25.5016 0)
-      (effects (font (size 1 1)) (justify left))
-    )
-    (property "Value" "100nF" (at 70.231 27.813 0)
-      (effects (font (size 1 1)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 67.31 26.67 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Datasheet" "~" (at 67.31 26.67 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (pin "1" (uuid 71e74a10-d956-4f1d-8306-ef2a5aec094e))
-    (pin "2" (uuid cbf753c5-bf81-4852-a62e-418693ce0445))
-    (instances
-      (project "USTSIPIN02A"
-        (path "/0a87ced0-2af2-43c5-a56c-218f7013d76f/00000000-0000-0000-0000-00005c4aedd8"
-          (reference "C35") (unit 1)
-        )
-      )
-      (project "cpu"
-        (path "/4af4b710-5b7c-4fa3-ad36-3ed9c7e42fc3"
-          (reference "C35") (unit 1)
-        )
-      )
-      (project "LION5CELL01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "C37") (unit 1)
+          (reference "SW2") (unit 1)
         )
       )
     )

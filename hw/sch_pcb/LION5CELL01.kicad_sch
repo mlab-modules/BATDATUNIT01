@@ -1913,6 +1913,9 @@
   (junction (at 199.39 106.68) (diameter 0) (color 0 0 0 0)
     (uuid 07594ed0-e407-4267-b441-5efdf4cef1da)
   )
+  (junction (at 91.44 127) (diameter 0) (color 0 0 0 0)
+    (uuid 0c479d41-e511-491d-9abc-8b0566144155)
+  )
   (junction (at 209.55 86.36) (diameter 0) (color 0 0 0 0)
     (uuid 0e33b847-a561-452f-adda-90a4524b1627)
   )
@@ -1946,9 +1949,6 @@
   (junction (at 232.41 39.37) (diameter 0) (color 0 0 0 0)
     (uuid 60309d30-0b8a-4efb-a530-74d4a4ac8469)
   )
-  (junction (at 91.44 127) (diameter 0) (color 0 0 0 0)
-    (uuid 61f29421-94f2-4178-913e-35812ba7a916)
-  )
   (junction (at 209.55 50.8) (diameter 0) (color 0 0 0 0)
     (uuid 63e03e22-4d66-474c-858f-1041ad1b0640)
   )
@@ -1967,7 +1967,7 @@
   (junction (at 26.67 92.71) (diameter 0) (color 0 0 0 0)
     (uuid 7b9aeceb-9df9-49fd-9e60-abb4f433ad47)
   )
-  (junction (at 105.41 129.54) (diameter 0) (color 0 0 0 0)
+  (junction (at 91.44 132.08) (diameter 0) (color 0 0 0 0)
     (uuid 7e25e9a1-c7ac-4b28-b6b2-1d6e6c43b1b1)
   )
   (junction (at 267.97 21.59) (diameter 1.016) (color 0 0 0 0)
@@ -2017,9 +2017,6 @@
   )
   (junction (at 83.82 127) (diameter 0) (color 0 0 0 0)
     (uuid f447e45a-9f62-4992-969c-837d285ea2bb)
-  )
-  (junction (at 105.41 124.46) (diameter 0) (color 0 0 0 0)
-    (uuid f4851544-cd2c-499e-955d-0ece40e4ad2f)
   )
 
   (no_connect (at 93.98 160.02) (uuid 0d384c96-a82b-4e15-a602-5b8f64434f59))
@@ -2084,7 +2081,7 @@
     (stroke (width 0) (type default))
     (uuid 1887a6f2-6617-49c5-a513-65b375910da1)
   )
-  (wire (pts (xy 105.41 124.46) (xy 113.03 124.46))
+  (wire (pts (xy 91.44 127) (xy 99.06 127))
     (stroke (width 0) (type default))
     (uuid 1972bd32-58d0-4a92-b0b5-faea0899d5e3)
   )
@@ -2308,7 +2305,7 @@
     (stroke (width 0) (type default))
     (uuid a1f72b7c-ea42-4d3c-8439-2b054f74f9fe)
   )
-  (wire (pts (xy 105.41 129.54) (xy 113.03 129.54))
+  (wire (pts (xy 91.44 132.08) (xy 99.06 132.08))
     (stroke (width 0) (type default))
     (uuid a34c2cec-5f4e-41a0-b65b-85a115616781)
   )
@@ -2460,10 +2457,6 @@
     (stroke (width 0) (type default))
     (uuid eaa9a4dc-cd19-4238-89e1-720f4530eaa0)
   )
-  (wire (pts (xy 76.2 121.92) (xy 76.2 127))
-    (stroke (width 0) (type default))
-    (uuid ed3edc5a-a291-4559-a2dd-9cb84568b0c3)
-  )
   (wire (pts (xy 105.41 154.94) (xy 101.6 154.94))
     (stroke (width 0) (type default))
     (uuid eeabd58c-ceb1-4430-896c-44d72cd71a8d)
@@ -2557,11 +2550,11 @@
     (effects (font (size 1 1)) (justify right bottom))
     (uuid 6bf275b3-1867-4793-be68-e0c257fd18f7)
   )
-  (label "MCU_TXD" (at 120.65 22.86 90) (fields_autoplaced)
+  (label "MCU_TXD" (at 119.38 16.51 90) (fields_autoplaced)
     (effects (font (size 1 1)) (justify left bottom))
     (uuid 720233c1-aee8-4af8-b745-927f1157a5c8)
   )
-  (label "MCU_RXD" (at 116.84 22.86 90) (fields_autoplaced)
+  (label "MCU_RXD" (at 115.57 16.51 90) (fields_autoplaced)
     (effects (font (size 1 1)) (justify left bottom))
     (uuid 7c5956a6-673c-4b19-a167-11a7d2cb29b5)
   )
@@ -2876,7 +2869,7 @@
           (reference "#PWR05") (unit 1)
         )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -2914,7 +2907,7 @@
           (reference "#PWR05") (unit 1)
         )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
     )
@@ -2922,53 +2915,17 @@
 
   (symbol (lib_id "Device:C_Small") (at 91.44 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
-    (uuid 041bc891-2329-4fe8-980b-a410291bc955)
+    (uuid 0b353fa8-6458-4793-a602-c726b477dd4c)
     (property "Reference" "C?" (at 93.98 128.27 0)
       (effects (font (size 1 1)) (justify left))
     )
-    (property "Value" "4u7" (at 93.98 130.81 0)
+    (property "Value" "100n" (at 93.98 130.81 0)
       (effects (font (size 1 1)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 91.44 129.54 0)
       (effects (font (size 1 1)) hide)
     )
     (property "Datasheet" "~" (at 91.44 129.54 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (pin "1" (uuid 1906379a-8038-4ca4-9db4-81bc67f58a78))
-    (pin "2" (uuid 96490ec3-4ba6-4296-b2b9-b12a6d8121a5))
-    (instances
-      (project "Peripherals"
-        (path "/5251a3af-ca7f-447d-b796-a6d47f48d23f"
-          (reference "C?") (unit 1)
-        )
-      )
-      (project "LION5CELL01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "C7") (unit 1)
-        )
-      )
-      (project "DATALOGGER02"
-        (path "/d5fa3405-b56f-43e6-a8bd-3ff789d79996/8c16a5bf-8019-4e77-9247-0011396b8bad"
-          (reference "C?") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C_Small") (at 105.41 127 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 0b353fa8-6458-4793-a602-c726b477dd4c)
-    (property "Reference" "C?" (at 107.95 125.73 0)
-      (effects (font (size 1 1)) (justify left))
-    )
-    (property "Value" "0u1" (at 107.95 128.27 0)
-      (effects (font (size 1 1)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 105.41 127 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Datasheet" "~" (at 105.41 127 0)
       (effects (font (size 1 1)) hide)
     )
     (pin "1" (uuid d52ed836-8abf-494d-afe7-a3b6e927ed0e))
@@ -2981,7 +2938,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "C8") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
       (project "DATALOGGER02"
@@ -3016,7 +2973,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
       (project "DATALOGGER02"
@@ -3059,7 +3016,7 @@
           (reference "#PWR05") (unit 1)
         )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "#PWR043") (unit 1)
+          (reference "#PWR036") (unit 1)
         )
       )
     )
@@ -3068,7 +3025,7 @@
   (symbol (lib_id "Device:C_Small") (at 102.87 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 19a9a605-b87b-4cba-a9ad-d0f4f6f53a61)
-    (property "Reference" "C1" (at 105.41 62.23 0)
+    (property "Reference" "C3" (at 105.41 62.23 0)
       (effects (font (size 1 1)) (justify left))
     )
     (property "Value" "1n" (at 105.41 64.77 0)
@@ -3094,7 +3051,7 @@
     (instances
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "C1") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
       (project "USBPDSINK01"
@@ -3141,7 +3098,7 @@
           (reference "R2") (unit 1)
         )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "R35") (unit 1)
+          (reference "R18") (unit 1)
         )
       )
     )
@@ -3150,7 +3107,7 @@
   (symbol (lib_name "GND_2") (lib_id "power:GND") (at 62.23 124.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 240e0efe-6fbe-40c1-bfba-b5eb124a8a85)
-    (property "Reference" "#PWR018" (at 62.23 130.81 0)
+    (property "Reference" "#PWR05" (at 62.23 130.81 0)
       (effects (font (size 1 1)) hide)
     )
     (property "Value" "GND" (at 62.23 128.27 0)
@@ -3166,7 +3123,7 @@
     (instances
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -3175,7 +3132,7 @@
   (symbol (lib_id "Device:LED") (at 138.43 144.78 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2dc682e8-2b3d-4e91-94d3-22952ab19fec)
-    (property "Reference" "D7" (at 141.3511 143.8211 90)
+    (property "Reference" "D2" (at 141.3511 143.8211 90)
       (effects (font (size 1 1)) (justify right))
     )
     (property "Value" "GREEN" (at 141.351 146.12 90)
@@ -3198,7 +3155,7 @@
     (instances
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "D7") (unit 1)
+          (reference "D2") (unit 1)
         )
       )
       (project "USB232R02"
@@ -3233,7 +3190,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "#PWR036") (unit 1)
+          (reference "#PWR031") (unit 1)
         )
       )
       (project "DATALOGGER02"
@@ -3250,7 +3207,7 @@
     (property "Reference" "C?" (at 279.4 41.91 0)
       (effects (font (size 1 1)) (justify left))
     )
-    (property "Value" "100nF" (at 279.4 44.45 0)
+    (property "Value" "100n" (at 279.4 44.45 0)
       (effects (font (size 1 1)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 276.86 43.18 0)
@@ -3269,7 +3226,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "C12") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
       (project "DATALOGGER02"
@@ -3283,7 +3240,7 @@
   (symbol (lib_id "power:GND") (at 86.36 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3cad3f18-6fda-466f-a0af-d2bf5572e165)
-    (property "Reference" "#PWR014" (at 86.36 87.63 0)
+    (property "Reference" "#PWR08" (at 86.36 87.63 0)
       (effects (font (size 1 1)) hide)
     )
     (property "Value" "GND" (at 86.36 85.09 0)
@@ -3299,7 +3256,7 @@
     (instances
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
       (project "USB232R02"
@@ -3365,7 +3322,7 @@
           (reference "#PWR0170") (unit 1)
         )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -3374,7 +3331,7 @@
   (symbol (lib_id "Device:R_Small") (at 138.43 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 480d6e4d-b430-4e78-968b-48a27c10b253)
-    (property "Reference" "R27" (at 140.2081 149.9806 0)
+    (property "Reference" "R11" (at 140.2081 149.9806 0)
       (effects (font (size 1 1)) (justify left))
     )
     (property "Value" "R" (at 140.208 152.279 0)
@@ -3391,7 +3348,7 @@
     (instances
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "R27") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
       (project "USB232R02"
@@ -3438,7 +3395,7 @@
           (reference "R1") (unit 1)
         )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "R34") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
     )
@@ -3533,42 +3490,7 @@
           (reference "#PWR0172") (unit 1)
         )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "#PWR069") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+3.3V") (at 105.41 124.46 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 4cfd4563-41f4-4e09-8676-126a8bcc11d8)
-    (property "Reference" "#PWR?" (at 105.41 128.27 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Value" "+3.3V" (at 105.41 120.65 0)
-      (effects (font (size 1 1)))
-    )
-    (property "Footprint" "" (at 105.41 124.46 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Datasheet" "" (at 105.41 124.46 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (pin "1" (uuid 9f97ecec-2081-4a84-a84d-940e8ca9448a))
-    (instances
-      (project "Peripherals"
-        (path "/5251a3af-ca7f-447d-b796-a6d47f48d23f"
-          (reference "#PWR?") (unit 1)
-        )
-      )
-      (project "LION5CELL01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "#PWR022") (unit 1)
-        )
-      )
-      (project "DATALOGGER02"
-        (path "/d5fa3405-b56f-43e6-a8bd-3ff789d79996/8c16a5bf-8019-4e77-9247-0011396b8bad"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -3649,7 +3571,7 @@
           (reference "R1") (unit 1)
         )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "R30") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
     )
@@ -3658,7 +3580,7 @@
   (symbol (lib_id "power:GND") (at 264.16 22.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 541ed086-835d-455b-ae6e-9e455aa39047)
-    (property "Reference" "#PWR041" (at 264.16 29.21 0)
+    (property "Reference" "#PWR035" (at 264.16 29.21 0)
       (effects (font (size 1 1)) hide)
     )
     (property "Value" "GND" (at 267.97 24.13 0)
@@ -3674,7 +3596,7 @@
     (instances
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "#PWR041") (unit 1)
+          (reference "#PWR035") (unit 1)
         )
       )
       (project "USB232R02"
@@ -3774,7 +3696,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
       (project "DATALOGGER02"
@@ -3788,7 +3710,7 @@
   (symbol (lib_id "Device:R_Small") (at 52.07 64.77 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5d9e9ffd-85d5-453a-b231-d70b33c175f6)
-    (property "Reference" "R2" (at 53.34 63.5 0)
+    (property "Reference" "R3" (at 53.34 63.5 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "R_Small" (at 53.34 66.04 0)
@@ -3805,7 +3727,7 @@
     (instances
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "R2") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -3814,7 +3736,7 @@
   (symbol (lib_id "Device:R_Small") (at 59.69 64.77 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5f12b326-7ff1-4364-a5a6-c7424ad214af)
-    (property "Reference" "R1" (at 60.96 63.5 0)
+    (property "Reference" "R4" (at 60.96 63.5 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "R_Small" (at 60.96 66.04 0)
@@ -3831,7 +3753,7 @@
     (instances
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "R1") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -3986,7 +3908,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
       (project "DATALOGGER02"
@@ -4021,7 +3943,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "#PWR040") (unit 1)
+          (reference "#PWR033") (unit 1)
         )
       )
       (project "DATALOGGER02"
@@ -4087,7 +4009,7 @@
           (reference "#PWR0169") (unit 1)
         )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -4117,7 +4039,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
       (project "DATALOGGER02"
@@ -4131,7 +4053,7 @@
   (symbol (lib_id "Device:R_Small") (at 99.06 152.4 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 76e3688e-34e6-452d-886a-1550b499001f)
-    (property "Reference" "R23" (at 102.87 149.86 90)
+    (property "Reference" "R6" (at 102.87 149.86 90)
       (effects (font (size 1 1)))
     )
     (property "Value" "33R" (at 102.87 151.13 90)
@@ -4148,7 +4070,7 @@
     (instances
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "R23") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -4157,7 +4079,7 @@
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 236.22 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 78918adb-1586-4dea-b8e4-ea1eb71690ea)
-    (property "Reference" "#PWR035" (at 236.22 113.03 0)
+    (property "Reference" "#PWR030" (at 236.22 113.03 0)
       (effects (font (size 1 1)) hide)
     )
     (property "Value" "GND" (at 240.03 109.22 0)
@@ -4173,7 +4095,7 @@
     (instances
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
       )
     )
@@ -4203,7 +4125,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
       (project "DATALOGGER02"
@@ -4249,7 +4171,7 @@
   (symbol (lib_id "MLAB_IO:TCA4307") (at 151.13 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 81e8977e-e162-4eec-b00d-958e5b68cb11)
-    (property "Reference" "U7" (at 153.3241 67.31 0)
+    (property "Reference" "U3" (at 153.3241 67.31 0)
       (effects (font (size 1 1)) (justify left))
     )
     (property "Value" "TCA4307" (at 153.3241 69.85 0)
@@ -4272,7 +4194,7 @@
     (instances
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "U7") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
     )
@@ -4310,7 +4232,7 @@
           (reference "#PWR05") (unit 1)
         )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "#PWR037") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
     )
@@ -4319,10 +4241,10 @@
   (symbol (lib_id "Device:R_Small") (at 44.45 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8a94e257-ae3f-4aaa-b8b8-9790c9f38976)
-    (property "Reference" "R19" (at 45.72 148.59 0)
+    (property "Reference" "R2" (at 45.72 148.59 0)
       (effects (font (size 1 1)) (justify left))
     )
-    (property "Value" "1K" (at 45.72 151.13 0)
+    (property "Value" "1k" (at 45.72 151.13 0)
       (effects (font (size 1 1)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 44.45 149.86 0)
@@ -4336,7 +4258,7 @@
     (instances
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "R19") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -4345,7 +4267,7 @@
   (symbol (lib_id "Device:R_Small") (at 241.3 60.96 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8b00b5ff-46bf-422b-9f5a-997645b53300)
-    (property "Reference" "R33" (at 247.65 60.96 90)
+    (property "Reference" "R16" (at 247.65 60.96 90)
       (effects (font (size 1 1)) (justify left))
     )
     (property "Value" "1k" (at 242.57 60.96 90)
@@ -4362,7 +4284,7 @@
     (instances
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "R33") (unit 1)
+          (reference "R16") (unit 1)
         )
       )
       (project "USB232R02"
@@ -4405,7 +4327,7 @@
           (reference "#PWR05") (unit 1)
         )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -4414,7 +4336,7 @@
   (symbol (lib_id "Device:R_Small") (at 73.66 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8dca0c5f-dcf7-489c-a2f0-076bd3943e42)
-    (property "Reference" "R75" (at 67.31 119.38 0)
+    (property "Reference" "R5" (at 67.31 119.38 0)
       (effects (font (size 1 1)) (justify left))
     )
     (property "Value" "5k1 (cca)" (at 67.31 120.65 0)
@@ -4431,7 +4353,7 @@
     (instances
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "R75") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -4443,7 +4365,7 @@
     (property "Reference" "C?" (at 191.77 43.18 0)
       (effects (font (size 1 1)) (justify left))
     )
-    (property "Value" "100nF" (at 191.77 45.72 0)
+    (property "Value" "100n" (at 191.77 45.72 0)
       (effects (font (size 1 1)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 189.23 44.45 0)
@@ -4462,7 +4384,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "C10") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
       (project "DATALOGGER02"
@@ -4473,35 +4395,10 @@
     )
   )
 
-  (symbol (lib_id "Connector:TestPoint") (at 76.2 121.92 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid a3379c04-538c-457b-972e-ea91b69a8e85)
-    (property "Reference" "TP1" (at 77.47 118.11 0)
-      (effects (font (size 1 1)) (justify left))
-    )
-    (property "Value" "FTDI FS" (at 77.47 119.38 0)
-      (effects (font (size 1 1)) (justify left))
-    )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm" (at 81.28 121.92 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Datasheet" "~" (at 81.28 121.92 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (pin "1" (uuid fc00f90e-2b2a-4ab6-a49e-eddb5f8194a9))
-    (instances
-      (project "LION5CELL01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "TP1") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:LED") (at 129.54 144.78 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a4d12020-569c-492c-852d-76a9a4008665)
-    (property "Reference" "D6" (at 132.4611 143.8211 90)
+    (property "Reference" "D1" (at 132.4611 143.8211 90)
       (effects (font (size 1 1)) (justify right))
     )
     (property "Value" "RED" (at 132.461 146.12 90)
@@ -4524,7 +4421,7 @@
     (instances
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "D6") (unit 1)
+          (reference "D1") (unit 1)
         )
       )
       (project "USB232R02"
@@ -4592,7 +4489,7 @@
   (symbol (lib_id "Device:R_Small") (at 129.54 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ab6c6ba8-4d94-462a-af8b-d25382b60dad)
-    (property "Reference" "R26" (at 131.3181 149.9806 0)
+    (property "Reference" "R10" (at 131.3181 149.9806 0)
       (effects (font (size 1 1)) (justify left))
     )
     (property "Value" "R" (at 131.318 152.279 0)
@@ -4604,12 +4501,12 @@
     (property "Datasheet" "~" (at 129.54 151.13 0)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid 403c55e8-ea90-4be5-81a5-7a27f761d9c0))
-    (pin "2" (uuid 1a50a5db-c8d5-48f9-87ce-55a20fb4e256))
+    (pin "1" (uuid 0d01c0e3-85d8-4890-957c-e3258f9853e2))
+    (pin "2" (uuid c6e150c1-a1df-4496-a117-1684507b42eb))
     (instances
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "R26") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
       (project "USB232R02"
@@ -4716,7 +4613,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
       (project "DATALOGGER02"
@@ -4749,7 +4646,7 @@
           (reference "#PWR0171") (unit 1)
         )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -4758,7 +4655,7 @@
   (symbol (lib_id "Device:R_Small") (at 99.06 154.94 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b1512fd5-1eed-4c49-8f77-b2cf054e2567)
-    (property "Reference" "R24" (at 102.87 156.21 90)
+    (property "Reference" "R7" (at 102.87 156.21 90)
       (effects (font (size 1 1)))
     )
     (property "Value" "33R" (at 102.87 157.48 90)
@@ -4775,7 +4672,7 @@
     (instances
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "R24") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -4784,7 +4681,7 @@
   (symbol (lib_id "power:VBUS") (at 86.36 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b2316952-bd07-42e9-aff0-6cacbb13cc0a)
-    (property "Reference" "#PWR06" (at 86.36 64.77 0)
+    (property "Reference" "#PWR07" (at 86.36 64.77 0)
       (effects (font (size 1 1)) hide)
     )
     (property "Value" "VBUS" (at 86.36 57.15 0)
@@ -4800,7 +4697,7 @@
     (instances
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
       (project "USBPDSINK01"
@@ -4814,7 +4711,7 @@
   (symbol (lib_id "power:VBUS") (at 102.87 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b86b7a25-5333-480c-9e62-088e0d4c54be)
-    (property "Reference" "#PWR04" (at 102.87 64.77 0)
+    (property "Reference" "#PWR012" (at 102.87 64.77 0)
       (effects (font (size 1 1)) hide)
     )
     (property "Value" "VBUS" (at 102.87 57.15 0)
@@ -4830,7 +4727,7 @@
     (instances
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
       (project "USBPDSINK01"
@@ -4865,7 +4762,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "#PWR039") (unit 1)
+          (reference "#PWR032") (unit 1)
         )
       )
       (project "DATALOGGER02"
@@ -4900,7 +4797,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "#PWR045") (unit 1)
+          (reference "#PWR038") (unit 1)
         )
       )
       (project "DATALOGGER02"
@@ -4947,7 +4844,7 @@
           (reference "R1") (unit 1)
         )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "R28") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
     )
@@ -4977,7 +4874,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
       (project "DATALOGGER02"
@@ -4991,7 +4888,7 @@
   (symbol (lib_name "GND_4") (lib_id "power:GND") (at 55.88 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bffdbe58-0481-4d71-a6b2-1e0ae04aa53e)
-    (property "Reference" "#PWR02" (at 55.88 73.66 0)
+    (property "Reference" "#PWR04" (at 55.88 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 59.69 68.58 0)
@@ -5007,7 +4904,7 @@
     (instances
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -5016,7 +4913,7 @@
   (symbol (lib_id "power:VBUS") (at 73.66 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c1c5db7a-6437-46aa-b9b2-913e64873750)
-    (property "Reference" "#PWR07" (at 73.66 121.92 0)
+    (property "Reference" "#PWR06" (at 73.66 121.92 0)
       (effects (font (size 1 1)) hide)
     )
     (property "Value" "VBUS" (at 73.66 114.3 0)
@@ -5032,7 +4929,7 @@
     (instances
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
       (project "USBPDSINK01"
@@ -5043,19 +4940,19 @@
     )
   )
 
-  (symbol (lib_name "GND_3") (lib_id "power:GND") (at 105.41 129.54 0) (unit 1)
+  (symbol (lib_name "GND_3") (lib_id "power:GND") (at 91.44 132.08 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c4a4c262-6afe-468b-a852-7698dc0dd54a)
-    (property "Reference" "#PWR?" (at 105.41 135.89 0)
+    (property "Reference" "#PWR?" (at 91.44 138.43 0)
       (effects (font (size 1 1)) hide)
     )
-    (property "Value" "GND" (at 105.41 133.35 0)
+    (property "Value" "GND" (at 91.44 135.89 0)
       (effects (font (size 1 1)))
     )
-    (property "Footprint" "" (at 105.41 129.54 0)
+    (property "Footprint" "" (at 91.44 132.08 0)
       (effects (font (size 1 1)) hide)
     )
-    (property "Datasheet" "" (at 105.41 129.54 0)
+    (property "Datasheet" "" (at 91.44 132.08 0)
       (effects (font (size 1 1)) hide)
     )
     (pin "1" (uuid 85898a9b-d97d-4ab0-89a8-2811fb2a7a67))
@@ -5067,7 +4964,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
       (project "DATALOGGER02"
@@ -5100,7 +4997,7 @@
           (reference "TP1") (unit 1)
         )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "TP2") (unit 1)
+          (reference "TP1") (unit 1)
         )
       )
     )
@@ -5138,7 +5035,7 @@
           (reference "#PWR01") (unit 1)
         )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "#PWR042") (unit 1)
+          (reference "#PWR034") (unit 1)
         )
       )
     )
@@ -5180,7 +5077,7 @@
           (reference "R2") (unit 1)
         )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "R31") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
     )
@@ -5189,10 +5086,10 @@
   (symbol (lib_id "Device:R_Small") (at 38.1 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cfdce021-b4fb-4466-89a2-a8642322e34c)
-    (property "Reference" "R18" (at 39.37 148.59 0)
+    (property "Reference" "R1" (at 39.37 148.59 0)
       (effects (font (size 1 1)) (justify left))
     )
-    (property "Value" "1K" (at 39.37 151.13 0)
+    (property "Value" "1k" (at 39.37 151.13 0)
       (effects (font (size 1 1)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 38.1 149.86 0)
@@ -5206,42 +5103,7 @@
     (instances
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "R18") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_name "GND_3") (lib_id "power:GND") (at 91.44 132.08 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid d168f5d2-3216-41ee-8320-4bcf49f8534f)
-    (property "Reference" "#PWR?" (at 91.44 138.43 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Value" "GND" (at 91.44 135.89 0)
-      (effects (font (size 1 1)))
-    )
-    (property "Footprint" "" (at 91.44 132.08 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Datasheet" "" (at 91.44 132.08 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (pin "1" (uuid 3a40495d-5c24-4467-8f3c-86afe106190f))
-    (instances
-      (project "Peripherals"
-        (path "/5251a3af-ca7f-447d-b796-a6d47f48d23f"
-          (reference "#PWR?") (unit 1)
-        )
-      )
-      (project "LION5CELL01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "#PWR020") (unit 1)
-        )
-      )
-      (project "DATALOGGER02"
-        (path "/d5fa3405-b56f-43e6-a8bd-3ff789d79996/8c16a5bf-8019-4e77-9247-0011396b8bad"
-          (reference "#PWR?") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -5279,7 +5141,7 @@
           (reference "#PWR05") (unit 1)
         )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -5288,7 +5150,7 @@
   (symbol (lib_id "MLAB_IO:FT260Q-T") (at 55.88 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d2ad71cf-431a-4a7d-becd-dc2c1f8395db)
-    (property "Reference" "U3" (at 74.93 144.78 0)
+    (property "Reference" "U1" (at 74.93 144.78 0)
       (effects (font (size 1 1)))
     )
     (property "Value" "FT260Q-T" (at 74.93 147.32 0)
@@ -5353,7 +5215,7 @@
     (instances
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "U3") (unit 1)
+          (reference "U1") (unit 1)
         )
       )
     )
@@ -5383,7 +5245,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
       (project "DATALOGGER02"
@@ -5397,7 +5259,7 @@
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 151.13 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d8a7b81e-635f-454b-82ff-b624a831e3a2)
-    (property "Reference" "#PWR038" (at 151.13 92.71 0)
+    (property "Reference" "#PWR018" (at 151.13 92.71 0)
       (effects (font (size 1 1)) hide)
     )
     (property "Value" "GND" (at 151.13 90.17 0)
@@ -5413,7 +5275,7 @@
     (instances
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "#PWR038") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -5455,7 +5317,7 @@
           (reference "R11") (unit 1)
         )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "R25") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -5464,7 +5326,7 @@
   (symbol (lib_name "GND_2") (lib_id "power:GND") (at 96.52 157.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid df0a5dd3-f493-4465-903f-f7b2f66e2239)
-    (property "Reference" "#PWR021" (at 96.52 163.83 0)
+    (property "Reference" "#PWR011" (at 96.52 163.83 0)
       (effects (font (size 1 1)) hide)
     )
     (property "Value" "GND" (at 99.06 160.02 0)
@@ -5480,7 +5342,7 @@
     (instances
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -5540,7 +5402,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "#PWR044") (unit 1)
+          (reference "#PWR037") (unit 1)
         )
       )
       (project "DATALOGGER02"
@@ -5628,7 +5490,7 @@
           (reference "R2") (unit 1)
         )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "R29") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
     )
@@ -5670,7 +5532,7 @@
           (reference "R2") (unit 1)
         )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "R32") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -5714,7 +5576,7 @@
     (property "Reference" "C?" (at 260.35 91.44 0)
       (effects (font (size 1 1)) (justify left))
     )
-    (property "Value" "100nF" (at 260.35 93.98 0)
+    (property "Value" "100n" (at 260.35 93.98 0)
       (effects (font (size 1 1)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 257.81 92.71 0)
@@ -5733,7 +5595,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "C11") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
       (project "DATALOGGER02"
@@ -5744,19 +5606,19 @@
     )
   )
 
-  (symbol (lib_id "Device:C_Small") (at 113.03 127 0) (unit 1)
+  (symbol (lib_id "Device:C_Small") (at 99.06 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fb363ad3-d4c0-4dd8-baf8-cbdeb4525714)
-    (property "Reference" "C?" (at 115.57 125.73 0)
+    (property "Reference" "C?" (at 101.6 128.27 0)
       (effects (font (size 1 1)) (justify left))
     )
-    (property "Value" "4u7" (at 115.57 128.27 0)
+    (property "Value" "4u7" (at 101.6 130.81 0)
       (effects (font (size 1 1)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 113.03 127 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 99.06 129.54 0)
       (effects (font (size 1 1)) hide)
     )
-    (property "Datasheet" "~" (at 113.03 127 0)
+    (property "Datasheet" "~" (at 99.06 129.54 0)
       (effects (font (size 1 1)) hide)
     )
     (pin "1" (uuid 87a2a70d-3605-4123-91ff-132b6a54406a))
@@ -5769,7 +5631,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "C9") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
       (project "DATALOGGER02"
@@ -5783,7 +5645,7 @@
   (symbol (lib_id "power:GND") (at 102.87 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fdcca28e-7561-4b31-a1ac-044cd7d202bc)
-    (property "Reference" "#PWR05" (at 102.87 72.39 0)
+    (property "Reference" "#PWR013" (at 102.87 72.39 0)
       (effects (font (size 1 1)) hide)
     )
     (property "Value" "GND" (at 106.68 68.58 0)
@@ -5799,7 +5661,7 @@
     (instances
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
       (project "USBPDSINK01"
