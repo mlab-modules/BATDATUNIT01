@@ -1417,7 +1417,7 @@
           (reference "U13") (unit 1)
         )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/c1fc2aff-2b12-4e41-a798-c0c7c2bf1b4c"
-          (reference "U13") (unit 1)
+          (reference "U15") (unit 1)
         )
       )
     )
@@ -2339,7 +2339,7 @@
           (reference "U4") (unit 1)
         )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/c1fc2aff-2b12-4e41-a798-c0c7c2bf1b4c"
-          (reference "U15") (unit 1)
+          (reference "U17") (unit 1)
         )
       )
     )
@@ -2857,7 +2857,7 @@
           (reference "U11") (unit 1)
         )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/c1fc2aff-2b12-4e41-a798-c0c7c2bf1b4c"
-          (reference "U16") (unit 1)
+          (reference "U18") (unit 1)
         )
       )
       (project "DATALOGGER02"
@@ -3643,7 +3643,7 @@
           (reference "U3") (unit 1)
         )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/c1fc2aff-2b12-4e41-a798-c0c7c2bf1b4c"
-          (reference "U14") (unit 1)
+          (reference "U16") (unit 1)
         )
       )
     )

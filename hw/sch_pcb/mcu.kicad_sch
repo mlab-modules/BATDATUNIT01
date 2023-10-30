@@ -3510,7 +3510,7 @@
     (property "Reference" "SW4" (at 259.08 153.67 90)
       (effects (font (size 1 1)) (justify right))
     )
-    (property "Value" "MCU_RST" (at 259.08 156.21 90)
+    (property "Value" "KMT031" (at 259.08 156.21 90)
       (effects (font (size 1 1)) (justify right))
     )
     (property "Footprint" "Mlab_SW:KMT031 NGJ LHS C&K" (at 252.73 154.94 0)
@@ -4767,7 +4767,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "U10") (unit 1)
+          (reference "U11") (unit 1)
         )
       )
     )
@@ -5362,7 +5362,7 @@
     (property "Reference" "SW3" (at 194.31 151.13 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "SW_Push" (at 194.31 153.67 0)
+    (property "Value" "KMT031" (at 194.31 153.67 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Mlab_SW:KMT031 NGJ LHS C&K" (at 194.31 153.67 0)
@@ -5818,7 +5818,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "IC1") (unit 1)
+          (reference "U10") (unit 1)
         )
       )
     )
@@ -6009,7 +6009,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "U12") (unit 1)
+          (reference "U14") (unit 1)
         )
       )
     )
@@ -6092,10 +6092,10 @@
     (property "Reference" "BZ1" (at 72.39 78.74 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "Buzzer" (at 69.85 81.28 0)
+    (property "Value" "LET9032ES-03L-2.7-16-R" (at 69.85 81.28 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 79.375 77.47 90)
+    (property "Footprint" "MLAB_BUZZER:MagneticBuzzer_LET9032ES-03L-2.7-16-R" (at 79.375 77.47 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 79.375 77.47 90)
@@ -6568,7 +6568,7 @@
   (symbol (lib_id "MLAB_IO:TMUX1574DYYR") (at 242.57 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f3a3cf79-2733-47bc-84d5-72df90bb2013)
-    (property "Reference" "IC2" (at 255.27 102.87 0)
+    (property "Reference" "U12" (at 255.27 102.87 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TMUX1574DYYR" (at 255.27 105.41 0)
@@ -6620,7 +6620,7 @@
     (instances
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "IC2") (unit 1)
+          (reference "U12") (unit 1)
         )
       )
     )
@@ -6665,7 +6665,7 @@
       )
       (project "LION5CELL01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
-          (reference "U11") (unit 1)
+          (reference "U13") (unit 1)
         )
       )
     )
@@ -6752,7 +6752,7 @@
     (property "Reference" "SW3" (at 194.31 137.16 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "SW_Push" (at 194.31 139.7 0)
+    (property "Value" "SKRTLAE010" (at 194.31 139.7 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Mlab_SW:SKRT" (at 194.31 139.7 0)

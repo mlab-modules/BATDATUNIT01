@@ -3768,7 +3768,7 @@
     (property "Value" "MS561101BA03-50" (at 248.92 34.29 0)
       (effects (font (size 1 1)))
     )
-    (property "Footprint" "" (at 261.62 36.83 0)
+    (property "Footprint" "Mlab_IO:LGA-8_3x5mm_P1.25mm" (at 261.62 36.83 0)
       (effects (font (size 1 1)) (justify left) hide)
     )
     (property "Datasheet" "http://www.te.com/usa-en/search.html?q=ms5611&source=header" (at 261.62 39.37 0)
