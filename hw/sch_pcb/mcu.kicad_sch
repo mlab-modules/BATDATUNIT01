@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "BATDATUNTI01")
+    (rev "01A")
+    (company "MLAB.cz")
+    (comment 2 "Universial battery and data storage unit.")
+  )
+
   (lib_symbols
     (symbol "Device:Buzzer" (pin_names (offset 0.0254) hide) (in_bom yes) (on_board yes)
       (property "Reference" "BZ" (at 3.81 1.27 0)
@@ -1532,39 +1539,6 @@
         )
       )
     )
-    (symbol "SPACEDOS01A_PCB01A-rescue:R-device-DATALOGGER01A-rescue-CCP2019V01A-rescue" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "R" (at 2.032 0 90)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "R-device-DATALOGGER01A-rescue-CCP2019V01A-rescue" (at 0 0 90)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at -1.778 0 90)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "R_* R_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "R-device-DATALOGGER01A-rescue-CCP2019V01A-rescue_0_1"
-        (rectangle (start -1.016 -2.54) (end 1.016 2.54)
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "R-device-DATALOGGER01A-rescue-CCP2019V01A-rescue_1_1"
-        (pin passive line (at 0 3.81 270) (length 1.27)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -3.81 90) (length 1.27)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "SPACEDOS02A_PCB01A-rescue:R-device-DATALOGGER01A-rescue-CCP2019V01A-rescue-SPACEDOS01A_PCB01A-rescue-SPACEDOS01B_PCB01A-rescue" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 2.032 0 90)
         (effects (font (size 1.27 1.27)))
@@ -1813,23 +1787,20 @@
   (junction (at 132.08 135.89) (diameter 0) (color 0 0 0 0)
     (uuid 28e6cd33-ebff-4193-9eaf-b15f1129ba50)
   )
-  (junction (at 142.24 53.34) (diameter 0) (color 0 0 0 0)
-    (uuid 2a06d9ec-c15b-4953-a61c-fec00efbe72f)
-  )
   (junction (at 143.51 63.5) (diameter 1.016) (color 0 0 0 0)
     (uuid 39e01477-41e3-47f6-bc3c-4212c3f7a040)
   )
   (junction (at 97.79 96.52) (diameter 0) (color 0 0 0 0)
     (uuid 4be79ee8-768c-46e3-895d-74ccb2d71ced)
   )
-  (junction (at 19.05 22.86) (diameter 1.016) (color 0 0 0 0)
+  (junction (at 111.76 21.59) (diameter 1.016) (color 0 0 0 0)
     (uuid 58020c5c-36ed-4a7b-8165-a3a68eaf3a72)
+  )
+  (junction (at 146.05 33.02) (diameter 0) (color 0 0 0 0)
+    (uuid 5f5e22d8-e5d0-4f5e-88e1-ecc337fd6bf7)
   )
   (junction (at 113.03 96.52) (diameter 0) (color 0 0 0 0)
     (uuid 6abe42e9-d62e-4e5d-99e5-87b8751470b2)
-  )
-  (junction (at 144.78 33.02) (diameter 1.016) (color 0 0 0 0)
-    (uuid 8526f330-8bac-4800-b301-7e3631c1ef81)
   )
   (junction (at 67.31 170.18) (diameter 0) (color 0 0 0 0)
     (uuid 85d7cf8c-12b8-4ede-b5a1-cd2e42230b4c)
@@ -1837,7 +1808,7 @@
   (junction (at 257.81 149.86) (diameter 0) (color 0 0 0 0)
     (uuid 86823d41-17e9-40c7-8ab2-9f65f4db7397)
   )
-  (junction (at 134.62 53.34) (diameter 1.016) (color 0 0 0 0)
+  (junction (at 133.35 53.34) (diameter 1.016) (color 0 0 0 0)
     (uuid 9548324b-3978-4091-ad61-b09cee754572)
   )
   (junction (at 242.57 81.28) (diameter 0) (color 0 0 0 0)
@@ -1866,6 +1837,9 @@
   )
   (junction (at 189.23 147.32) (diameter 0) (color 0 0 0 0)
     (uuid f7465a06-cc0c-4700-b633-24b35b7b3555)
+  )
+  (junction (at 143.51 53.34) (diameter 0) (color 0 0 0 0)
+    (uuid feb91f5d-b370-4467-afe3-e7e2dbec4c31)
   )
 
   (no_connect (at 281.94 41.91) (uuid 0d641b75-f0c8-4cfc-8431-e96afeb988b8))
@@ -1900,7 +1874,7 @@
     (stroke (width 0) (type default))
     (uuid 0294479b-1130-4e0c-b5ec-02a8475657c3)
   )
-  (wire (pts (xy 134.62 53.34) (xy 135.89 53.34))
+  (wire (pts (xy 133.35 53.34) (xy 135.89 53.34))
     (stroke (width 0) (type default))
     (uuid 051fae7d-ea5d-4d8b-b30b-964e5f670172)
   )
@@ -1912,7 +1886,7 @@
     (stroke (width 0) (type default))
     (uuid 0a8902fc-54eb-4d0e-b8e0-055bb12eb010)
   )
-  (wire (pts (xy 144.78 33.02) (xy 148.59 33.02))
+  (wire (pts (xy 139.7 33.02) (xy 146.05 33.02))
     (stroke (width 0) (type solid))
     (uuid 0ba714f6-a699-4f1b-a921-be0af6290fdb)
   )
@@ -1928,7 +1902,7 @@
     (stroke (width 0) (type default))
     (uuid 0cadb5c0-c965-4c99-9e81-700468e28819)
   )
-  (wire (pts (xy 144.78 29.21) (xy 144.78 33.02))
+  (wire (pts (xy 146.05 30.48) (xy 146.05 33.02))
     (stroke (width 0) (type solid))
     (uuid 0d0e44e6-2355-4253-a891-73350f10c719)
   )
@@ -1976,14 +1950,6 @@
     (stroke (width 0) (type default))
     (uuid 20e222a3-4516-4471-8d35-873298531c66)
   )
-  (wire (pts (xy 132.08 33.02) (xy 135.89 33.02))
-    (stroke (width 0) (type default))
-    (uuid 2333aa18-141a-4444-95d5-ed68630e2a88)
-  )
-  (wire (pts (xy 140.97 53.34) (xy 142.24 53.34))
-    (stroke (width 0) (type solid))
-    (uuid 23ae9b40-dcad-4644-b391-bbebf9552cf5)
-  )
   (wire (pts (xy 257.81 149.86) (xy 259.08 149.86))
     (stroke (width 0) (type solid))
     (uuid 247e7ad5-93a8-4c1c-9206-f4b4ddbc609b)
@@ -1992,7 +1958,7 @@
     (stroke (width 0) (type default))
     (uuid 251f54d7-b763-4fcd-9180-64c689d238a4)
   )
-  (wire (pts (xy 247.65 144.78) (xy 259.08 144.78))
+  (wire (pts (xy 250.19 144.78) (xy 259.08 144.78))
     (stroke (width 0) (type solid))
     (uuid 266f8f3f-979c-4d4a-914a-b53077bc690f)
   )
@@ -2012,7 +1978,11 @@
     (stroke (width 0) (type default))
     (uuid 2a372bac-e06c-4a88-9ea9-5e9df7f2773d)
   )
-  (wire (pts (xy 134.62 43.18) (xy 148.59 43.18))
+  (wire (pts (xy 143.51 53.34) (xy 148.59 53.34))
+    (stroke (width 0) (type solid))
+    (uuid 2d12740d-1f9d-47bc-828f-e8db8c920ec1)
+  )
+  (wire (pts (xy 133.35 43.18) (xy 148.59 43.18))
     (stroke (width 0) (type solid))
     (uuid 302e5b06-30f5-4e2f-9ae0-82e5b967dd32)
   )
@@ -2032,10 +2002,6 @@
     (stroke (width 0) (type solid))
     (uuid 36093dd7-0558-4955-9055-527afa73efa3)
   )
-  (wire (pts (xy 278.13 144.78) (xy 278.13 142.24))
-    (stroke (width 0) (type solid))
-    (uuid 365e66b5-6072-432f-9cc8-391aa22ef01b)
-  )
   (wire (pts (xy 58.42 127) (xy 58.42 134.62))
     (stroke (width 0) (type default))
     (uuid 388e171d-4be2-4a54-9a54-ca00f1e1b15e)
@@ -2044,7 +2010,7 @@
     (stroke (width 0) (type default))
     (uuid 3b56e23c-c3a9-4ec9-96b2-df37f12356a0)
   )
-  (wire (pts (xy 207.01 162.56) (xy 201.93 162.56))
+  (wire (pts (xy 218.44 162.56) (xy 201.93 162.56))
     (stroke (width 0) (type default))
     (uuid 3e9b77fc-7b67-496c-9fe1-75847f5cc722)
   )
@@ -2104,6 +2070,10 @@
     (stroke (width 0) (type default))
     (uuid 524063c3-cc43-4e8a-8aa0-44f90a8f7aac)
   )
+  (wire (pts (xy 241.3 128.27) (xy 242.57 128.27))
+    (stroke (width 0) (type default))
+    (uuid 5bd3e01e-5afb-49ef-b18e-1dc812db340a)
+  )
   (wire (pts (xy 201.93 144.78) (xy 199.39 144.78))
     (stroke (width 0) (type default))
     (uuid 5d984e1d-77ca-4de8-8f2b-8e609ca71116)
@@ -2112,7 +2082,7 @@
     (stroke (width 0) (type default))
     (uuid 5ee02d69-1060-4a0a-9e6b-9746580374c0)
   )
-  (wire (pts (xy 274.32 149.86) (xy 274.32 152.4))
+  (wire (pts (xy 274.32 149.86) (xy 274.32 151.13))
     (stroke (width 0) (type solid))
     (uuid 6348af36-7fc2-4aa7-8ee0-db3ffcf3e124)
   )
@@ -2152,6 +2122,10 @@
     (stroke (width 0) (type solid))
     (uuid 70d5373e-a5a9-44ab-9ec7-6c894ce768b3)
   )
+  (wire (pts (xy 146.05 33.02) (xy 148.59 33.02))
+    (stroke (width 0) (type solid))
+    (uuid 718c35e8-bdd8-49ec-9ee9-ea2c39c65bb7)
+  )
   (wire (pts (xy 85.09 125.73) (xy 90.17 125.73))
     (stroke (width 0) (type default))
     (uuid 77fdf5e2-b097-4d57-a782-a19cf7590cd1)
@@ -2164,7 +2138,7 @@
     (stroke (width 0) (type default))
     (uuid 7b02b35c-a4bd-48bc-b3ea-9bbdf2baaf87)
   )
-  (wire (pts (xy 247.65 147.32) (xy 259.08 147.32))
+  (wire (pts (xy 250.19 147.32) (xy 259.08 147.32))
     (stroke (width 0) (type solid))
     (uuid 7f5af724-75f1-44ff-8057-32f51a395a11)
   )
@@ -2180,7 +2154,7 @@
     (stroke (width 0) (type default))
     (uuid 8b104c37-077f-44c9-bb7a-d0153afd9c21)
   )
-  (wire (pts (xy 77.47 77.47) (xy 77.47 74.93))
+  (wire (pts (xy 77.47 77.47) (xy 77.47 76.2))
     (stroke (width 0) (type default))
     (uuid 8d7d3422-c0b8-4525-8139-e376970e8145)
   )
@@ -2188,7 +2162,7 @@
     (stroke (width 0) (type default))
     (uuid 8dbb72c6-034e-4795-beca-bf3ed03f31ae)
   )
-  (wire (pts (xy 207.01 144.78) (xy 201.93 144.78))
+  (wire (pts (xy 218.44 144.78) (xy 201.93 144.78))
     (stroke (width 0) (type default))
     (uuid 8f2077db-a5cb-47b9-b5ed-e3596101098c)
   )
@@ -2196,11 +2170,7 @@
     (stroke (width 0) (type default))
     (uuid 90abb204-37cf-4d12-a095-a139c41e0569)
   )
-  (wire (pts (xy 140.97 33.02) (xy 144.78 33.02))
-    (stroke (width 0) (type solid))
-    (uuid 9166f5c6-ea5d-46b4-97fe-2a59a0d3b60b)
-  )
-  (wire (pts (xy 19.05 22.86) (xy 19.05 21.59))
+  (wire (pts (xy 111.76 21.59) (xy 111.76 20.32))
     (stroke (width 0) (type solid))
     (uuid 934353f0-ccba-45d7-9fbc-62958fb95f93)
   )
@@ -2240,7 +2210,7 @@
     (stroke (width 0) (type solid))
     (uuid a261bf72-75ae-4d42-b2b4-c5b4350ed036)
   )
-  (wire (pts (xy 247.65 149.86) (xy 257.81 149.86))
+  (wire (pts (xy 250.19 149.86) (xy 257.81 149.86))
     (stroke (width 0) (type solid))
     (uuid a90338f9-6f47-4696-aa67-9b62f13b9abf)
   )
@@ -2280,7 +2250,7 @@
     (stroke (width 0) (type default))
     (uuid b9255148-0f52-414a-bff7-9bc0358b7d66)
   )
-  (wire (pts (xy 58.42 109.22) (xy 58.42 114.3))
+  (wire (pts (xy 58.42 110.49) (xy 58.42 114.3))
     (stroke (width 0) (type default))
     (uuid ba0fafdc-6601-48e4-bc4f-5ebf2d4e0eda)
   )
@@ -2295,10 +2265,6 @@
   (wire (pts (xy 168.91 24.13) (xy 168.91 20.32))
     (stroke (width 0) (type solid))
     (uuid c0a224ee-3c8d-40ce-8492-4b8a16bd28f3)
-  )
-  (wire (pts (xy 144.78 21.59) (xy 144.78 20.32))
-    (stroke (width 0) (type solid))
-    (uuid c10ab96f-1d88-4b32-8d79-c18a93a42dbc)
   )
   (wire (pts (xy 171.45 24.13) (xy 171.45 25.4))
     (stroke (width 0) (type solid))
@@ -2316,11 +2282,11 @@
     (stroke (width 0) (type default))
     (uuid ccf27dd3-176d-4d2b-9d31-845230ec7b94)
   )
-  (wire (pts (xy 134.62 43.18) (xy 134.62 53.34))
+  (wire (pts (xy 133.35 43.18) (xy 133.35 53.34))
     (stroke (width 0) (type solid))
     (uuid cda87863-e4bf-48df-a6a5-07f75ee9705f)
   )
-  (wire (pts (xy 271.78 144.78) (xy 278.13 144.78))
+  (wire (pts (xy 271.78 144.78) (xy 274.32 144.78))
     (stroke (width 0) (type solid))
     (uuid ceefe05d-cbdc-479b-afc6-d71d8bbc3b71)
   )
@@ -2344,11 +2310,11 @@
     (stroke (width 0) (type default))
     (uuid d544bfd4-f1b3-46f3-a4e7-855db6810ced)
   )
-  (wire (pts (xy 142.24 53.34) (xy 148.59 53.34))
+  (wire (pts (xy 140.97 53.34) (xy 143.51 53.34))
     (stroke (width 0) (type solid))
     (uuid d58cc23b-2b1e-4be5-b081-31dbb18decae)
   )
-  (wire (pts (xy 102.87 85.09) (xy 102.87 97.79))
+  (wire (pts (xy 102.87 87.63) (xy 102.87 97.79))
     (stroke (width 0) (type default))
     (uuid d6e57e93-3114-47a2-94ec-1eba6450f5e4)
   )
@@ -2412,7 +2378,7 @@
     (stroke (width 0) (type default))
     (uuid eab9f16f-74ad-4d53-801c-14a87d5d8dd0)
   )
-  (wire (pts (xy 19.05 22.86) (xy 29.21 22.86))
+  (wire (pts (xy 111.76 21.59) (xy 121.92 21.59))
     (stroke (width 0) (type solid))
     (uuid f1f62135-004b-4b5b-8613-b7736bab1d90)
   )
@@ -2521,7 +2487,7 @@
     (effects (font (size 1.524 1.524)) (justify right bottom))
     (uuid 4e4026e8-fd0a-4cb6-b7ab-e34aea9cd86d)
   )
-  (label "MISO_MCU" (at 247.65 144.78 0) (fields_autoplaced)
+  (label "MISO_MCU" (at 250.19 144.78 0) (fields_autoplaced)
     (effects (font (size 1 1)) (justify left bottom))
     (uuid 505197f7-bce6-4612-aa4c-78cd0e7a5181)
   )
@@ -2537,7 +2503,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 528407dc-7994-4eaf-a7c3-69ae35a56d53)
   )
-  (label "RST#_P" (at 247.65 149.86 0) (fields_autoplaced)
+  (label "RST#_P" (at 250.19 149.86 0) (fields_autoplaced)
     (effects (font (size 1 1)) (justify left bottom))
     (uuid 5ca24b4d-9288-44b9-82b4-601795515c16)
   )
@@ -2545,8 +2511,8 @@
     (effects (font (size 1 1)) (justify left bottom))
     (uuid 5ff521b8-da25-4ea9-9fd7-491b26b0cfdb)
   )
-  (label "VIO" (at 58.42 109.22 270) (fields_autoplaced)
-    (effects (font (size 1.524 1.524)) (justify right bottom))
+  (label "VIO" (at 58.42 113.03 90) (fields_autoplaced)
+    (effects (font (size 1.524 1.524)) (justify left bottom))
     (uuid 66cbdc52-533f-4f07-b1ad-99a4e49d412f)
   )
   (label "LED_U3" (at 201.93 116.84 0) (fields_autoplaced)
@@ -2645,8 +2611,8 @@
     (effects (font (size 1 1)) (justify left bottom))
     (uuid b4ed472f-2501-4bcf-8b34-392fb85e3c41)
   )
-  (label "BTN_USER_A" (at 207.01 144.78 0) (fields_autoplaced)
-    (effects (font (size 1 1)) (justify left bottom))
+  (label "BTN_USER_A" (at 218.44 144.78 180) (fields_autoplaced)
+    (effects (font (size 1 1)) (justify right bottom))
     (uuid b5a41482-c9d4-4a4f-8854-314c2e9af5d0)
   )
   (label "CDAT2" (at 97.79 171.45 90) (fields_autoplaced)
@@ -2661,8 +2627,8 @@
     (effects (font (size 1 1)) (justify left bottom))
     (uuid cb146e25-be50-444b-b9db-97d5b7885b49)
   )
-  (label "BTN_USER_B" (at 207.01 162.56 0) (fields_autoplaced)
-    (effects (font (size 1 1)) (justify left bottom))
+  (label "BTN_USER_B" (at 218.44 162.56 180) (fields_autoplaced)
+    (effects (font (size 1 1)) (justify right bottom))
     (uuid ce06c637-2332-44e0-973e-51e16f70ca29)
   )
   (label "#BERR" (at 90.17 133.35 180) (fields_autoplaced)
@@ -2681,7 +2647,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e0b6fb85-6837-4039-adc5-8eb3ab368c77)
   )
-  (label "SCLK_MCU" (at 247.65 147.32 0) (fields_autoplaced)
+  (label "SCLK_MCU" (at 250.19 147.32 0) (fields_autoplaced)
     (effects (font (size 1 1)) (justify left bottom))
     (uuid e7224bb7-47da-4880-b73c-73c1d995ddb5)
   )
@@ -2697,8 +2663,8 @@
     (effects (font (size 1.524 1.524)) (justify right bottom))
     (uuid ed4d07d4-1a03-43e3-97fa-5bf8b35a7cb7)
   )
-  (label "RST#_P" (at 142.24 33.02 90) (fields_autoplaced)
-    (effects (font (size 1 1)) (justify left bottom))
+  (label "RST#_P" (at 144.78 33.02 180) (fields_autoplaced)
+    (effects (font (size 1 1)) (justify right bottom))
     (uuid f2d0c852-1c7b-4e30-a44e-8dbc311fedd3)
   )
   (label "RX1" (at 201.93 106.68 0) (fields_autoplaced)
@@ -2753,10 +2719,10 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "RST#" (shape input) (at 132.08 33.02 180) (fields_autoplaced)
+  (global_label "RST#" (shape input) (at 134.62 33.02 180) (fields_autoplaced)
     (effects (font (size 1 1)) (justify right))
     (uuid 418eac28-6f30-458d-a0e6-65e6b20476dd)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 123.2952 32.9248 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 125.8352 32.9248 0)
       (effects (font (size 1 1)) (justify right) hide)
     )
   )
@@ -2921,7 +2887,7 @@
     (pin "1" (uuid 9389ed53-e234-4d94-a036-9b8956d2cb93))
     (pin "2" (uuid 2ca6e9c9-dacb-4dcc-a804-9e8a24e44101))
     (instances
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
           (reference "R54") (unit 1)
         )
@@ -2950,7 +2916,7 @@
     (pin "1" (uuid f96cb5fb-f9ac-4bb9-8518-281f572e5e1f))
     (pin "2" (uuid 26b0e3d9-0c6b-48da-a168-dde1b7120240))
     (instances
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
           (reference "R54") (unit 1)
         )
@@ -2961,19 +2927,19 @@
     )
   )
 
-  (symbol (lib_id "Device:C_Small") (at 29.21 25.4 0) (unit 1)
+  (symbol (lib_id "Device:C_Small") (at 121.92 24.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 139ef6e8-17a3-4499-a965-59547f0ef1fe)
-    (property "Reference" "C27" (at 32.131 24.2316 0)
+    (property "Reference" "C27" (at 124.841 22.9616 0)
       (effects (font (size 1 1)) (justify left))
     )
-    (property "Value" "100n" (at 32.131 26.543 0)
+    (property "Value" "100n" (at 124.841 25.273 0)
       (effects (font (size 1 1)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 29.21 25.4 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 121.92 24.13 0)
       (effects (font (size 1 1)) hide)
     )
-    (property "Datasheet" "~" (at 29.21 25.4 0)
+    (property "Datasheet" "~" (at 121.92 24.13 0)
       (effects (font (size 1 1)) hide)
     )
     (pin "1" (uuid 7f3eed12-4cf7-43fa-a9a8-c1c2fdffc9cf))
@@ -2989,7 +2955,7 @@
           (reference "C27") (unit 1)
         )
       )
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "C22") (unit 1)
         )
@@ -3015,7 +2981,7 @@
     (pin "1" (uuid 6e862828-2ea4-4ce2-a34a-6413a649571e))
     (pin "2" (uuid 800b42f9-878b-4f96-bfb8-4be8efc4ea9d))
     (instances
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
           (reference "R1") (unit 1)
         )
@@ -3029,19 +2995,19 @@
     )
   )
 
-  (symbol (lib_id "Device:C_Small") (at 142.24 55.88 0) (unit 1)
+  (symbol (lib_id "Device:C_Small") (at 143.51 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 17685f64-8da6-4d42-91c1-708f21d523b6)
-    (property "Reference" "C33" (at 144.78 54.61 0)
+    (property "Reference" "C33" (at 146.05 54.61 0)
       (effects (font (size 1 1)) (justify left))
     )
-    (property "Value" "15pF" (at 144.78 55.88 0)
+    (property "Value" "15pF" (at 146.05 55.88 0)
       (effects (font (size 1 1)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 142.24 55.88 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 143.51 55.88 0)
       (effects (font (size 1 1)) hide)
     )
-    (property "Datasheet" "~" (at 142.24 55.88 0)
+    (property "Datasheet" "~" (at 143.51 55.88 0)
       (effects (font (size 1 1)) hide)
     )
     (pin "1" (uuid 828321fe-a115-4891-8e76-4588eadb483b))
@@ -3057,7 +3023,7 @@
           (reference "C33") (unit 1)
         )
       )
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "C30") (unit 1)
         )
@@ -3092,7 +3058,7 @@
           (reference "#PWR0135") (unit 1)
         )
       )
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "#PWR089") (unit 1)
         )
@@ -3127,7 +3093,7 @@
           (reference "#PWR0126") (unit 1)
         )
       )
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "#PWR097") (unit 1)
         )
@@ -3163,7 +3129,7 @@
     (pin "2" (uuid 03139377-cf88-4070-9d3c-6c342c383838))
     (pin "3" (uuid 9fcb3377-ca82-4e83-ba39-65e237c8a7ae))
     (instances
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
           (reference "Q4") (unit 1)
         )
@@ -3194,7 +3160,7 @@
     )
     (pin "1" (uuid 8c5c7b58-82a5-458b-a683-eecf078a18aa))
     (instances
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
           (reference "#PWR028") (unit 1)
         )
@@ -3236,7 +3202,7 @@
           (reference "C7") (unit 1)
         )
       )
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "C23") (unit 1)
         )
@@ -3266,7 +3232,7 @@
           (reference "#PWR028") (unit 1)
         )
       )
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "#PWR090") (unit 1)
         )
@@ -3274,19 +3240,19 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 242.57 128.27 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 241.3 128.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 23a13ed1-13f8-4518-93b9-2c49e7072e3b)
-    (property "Reference" "#PWR0134" (at 242.57 134.62 0)
+    (property "Reference" "#PWR0134" (at 241.3 134.62 0)
       (effects (font (size 1 1)) hide)
     )
-    (property "Value" "GND" (at 242.697 132.6642 0)
+    (property "Value" "GND" (at 245.11 129.54 0)
       (effects (font (size 1 1)))
     )
-    (property "Footprint" "" (at 242.57 128.27 0)
+    (property "Footprint" "" (at 241.3 128.27 0)
       (effects (font (size 1 1)) hide)
     )
-    (property "Datasheet" "" (at 242.57 128.27 0)
+    (property "Datasheet" "" (at 241.3 128.27 0)
       (effects (font (size 1 1)) hide)
     )
     (pin "1" (uuid b48dec7d-8ba2-4188-a858-a7b5a037510c))
@@ -3301,7 +3267,7 @@
           (reference "#PWR0134") (unit 1)
         )
       )
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "#PWR0111") (unit 1)
         )
@@ -3332,7 +3298,7 @@
           (reference "C5") (unit 1)
         )
       )
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "C26") (unit 1)
         )
@@ -3355,7 +3321,7 @@
     (property "Datasheet" "" (at 72.39 177.8 0)
       (effects (font (size 1 1)) hide)
     )
-    (property "UST_ID" "" (at 72.39 177.8 0)
+    (property "UST_ID" "5c70984512875079b91f8977" (at 72.39 177.8 0)
       (effects (font (size 1 1)) hide)
     )
     (pin "1" (uuid 8fc3902a-89d1-4be8-8cec-1cc7531a4150))
@@ -3371,7 +3337,7 @@
           (reference "R17") (unit 1)
         )
       )
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "R52") (unit 1)
         )
@@ -3379,19 +3345,19 @@
     )
   )
 
-  (symbol (lib_id "Device:C_Small") (at 19.05 25.4 0) (unit 1)
+  (symbol (lib_id "Device:C_Small") (at 111.76 24.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2b5bce54-95a8-4389-905e-2bcd338edd61)
-    (property "Reference" "C26" (at 21.971 24.2316 0)
+    (property "Reference" "C26" (at 114.681 22.9616 0)
       (effects (font (size 1 1)) (justify left))
     )
-    (property "Value" "100n" (at 21.971 26.543 0)
+    (property "Value" "100n" (at 114.681 25.273 0)
       (effects (font (size 1 1)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 19.05 25.4 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 111.76 24.13 0)
       (effects (font (size 1 1)) hide)
     )
-    (property "Datasheet" "~" (at 19.05 25.4 0)
+    (property "Datasheet" "~" (at 111.76 24.13 0)
       (effects (font (size 1 1)) hide)
     )
     (pin "1" (uuid 516ff258-4bcc-4123-a607-4a2e9245a070))
@@ -3407,7 +3373,7 @@
           (reference "C26") (unit 1)
         )
       )
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "C21") (unit 1)
         )
@@ -3442,7 +3408,7 @@
           (reference "#PWR034") (unit 1)
         )
       )
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "#PWR0112") (unit 1)
         )
@@ -3481,7 +3447,7 @@
           (reference "J9") (unit 1)
         )
       )
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "J3") (unit 1)
         )
@@ -3521,7 +3487,7 @@
           (reference "J22") (unit 1)
         )
       )
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "J4") (unit 1)
         )
@@ -3557,7 +3523,7 @@
     (pin "2" (uuid 2a47c9c6-f7ef-4441-9b62-7c112db7861d))
     (pin "3" (uuid c36bc5aa-2330-4424-aaf8-345dd527b955))
     (instances
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
           (reference "Q4") (unit 1)
         )
@@ -3586,10 +3552,13 @@
     (property "Datasheet" "~" (at 252.73 154.94 0)
       (effects (font (size 1 1)) hide)
     )
+    (property "UST_ID" "612515a61287500165a9771d" (at 257.81 154.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 2198aff3-4ce3-49d0-b862-a39c6bec769d))
     (pin "2" (uuid 5422c130-c43f-4c0b-a783-5b4d7cb2d7ec))
     (instances
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "SW4") (unit 1)
         )
@@ -3597,19 +3566,19 @@
     )
   )
 
-  (symbol (lib_id "Device:C_Small") (at 134.62 55.88 0) (unit 1)
+  (symbol (lib_id "Device:C_Small") (at 133.35 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 319c4147-b143-4fc9-9548-3ac4dde536e8)
-    (property "Reference" "C30" (at 128.27 54.61 0)
+    (property "Reference" "C30" (at 127 54.61 0)
       (effects (font (size 1 1)) (justify left))
     )
-    (property "Value" "15pF" (at 128.27 55.88 0)
+    (property "Value" "15pF" (at 127 55.88 0)
       (effects (font (size 1 1)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 134.62 55.88 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 133.35 55.88 0)
       (effects (font (size 1 1)) hide)
     )
-    (property "Datasheet" "~" (at 134.62 55.88 0)
+    (property "Datasheet" "~" (at 133.35 55.88 0)
       (effects (font (size 1 1)) hide)
     )
     (pin "1" (uuid c31987d5-4388-4d38-94b6-e08ffba9cc16))
@@ -3625,7 +3594,7 @@
           (reference "C30") (unit 1)
         )
       )
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "C28") (unit 1)
         )
@@ -3655,7 +3624,7 @@
           (reference "#PWR08") (unit 1)
         )
       )
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "#PWR092") (unit 1)
         )
@@ -3681,7 +3650,7 @@
     (pin "1" (uuid 9117835f-3209-47cf-b612-aebef06f08cc))
     (pin "2" (uuid b00e4136-e1fe-4805-b96c-41213ad94042))
     (instances
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
           (reference "R1") (unit 1)
         )
@@ -3717,7 +3686,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
           (reference "#PWR015") (unit 1)
         )
@@ -3736,19 +3705,19 @@
     )
   )
 
-  (symbol (lib_id "power:+3.3V") (at 77.47 74.93 0) (unit 1)
+  (symbol (lib_id "power:+3.3V") (at 77.47 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 38dedf40-aa5f-4dfe-b220-8b0a0c5356f9)
-    (property "Reference" "#PWR?" (at 77.47 78.74 0)
+    (property "Reference" "#PWR?" (at 77.47 80.01 0)
       (effects (font (size 1 1)) hide)
     )
-    (property "Value" "+3.3V" (at 77.47 71.12 0)
+    (property "Value" "+3.3V" (at 77.47 72.39 0)
       (effects (font (size 1 1)))
     )
-    (property "Footprint" "" (at 77.47 74.93 0)
+    (property "Footprint" "" (at 77.47 76.2 0)
       (effects (font (size 1 1)) hide)
     )
-    (property "Datasheet" "" (at 77.47 74.93 0)
+    (property "Datasheet" "" (at 77.47 76.2 0)
       (effects (font (size 1 1)) hide)
     )
     (pin "1" (uuid 34386a53-3c4a-4580-8558-2eceb178d3dc))
@@ -3758,7 +3727,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
           (reference "#PWR015") (unit 1)
         )
@@ -3800,7 +3769,7 @@
           (reference "C3") (unit 1)
         )
       )
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "C24") (unit 1)
         )
@@ -3835,7 +3804,7 @@
           (reference "#PWR032") (unit 1)
         )
       )
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "#PWR0121") (unit 1)
         )
@@ -3870,7 +3839,7 @@
           (reference "#PWR0135") (unit 1)
         )
       )
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "#PWR0103") (unit 1)
         )
@@ -3879,7 +3848,7 @@
   )
 
   (symbol (lib_id "Device:R_Small") (at 227.33 110.49 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 403be623-e214-4426-9160-4bd586b2160a)
     (property "Reference" "R59" (at 227.33 105.41 90)
       (effects (font (size 1.27 1.27)))
@@ -3893,10 +3862,13 @@
     (property "Datasheet" "~" (at 227.33 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "UST_ID" "5c70984612875079b91f899f" (at 227.33 110.49 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid de24b610-de1e-4e53-a253-191b4ce41484))
     (pin "2" (uuid fcbdce82-803b-45bd-8736-8b2b84aa3425))
     (instances
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "R59") (unit 1)
         )
@@ -3926,7 +3898,7 @@
           (reference "#PWR012") (unit 1)
         )
       )
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "#PWR083") (unit 1)
         )
@@ -3964,7 +3936,7 @@
           (reference "Y1") (unit 1)
         )
       )
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "Y1") (unit 1)
         )
@@ -3999,7 +3971,7 @@
           (reference "#PWR028") (unit 1)
         )
       )
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "#PWR0110") (unit 1)
         )
@@ -4034,7 +4006,7 @@
           (reference "#PWR0133") (unit 1)
         )
       )
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "#PWR0117") (unit 1)
         )
@@ -4059,7 +4031,7 @@
     )
     (pin "1" (uuid 916ca1cd-ba9e-4243-b0a7-8c7067d6548c))
     (instances
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "#PWR0100") (unit 1)
         )
@@ -4084,7 +4056,7 @@
     )
     (pin "1" (uuid 091fcfc4-d9b3-4616-948f-4281723d865d))
     (instances
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
           (reference "#PWR070") (unit 1)
         )
@@ -4113,7 +4085,7 @@
     (pin "1" (uuid 78e5aef1-f309-4a8d-b79c-a3d610ba0b97))
     (pin "2" (uuid e348e92b-bdd0-42e3-b429-57caecd582fc))
     (instances
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
           (reference "R1") (unit 1)
         )
@@ -4154,7 +4126,7 @@
           (reference "#PWR0144") (unit 1)
         )
       )
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "#PWR0125") (unit 1)
         )
@@ -4180,7 +4152,7 @@
     (pin "1" (uuid 6337366f-473a-4bea-bc8f-f763b5694a5f))
     (pin "2" (uuid 6ae39411-3bac-4448-8421-e19fbb7fec70))
     (instances
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
           (reference "D16") (unit 1)
         )
@@ -4209,7 +4181,7 @@
     (pin "1" (uuid f1784000-d3b3-45a6-b348-a905e7f1037c))
     (pin "2" (uuid 2aa2b1ff-e5b2-4738-9f96-497e8d63771f))
     (instances
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
           (reference "D16") (unit 1)
         )
@@ -4238,7 +4210,7 @@
     (pin "1" (uuid 566b52ee-005c-46a8-bcb4-700931be8c81))
     (pin "2" (uuid 6d45a6c1-a699-4ea4-ade0-f63e9306ea6f))
     (instances
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
           (reference "D16") (unit 1)
         )
@@ -4276,7 +4248,7 @@
           (reference "#PWR0126") (unit 1)
         )
       )
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "#PWR096") (unit 1)
         )
@@ -4306,7 +4278,7 @@
           (reference "#PWR06") (unit 1)
         )
       )
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "#PWR088") (unit 1)
         )
@@ -4342,7 +4314,7 @@
           (reference "C60") (unit 1)
         )
       )
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "C32") (unit 1)
         )
@@ -4367,7 +4339,7 @@
     )
     (pin "1" (uuid 29796f5c-0ff6-4793-bafa-40abeb5ee5df))
     (instances
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "#PWR0107") (unit 1)
         )
@@ -4397,7 +4369,7 @@
           (reference "#PWR031") (unit 1)
         )
       )
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "#PWR071") (unit 1)
         )
@@ -4411,7 +4383,7 @@
     (property "Reference" "R58" (at 204.47 158.75 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "R_Small" (at 204.47 161.29 0)
+    (property "Value" "10k" (at 204.47 161.29 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 201.93 160.02 0)
@@ -4420,10 +4392,13 @@
     (property "Datasheet" "~" (at 201.93 160.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "UST_ID" "5c70984612875079b91f899f" (at 201.93 160.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 134c2cf2-ae77-4279-9568-98bf3f07e6fd))
     (pin "2" (uuid 21942461-05da-4170-8046-42639e90c651))
     (instances
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "R58") (unit 1)
         )
@@ -4431,19 +4406,19 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 142.24 58.42 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 143.51 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6f1e22d3-966b-4bd9-8e14-1f40617e646d)
-    (property "Reference" "#PWR0126" (at 142.24 64.77 0)
+    (property "Reference" "#PWR0126" (at 143.51 64.77 0)
       (effects (font (size 1 1)) hide)
     )
-    (property "Value" "GND" (at 144.78 60.96 0)
+    (property "Value" "GND" (at 146.05 60.96 0)
       (effects (font (size 1 1)))
     )
-    (property "Footprint" "" (at 142.24 58.42 0)
+    (property "Footprint" "" (at 143.51 58.42 0)
       (effects (font (size 1 1)) hide)
     )
-    (property "Datasheet" "" (at 142.24 58.42 0)
+    (property "Datasheet" "" (at 143.51 58.42 0)
       (effects (font (size 1 1)) hide)
     )
     (pin "1" (uuid c87e24ed-57c0-4c56-8b5d-6fba6a38f279))
@@ -4458,7 +4433,7 @@
           (reference "#PWR0126") (unit 1)
         )
       )
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "#PWR098") (unit 1)
         )
@@ -4483,7 +4458,7 @@
     )
     (pin "1" (uuid b98a6786-e00f-43a0-8917-e6e2a400afe7))
     (instances
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
           (reference "#PWR028") (unit 1)
         )
@@ -4519,7 +4494,7 @@
     )
     (pin "1" (uuid 47d294b8-0bf1-475d-bde0-02d4f3061c59))
     (instances
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
           (reference "#PWR070") (unit 1)
         )
@@ -4552,7 +4527,7 @@
           (reference "#PWR04") (unit 1)
         )
       )
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "#PWR078") (unit 1)
         )
@@ -4578,7 +4553,7 @@
     (pin "1" (uuid 33eab2e0-0991-45a8-a340-467d279884cf))
     (pin "2" (uuid 817709f8-a0b9-4c40-a64a-650fb29d02b1))
     (instances
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "R55") (unit 1)
         )
@@ -4586,19 +4561,19 @@
     )
   )
 
-  (symbol (lib_id "power:+3.3V") (at 278.13 142.24 0) (unit 1)
+  (symbol (lib_id "power:+3.3V") (at 274.32 144.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 779ea8dc-7152-4b23-b77b-081fdeca12a3)
-    (property "Reference" "#PWR0145" (at 278.13 146.05 0)
+    (property "Reference" "#PWR0145" (at 274.32 148.59 0)
       (effects (font (size 1 1)) hide)
     )
-    (property "Value" "+3.3V" (at 278.511 137.8458 0)
+    (property "Value" "+3.3V" (at 271.78 140.97 0)
       (effects (font (size 1 1)))
     )
-    (property "Footprint" "" (at 278.13 142.24 0)
+    (property "Footprint" "" (at 274.32 144.78 0)
       (effects (font (size 1 1)) hide)
     )
-    (property "Datasheet" "" (at 278.13 142.24 0)
+    (property "Datasheet" "" (at 274.32 144.78 0)
       (effects (font (size 1 1)) hide)
     )
     (pin "1" (uuid a3d261a1-15db-415c-910c-27b38e29d190))
@@ -4613,7 +4588,7 @@
           (reference "#PWR0145") (unit 1)
         )
       )
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "#PWR0124") (unit 1)
         )
@@ -4621,19 +4596,19 @@
     )
   )
 
-  (symbol (lib_id "power:+3.3V") (at 144.78 20.32 0) (unit 1)
+  (symbol (lib_id "power:+3.3V") (at 146.05 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7bc19e1b-2ccf-4c44-addf-ba21cc2c622e)
-    (property "Reference" "#PWR0132" (at 144.78 24.13 0)
+    (property "Reference" "#PWR0132" (at 146.05 29.21 0)
       (effects (font (size 1 1)) hide)
     )
-    (property "Value" "+3.3V" (at 145.161 15.9258 0)
+    (property "Value" "+3.3V" (at 146.05 21.59 0)
       (effects (font (size 1 1)))
     )
-    (property "Footprint" "" (at 144.78 20.32 0)
+    (property "Footprint" "" (at 146.05 25.4 0)
       (effects (font (size 1 1)) hide)
     )
-    (property "Datasheet" "" (at 144.78 20.32 0)
+    (property "Datasheet" "" (at 146.05 25.4 0)
       (effects (font (size 1 1)) hide)
     )
     (pin "1" (uuid 2cb738a9-5dfc-4de3-bba8-05e47f72e7bd))
@@ -4648,7 +4623,7 @@
           (reference "#PWR0132") (unit 1)
         )
       )
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "#PWR0102") (unit 1)
         )
@@ -4656,19 +4631,19 @@
     )
   )
 
-  (symbol (lib_id "power:+3.3V") (at 102.87 85.09 0) (unit 1)
+  (symbol (lib_id "power:+3.3V") (at 102.87 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7e757338-be5c-4a8d-b976-2b11dee5f8ad)
-    (property "Reference" "#PWR0135" (at 102.87 88.9 0)
+    (property "Reference" "#PWR0135" (at 102.87 91.44 0)
       (effects (font (size 1 1)) hide)
     )
-    (property "Value" "+3.3V" (at 103.251 80.6958 0)
+    (property "Value" "+3.3V" (at 105.41 85.09 0)
       (effects (font (size 1 1)))
     )
-    (property "Footprint" "" (at 102.87 85.09 0)
+    (property "Footprint" "" (at 102.87 87.63 0)
       (effects (font (size 1 1)) hide)
     )
-    (property "Datasheet" "" (at 102.87 85.09 0)
+    (property "Datasheet" "" (at 102.87 87.63 0)
       (effects (font (size 1 1)) hide)
     )
     (pin "1" (uuid 370a69df-e40b-4581-af34-411906a7c46a))
@@ -4683,7 +4658,7 @@
           (reference "#PWR0135") (unit 1)
         )
       )
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "#PWR091") (unit 1)
         )
@@ -4691,19 +4666,19 @@
     )
   )
 
-  (symbol (lib_id "power:+3.3V") (at 19.05 21.59 0) (unit 1)
+  (symbol (lib_id "power:+3.3V") (at 111.76 20.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7f84dee3-1f0f-4b0c-b254-b0262d278a7a)
-    (property "Reference" "#PWR0118" (at 19.05 25.4 0)
+    (property "Reference" "#PWR0118" (at 111.76 24.13 0)
       (effects (font (size 1 1)) hide)
     )
-    (property "Value" "+3.3V" (at 19.431 17.1958 0)
+    (property "Value" "+3.3V" (at 112.141 15.9258 0)
       (effects (font (size 1 1)))
     )
-    (property "Footprint" "" (at 19.05 21.59 0)
+    (property "Footprint" "" (at 111.76 20.32 0)
       (effects (font (size 1 1)) hide)
     )
-    (property "Datasheet" "" (at 19.05 21.59 0)
+    (property "Datasheet" "" (at 111.76 20.32 0)
       (effects (font (size 1 1)) hide)
     )
     (pin "1" (uuid fc3e5561-3bda-45ec-9ad5-702a806ebd9f))
@@ -4718,7 +4693,7 @@
           (reference "#PWR0118") (unit 1)
         )
       )
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "#PWR069") (unit 1)
         )
@@ -4743,7 +4718,7 @@
     )
     (pin "1" (uuid 8db312bb-55c8-49f5-a68f-7664cef11c3a))
     (instances
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
           (reference "#PWR03") (unit 1)
         )
@@ -4774,8 +4749,11 @@
     (property "Datasheet" "http://www.atmel.com/Images/Atmel-8272-8-bit-AVR-microcontroller-ATmega164A_PA-324A_PA-644A_PA-1284_P_datasheet.pdf" (at 173.99 76.2 0)
       (effects (font (size 1 1)) hide)
     )
-    (property "UST_ID" "" (at 173.99 76.2 0)
+    (property "UST_ID" "5c70984412875079b91f888e" (at 173.99 76.2 0)
       (effects (font (size 1 1)) hide)
+    )
+    (property "Height" "1.1" (at 173.99 76.2 0)
+      (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid c339a3f9-b927-4ffd-8141-511940377c72))
     (pin "10" (uuid a5f2d1ac-22d8-42bb-8f40-f19e90cd1100))
@@ -4832,7 +4810,7 @@
           (reference "U10") (unit 1)
         )
       )
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "U11") (unit 1)
         )
@@ -4858,7 +4836,7 @@
     (pin "1" (uuid edbe81dc-5de5-4c39-8028-1821c5e72bb7))
     (pin "2" (uuid 1e1a589c-5e14-411b-b47b-38c86c729171))
     (instances
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
           (reference "R1") (unit 1)
         )
@@ -4899,7 +4877,7 @@
           (reference "#PWR033") (unit 1)
         )
       )
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "#PWR0122") (unit 1)
         )
@@ -4922,7 +4900,7 @@
     (property "Datasheet" "" (at 72.39 160.02 0)
       (effects (font (size 1 1)) hide)
     )
-    (property "UST_ID" "" (at 72.39 160.02 0)
+    (property "UST_ID" "5c70984512875079b91f8977" (at 72.39 160.02 0)
       (effects (font (size 1 1)) hide)
     )
     (pin "1" (uuid c3ea40af-0921-424f-98dc-ff70e2f33cd5))
@@ -4938,7 +4916,7 @@
           (reference "R17") (unit 1)
         )
       )
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "R48") (unit 1)
         )
@@ -4973,7 +4951,7 @@
           (reference "#PWR0134") (unit 1)
         )
       )
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "#PWR0109") (unit 1)
         )
@@ -5003,7 +4981,7 @@
           (reference "#PWR06") (unit 1)
         )
       )
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "#PWR082") (unit 1)
         )
@@ -5038,7 +5016,7 @@
           (reference "#PWR0144") (unit 1)
         )
       )
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "#PWR0119") (unit 1)
         )
@@ -5046,19 +5024,19 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 134.62 58.42 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 133.35 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8b7328cc-31bc-4f74-87b7-7e8714c4b6fe)
-    (property "Reference" "#PWR0127" (at 134.62 64.77 0)
+    (property "Reference" "#PWR0127" (at 133.35 64.77 0)
       (effects (font (size 1 1)) hide)
     )
-    (property "Value" "GND" (at 130.81 60.96 0)
+    (property "Value" "GND" (at 129.54 60.96 0)
       (effects (font (size 1 1)))
     )
-    (property "Footprint" "" (at 134.62 58.42 0)
+    (property "Footprint" "" (at 133.35 58.42 0)
       (effects (font (size 1 1)) hide)
     )
-    (property "Datasheet" "" (at 134.62 58.42 0)
+    (property "Datasheet" "" (at 133.35 58.42 0)
       (effects (font (size 1 1)) hide)
     )
     (pin "1" (uuid 0570cf3a-95b6-4a56-a120-194bcf977fa1))
@@ -5073,7 +5051,7 @@
           (reference "#PWR0127") (unit 1)
         )
       )
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "#PWR095") (unit 1)
         )
@@ -5103,7 +5081,7 @@
           (reference "#PWR02") (unit 1)
         )
       )
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "#PWR081") (unit 1)
         )
@@ -5133,7 +5111,7 @@
           (reference "#PWR09") (unit 1)
         )
       )
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "#PWR093") (unit 1)
         )
@@ -5163,7 +5141,7 @@
           (reference "#PWR07") (unit 1)
         )
       )
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "#PWR079") (unit 1)
         )
@@ -5198,7 +5176,7 @@
           (reference "#PWR0143") (unit 1)
         )
       )
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "#PWR0116") (unit 1)
         )
@@ -5234,7 +5212,7 @@
           (reference "C44") (unit 1)
         )
       )
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "C31") (unit 1)
         )
@@ -5273,7 +5251,7 @@
           (reference "Y2") (unit 1)
         )
       )
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "Y2") (unit 1)
         )
@@ -5309,7 +5287,7 @@
           (reference "C47") (unit 1)
         )
       )
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "C34") (unit 1)
         )
@@ -5334,7 +5312,7 @@
     )
     (pin "1" (uuid da1a50ae-bbd6-4a66-9079-fcd9d7c1c0f8))
     (instances
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
           (reference "#PWR028") (unit 1)
         )
@@ -5380,7 +5358,7 @@
           (reference "#PWR031") (unit 1)
         )
       )
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "#PWR0118") (unit 1)
         )
@@ -5388,19 +5366,19 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 274.32 152.4 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 274.32 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a342b959-cc47-4682-8c81-c3e6ca96819e)
-    (property "Reference" "#PWR0153" (at 274.32 158.75 0)
+    (property "Reference" "#PWR0153" (at 274.32 157.48 0)
       (effects (font (size 1 1)) hide)
     )
-    (property "Value" "GND" (at 274.447 156.7942 0)
+    (property "Value" "GND" (at 270.51 153.67 0)
       (effects (font (size 1 1)))
     )
-    (property "Footprint" "" (at 274.32 152.4 0)
+    (property "Footprint" "" (at 274.32 151.13 0)
       (effects (font (size 1 1)) hide)
     )
-    (property "Datasheet" "" (at 274.32 152.4 0)
+    (property "Datasheet" "" (at 274.32 151.13 0)
       (effects (font (size 1 1)) hide)
     )
     (pin "1" (uuid de8401db-0fe6-4fe6-8866-dd5278daaa4e))
@@ -5415,7 +5393,7 @@
           (reference "#PWR0153") (unit 1)
         )
       )
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "#PWR0123") (unit 1)
         )
@@ -5438,10 +5416,13 @@
     (property "Datasheet" "~" (at 194.31 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "UST_ID" "612515a61287500165a9771d" (at 194.31 162.56 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 915f129e-d68d-45f9-ac6c-3652d5483658))
     (pin "2" (uuid cacb26d7-13b7-4108-bda9-57ea250ced49))
     (instances
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
           (reference "SW3") (unit 1)
         )
@@ -5452,19 +5433,19 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 19.05 27.94 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 111.76 26.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a83bd247-2cc3-4f6a-a30b-6e3bcb7ddc1e)
-    (property "Reference" "#PWR0121" (at 19.05 34.29 0)
+    (property "Reference" "#PWR0121" (at 111.76 33.02 0)
       (effects (font (size 1 1)) hide)
     )
-    (property "Value" "GND" (at 19.177 32.3342 0)
+    (property "Value" "GND" (at 111.887 31.0642 0)
       (effects (font (size 1 1)))
     )
-    (property "Footprint" "" (at 19.05 27.94 0)
+    (property "Footprint" "" (at 111.76 26.67 0)
       (effects (font (size 1 1)) hide)
     )
-    (property "Datasheet" "" (at 19.05 27.94 0)
+    (property "Datasheet" "" (at 111.76 26.67 0)
       (effects (font (size 1 1)) hide)
     )
     (pin "1" (uuid 8aadd5ac-7922-489c-bb7a-5398e5af0716))
@@ -5479,7 +5460,7 @@
           (reference "#PWR0121") (unit 1)
         )
       )
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "#PWR070") (unit 1)
         )
@@ -5514,7 +5495,7 @@
           (reference "#PWR0129") (unit 1)
         )
       )
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "#PWR0104") (unit 1)
         )
@@ -5528,7 +5509,7 @@
     (property "Reference" "R57" (at 204.47 140.97 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "R_Small" (at 204.47 143.51 0)
+    (property "Value" "10k" (at 204.47 143.51 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 201.93 142.24 0)
@@ -5537,10 +5518,13 @@
     (property "Datasheet" "~" (at 201.93 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "UST_ID" "5c70984612875079b91f899f" (at 201.93 142.24 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 9abad439-f3e2-40bc-80be-5b69d1e69d9b))
     (pin "2" (uuid da6cf378-cd21-4e2c-82bf-4c34196f5d9c))
     (instances
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "R57") (unit 1)
         )
@@ -5571,7 +5555,7 @@
           (reference "C6") (unit 1)
         )
       )
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "C25") (unit 1)
         )
@@ -5606,7 +5590,7 @@
           (reference "#PWR030") (unit 1)
         )
       )
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "#PWR0114") (unit 1)
         )
@@ -5641,7 +5625,7 @@
           (reference "#PWR0134") (unit 1)
         )
       )
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "#PWR0120") (unit 1)
         )
@@ -5676,7 +5660,7 @@
           (reference "#PWR029") (unit 1)
         )
       )
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "#PWR0113") (unit 1)
         )
@@ -5706,7 +5690,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
           (reference "#PWR015") (unit 1)
         )
@@ -5725,22 +5709,22 @@
     )
   )
 
-  (symbol (lib_id "SPACEDOS01A_PCB01A-rescue:R-device-DATALOGGER01A-rescue-CCP2019V01A-rescue") (at 144.78 25.4 180) (unit 1)
+  (symbol (lib_id "Device:R_Small") (at 146.05 27.94 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bfbc03fe-0f45-4c52-b699-aeb6afc6d6f4)
-    (property "Reference" "R23" (at 147.32 25.4 90)
+    (property "Reference" "R23" (at 148.59 27.94 90)
       (effects (font (size 1 1)))
     )
-    (property "Value" "10k" (at 144.78 25.4 90)
+    (property "Value" "10k" (at 146.05 27.94 90)
       (effects (font (size 1 1)))
     )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 146.558 25.4 90)
-      (effects (font (size 1 1)) hide)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 146.05 27.94 0)
+      (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 144.78 25.4 0)
-      (effects (font (size 1 1)) hide)
+    (property "Datasheet" "~" (at 146.05 27.94 0)
+      (effects (font (size 1.27 1.27)) hide)
     )
-    (property "UST_ID" "" (at 144.78 25.4 0)
+    (property "UST_ID" "5c70984612875079b91f899f" (at 146.05 27.94 0)
       (effects (font (size 1 1)) hide)
     )
     (pin "1" (uuid faa310db-2f15-4b13-9308-64514e5f9897))
@@ -5756,7 +5740,7 @@
           (reference "R23") (unit 1)
         )
       )
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "R56") (unit 1)
         )
@@ -5764,19 +5748,19 @@
     )
   )
 
-  (symbol (lib_id "Device:C_Small") (at 138.43 33.02 270) (unit 1)
+  (symbol (lib_id "Device:C_Small") (at 137.16 33.02 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ccb5d05f-a1de-424a-b613-1dd164fae880)
-    (property "Reference" "C43" (at 139.5984 35.941 0)
+    (property "Reference" "C43" (at 135.89 27.94 90)
       (effects (font (size 1 1)) (justify left))
     )
-    (property "Value" "4u7" (at 137.287 35.941 0)
+    (property "Value" "4u7" (at 135.89 30.48 90)
       (effects (font (size 1 1)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 138.43 33.02 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 137.16 33.02 0)
       (effects (font (size 1 1)) hide)
     )
-    (property "Datasheet" "~" (at 138.43 33.02 0)
+    (property "Datasheet" "~" (at 137.16 33.02 0)
       (effects (font (size 1 1)) hide)
     )
     (pin "1" (uuid a55c59f3-f456-494b-9de5-73d643d2ca45))
@@ -5792,7 +5776,7 @@
           (reference "C43") (unit 1)
         )
       )
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "C29") (unit 1)
         )
@@ -5883,7 +5867,7 @@
           (reference "IC1") (unit 1)
         )
       )
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "U10") (unit 1)
         )
@@ -5906,7 +5890,7 @@
     (property "Datasheet" "" (at 72.39 157.48 0)
       (effects (font (size 1 1)) hide)
     )
-    (property "UST_ID" "" (at 72.39 157.48 0)
+    (property "UST_ID" "5c70984512875079b91f8977" (at 72.39 157.48 0)
       (effects (font (size 1 1)) hide)
     )
     (pin "1" (uuid e12afef4-23e4-41dd-b343-627346cc46e5))
@@ -5922,7 +5906,7 @@
           (reference "R17") (unit 1)
         )
       )
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "R47") (unit 1)
         )
@@ -5957,7 +5941,7 @@
           (reference "#PWR0153") (unit 1)
         )
       )
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "#PWR0115") (unit 1)
         )
@@ -5988,7 +5972,7 @@
           (reference "R1") (unit 1)
         )
       )
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "R44") (unit 1)
         )
@@ -6011,7 +5995,7 @@
     (property "Datasheet" "" (at 72.39 172.72 0)
       (effects (font (size 1 1)) hide)
     )
-    (property "UST_ID" "" (at 72.39 172.72 0)
+    (property "UST_ID" "5c70984512875079b91f8977" (at 72.39 172.72 0)
       (effects (font (size 1 1)) hide)
     )
     (pin "1" (uuid d1810908-806b-4e21-8bf8-c3c59c6b55d6))
@@ -6027,7 +6011,7 @@
           (reference "R17") (unit 1)
         )
       )
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "R50") (unit 1)
         )
@@ -6050,8 +6034,14 @@
     (property "Datasheet" "" (at 262.89 39.37 0)
       (effects (font (size 1 1)) hide)
     )
-    (property "UST_ID" "" (at 262.89 39.37 0)
+    (property "UST_ID" "5c70984612875079b91f8a0c" (at 262.89 39.37 0)
       (effects (font (size 1 1)) hide)
+    )
+    (property "Height" "1.1" (at 262.89 39.37 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "I2C" "0x" (at 262.89 39.37 0)
+      (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid e5eabe9f-e187-4784-8a48-fabdc818f22a))
     (pin "10" (uuid 77042a05-7166-4ae2-8b71-d1f4cfd9f8e8))
@@ -6074,7 +6064,7 @@
           (reference "U11") (unit 1)
         )
       )
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "U14") (unit 1)
         )
@@ -6110,7 +6100,7 @@
           (reference "C40") (unit 1)
         )
       )
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "C27") (unit 1)
         )
@@ -6145,7 +6135,7 @@
           (reference "#PWR0116") (unit 1)
         )
       )
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "#PWR0101") (unit 1)
         )
@@ -6171,7 +6161,7 @@
     (pin "1" (uuid fe5956c5-dc28-4a7c-a271-b3953e1f935f))
     (pin "2" (uuid a4e01c93-565c-4f79-85c0-3c055926b726))
     (instances
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "BZ1") (unit 1)
         )
@@ -6201,7 +6191,7 @@
           (reference "#PWR014") (unit 1)
         )
       )
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "#PWR073") (unit 1)
         )
@@ -6237,7 +6227,7 @@
     (pin "2" (uuid 9b2b1b24-e9e5-46f1-be29-9e83d799b5ad))
     (pin "3" (uuid 68b269d1-f3fb-4986-95c9-2bae38bc22de))
     (instances
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
           (reference "Q4") (unit 1)
         )
@@ -6269,7 +6259,7 @@
     (pin "1" (uuid c280e582-1d4d-49bc-9561-f55474205f6d))
     (pin "2" (uuid c4775d5a-80c2-485e-a914-73df1068977c))
     (instances
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "R54") (unit 1)
         )
@@ -6292,7 +6282,7 @@
     (property "Datasheet" "" (at 72.39 175.26 0)
       (effects (font (size 1 1)) hide)
     )
-    (property "UST_ID" "" (at 72.39 175.26 0)
+    (property "UST_ID" "5c70984512875079b91f8977" (at 72.39 175.26 0)
       (effects (font (size 1 1)) hide)
     )
     (pin "1" (uuid c8a24a02-1e9c-4e73-89bd-c3644582edb4))
@@ -6308,7 +6298,7 @@
           (reference "R17") (unit 1)
         )
       )
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "R51") (unit 1)
         )
@@ -6316,19 +6306,19 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 29.21 27.94 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 121.92 26.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e845b61e-91b2-4f0b-83a7-93ceccc22888)
-    (property "Reference" "#PWR0122" (at 29.21 34.29 0)
+    (property "Reference" "#PWR0122" (at 121.92 33.02 0)
       (effects (font (size 1 1)) hide)
     )
-    (property "Value" "GND" (at 29.337 32.3342 0)
+    (property "Value" "GND" (at 122.047 31.0642 0)
       (effects (font (size 1 1)))
     )
-    (property "Footprint" "" (at 29.21 27.94 0)
+    (property "Footprint" "" (at 121.92 26.67 0)
       (effects (font (size 1 1)) hide)
     )
-    (property "Datasheet" "" (at 29.21 27.94 0)
+    (property "Datasheet" "" (at 121.92 26.67 0)
       (effects (font (size 1 1)) hide)
     )
     (pin "1" (uuid ad3640ed-1d18-4eb7-8d06-61bf526fd681))
@@ -6343,7 +6333,7 @@
           (reference "#PWR0122") (unit 1)
         )
       )
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "#PWR072") (unit 1)
         )
@@ -6351,19 +6341,19 @@
     )
   )
 
-  (symbol (lib_id "power:+3.3V") (at 58.42 109.22 0) (unit 1)
+  (symbol (lib_id "power:+3.3V") (at 58.42 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid eae80ee0-d6d4-4afa-bc23-e5d8de15bf3a)
-    (property "Reference" "#PWR0135" (at 58.42 113.03 0)
+    (property "Reference" "#PWR0135" (at 58.42 114.3 0)
       (effects (font (size 1 1)) hide)
     )
-    (property "Value" "+3.3V" (at 58.801 104.8258 0)
+    (property "Value" "+3.3V" (at 62.23 109.22 0)
       (effects (font (size 1 1)))
     )
-    (property "Footprint" "" (at 58.42 109.22 0)
+    (property "Footprint" "" (at 58.42 110.49 0)
       (effects (font (size 1 1)) hide)
     )
-    (property "Datasheet" "" (at 58.42 109.22 0)
+    (property "Datasheet" "" (at 58.42 110.49 0)
       (effects (font (size 1 1)) hide)
     )
     (pin "1" (uuid d14c1f9e-6893-4c75-bf33-bb9b4b4521df))
@@ -6378,7 +6368,7 @@
           (reference "#PWR0135") (unit 1)
         )
       )
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "#PWR080") (unit 1)
         )
@@ -6414,7 +6404,7 @@
     (pin "2" (uuid 74986470-8bae-4285-a702-8928066d38bb))
     (pin "3" (uuid a5f440e8-82de-48ff-86ca-50387222c630))
     (instances
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
           (reference "Q4") (unit 1)
         )
@@ -6450,7 +6440,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
           (reference "#PWR015") (unit 1)
         )
@@ -6496,7 +6486,7 @@
           (reference "#PWR0134") (unit 1)
         )
       )
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "#PWR0126") (unit 1)
         )
@@ -6535,7 +6525,7 @@
           (reference "C36") (unit 1)
         )
       )
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "C33") (unit 1)
         )
@@ -6560,7 +6550,7 @@
     )
     (pin "1" (uuid d2ee7b2e-d5dc-47b7-a190-d6852e95ba52))
     (instances
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "#PWR0108") (unit 1)
         )
@@ -6586,7 +6576,7 @@
     (pin "1" (uuid 9326d602-8ee1-4c18-83cb-5ce5302bc12c))
     (pin "2" (uuid a8de8e2b-dbf5-4c2a-ad5c-d384f911e3c9))
     (instances
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
           (reference "R54") (unit 1)
         )
@@ -6624,7 +6614,7 @@
           (reference "#PWR0117") (unit 1)
         )
       )
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "#PWR094") (unit 1)
         )
@@ -6685,7 +6675,7 @@
     (pin "8" (uuid f577c3bd-06ac-4abf-97b0-cad5a33e4045))
     (pin "9" (uuid 8174e7c8-cf16-422f-8342-0c043b0f8fa5))
     (instances
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "U12") (unit 1)
         )
@@ -6708,8 +6698,11 @@
     (property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8870-SEEPROM-AT24CS64-Datasheet.pdf" (at 252.73 81.28 0)
       (effects (font (size 1 1)) hide)
     )
-    (property "UST_ID" "" (at 252.73 81.28 0)
+    (property "UST_ID" "5c70984712875079b91f8b99" (at 252.73 81.28 0)
       (effects (font (size 1 1)) hide)
+    )
+    (property "Height" "1.5" (at 252.73 81.28 0)
+      (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 1ea51635-23da-4c7f-a833-c2bb41d4dbcb))
     (pin "2" (uuid 48130631-727e-478a-85b8-52e0a24e9e27))
@@ -6730,7 +6723,7 @@
           (reference "U6") (unit 1)
         )
       )
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "U13") (unit 1)
         )
@@ -6755,7 +6748,7 @@
     )
     (pin "1" (uuid 90301d3a-2394-4976-9c87-69984bb1a77e))
     (instances
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
           (reference "#PWR028") (unit 1)
         )
@@ -6789,7 +6782,7 @@
     (property "Datasheet" "" (at 72.39 165.1 0)
       (effects (font (size 1 1)) hide)
     )
-    (property "UST_ID" "" (at 72.39 165.1 0)
+    (property "UST_ID" "5c70984512875079b91f8977" (at 72.39 165.1 0)
       (effects (font (size 1 1)) hide)
     )
     (pin "1" (uuid 8ef5c217-14cc-4684-a509-e91a71be9261))
@@ -6805,7 +6798,7 @@
           (reference "R17") (unit 1)
         )
       )
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/80b69af2-66cc-4579-a230-ef2d06af8a00"
           (reference "R49") (unit 1)
         )
@@ -6832,7 +6825,7 @@
     (pin "2" (uuid af324298-97b5-4baf-b76c-1dd376daae71))
     (pin "GND" (uuid a5dd25ee-0777-4c66-bd87-d46d2a520243))
     (instances
-      (project "LION5CELL01"
+      (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
           (reference "SW3") (unit 1)
         )

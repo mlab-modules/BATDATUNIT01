@@ -417,7 +417,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "LION5CELL01.kicad_pro",
+    "filename": "BATDATUNIT01.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -482,7 +482,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "../../doc/assets/templates/KiCAD/page_layout.kicad_wks",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
