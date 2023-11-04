@@ -1,0 +1,8 @@
+bom: hw/sch_pcb/BATDATUNIT01.kicad_pcb
+color: white
+eda:
+  pcb: hw/sch_pcb/BATDATUNIT01.kicad_pcb
+  type: kicad
+gerbers: hw/cam_profi/
+site: https://github.com/mlab-modules/BATDATUNIT01
+summary: 'Multiple parallel Li-ion 18650 battery cell module with BMS. '
