@@ -2033,15 +2033,22 @@
     (uuid f447e45a-9f62-4992-969c-837d285ea2bb)
   )
 
+  (no_connect (at 179.07 132.08) (uuid 0b568033-8f41-46b8-bc19-4c41395aa68e))
   (no_connect (at 93.98 160.02) (uuid 0d384c96-a82b-4e15-a602-5b8f64434f59))
+  (no_connect (at 212.09 121.92) (uuid 1367c575-0113-4c98-a7ad-269f3b6b6c82))
   (no_connect (at 93.98 162.56) (uuid 160ce650-df57-4b49-a19c-cd9489aa71a3))
+  (no_connect (at 212.09 124.46) (uuid 33a16051-7e16-43af-a90a-c94de658fb49))
+  (no_connect (at 212.09 129.54) (uuid 40ea2b79-e791-4999-8283-5953129cd133))
   (no_connect (at 68.58 182.88) (uuid 4249f8ce-e3f4-4882-9041-aad6d4040068))
   (no_connect (at 66.04 182.88) (uuid 461c29e2-395b-4e11-9825-caac552775f5))
   (no_connect (at 93.98 167.64) (uuid 54f67921-9f0a-4ad3-9b8c-201b4c6d92b2))
+  (no_connect (at 212.09 144.78) (uuid 62f58eb6-0824-4656-bec9-f185cf666957))
   (no_connect (at 218.44 73.66) (uuid 6815cf7a-f4e3-4378-aeab-299e1e2e4259))
+  (no_connect (at 179.07 144.78) (uuid 6d150c6e-62d6-4c00-843e-ab511d528e3f))
   (no_connect (at 265.43 44.45) (uuid 75558299-42d9-4ad8-b6fa-534f5d14caf6))
   (no_connect (at 81.28 182.88) (uuid 7e7badff-38a0-44df-bc1f-ffe94c2b4c35))
   (no_connect (at 218.44 83.82) (uuid 883b80db-6e03-419e-89fe-b203930659b3))
+  (no_connect (at 212.09 127) (uuid 8a4b4cf2-319d-4922-af59-3f6255a17eb1))
   (no_connect (at 162.56 81.28) (uuid 8bf2798b-9693-4965-ad24-af1483d50602))
   (no_connect (at 68.58 127) (uuid 8ff38697-82a4-4077-a8fc-7a862463c356))
   (no_connect (at 49.53 82.55) (uuid 92e33b0e-755d-4fd2-ae2a-f4e102d874e3))
@@ -2049,6 +2056,8 @@
   (no_connect (at 49.53 85.09) (uuid acdd3012-b9ac-499f-93ce-426879f2991e))
   (no_connect (at 265.43 46.99) (uuid d1dae7e4-0105-40e9-99ab-fe762ef3f0de))
   (no_connect (at 199.39 43.18) (uuid d97a8bf0-a170-4bf4-9533-c2cadef5d532))
+  (no_connect (at 179.07 129.54) (uuid e2f97d95-c326-4c6b-80ba-a543a2750820))
+  (no_connect (at 179.07 116.84) (uuid eecaf429-966a-4e25-9d9a-e3893261a54b))
   (no_connect (at 259.08 78.74) (uuid f23ac46f-57d6-471a-8cda-9e07f1ee5a01))
 
   (wire (pts (xy 44.45 152.4) (xy 44.45 160.02))
@@ -2950,6 +2959,9 @@
     (property "Datasheet" "~" (at 91.44 129.54 0)
       (effects (font (size 1 1)) hide)
     )
+    (property "UST_ID" "5c70984712875079b91f8b4c" (at 91.44 129.54 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid d52ed836-8abf-494d-afe7-a3b6e927ed0e))
     (pin "2" (uuid bfac0c62-3e88-496c-99b7-7878da9e6abc))
     (instances
@@ -3062,7 +3074,7 @@
     (property "MFPN" "C0805 1u" (at 102.87 63.5 0)
       (effects (font (size 1 1)) hide)
     )
-    (property "UST_ID" "" (at 102.87 63.5 0)
+    (property "UST_ID" "5c70984712875079b91f8b45" (at 102.87 63.5 0)
       (effects (font (size 1 1)) hide)
     )
     (property "MPN" "C0805 1u" (at 102.87 63.5 0)
@@ -3099,7 +3111,7 @@
     (property "Datasheet" "" (at 264.16 74.93 0)
       (effects (font (size 1 1)) hide)
     )
-    (property "UST_ID" "" (at 264.16 74.93 0)
+    (property "UST_ID" "5c70984512875079b91f898c" (at 264.16 74.93 0)
       (effects (font (size 1 1)) hide)
     )
     (pin "1" (uuid 9661534b-1eef-490a-8065-4845ce9c2d8c))
@@ -3238,6 +3250,9 @@
     (property "Datasheet" "~" (at 276.86 43.18 0)
       (effects (font (size 1 1)) hide)
     )
+    (property "UST_ID" "5c70984712875079b91f8b4c" (at 276.86 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 30c8cc0f-d102-42ac-b08f-35a55d38b050))
     (pin "2" (uuid e63a2e95-b8cb-4d4d-b92b-800632fb27dd))
     (instances
@@ -3304,6 +3319,9 @@
     (property "Datasheet" "~" (at 81.28 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "UST_ID" "x" (at 76.2 121.92 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 468c92be-b198-4c56-abf1-480978d0b131))
     (instances
       (project "BATDATUNIT01"
@@ -3331,6 +3349,9 @@
     )
     (property "LCSC" "" (at 259.08 17.78 0)
       (effects (font (size 1 1)) hide)
+    )
+    (property "UST_ID" "x" (at 259.08 17.78 0)
+      (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 8b719de0-89ff-4700-bfb5-115a8c23353d))
     (instances
@@ -3365,9 +3386,6 @@
     (pin "1" (uuid e6fa2d6b-0731-4c3c-9d70-ae0238c38f89))
     (instances
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/d5932c4a-3091-40b8-906b-66d992253a75"
-          (reference "#PWR0170") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
           (reference "#PWR019") (unit 1)
         )
@@ -3381,7 +3399,7 @@
     (property "Reference" "R11" (at 140.2081 149.9806 0)
       (effects (font (size 1 1)) (justify left))
     )
-    (property "Value" "R" (at 140.208 152.279 0)
+    (property "Value" "270R" (at 140.208 152.279 0)
       (effects (font (size 1 1)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 138.43 151.13 0)
@@ -3421,7 +3439,7 @@
     (property "Datasheet" "" (at 261.62 74.93 0)
       (effects (font (size 1 1)) hide)
     )
-    (property "UST_ID" "" (at 261.62 74.93 0)
+    (property "UST_ID" "5c70984512875079b91f898c" (at 261.62 74.93 0)
       (effects (font (size 1 1)) hide)
     )
     (pin "1" (uuid 1998aa3a-fbcb-4c26-8431-c4eaf7743c49))
@@ -3534,9 +3552,6 @@
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
           (reference "#PWR066") (unit 1)
         )
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/d5932c4a-3091-40b8-906b-66d992253a75"
-          (reference "#PWR0172") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
           (reference "#PWR024") (unit 1)
         )
@@ -3558,6 +3573,9 @@
     )
     (property "Datasheet" "~" (at 101.6 165.1 0)
       (effects (font (size 1 1)) hide)
+    )
+    (property "UST_ID" "x" (at 101.6 165.1 0)
+      (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 47ebd1ec-2424-424a-97be-78da3306f052))
     (pin "2" (uuid a05c9337-3ecc-4811-b3cc-6d85bce63fa3))
@@ -3598,7 +3616,7 @@
     (property "Datasheet" "" (at 209.55 71.12 0)
       (effects (font (size 1 1)) hide)
     )
-    (property "UST_ID" "" (at 209.55 71.12 0)
+    (property "UST_ID" "5c70984512875079b91f898c" (at 209.55 71.12 0)
       (effects (font (size 1 1)) hide)
     )
     (pin "1" (uuid 723f8824-a23d-48c3-a80c-b21181bc6a3a))
@@ -3673,6 +3691,9 @@
     (property "LCSC" "" (at 267.97 17.78 0)
       (effects (font (size 1 1)) hide)
     )
+    (property "UST_ID" "x" (at 267.97 17.78 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid e39d9444-6374-4792-b043-7a26d4fb6ae1))
     (instances
       (project "BATDATUNIT01"
@@ -3705,6 +3726,9 @@
     )
     (property "LCSC" "" (at 213.36 17.78 0)
       (effects (font (size 1 1)) hide)
+    )
+    (property "UST_ID" "x" (at 213.36 17.78 0)
+      (effects (font (size 1.27 1.27)) hide)
     )
     (instances
       (project "BATDATUNIT01"
@@ -3849,6 +3873,9 @@
     (property "Manufacturer_Part_Number" "MS561101BA03-50" (at 261.62 54.61 0)
       (effects (font (size 1 1)) (justify left) hide)
     )
+    (property "UST_ID" "650b36b0462c6d9e720543f4" (at 232.41 39.37 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 36aa138e-86bd-4d03-9415-21c7df22bcad))
     (pin "2" (uuid dd50e05c-b8e5-43fb-8def-628179f7b35f))
     (pin "3" (uuid 240631b1-4068-44e1-92e6-8b923b56d518))
@@ -3923,6 +3950,9 @@
     )
     (property "LCSC" "" (at 227.33 17.78 0)
       (effects (font (size 1 1)) hide)
+    )
+    (property "UST_ID" "x" (at 227.33 17.78 0)
+      (effects (font (size 1.27 1.27)) hide)
     )
     (instances
       (project "BATDATUNIT01"
@@ -4026,6 +4056,9 @@
     (property "LCSC" "" (at 275.59 17.78 0)
       (effects (font (size 1 1)) hide)
     )
+    (property "UST_ID" "x" (at 275.59 17.78 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 54cb23ae-1bd3-4d19-8e6d-606309a71d9d))
     (instances
       (project "BATDATUNIT01"
@@ -4059,9 +4092,6 @@
     (pin "1" (uuid a810e9ef-4357-43e7-9842-f92f05964d76))
     (instances
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/d5932c4a-3091-40b8-906b-66d992253a75"
-          (reference "#PWR0169") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
           (reference "#PWR020") (unit 1)
         )
@@ -4211,6 +4241,9 @@
     (property "LCSC" "" (at 227.33 22.86 0)
       (effects (font (size 1 1)) hide)
     )
+    (property "UST_ID" "x" (at 227.33 22.86 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (instances
       (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
@@ -4310,6 +4343,9 @@
     (property "Datasheet" "~" (at 44.45 149.86 0)
       (effects (font (size 1 1)) hide)
     )
+    (property "UST_ID" "5c70984512875079b91f898c" (at 44.45 149.86 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid be382986-e948-414c-bb0c-24d006b63999))
     (pin "2" (uuid 65a46399-00cf-4a5b-8a3d-6a09b727b112))
     (instances
@@ -4335,6 +4371,9 @@
     )
     (property "Datasheet" "~" (at 241.3 60.96 0)
       (effects (font (size 1 1)) hide)
+    )
+    (property "UST_ID" "5c70984512875079b91f898c" (at 241.3 60.96 0)
+      (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 2e7666ad-a8bc-49ea-832e-15432fa3d3bd))
     (pin "2" (uuid 3444ce28-23a8-4ffc-a18e-4daafb208ee9))
@@ -4434,6 +4473,9 @@
     (property "Datasheet" "~" (at 189.23 44.45 0)
       (effects (font (size 1 1)) hide)
     )
+    (property "UST_ID" "5c70984712875079b91f8b4c" (at 189.23 44.45 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 4948e8da-a642-4df6-bc6b-1ba6dccf5775))
     (pin "2" (uuid 86d66502-778b-4f66-9221-904db835652a))
     (instances
@@ -4510,7 +4552,7 @@
     (property "MFPN" "USB4105-GF-A" (at 34.29 69.85 0)
       (effects (font (size 1 1)) hide)
     )
-    (property "UST_ID" "" (at 34.29 69.85 0)
+    (property "UST_ID" "5fa0f94612875025b397795e" (at 34.29 69.85 0)
       (effects (font (size 1 1)) hide)
     )
     (property "MPN" "USB4105-GF-A" (at 34.29 69.85 0)
@@ -4552,7 +4594,7 @@
     (property "Reference" "R10" (at 131.3181 149.9806 0)
       (effects (font (size 1 1)) (justify left))
     )
-    (property "Value" "R" (at 131.318 152.279 0)
+    (property "Value" "270R" (at 131.318 152.279 0)
       (effects (font (size 1 1)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 129.54 151.13 0)
@@ -4598,6 +4640,9 @@
     (property "Height" "0.9" (at 209.55 43.18 0)
       (effects (font (size 1 1)) hide)
     )
+    (property "UST_ID" "65103c42462c6d9e72054b8e" (at 209.55 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 6eced341-da4a-46f3-bd1d-c06ce82c019a))
     (pin "2" (uuid 9d24fda5-ef18-40dc-802a-93989effa35a))
     (pin "3" (uuid ce1dd705-550e-40f5-ab53-5b854a291199))
@@ -4633,6 +4678,9 @@
     )
     (property "LCSC" "" (at 250.19 17.78 0)
       (effects (font (size 1 1)) hide)
+    )
+    (property "UST_ID" "x" (at 250.19 17.78 0)
+      (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 17e3de69-c639-4f06-b1ee-b0c518f55f81))
     (instances
@@ -4702,9 +4750,6 @@
     (pin "1" (uuid 332898f5-7077-4293-a58e-29fdd47c3428))
     (instances
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/d5932c4a-3091-40b8-906b-66d992253a75"
-          (reference "#PWR0171") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
           (reference "#PWR021") (unit 1)
         )
@@ -4886,7 +4931,7 @@
     (property "Datasheet" "" (at 199.39 71.12 0)
       (effects (font (size 1 1)) hide)
     )
-    (property "UST_ID" "" (at 199.39 71.12 0)
+    (property "UST_ID" "5c70984512875079b91f898c" (at 199.39 71.12 0)
       (effects (font (size 1 1)) hide)
     )
     (pin "1" (uuid bf353077-3ee8-483c-82ce-bcf9a5564064))
@@ -5053,6 +5098,9 @@
     (property "Datasheet" "~" (at 243.84 60.96 0)
       (effects (font (size 1 1)) hide)
     )
+    (property "UST_ID" "x" (at 238.76 60.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid afa07fec-dfbb-4ee4-9a08-42c539f4902f))
     (instances
       (project "BATDATUNIT01"
@@ -5119,7 +5167,7 @@
     (property "Datasheet" "" (at 214.63 71.12 0)
       (effects (font (size 1 1)) hide)
     )
-    (property "UST_ID" "" (at 214.63 71.12 0)
+    (property "UST_ID" "5c70984512875079b91f898c" (at 214.63 71.12 0)
       (effects (font (size 1 1)) hide)
     )
     (pin "1" (uuid 2c6ecdfb-727c-44a2-a5ca-cb97d7d0e48c))
@@ -5160,6 +5208,9 @@
     )
     (property "Datasheet" "~" (at 38.1 149.86 0)
       (effects (font (size 1 1)) hide)
+    )
+    (property "UST_ID" "5c70984512875079b91f898c" (at 38.1 149.86 0)
+      (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 2af64cae-621c-4365-b86c-289f2eaafafc))
     (pin "2" (uuid 12059c64-01a3-4032-a3a6-e60e0386aa26))
@@ -5491,7 +5542,7 @@
     (property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf" (at 91.44 62.23 0)
       (effects (font (size 1 1)) hide)
     )
-    (property "UST_ID" "" (at 86.36 71.12 0)
+    (property "UST_ID" "5e82e0691287502a334a778c" (at 86.36 71.12 0)
       (effects (font (size 1 1)) hide)
     )
     (property "LCSC" "C7519" (at 86.36 71.12 0)
@@ -5532,7 +5583,7 @@
     (property "Datasheet" "" (at 204.47 71.12 0)
       (effects (font (size 1 1)) hide)
     )
-    (property "UST_ID" "" (at 204.47 71.12 0)
+    (property "UST_ID" "5c70984512875079b91f898c" (at 204.47 71.12 0)
       (effects (font (size 1 1)) hide)
     )
     (pin "1" (uuid b4fc4146-ac6c-4289-8721-5b72a5c27ad9))
@@ -5619,6 +5670,9 @@
     (property "LCSC" "" (at 213.36 22.86 0)
       (effects (font (size 1 1)) hide)
     )
+    (property "UST_ID" "x" (at 213.36 22.86 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (instances
       (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
@@ -5647,6 +5701,9 @@
     )
     (property "Datasheet" "~" (at 257.81 92.71 0)
       (effects (font (size 1 1)) hide)
+    )
+    (property "UST_ID" "5c70984712875079b91f8b4c" (at 257.81 92.71 0)
+      (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid ecdbbec1-eefa-499c-acbb-d8ec7e9cec15))
     (pin "2" (uuid 55ce0e40-c794-434d-b166-2045ea577e4f))
@@ -5683,6 +5740,9 @@
     )
     (property "Datasheet" "~" (at 99.06 129.54 0)
       (effects (font (size 1 1)) hide)
+    )
+    (property "UST_ID" "5c70984712875079b91f8b52" (at 99.06 129.54 0)
+      (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 87a2a70d-3605-4123-91ff-132b6a54406a))
     (pin "2" (uuid 89069baa-5aaf-4a17-bf73-e2805d33d07a))
@@ -5786,9 +5846,6 @@
     (pin "P4" (uuid 10a0682c-0dc9-45c1-a08a-d2d4067321b8))
     (instances
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/d5932c4a-3091-40b8-906b-66d992253a75"
-          (reference "J2") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
           (reference "J2") (unit 1)
         )
@@ -5851,23 +5908,6 @@
     (instances
       (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad" (page "4"))
-      )
-    )
-  )
-
-  (sheet (at 149.86 16.51) (size 12.7 19.05) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid d5932c4a-3091-40b8-906b-66d992253a75)
-    (property "Sheetname" "External_connector" (at 149.86 15.7984 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "connector.kicad_sch" (at 149.86 36.1446 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad" (page "5"))
       )
     )
   )

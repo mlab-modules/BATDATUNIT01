@@ -456,7 +456,7 @@
       "step": "LION5CELL01.step",
       "vrml": ""
     },
-    "page_layout_descr_file": ""
+    "page_layout_descr_file": "/home/roman/repos/mlab_modules/BATDATUNIT01/doc/assets/templates/KiCAD/page_layout.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
@@ -508,10 +508,6 @@
     [
       "c1fc2aff-2b12-4e41-a798-c0c7c2bf1b4c",
       "sw_source"
-    ],
-    [
-      "d5932c4a-3091-40b8-906b-66d992253a75",
-      "External_connector"
     ]
   ],
   "text_variables": {}
