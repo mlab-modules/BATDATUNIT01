@@ -402,7 +402,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -464,7 +464,7 @@
       "dashed_lines_dash_length_ratio": 12.0,
       "dashed_lines_gap_length_ratio": 3.0,
       "default_line_thickness": 6.0,
-      "default_text_size": 50.0,
+      "default_text_size": 25.0,
       "field_names": [],
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
@@ -500,10 +500,6 @@
     [
       "ac32fb25-724e-41e3-8a81-e04630a0599b",
       "liion"
-    ],
-    [
-      "80b69af2-66cc-4579-a230-ef2d06af8a00",
-      "mcu"
     ],
     [
       "c1fc2aff-2b12-4e41-a798-c0c7c2bf1b4c",
