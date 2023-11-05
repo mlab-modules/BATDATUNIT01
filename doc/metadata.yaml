@@ -1,5 +1,5 @@
 description: 'Multiple parallel Li-ion 18650 battery cell module with BMS. '
-github_branch: BATDATUNIT01A
+github_branch: BATDATUNIT01A_schematics_update
 github_description: 'Multiple parallel Li-ion 18650 battery cell module with BMS. '
 github_repo: BATDATUNIT01
 github_url: https://github.com/mlab-modules/BATDATUNIT01
@@ -9,4 +9,4 @@ mark: 50
 status: 0
 tags: []
 title: BATDATUNIT01
-updated: '2023-11-04T13:01:39.889889+00:00'
+updated: '2023-11-05T13:48:16.125994+00:00'
