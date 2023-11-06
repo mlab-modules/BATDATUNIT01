@@ -4053,7 +4053,7 @@
     (property "Datasheet" "~" (at 50.8 152.4 0)
       (effects (font (size 1 1)) hide)
     )
-    (property "UST_ID" "" (at 50.8 152.4 0)
+    (property "UST_ID" "x" (at 50.8 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid d74bb7d8-24b2-4350-8cf1-52ed0abd714f))
