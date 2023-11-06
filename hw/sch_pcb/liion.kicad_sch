@@ -3752,7 +3752,7 @@
   (symbol (lib_id "Jumper:SolderJumper_3_Bridged12") (at 152.4 175.26 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5f32c299-5a31-41f8-88fe-79e4ccdfefbc)
-    (property "Reference" "JP2" (at 154.94 175.26 0)
+    (property "Reference" "JP1" (at 154.94 175.26 0)
       (effects (font (size 1 1)))
     )
     (property "Value" "Jumper_3_Bridged12" (at 156.21 175.26 0)
