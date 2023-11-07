@@ -9802,7 +9802,7 @@
     (property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm" (at 377.19 62.23 0)
       (effects (font (size 1 1)) hide)
     )
-    (property "Datasheet" "" (at 377.19 62.23 0)
+    (property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/PCF85263A.pdf" (at 377.19 62.23 0)
       (effects (font (size 1 1)) hide)
     )
     (property "UST_ID" "5c70984612875079b91f8a0c" (at 377.19 62.23 0)
