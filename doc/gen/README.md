@@ -11,26 +11,26 @@ Board size: 136.15x85.85 mm (5.36x3.38 inches)
 
 Solder mask: TOP / BOTTOM
 
-- Color: White
+- Color: Green
 
 Silk screen: TOP / BOTTOM
 
-- Color: Black
+- Color: White
 
 
 Stackup:
 
 | Name                 | Type                 | Color            | Thickness | Material        | Epsilon_r | Loss tangent |
 |----------------------|----------------------|------------------|-----------|-----------------|-----------|--------------|
-| F.SilkS              | Top Silk Screen      | Black            |           |                 |           |              |
+| F.SilkS              | Top Silk Screen      | White            |           |                 |           |              |
 | F.Paste              | Top Solder Paste     |                  |           |                 |           |              |
-| F.Mask               | Top Solder Mask      | White            |        10 |                 |           |              |
+| F.Mask               | Top Solder Mask      | Green            |        10 |                 |           |              |
 | F.Cu                 | copper               |                  |        35 |                 |           |              |
 | dielectric 1         | core                 | FR4 natural      |      1510 | FR4             |       4.5 |        0.020 |
 | B.Cu                 | copper               |                  |        35 |                 |           |              |
-| B.Mask               | Bottom Solder Mask   | White            |        10 |                 |           |              |
+| B.Mask               | Bottom Solder Mask   | Green            |        10 |                 |           |              |
 | B.Paste              | Bottom Solder Paste  |                  |           |                 |           |              |
-| B.SilkS              | Bottom Silk Screen   | Black            |           |                 |           |              |
+| B.SilkS              | Bottom Silk Screen   | White            |           |                 |           |              |
 
 # Important sizes
 
@@ -51,7 +51,7 @@ Via: 0.5/0.3 mm (20/12 mils)
 - By design rules: 0.5/0.25 mm (20/10 mils)
 - Micro via: yes [0.2/0.1 mm (8/4 mils)]
 - Buried/blind via: yes
-- Total: 266 (thru: 266 buried/blind: 0 micro: 0)
+- Total: 350 (thru: 350 buried/blind: 0 micro: 0)
 
 Outer Annular Ring: 0.05 mm (2 mils)
 
@@ -66,7 +66,7 @@ Eurocircuits class: 6D
 Components count: (SMD/THT)
 
 - Top: 27/7 (SMD + THT)
-- Bottom: 153/3 (SMD + THT)
+- Bottom: 162/3 (SMD + THT)
 
 Defined tracks:
 
@@ -77,13 +77,13 @@ Defined tracks:
 
 Used tracks:
 
-- 0.2 mm (8 mils) (187) defined: yes
+- 0.2 mm (8 mils) (202) defined: yes
 - 0.25 mm (10 mils) (12) defined: no
-- 0.3 mm (12 mils) (1057) defined: yes
-- 0.4 mm (16 mils) (162) defined: yes
+- 0.3 mm (12 mils) (1207) defined: yes
+- 0.4 mm (16 mils) (136) defined: yes
 - 0.5 mm (20 mils) (61) defined: yes
 - 0.8 mm (31 mils) (34) defined: no
-- 1.0 mm (39 mils) (24) defined: no
+- 1.0 mm (39 mils) (26) defined: no
 - 1.5 mm (59 mils) (3) defined: no
 
 Defined vias:
@@ -93,8 +93,8 @@ Defined vias:
 
 Used vias:
 
-- 0.5/0.3 mm (20/12 mils) (Count: 204, Aspect: 3.2 A) defined: yes
-- 0.8/0.4 mm (31/16 mils) (Count: 62, Aspect: 2.0 A) defined: yes
+- 0.5/0.3 mm (20/12 mils) (Count: 229, Aspect: 3.2 A) defined: yes
+- 0.8/0.4 mm (31/16 mils) (Count: 121, Aspect: 2.0 A) defined: yes
 
 Holes (excluding vias):
 
@@ -113,8 +113,8 @@ Oval holes:
 
 Drill tools (including vias and computing adjusts and rounding):
 
-- 0.4 mm (16 mils) (204)
-- 0.5 mm (20 mils) (62)
+- 0.4 mm (16 mils) (229)
+- 0.5 mm (20 mils) (121)
 - 0.6 mm (24 mils) (4)
 - 0.65 mm (26 mils) (2)
 - 0.7 mm (28 mils) (4)
