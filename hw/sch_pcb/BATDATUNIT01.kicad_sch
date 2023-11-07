@@ -9,7 +9,7 @@
     (date "11-2023")
     (rev "01A")
     (company "MLAB.cz, roman-dvorak")
-    (comment 2 "Universial battery and data storage unit.")
+    (comment 2 "Universal battery and data storage unit.")
   )
 
   (lib_symbols
