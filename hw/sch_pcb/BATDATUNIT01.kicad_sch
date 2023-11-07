@@ -9,7 +9,7 @@
     (date "11-2023")
     (rev "01A")
     (company "MLAB.cz, roman-dvorak")
-    (comment 2 "Universal battery and data storage unit.")
+    (comment 2 "Universial battery and data storage unit.")
   )
 
   (lib_symbols
@@ -8335,7 +8335,7 @@
     (property "Value" "SolderJumper_2_Open" (at 191.77 187.5004 0)
       (effects (font (size 1 1)) hide)
     )
-    (property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" (at 191.77 185.42 0)
+    (property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" (at 191.77 185.42 0)
       (effects (font (size 1 1)) hide)
     )
     (property "Datasheet" "~" (at 191.77 185.42 0)
