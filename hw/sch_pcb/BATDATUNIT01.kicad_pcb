@@ -2078,7 +2078,7 @@
       (net 14 "+BATT") (pintype "unspecified") (tstamp 700dc260-847c-4957-abf9-5d94ac3b2eb9))
     (pad "P4" thru_hole circle locked (at -34.21 0 270) (size 1.62 1.62) (drill 1.02) (layers "*.Cu" "*.Mask")
       (net 14 "+BATT") (pintype "unspecified") (tstamp a89f204e-5280-4431-9c77-037dbeac7f02))
-    (model "/home/roman/repos/mlab/kicad-mlab/3Dmodels/molex_464369327.stp"
+    (model "${KISYS3DMOD_MLAB}/molex_464369327.stp"
       (offset (xyz -18.8 10.5 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
