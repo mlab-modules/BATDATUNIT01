@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/BATDATUNIT01.kicad_sch</source>
-    <date>Wed Nov  8 22:58:42 2023</date>
+    <date>Tue Nov 14 18:11:47 2023</date>
     <tool>Eeschema 7.0.8-7.0.8~ubuntu23.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -4796,104 +4796,113 @@ NVDC Power Path Management</description>
       <node ref="R29" pin="1" pintype="passive"/>
       <node ref="U8" pin="16" pinfunction="(PCINT31/OC2A)PD7" pintype="bidirectional"/>
     </net>
-    <net code="55" name="/liion/A">
+    <net code="55" name="/liion/-BATT">
+      <node ref="BT1" pin="1-" pinfunction="-" pintype="passive"/>
+      <node ref="BT1" pin="2-" pinfunction="-" pintype="passive"/>
+      <node ref="BT2" pin="1-" pinfunction="-" pintype="passive"/>
+      <node ref="BT2" pin="2-" pinfunction="-" pintype="passive"/>
+      <node ref="BT2" pin="3-" pinfunction="-" pintype="passive"/>
+      <node ref="NT1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R52" pin="1" pintype="passive"/>
+    </net>
+    <net code="56" name="/liion/A">
       <node ref="R53" pin="2" pintype="passive"/>
       <node ref="U14" pin="3" pinfunction="QA" pintype="unspecified"/>
     </net>
-    <net code="56" name="/liion/B">
+    <net code="57" name="/liion/B">
       <node ref="R54" pin="2" pintype="passive"/>
       <node ref="U14" pin="4" pinfunction="QB" pintype="unspecified"/>
     </net>
-    <net code="57" name="/liion/C">
+    <net code="58" name="/liion/C">
       <node ref="R55" pin="2" pintype="passive"/>
       <node ref="U14" pin="5" pinfunction="QC" pintype="unspecified"/>
     </net>
-    <net code="58" name="/liion/CH_PG">
+    <net code="59" name="/liion/CH_PG">
       <node ref="R42" pin="1" pintype="passive"/>
       <node ref="U13" pin="3" pinfunction="~{PG}" pintype="open_collector"/>
     </net>
-    <net code="59" name="/liion/CH_STAT">
+    <net code="60" name="/liion/CH_STAT">
       <node ref="R41" pin="1" pintype="passive"/>
       <node ref="U13" pin="10" pinfunction="STAT" pintype="open_collector"/>
     </net>
-    <net code="60" name="/liion/D">
+    <net code="61" name="/liion/D">
       <node ref="R56" pin="2" pintype="passive"/>
       <node ref="U14" pin="6" pinfunction="QD" pintype="unspecified"/>
     </net>
-    <net code="61" name="/liion/E">
+    <net code="62" name="/liion/E">
       <node ref="R57" pin="2" pintype="passive"/>
       <node ref="U14" pin="10" pinfunction="QE" pintype="unspecified"/>
     </net>
-    <net code="62" name="/liion/F">
+    <net code="63" name="/liion/F">
       <node ref="R58" pin="2" pintype="passive"/>
       <node ref="U14" pin="11" pinfunction="QF" pintype="unspecified"/>
     </net>
-    <net code="63" name="/liion/G">
+    <net code="64" name="/liion/G">
       <node ref="R59" pin="2" pintype="passive"/>
       <node ref="U14" pin="12" pinfunction="QG" pintype="unspecified"/>
     </net>
-    <net code="64" name="/liion/GAUGE_BTN_IN">
+    <net code="65" name="/liion/GAUGE_BTN_IN">
       <node ref="R43" pin="1" pintype="passive"/>
       <node ref="R44" pin="2" pintype="passive"/>
       <node ref="U12" pin="2" pinfunction="VEN" pintype="unspecified"/>
     </net>
-    <net code="65" name="/liion/GAUGE_SRN">
+    <net code="66" name="/liion/GAUGE_SRN">
       <node ref="NT2" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="R49" pin="1" pintype="passive"/>
     </net>
-    <net code="66" name="/liion/GAUGE_SRP">
+    <net code="67" name="/liion/GAUGE_SRP">
       <node ref="NT1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="R48" pin="1" pintype="passive"/>
     </net>
-    <net code="67" name="/liion/H">
+    <net code="68" name="/liion/H">
       <node ref="R60" pin="2" pintype="passive"/>
       <node ref="U14" pin="13" pinfunction="QH" pintype="unspecified"/>
     </net>
-    <net code="68" name="/liion/P1">
+    <net code="69" name="/liion/P1">
       <node ref="U12" pin="3" pinfunction="P1" pintype="unspecified"/>
       <node ref="U14" pin="1" pinfunction="A" pintype="unspecified"/>
       <node ref="U14" pin="2" pinfunction="B" pintype="unspecified"/>
     </net>
-    <net code="69" name="/liion/P2">
+    <net code="70" name="/liion/P2">
       <node ref="U12" pin="1" pinfunction="P2" pintype="unspecified"/>
       <node ref="U14" pin="8" pinfunction="CLK" pintype="unspecified"/>
     </net>
-    <net code="70" name="/mode">
+    <net code="71" name="/mode">
       <node ref="R2" pin="2" pintype="passive"/>
       <node ref="U1" pin="8" pinfunction="MODE" pintype="passive"/>
       <node ref="U8" pin="43" pinfunction="(PCINT11/AIN1/OC0)PB3" pintype="bidirectional"/>
     </net>
-    <net code="71" name="/sw_source/3v3_FB">
+    <net code="72" name="/sw_source/3v3_FB">
       <node ref="R68" pin="2" pintype="passive"/>
       <node ref="R69" pin="1" pintype="passive"/>
       <node ref="U16" pin="8" pinfunction="FB" pintype="passive"/>
     </net>
-    <net code="72" name="/sw_source/3v3_mod">
+    <net code="73" name="/sw_source/3v3_mod">
       <node ref="JP7" pin="2" pinfunction="B" pintype="passive"/>
       <node ref="R64" pin="1" pintype="passive"/>
       <node ref="U16" pin="6" pinfunction="MODE" pintype="passive"/>
     </net>
-    <net code="73" name="/sw_source/3v3i_FB">
+    <net code="74" name="/sw_source/3v3i_FB">
       <node ref="R66" pin="2" pintype="passive"/>
       <node ref="R67" pin="1" pintype="passive"/>
       <node ref="U15" pin="8" pinfunction="FB" pintype="passive"/>
     </net>
-    <net code="74" name="/sw_source/3v3i_mod">
+    <net code="75" name="/sw_source/3v3i_mod">
       <node ref="JP5" pin="2" pinfunction="B" pintype="passive"/>
       <node ref="R65" pin="1" pintype="passive"/>
       <node ref="U15" pin="6" pinfunction="MODE" pintype="passive"/>
     </net>
-    <net code="75" name="/sw_source/5v_FB">
+    <net code="76" name="/sw_source/5v_FB">
       <node ref="R70" pin="2" pintype="passive"/>
       <node ref="R71" pin="1" pintype="passive"/>
       <node ref="U17" pin="8" pinfunction="FB" pintype="passive"/>
     </net>
-    <net code="76" name="/sw_source/5v_mod">
+    <net code="77" name="/sw_source/5v_mod">
       <node ref="JP6" pin="2" pinfunction="B" pintype="passive"/>
       <node ref="R63" pin="1" pintype="passive"/>
       <node ref="U17" pin="6" pinfunction="MODE" pintype="passive"/>
     </net>
-    <net code="77" name="3v3_EXT">
+    <net code="78" name="3v3_EXT">
       <node ref="C38" pin="1" pintype="passive"/>
       <node ref="C41" pin="1" pintype="passive"/>
       <node ref="J4" pin="A3" pintype="unspecified"/>
@@ -4901,18 +4910,18 @@ NVDC Power Path Management</description>
       <node ref="R68" pin="1" pintype="passive"/>
       <node ref="U16" pin="1" pinfunction="VOUT" pintype="passive"/>
     </net>
-    <net code="78" name="3v3_SD">
+    <net code="79" name="3v3_SD">
       <node ref="C45" pin="1" pintype="passive"/>
       <node ref="C46" pin="1" pintype="passive"/>
       <node ref="J2" pin="4" pinfunction="VDD" pintype="input"/>
       <node ref="L5" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="U1" pin="40" pinfunction="VSD" pintype="passive"/>
     </net>
-    <net code="79" name="3v3_SD_CTRL">
+    <net code="80" name="3v3_SD_CTRL">
       <node ref="U18" pin="3" pinfunction="ON" pintype="bidirectional"/>
       <node ref="U8" pin="22" pinfunction="(PCINT19/TMS)PC3" pintype="bidirectional"/>
     </net>
-    <net code="80" name="5v_EXT">
+    <net code="81" name="5v_EXT">
       <node ref="C39" pin="1" pintype="passive"/>
       <node ref="C42" pin="1" pintype="passive"/>
       <node ref="J4" pin="A4" pintype="unspecified"/>
@@ -4920,7 +4929,7 @@ NVDC Power Path Management</description>
       <node ref="R70" pin="1" pintype="passive"/>
       <node ref="U17" pin="1" pinfunction="VOUT" pintype="passive"/>
     </net>
-    <net code="81" name="EXT_DETECTION_CHARGER">
+    <net code="82" name="EXT_DETECTION_CHARGER">
       <node ref="C47" pin="2" pintype="passive"/>
       <node ref="R40" pin="1" pintype="passive"/>
       <node ref="R74" pin="2" pintype="passive"/>
@@ -4929,19 +4938,19 @@ NVDC Power Path Management</description>
       <node ref="SW4" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U13" pin="7" pinfunction="~{QON}" pintype="input"/>
     </net>
-    <net code="82" name="EXT_PWR_3v3_EN">
+    <net code="83" name="EXT_PWR_3v3_EN">
       <node ref="JP3" pin="2" pinfunction="B" pintype="passive"/>
       <node ref="R61" pin="2" pintype="passive"/>
       <node ref="U16" pin="5" pinfunction="EN" pintype="passive"/>
       <node ref="U8" pin="42" pinfunction="(PCINT10/AIN0/INT2)PB2" pintype="bidirectional"/>
     </net>
-    <net code="83" name="EXT_PWR_5v_EN">
+    <net code="84" name="EXT_PWR_5v_EN">
       <node ref="JP4" pin="2" pinfunction="B" pintype="passive"/>
       <node ref="R62" pin="2" pintype="passive"/>
       <node ref="U17" pin="5" pinfunction="EN" pintype="passive"/>
       <node ref="U8" pin="35" pinfunction="(PCINT2/ADC2)PA2" pintype="bidirectional"/>
     </net>
-    <net code="84" name="GND">
+    <net code="85" name="GND">
       <node ref="C1" pin="2" pintype="passive"/>
       <node ref="C10" pin="2" pintype="passive"/>
       <node ref="C12" pin="2" pintype="passive"/>
@@ -5086,18 +5095,9 @@ NVDC Power Path Management</description>
       <node ref="Y1" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="Y1" pin="4" pinfunction="4" pintype="passive"/>
     </net>
-    <net code="85" name="Net-(BT1A-+)">
+    <net code="86" name="Net-(BT1A-+)">
       <node ref="BT1" pin="1+" pinfunction="+" pintype="passive"/>
       <node ref="F1" pin="2" pintype="passive"/>
-    </net>
-    <net code="86" name="Net-(BT1A--)">
-      <node ref="BT1" pin="1-" pinfunction="-" pintype="passive"/>
-      <node ref="BT1" pin="2-" pinfunction="-" pintype="passive"/>
-      <node ref="BT2" pin="1-" pinfunction="-" pintype="passive"/>
-      <node ref="BT2" pin="2-" pinfunction="-" pintype="passive"/>
-      <node ref="BT2" pin="3-" pinfunction="-" pintype="passive"/>
-      <node ref="NT1" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="R52" pin="1" pintype="passive"/>
     </net>
     <net code="87" name="Net-(BT1B-+)">
       <node ref="BT1" pin="2+" pinfunction="+" pintype="passive"/>
