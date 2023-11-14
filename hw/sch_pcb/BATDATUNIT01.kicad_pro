@@ -445,7 +445,16 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Default",
+        "pattern": "/liion/-BATT"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "+BATT"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
