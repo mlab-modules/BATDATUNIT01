@@ -19,6 +19,16 @@ mark: 50
 mod_ibom: hw/cam_profi/BATDATUNIT01-ibom.html
 mod_scheme: doc/gen/BATDATUNIT01-schematic.pdf
 status: 0
-tags: []
+tags:
+- battery
+- battery-power
+- data-storage
+- mlab-kicad
+- mlab-module
+- sd-card
+- usb-c
+- lii-on
+- measuring-device
+- measuring-platform
 title: BATDATUNIT01
-updated: '2023-11-11T09:11:51.272565+00:00'
+updated: '2023-11-17T15:27:57.869993+00:00'
