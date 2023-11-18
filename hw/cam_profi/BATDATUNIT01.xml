@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/BATDATUNIT01.kicad_sch</source>
-    <date>Wed Nov  8 22:58:42 2023</date>
+    <date>Sat Nov 18 22:32:12 2023</date>
     <tool>Eeschema 7.0.8-7.0.8~ubuntu23.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -2808,13 +2808,14 @@
       <tstamps>807d01fb-91e1-41c1-b117-cd5ef5ec1f55</tstamps>
     </comp>
     <comp ref="U14">
-      <value>SN74HC164D</value>
+      <value>SN74HC164P</value>
       <footprint>Package_SO:TSSOP-14_4.4x5mm_P0.65mm</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/sn74hc164.pdf</datasheet>
       <fields>
-        <field name="UST_ID">5c70984612875079b91f89ec</field>
+        <field name="UST_ID">6559399f95a79cc5ac40a0a6</field>
       </fields>
       <libsource lib="MLAB_IO" part="SN74HC164D" description=""/>
-      <property name="UST_ID" value="5c70984612875079b91f89ec"/>
+      <property name="UST_ID" value="6559399f95a79cc5ac40a0a6"/>
       <property name="Sheetname" value="liion"/>
       <property name="Sheetfile" value="liion.kicad_sch"/>
       <property name="ki_keywords" value="LION"/>
