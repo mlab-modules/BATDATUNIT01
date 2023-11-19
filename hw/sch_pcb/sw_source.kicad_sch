@@ -3037,7 +3037,7 @@
     (property "Footprint" "Package_SON:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm" (at 195.58 52.07 0)
       (effects (font (size 1 1)) hide)
     )
-    (property "Datasheet" "" (at 195.58 52.07 0)
+    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps22965-q1.pdf" (at 195.58 52.07 0)
       (effects (font (size 1 1)) hide)
     )
     (property "UST_ID" "5c70984712875079b91f8b78" (at 207.01 33.02 0)
