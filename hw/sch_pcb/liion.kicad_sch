@@ -2560,7 +2560,7 @@
       )
       (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "R57") (unit 1)
+          (reference "R66") (unit 1)
         )
       )
     )
@@ -2593,7 +2593,7 @@
           (reference "#PWR015") (unit 1)
         )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "#PWR0164") (unit 1)
+          (reference "#PWR0112") (unit 1)
         )
       )
       (project "DATALOGGER02"
@@ -2632,7 +2632,7 @@
       )
       (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "C25") (unit 1)
+          (reference "C34") (unit 1)
         )
       )
     )
@@ -2662,7 +2662,7 @@
       )
       (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "#PWR0105") (unit 1)
+          (reference "#PWR0118") (unit 1)
         )
       )
     )
@@ -2696,7 +2696,7 @@
       )
       (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "C27") (unit 1)
+          (reference "C30") (unit 1)
         )
       )
     )
@@ -2705,7 +2705,7 @@
   (symbol (lib_id "Device:R_Small") (at 46.99 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0ac2f455-c139-4461-b66b-c886f56372ba)
-    (property "Reference" "R46" (at 45.72 62.23 90)
+    (property "Reference" "R51" (at 45.72 62.23 90)
       (effects (font (size 1 1)))
     )
     (property "Value" "270R" (at 46.99 62.23 90)
@@ -2725,7 +2725,7 @@
     (instances
       (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "R46") (unit 1)
+          (reference "R51") (unit 1)
         )
       )
     )
@@ -2759,7 +2759,7 @@
       )
       (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "R58") (unit 1)
+          (reference "R67") (unit 1)
         )
       )
     )
@@ -2801,7 +2801,7 @@
           (reference "Q4") (unit 1)
         )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "Q6") (unit 1)
+          (reference "Q5") (unit 1)
         )
       )
     )
@@ -2835,7 +2835,7 @@
       )
       (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "C22") (unit 1)
+          (reference "C25") (unit 1)
         )
       )
     )
@@ -2869,7 +2869,7 @@
       )
       (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "R60") (unit 1)
+          (reference "R69") (unit 1)
         )
       )
     )
@@ -2907,7 +2907,7 @@
   (symbol (lib_id "power:GND") (at 116.84 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 191a5339-224a-45db-8ced-070e29d8b3c3)
-    (property "Reference" "#PWR0107" (at 116.84 55.88 0)
+    (property "Reference" "#PWR0117" (at 116.84 55.88 0)
       (effects (font (size 1 1)) hide)
     )
     (property "Value" "GND" (at 114.3 52.07 0)
@@ -2923,7 +2923,7 @@
     (instances
       (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "#PWR0107") (unit 1)
+          (reference "#PWR0117") (unit 1)
         )
       )
     )
@@ -2956,7 +2956,7 @@
           (reference "#PWR015") (unit 1)
         )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "#PWR0102") (unit 1)
+          (reference "#PWR0110") (unit 1)
         )
       )
       (project "DATALOGGER02"
@@ -2970,7 +2970,7 @@
   (symbol (lib_id "power:GND") (at 162.56 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1fd7f49b-e399-4117-a224-fe69e86799ef)
-    (property "Reference" "#PWR0120" (at 162.56 72.39 0)
+    (property "Reference" "#PWR0131" (at 162.56 72.39 0)
       (effects (font (size 1 1)) hide)
     )
     (property "Value" "GND" (at 165.1 66.04 0)
@@ -2986,7 +2986,7 @@
     (instances
       (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "#PWR0120") (unit 1)
+          (reference "#PWR0131") (unit 1)
         )
       )
     )
@@ -3049,7 +3049,7 @@
       )
       (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "D10") (unit 1)
+          (reference "D11") (unit 1)
         )
       )
     )
@@ -3114,7 +3114,7 @@
           (reference "R1") (unit 1)
         )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "R44") (unit 1)
+          (reference "R55") (unit 1)
         )
       )
     )
@@ -3146,7 +3146,7 @@
           (reference "R1") (unit 1)
         )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "R42") (unit 1)
+          (reference "R49") (unit 1)
         )
       )
     )
@@ -3174,7 +3174,7 @@
           (reference "#PWR028") (unit 1)
         )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "#PWR0101") (unit 1)
+          (reference "#PWR0109") (unit 1)
         )
       )
       (project "USBPDSINK01"
@@ -3188,7 +3188,7 @@
   (symbol (lib_id "Device:C_Small") (at 144.78 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2b6060fb-3788-455c-a2d5-d27ee4cc4c8e)
-    (property "Reference" "C29" (at 147.32 36.83 0)
+    (property "Reference" "C27" (at 147.32 36.83 0)
       (effects (font (size 1 1)) (justify left))
     )
     (property "Value" "47n" (at 147.32 38.0937 0)
@@ -3208,7 +3208,7 @@
     (instances
       (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "C29") (unit 1)
+          (reference "C27") (unit 1)
         )
       )
     )
@@ -3267,7 +3267,7 @@
       )
       (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "#PWR0114") (unit 1)
+          (reference "#PWR0125") (unit 1)
         )
       )
     )
@@ -3320,7 +3320,7 @@
           (reference "#PWR013") (unit 1)
         )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "#PWR0106") (unit 1)
+          (reference "#PWR0116") (unit 1)
         )
       )
       (project "USBPDSINK01"
@@ -3359,7 +3359,7 @@
       )
       (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "C23") (unit 1)
+          (reference "C26") (unit 1)
         )
       )
     )
@@ -3368,7 +3368,7 @@
   (symbol (lib_id "Device:R_Small") (at 147.32 64.77 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3fa5fa68-259d-46b3-9177-26d255191d3e)
-    (property "Reference" "R50" (at 147.32 63.5 90)
+    (property "Reference" "R57" (at 147.32 63.5 90)
       (effects (font (size 1 1)))
     )
     (property "Value" "5k3" (at 147.32 64.77 90)
@@ -3388,7 +3388,7 @@
     (instances
       (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "R50") (unit 1)
+          (reference "R57") (unit 1)
         )
       )
     )
@@ -3416,7 +3416,7 @@
           (reference "#PWR028") (unit 1)
         )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "#PWR0103") (unit 1)
+          (reference "#PWR0111") (unit 1)
         )
       )
       (project "USBPDSINK01"
@@ -3454,7 +3454,7 @@
           (reference "#PWR015") (unit 1)
         )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "#PWR0100") (unit 1)
+          (reference "#PWR0108") (unit 1)
         )
       )
       (project "DATALOGGER02"
@@ -3557,7 +3557,7 @@
       )
       (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "D12") (unit 1)
+          (reference "D13") (unit 1)
         )
       )
     )
@@ -3591,7 +3591,7 @@
       )
       (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "C28") (unit 1)
+          (reference "C31") (unit 1)
         )
       )
     )
@@ -3623,7 +3623,7 @@
           (reference "R1") (unit 1)
         )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "R41") (unit 1)
+          (reference "R48") (unit 1)
         )
       )
     )
@@ -3632,7 +3632,7 @@
   (symbol (lib_id "Device:LED_Small") (at 46.99 55.88 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4d35a5a4-8e5a-4b0e-adc1-16ab727707de)
-    (property "Reference" "D7" (at 49.53 54.5465 90)
+    (property "Reference" "D8" (at 49.53 54.5465 90)
       (effects (font (size 1 1)) (justify right))
     )
     (property "Value" "GREEN" (at 49.53 57.15 90)
@@ -3652,7 +3652,7 @@
     (instances
       (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "D7") (unit 1)
+          (reference "D8") (unit 1)
         )
       )
     )
@@ -3742,7 +3742,7 @@
   (symbol (lib_id "Device:Q_PMOS_GSD") (at 64.77 157.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 55c1c93f-3a3e-4378-9da4-085f10ddbda7)
-    (property "Reference" "Q5" (at 71.12 156.21 0)
+    (property "Reference" "Q7" (at 71.12 156.21 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "BSS83P" (at 71.12 158.75 0)
@@ -3763,7 +3763,7 @@
     (instances
       (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "Q5") (unit 1)
+          (reference "Q7") (unit 1)
         )
       )
     )
@@ -3797,7 +3797,7 @@
       )
       (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "D8") (unit 1)
+          (reference "D9") (unit 1)
         )
       )
     )
@@ -3827,7 +3827,7 @@
       )
       (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "#PWR0109") (unit 1)
+          (reference "#PWR0121") (unit 1)
         )
       )
     )
@@ -3860,7 +3860,7 @@
           (reference "JP1") (unit 1)
         )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "JP9") (unit 1)
+          (reference "JP5") (unit 1)
         )
       )
     )
@@ -3894,7 +3894,7 @@
       )
       (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "R48") (unit 1)
+          (reference "R59") (unit 1)
         )
       )
     )
@@ -3926,7 +3926,7 @@
           (reference "R1") (unit 1)
         )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "R40") (unit 1)
+          (reference "R53") (unit 1)
         )
       )
     )
@@ -3960,7 +3960,7 @@
       )
       (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "R52") (unit 1)
+          (reference "R61") (unit 1)
         )
       )
     )
@@ -3993,7 +3993,7 @@
           (reference "#PWR015") (unit 1)
         )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "#PWR0108") (unit 1)
+          (reference "#PWR0127") (unit 1)
         )
       )
       (project "DATALOGGER02"
@@ -4007,7 +4007,7 @@
   (symbol (lib_id "power:GND") (at 157.48 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6c9c3cb5-54a0-4ef4-bee6-79c546118762)
-    (property "Reference" "#PWR0118" (at 157.48 48.26 0)
+    (property "Reference" "#PWR0128" (at 157.48 48.26 0)
       (effects (font (size 1 1)) hide)
     )
     (property "Value" "GND" (at 161.29 44.45 0)
@@ -4023,7 +4023,7 @@
     (instances
       (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "#PWR0118") (unit 1)
+          (reference "#PWR0128") (unit 1)
         )
       )
     )
@@ -4057,7 +4057,7 @@
       )
       (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "R53") (unit 1)
+          (reference "R62") (unit 1)
         )
       )
     )
@@ -4100,7 +4100,7 @@
   (symbol (lib_id "power:+VSW") (at 162.56 34.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 742ce836-e7c5-4638-a33b-155da01dbede)
-    (property "Reference" "#PWR0119" (at 162.56 38.1 0)
+    (property "Reference" "#PWR0130" (at 162.56 38.1 0)
       (effects (font (size 1 1)) hide)
     )
     (property "Value" "+VSW" (at 166.37 33.02 0)
@@ -4116,7 +4116,7 @@
     (instances
       (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "#PWR0119") (unit 1)
+          (reference "#PWR0130") (unit 1)
         )
       )
     )
@@ -4148,7 +4148,7 @@
           (reference "R1") (unit 1)
         )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "R75") (unit 1)
+          (reference "R52") (unit 1)
         )
       )
     )
@@ -4157,7 +4157,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 222.25 54.61 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7e597bcd-1ead-49ce-922a-32f5ce9710a3)
-    (property "Reference" "#FLG01" (at 224.155 54.61 0)
+    (property "Reference" "#FLG04" (at 224.155 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 225.425 54.61 90)
@@ -4173,7 +4173,7 @@
     (instances
       (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "#FLG01") (unit 1)
+          (reference "#FLG04") (unit 1)
         )
       )
     )
@@ -4182,7 +4182,7 @@
   (symbol (lib_id "power:+BATT") (at 168.91 161.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8026be49-31d8-464a-ac9f-bed80844d0df)
-    (property "Reference" "#PWR0166" (at 168.91 165.1 0)
+    (property "Reference" "#PWR0132" (at 168.91 165.1 0)
       (effects (font (size 1 1)) hide)
     )
     (property "Value" "+BATT" (at 168.91 156.21 0)
@@ -4198,7 +4198,7 @@
     (instances
       (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "#PWR0166") (unit 1)
+          (reference "#PWR0132") (unit 1)
         )
       )
     )
@@ -4280,7 +4280,7 @@
       )
       (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "R56") (unit 1)
+          (reference "R65") (unit 1)
         )
       )
     )
@@ -4314,7 +4314,7 @@
       )
       (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "D15") (unit 1)
+          (reference "D16") (unit 1)
         )
       )
     )
@@ -4323,7 +4323,7 @@
   (symbol (lib_id "Device:R_Small") (at 137.16 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8550312d-61fc-4d00-8f8c-b921edb8d8f9)
-    (property "Reference" "R47" (at 135.89 77.47 90)
+    (property "Reference" "R56" (at 135.89 77.47 90)
       (effects (font (size 1 1)))
     )
     (property "Value" "2k49" (at 137.16 77.47 90)
@@ -4343,7 +4343,7 @@
     (instances
       (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "R47") (unit 1)
+          (reference "R56") (unit 1)
         )
       )
     )
@@ -4377,7 +4377,7 @@
       )
       (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "D13") (unit 1)
+          (reference "D14") (unit 1)
         )
       )
     )
@@ -4386,7 +4386,7 @@
   (symbol (lib_id "power:GND") (at 146.05 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 888cda17-c7e9-4d58-837e-d05ad7ca7ffc)
-    (property "Reference" "#PWR0117" (at 146.05 62.23 0)
+    (property "Reference" "#PWR0123" (at 146.05 62.23 0)
       (effects (font (size 1 1)) hide)
     )
     (property "Value" "GND" (at 148.59 55.88 0)
@@ -4402,7 +4402,7 @@
     (instances
       (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "#PWR0117") (unit 1)
+          (reference "#PWR0123") (unit 1)
         )
       )
     )
@@ -4440,7 +4440,7 @@
   (symbol (lib_id "Device:C_Small") (at 101.6 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8cddbd44-f643-4664-befa-0acb89286079)
-    (property "Reference" "C20" (at 104.14 71.1263 0)
+    (property "Reference" "C22" (at 104.14 71.1263 0)
       (effects (font (size 1 1)) (justify left))
     )
     (property "Value" "10u" (at 104.14 72.39 0)
@@ -4460,7 +4460,7 @@
     (instances
       (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "C20") (unit 1)
+          (reference "C22") (unit 1)
         )
       )
     )
@@ -4494,7 +4494,7 @@
       )
       (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "R54") (unit 1)
+          (reference "R63") (unit 1)
         )
       )
     )
@@ -4524,7 +4524,7 @@
       )
       (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "#PWR0111") (unit 1)
+          (reference "#PWR0133") (unit 1)
         )
       )
     )
@@ -4558,7 +4558,7 @@
       )
       (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "D9") (unit 1)
+          (reference "D10") (unit 1)
         )
       )
     )
@@ -4586,7 +4586,7 @@
           (reference "#PWR028") (unit 1)
         )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "#PWR099") (unit 1)
+          (reference "#PWR0114") (unit 1)
         )
       )
       (project "USBPDSINK01"
@@ -4650,7 +4650,7 @@
       )
       (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "#PWR0124") (unit 1)
+          (reference "#PWR0137") (unit 1)
         )
       )
     )
@@ -4659,7 +4659,7 @@
   (symbol (lib_id "power:GND") (at 101.6 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9f59a088-0f1b-46d9-9c9c-cf0881901aad)
-    (property "Reference" "#PWR0104" (at 101.6 82.55 0)
+    (property "Reference" "#PWR0115" (at 101.6 82.55 0)
       (effects (font (size 1 1)) hide)
     )
     (property "Value" "GND" (at 101.6 80.01 0)
@@ -4675,7 +4675,7 @@
     (instances
       (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "#PWR0104") (unit 1)
+          (reference "#PWR0115") (unit 1)
         )
       )
     )
@@ -4705,7 +4705,7 @@
       )
       (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "#PWR0125") (unit 1)
+          (reference "#PWR0138") (unit 1)
         )
       )
     )
@@ -4745,7 +4745,7 @@
   (symbol (lib_id "power:GND") (at 127 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a9d74648-7192-4920-b7bc-4ddbaa47e776)
-    (property "Reference" "#PWR0110" (at 127 82.55 0)
+    (property "Reference" "#PWR0119" (at 127 82.55 0)
       (effects (font (size 1 1)) hide)
     )
     (property "Value" "GND" (at 124.46 78.74 0)
@@ -4761,7 +4761,7 @@
     (instances
       (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "#PWR0110") (unit 1)
+          (reference "#PWR0119") (unit 1)
         )
       )
     )
@@ -4795,7 +4795,7 @@
       )
       (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "R55") (unit 1)
+          (reference "R64") (unit 1)
         )
       )
     )
@@ -4833,7 +4833,7 @@
   (symbol (lib_id "Device:LED_Small") (at 46.99 20.32 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid af9cef23-6a19-4298-9c12-f3a7833aba71)
-    (property "Reference" "D6" (at 49.53 18.9865 90)
+    (property "Reference" "D7" (at 49.53 18.9865 90)
       (effects (font (size 1 1)) (justify right))
     )
     (property "Value" "ORANGE" (at 49.53 21.59 90)
@@ -4853,7 +4853,7 @@
     (instances
       (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "D6") (unit 1)
+          (reference "D7") (unit 1)
         )
       )
     )
@@ -4887,7 +4887,7 @@
       )
       (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "C33") (unit 1)
+          (reference "C35") (unit 1)
         )
       )
     )
@@ -4917,7 +4917,7 @@
       )
       (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "#PWR0113") (unit 1)
+          (reference "#PWR0124") (unit 1)
         )
       )
     )
@@ -4926,7 +4926,7 @@
   (symbol (lib_id "power:+BATT") (at 218.44 22.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b3df5400-76c7-4693-87cb-1096921bf189)
-    (property "Reference" "#PWR0123" (at 218.44 26.67 0)
+    (property "Reference" "#PWR0136" (at 218.44 26.67 0)
       (effects (font (size 1 1)) hide)
     )
     (property "Value" "+BATT" (at 218.44 17.78 0)
@@ -4942,7 +4942,7 @@
     (instances
       (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "#PWR0123") (unit 1)
+          (reference "#PWR0136") (unit 1)
         )
       )
     )
@@ -5074,7 +5074,7 @@
       )
       (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "#PWR0115") (unit 1)
+          (reference "#PWR0126") (unit 1)
         )
       )
     )
@@ -5083,7 +5083,7 @@
   (symbol (lib_id "power:+BATT") (at 142.24 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bfbffa0b-6081-48fe-bdf3-f27bd6dd65bd)
-    (property "Reference" "#PWR0116" (at 142.24 53.34 0)
+    (property "Reference" "#PWR0122" (at 142.24 53.34 0)
       (effects (font (size 1 1)) hide)
     )
     (property "Value" "+BATT" (at 143.51 45.72 0)
@@ -5099,7 +5099,7 @@
     (instances
       (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "#PWR0116") (unit 1)
+          (reference "#PWR0122") (unit 1)
         )
       )
     )
@@ -5108,7 +5108,7 @@
   (symbol (lib_id "Device:C_Small") (at 162.56 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c003a4d5-ecaa-414c-843a-94f7332ba6ef)
-    (property "Reference" "C32" (at 165.1 60.9663 0)
+    (property "Reference" "C33" (at 165.1 60.9663 0)
       (effects (font (size 1 1)) (justify left))
     )
     (property "Value" "4u7" (at 165.1 62.23 0)
@@ -5128,7 +5128,7 @@
     (instances
       (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "C32") (unit 1)
+          (reference "C33") (unit 1)
         )
       )
     )
@@ -5137,7 +5137,7 @@
   (symbol (lib_id "Device:C_Small") (at 157.48 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c023bdae-974e-4f36-8925-ea635382525f)
-    (property "Reference" "C31" (at 160.02 38.1 0)
+    (property "Reference" "C32" (at 160.02 38.1 0)
       (effects (font (size 1 1)) (justify left))
     )
     (property "Value" "22u" (at 160.02 39.3637 0)
@@ -5157,7 +5157,7 @@
     (instances
       (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "C31") (unit 1)
+          (reference "C32") (unit 1)
         )
       )
     )
@@ -5187,7 +5187,7 @@
       )
       (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "#PWR0122") (unit 1)
+          (reference "#PWR0135") (unit 1)
         )
       )
     )
@@ -5221,7 +5221,7 @@
       )
       (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "C26") (unit 1)
+          (reference "C29") (unit 1)
         )
       )
     )
@@ -5255,7 +5255,7 @@
       )
       (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "R49") (unit 1)
+          (reference "R60") (unit 1)
         )
       )
     )
@@ -5289,7 +5289,7 @@
       )
       (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "D11") (unit 1)
+          (reference "D12") (unit 1)
         )
       )
     )
@@ -5298,7 +5298,7 @@
   (symbol (lib_id "Device:C_Small") (at 146.05 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c77dba15-3c51-48a8-ba63-c8a52f1a91f3)
-    (property "Reference" "C30" (at 148.59 50.8063 0)
+    (property "Reference" "C28" (at 148.59 50.8063 0)
       (effects (font (size 1 1)) (justify left))
     )
     (property "Value" "10u" (at 148.59 52.07 0)
@@ -5318,7 +5318,7 @@
     (instances
       (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "C30") (unit 1)
+          (reference "C28") (unit 1)
         )
       )
     )
@@ -5352,7 +5352,7 @@
       )
       (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "D14") (unit 1)
+          (reference "D15") (unit 1)
         )
       )
     )
@@ -5385,7 +5385,7 @@
           (reference "#PWR015") (unit 1)
         )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "#PWR0126") (unit 1)
+          (reference "#PWR0139") (unit 1)
         )
       )
       (project "DATALOGGER02"
@@ -5474,7 +5474,7 @@
   (symbol (lib_id "Device:R_Small") (at 153.67 67.31 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e03ddf13-7569-43e6-a19e-624a1535c927)
-    (property "Reference" "R51" (at 153.67 66.04 90)
+    (property "Reference" "R58" (at 153.67 66.04 90)
       (effects (font (size 1 1)))
     )
     (property "Value" "31k1" (at 153.67 67.31 90)
@@ -5494,7 +5494,7 @@
     (instances
       (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "R51") (unit 1)
+          (reference "R58") (unit 1)
         )
       )
     )
@@ -5526,7 +5526,7 @@
           (reference "R1") (unit 1)
         )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "R43") (unit 1)
+          (reference "R54") (unit 1)
         )
       )
     )
@@ -5568,7 +5568,7 @@
           (reference "Q4") (unit 1)
         )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "Q7") (unit 1)
+          (reference "Q6") (unit 1)
         )
       )
     )
@@ -5577,7 +5577,7 @@
   (symbol (lib_id "Device:C_Small") (at 110.49 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e956cf92-5375-47db-8a7a-bcf0e103efcc)
-    (property "Reference" "C21" (at 113.03 71.1263 0)
+    (property "Reference" "C23" (at 113.03 71.1263 0)
       (effects (font (size 1 1)) (justify left))
     )
     (property "Value" "100n" (at 113.03 72.39 0)
@@ -5597,7 +5597,7 @@
     (instances
       (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "C21") (unit 1)
+          (reference "C23") (unit 1)
         )
       )
     )
@@ -5630,7 +5630,7 @@
           (reference "#PWR015") (unit 1)
         )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "#PWR098") (unit 1)
+          (reference "#PWR0113") (unit 1)
         )
       )
       (project "DATALOGGER02"
@@ -5644,7 +5644,7 @@
   (symbol (lib_id "Device:R_Small") (at 46.99 26.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ee697652-6848-4395-b786-41b563f72f0c)
-    (property "Reference" "R45" (at 45.72 26.67 90)
+    (property "Reference" "R50" (at 45.72 26.67 90)
       (effects (font (size 1 1)))
     )
     (property "Value" "270R" (at 46.99 26.67 90)
@@ -5664,7 +5664,7 @@
     (instances
       (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "R45") (unit 1)
+          (reference "R50") (unit 1)
         )
       )
     )
@@ -5697,7 +5697,7 @@
           (reference "#PWR015") (unit 1)
         )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "#PWR0121") (unit 1)
+          (reference "#PWR0134") (unit 1)
         )
       )
       (project "DATALOGGER02"
@@ -5711,7 +5711,7 @@
   (symbol (lib_id "power:GND") (at 134.62 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f192dfe0-4d76-4cc8-987d-3b17eda76ab2)
-    (property "Reference" "#PWR0112" (at 134.62 86.36 0)
+    (property "Reference" "#PWR0120" (at 134.62 86.36 0)
       (effects (font (size 1 1)) hide)
     )
     (property "Value" "GND" (at 138.43 81.28 0)
@@ -5727,7 +5727,7 @@
     (instances
       (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "#PWR0112") (unit 1)
+          (reference "#PWR0120") (unit 1)
         )
       )
     )
@@ -5736,7 +5736,7 @@
   (symbol (lib_id "power:+BATT") (at 160.02 180.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f1e9dabc-a3fd-4f37-971c-08c8794cae54)
-    (property "Reference" "#PWR0167" (at 160.02 184.15 0)
+    (property "Reference" "#PWR0129" (at 160.02 184.15 0)
       (effects (font (size 1 1)) hide)
     )
     (property "Value" "+BATT" (at 160.02 176.53 0)
@@ -5752,7 +5752,7 @@
     (instances
       (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "#PWR0167") (unit 1)
+          (reference "#PWR0129") (unit 1)
         )
       )
     )
@@ -5786,7 +5786,7 @@
       )
       (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "R59") (unit 1)
+          (reference "R68") (unit 1)
         )
       )
     )
