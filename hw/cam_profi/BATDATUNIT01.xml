@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/BATDATUNIT01.kicad_sch</source>
-    <date>Tue Nov 14 18:11:47 2023</date>
+    <date>Sun Nov 19 13:11:37 2023</date>
     <tool>Eeschema 7.0.8-7.0.8~ubuntu23.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -822,6 +822,7 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BATDATUNIT01.kicad_sch"/>
       <property name="exclude_from_bom"/>
+      <property name="dnp"/>
       <property name="ki_description" value="Resistor, small symbol"/>
       <property name="ki_keywords" value="R resistor"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1624,7 +1625,7 @@
     </comp>
     <comp ref="U4">
       <value>PCA9541ABS/01</value>
-      <footprint>Package_DFN_QFN:QFN-16-1EP_5x5mm_P0.8mm_EP2.7x2.7mm</footprint>
+      <footprint>Package_DFN_QFN:QFN-16-1EP_4x4mm_P0.65mm_EP2.15x2.15mm</footprint>
       <datasheet>http://www.nxp.com/docs/en/data-sheet/PCA9541A.pdf</datasheet>
       <fields>
         <field name="Height">1</field>
@@ -4514,6 +4515,7 @@ NVDC Power Path Management</description>
       <node ref="R76" pin="2" pintype="passive"/>
       <node ref="R77" pin="2" pintype="passive"/>
       <node ref="U1" pin="39" pinfunction="VCC" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="ADD" pintype="passive"/>
       <node ref="U1" pin="5" pinfunction="VIO" pintype="passive"/>
       <node ref="U1" pin="9" pinfunction="~{RST}" pintype="passive"/>
       <node ref="U10" pin="8" pinfunction="VCC" pintype="unspecified"/>
@@ -5052,7 +5054,6 @@ NVDC Power Path Management</description>
       <node ref="U1" pin="35" pinfunction="N.C._1" pintype="passive"/>
       <node ref="U1" pin="36" pinfunction="N.C._2" pintype="passive"/>
       <node ref="U1" pin="37" pinfunction="GND_4" pintype="passive"/>
-      <node ref="U1" pin="4" pinfunction="ADD" pintype="passive"/>
       <node ref="U1" pin="41" pinfunction="GND_5" pintype="passive"/>
       <node ref="U10" pin="4" pinfunction="GND" pintype="unspecified"/>
       <node ref="U11" pin="5" pinfunction="GND" pintype="input"/>
