@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/BATDATUNIT01.kicad_sch</source>
-    <date>Sun Nov 19 18:36:36 2023</date>
+    <date>Sun Nov 19 20:50:25 2023</date>
     <tool>Eeschema 7.0.8-7.0.8~ubuntu23.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -3409,6 +3409,7 @@
     <comp ref="U18">
       <value>TPS22965-Q1</value>
       <footprint>Package_SON:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tps22965-q1.pdf</datasheet>
       <fields>
         <field name="UST_ID">5c70984712875079b91f8b78</field>
       </fields>
