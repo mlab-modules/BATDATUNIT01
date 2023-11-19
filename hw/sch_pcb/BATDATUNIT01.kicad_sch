@@ -4885,7 +4885,7 @@
     (stroke (width 0) (type default))
     (uuid 9f6fd719-1e35-4d4b-8598-fb0ac7413a24)
   )
-  (wire (pts (xy 40.64 132.08) (xy 52.07 132.08))
+  (wire (pts (xy 33.02 132.08) (xy 52.07 132.08))
     (stroke (width 0) (type default))
     (uuid 9fd69e5c-72af-417d-89df-a7490f48c62b)
   )
@@ -7837,7 +7837,7 @@
   )
 
   (symbol (lib_id "Device:R_Small") (at 35.56 144.78 180) (unit 1)
-    (in_bom no) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 3a160ba2-b67d-4bfb-99ed-ea562376b458)
     (property "Reference" "R23" (at 33.02 144.78 90)
       (effects (font (size 1 1)))
@@ -8213,7 +8213,7 @@
     (property "Value" "PCA9541ABS/01" (at 171.45 262.89 0)
       (effects (font (size 1 1)))
     )
-    (property "Footprint" "Package_DFN_QFN:QFN-16-1EP_5x5mm_P0.8mm_EP2.7x2.7mm" (at 187.96 333.68 0)
+    (property "Footprint" "Package_DFN_QFN:QFN-16-1EP_4x4mm_P0.65mm_EP2.15x2.15mm" (at 187.96 333.68 0)
       (effects (font (size 1 1)) (justify left top) hide)
     )
     (property "Datasheet" "http://www.nxp.com/docs/en/data-sheet/PCA9541A.pdf" (at 187.96 433.68 0)
@@ -11791,6 +11791,41 @@
     )
   )
 
+  (symbol (lib_id "power:+3.3V") (at 33.02 132.08 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid ba987377-258e-45f4-afa3-c29dc40dab21)
+    (property "Reference" "#PWR0135" (at 33.02 135.89 0)
+      (effects (font (size 1 1)) hide)
+    )
+    (property "Value" "+3.3V" (at 33.02 128.27 0)
+      (effects (font (size 1 1)))
+    )
+    (property "Footprint" "" (at 33.02 132.08 0)
+      (effects (font (size 1 1)) hide)
+    )
+    (property "Datasheet" "" (at 33.02 132.08 0)
+      (effects (font (size 1 1)) hide)
+    )
+    (pin "1" (uuid 8b76769d-8917-437f-9bb4-dd742ad8defe))
+    (instances
+      (project "USTSIPIN02A"
+        (path "/0a87ced0-2af2-43c5-a56c-218f7013d76f/00000000-0000-0000-0000-00005c4aedd8"
+          (reference "#PWR0135") (unit 1)
+        )
+      )
+      (project "cpu"
+        (path "/4af4b710-5b7c-4fa3-ad36-3ed9c7e42fc3"
+          (reference "#PWR0135") (unit 1)
+        )
+      )
+      (project "BATDATUNIT01"
+        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
+          (reference "#PWR011") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_name "GND_3") (lib_id "power:GND") (at 275.59 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bae875bd-42b5-4a38-a69b-1f441efb2cf4)
@@ -12796,36 +12831,6 @@
       (project "BATDATUNIT01"
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
           (reference "#PWR02") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_name "GND_1") (lib_id "power:GND") (at 40.64 132.08 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid d6fc81ab-e3bb-450f-8fe9-32a78fe81aea)
-    (property "Reference" "#PWR06" (at 40.64 138.43 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Value" "GND" (at 40.64 135.89 0)
-      (effects (font (size 1 1)))
-    )
-    (property "Footprint" "" (at 40.64 132.08 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Datasheet" "" (at 40.64 132.08 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (pin "1" (uuid 7e83355b-6c0f-485f-9c99-53efc62b7daa))
-    (instances
-      (project "USBSDREADER01"
-        (path "/2ae32537-a16f-4c5b-a56b-c6dddfb8ddb4"
-          (reference "#PWR06") (unit 1)
-        )
-      )
-      (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "#PWR011") (unit 1)
         )
       )
     )
