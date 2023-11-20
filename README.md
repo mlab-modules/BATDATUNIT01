@@ -34,6 +34,11 @@ Designed for convenience, the module allows for fast detachment from the measuri
 
 ![BATDATAUNIT01 bottom view](/doc/gen/img/BATDATUNIT01-bottom.svg)
 
+## Schematics
+
+[![](/doc/gen/BATDATUNIT01-schematic.svg)](/doc/gen/BATDATUNIT01-schematic.pdf)
+
+
 ### Internal structure
 
 ```mermaid
