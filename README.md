@@ -3,6 +3,7 @@
 ## Overview
 
 The BATDATUNIT01A is a versatile battery and data module incorporating an ATmea1284p processor paired with a quintet of Li-ion batteries. It serves as a reliable power source for extended durations, making it an integral component in a wide array of detectors or measuring systems.
+![](/doc/gen/img/BATDATUNIT01-bottom.svg)
 
 ## Features
 
@@ -14,6 +15,10 @@ The BATDATUNIT01A is a versatile battery and data module incorporating an ATmea1
 ## Design
 
 Designed for convenience, the module allows for fast detachment from the measuring part without tools, streamlining the replacement process. Data can be downloaded during battery charging thanks to onboard memory.
+
+## Schematics
+
+[![](/doc/gen/BATDATUNIT01-schematic.svg)](/doc/gen/BATDATUNIT01-schematic.pdf)
 
 ## Connectivity
 
