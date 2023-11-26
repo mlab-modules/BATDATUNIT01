@@ -66,7 +66,7 @@ Eurocircuits class: 6D
 Components count: (SMD/THT)
 
 - Top: 27/7 (SMD + THT)
-- Bottom: 166/3 (SMD + THT)
+- Bottom: 167/3 (SMD + THT)
 
 Defined tracks:
 
@@ -77,13 +77,13 @@ Defined tracks:
 
 Used tracks:
 
-- 0.2 mm (8 mils) (151) defined: yes
-- 0.25 mm (10 mils) (14) defined: no
-- 0.3 mm (12 mils) (1258) defined: yes
-- 0.4 mm (16 mils) (141) defined: yes
+- 0.2 mm (8 mils) (145) defined: yes
+- 0.25 mm (10 mils) (29) defined: no
+- 0.3 mm (12 mils) (1307) defined: yes
+- 0.4 mm (16 mils) (157) defined: yes
 - 0.5 mm (20 mils) (64) defined: yes
 - 0.8 mm (31 mils) (37) defined: no
-- 0.9 mm (35 mils) (20) defined: no
+- 0.9 mm (35 mils) (19) defined: no
 - 1.0 mm (39 mils) (23) defined: no
 - 1.5 mm (59 mils) (3) defined: no
 
@@ -94,8 +94,8 @@ Defined vias:
 
 Used vias:
 
-- 0.5/0.3 mm (20/12 mils) (Count: 244, Aspect: 3.2 A) defined: yes
-- 0.8/0.4 mm (31/16 mils) (Count: 127, Aspect: 2.0 A) defined: yes
+- 0.5/0.3 mm (20/12 mils) (Count: 241, Aspect: 3.2 A) defined: yes
+- 0.8/0.4 mm (31/16 mils) (Count: 130, Aspect: 2.0 A) defined: yes
 
 Holes (excluding vias):
 
@@ -114,8 +114,8 @@ Oval holes:
 
 Drill tools (including vias and computing adjusts and rounding):
 
-- 0.4 mm (16 mils) (244)
-- 0.5 mm (20 mils) (127)
+- 0.4 mm (16 mils) (241)
+- 0.5 mm (20 mils) (130)
 - 0.6 mm (24 mils) (4)
 - 0.65 mm (26 mils) (2)
 - 0.7 mm (28 mils) (4)
