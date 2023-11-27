@@ -40,7 +40,7 @@ Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
 39,"Resistor, small symbol",R_Small,R2R5R29,5k1,R_0805_2012Metric,3,~,5fa0fc3e12875025b3977997,,,,,,,,,,,,,,
 40,"Resistor, small symbol",R_Small,R57,5k3,R_0805_2012Metric,1,~,5fa0fc3e12875025b3977997,,,,,,,,,,,,,,
 41,"Resistor, small symbol",R_Small,R1,6.19k,R_0805_2012Metric,1,~,6548142e462c6d9e72056976,,,,,,,,,,,,,,
-42,"Resistor, small symbol",R_Small,R18R21R23R24R25R28R30R36R37R40R42R44R45R46R47R70R71R72,10k,R_0805_2012Metric,18,~,5c70984612875079b91f899f 5c70984512875079b91f898c,,,,,,,,,,,,,,
+42,"Resistor, small symbol",R_Small,R18R21R23R24R25R28R30R36R37R40R42R44R45R46R47R70R71R72R81,10k,R_0805_2012Metric,19,~,5c70984612875079b91f899f 5c70984512875079b91f898c,,,,,,,,,,,,,,
 43,"Resistor, small symbol",R_Small,R14,27k,R_0805_2012Metric,1,~,,,,,,,,,,,,,,,
 44,"Resistor, small symbol",R_Small,R58,31k1,R_0805_2012Metric,1,~,5c70984712875079b91f8a8a,,,,,,,,,,,,,,
 45,"Resistor, small symbol",R_Small,R13,68k,R_0805_2012Metric,1,~,,,,,,,,,,,,,,,
