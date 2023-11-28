@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/BATDATUNIT01.kicad_sch</source>
-    <date>Tue Nov 28 13:10:09 2023</date>
+    <date>Tue Nov 28 13:33:32 2023</date>
     <tool>Eeschema 7.0.9-7.0.9~ubuntu23.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -1849,7 +1849,7 @@
     </comp>
     <comp ref="Y1">
       <value>19.2 MHz</value>
-      <footprint>Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm</footprint>
+      <footprint>Crystal:Crystal_SMD_2520-4Pin_2.5x2.0mm</footprint>
       <libsource lib="Oscillator" part="CXO_DIP8" description="Crystal Clock Oscillator,"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BATDATUNIT01.kicad_sch"/>

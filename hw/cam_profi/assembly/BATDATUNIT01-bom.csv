@@ -71,6 +71,6 @@ NVDC Power Path Management",BQ25628E,U13,BQ25628E,Texas_S-WQFN-HR-18,1,https://w
 69,,TPS22965-Q1-MLAB_IO,U18,TPS22965-Q1,WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm,1,https://www.ti.com/lit/ds/symlink/tps22965-q1.pdf,5c70984712875079b91f8b78,,,,,,,,,,,,,,
 70,"Switching Voltage Regulators 1.5-A output current, high power density buck-boost converter",TPS631000DRLR,U15U16U17,TPS631000DRLR,SOT-583-8,3,https://www.ti.com/lit/ds/symlink/tps631000.pdf?ts=1652152702265,63de5ae4ae0b2d5aa05e2714,,,,,,,0.5,,,,Texas Instruments,TPS631000DRLR,595-TPS631000DRLR,https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS631000DRLR?qs=rSMjJ%252B1ewcRYwoN2deTeNA%3D%3D
 71,"Very low capacitance ESD protection diode, 2 data-line, SOT-23-6",USBLC6-2SC6,U2,USBLC6-2SC6,SOT-23-6,1,https://www.st.com/resource/en/datasheet/usblc6-2.pdf,5e82e0691287502a334a778c,,,C7519,,,,,,,,,,,
-72,"Crystal Clock Oscillator,",CXO_DIP8,Y1,19.2 MHz,Crystal_SMD_2016-4Pin_2.0x1.6mm,1,,,,,,,,,,,,,,,,
+72,"Crystal Clock Oscillator,",CXO_DIP8,Y1,19.2 MHz,Crystal_SMD_2520-4Pin_2.5x2.0mm,1,,,,,,,,,,,,,,,,
 73,"Four pin crystal, GND on pins 2 and 4, small symbol",Crystal_GND24_Small,Y2,8 MHz,Crystal_SMD_3225-4Pin_3.2x2.5mm,1,~,65481c4c462c6d9e72056ac8,,,,,,,,,,,,,,
 74,,Crystal-device-DATALOGGER01A-rescue-CCP2019V01A-rescue,Y3,ABS07-120-32.768KHZ-T,ABS07,1,,5c70984712875079b91f8b1b,,,,,,,,,,,,,,
