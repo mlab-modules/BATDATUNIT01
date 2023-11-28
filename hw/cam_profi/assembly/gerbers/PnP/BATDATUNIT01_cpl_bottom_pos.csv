@@ -53,11 +53,11 @@ Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
 "D6","BAS70-04","SOT-23",29.6860,55.2760,90.0000,bottom
 "D7","ORANGE","SMD_LED_RIGHT_KINGBRIGHT_1605",134.5860,52.7010,90.0000,bottom
 "D8","GREEN","SMD_LED_RIGHT_KINGBRIGHT_1605",134.5860,58.2260,90.0000,bottom
-"F1","Fuse","Drzak_2410",40.8860,9.1160,-90.0000,bottom
-"F2","Fuse","Drzak_2410",60.1860,9.0260,-90.0000,bottom
-"F3","Fuse","Drzak_2410",81.8860,9.0160,-90.0000,bottom
-"F4","Fuse","Drzak_2410",101.2860,9.1160,-90.0000,bottom
-"F5","Fuse","Drzak_2410",111.5860,9.0160,-90.0000,bottom
+"F1","Fuse","Fuseholder_Littelfuse_Nano2_154x",41.3396,9.1160,-90.0000,bottom
+"F2","Fuse","Fuseholder_Littelfuse_Nano2_154x",60.6944,9.0388,-90.0000,bottom
+"F3","Fuse","Fuseholder_Littelfuse_Nano2_154x",82.3098,9.0388,-90.0000,bottom
+"F4","Fuse","Fuseholder_Littelfuse_Nano2_154x",101.6138,9.1404,-90.0000,bottom
+"F5","Fuse","Fuseholder_Littelfuse_Nano2_154x",111.1896,9.0388,-90.0000,bottom
 "FID1","Fiducial","Fiducial_1mm_Mask2mm",29.2860,61.9260,180.0000,bottom
 "FID2","Fiducial","Fiducial_1mm_Mask2mm",49.2860,15.9260,180.0000,bottom
 "FID3","Fiducial","Fiducial_1mm_Mask2mm",101.4860,72.7260,180.0000,bottom

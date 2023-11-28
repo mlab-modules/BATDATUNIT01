@@ -18,7 +18,7 @@ Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
 17,"Light emitting diode, small symbol",LED_Small,D3D4D5D7D13D14,ORANGE,SMD_LED_RIGHT_KINGBRIGHT_1605,6,~,65481fdd462c6d9e72056b6a,,,,,,,,,,,,,,
 18,Light emitting diode,LED,D1,RED,SMD_LED_RIGHT_KINGBRIGHT_1605,1,http://www.kingbright.com/attachments/file/psearch/000/00/20160808bak/KPTR-3216SURCK(Ver.15A).pdf,65481f96462c6d9e72056b54,,,C598398,,,,,,,,,,,
 19,"Light emitting diode, small symbol",LED_Small,D15D16,RED,SMD_LED_RIGHT_KINGBRIGHT_1605,2,~,65481f96462c6d9e72056b54,,,,,,,,,,,,,,
-20,Fuse,Fuse,F1F2F3F4F5,Fuse,Drzak_2410,5,~,5c70984512875079b91f88d8,,,,,,,,,,,,,,
+20,Fuse,Fuse,F1F2F3F4F5,Fuse,Fuseholder_Littelfuse_Nano2_154x,5,https://cz.mouser.com/datasheet/2/240/media-3321028.pdf,5c70984512875079b91f88d8,,,,,,,,,,,,,,
 21,,MOLEX_46436-9327,J4,46436-9327,MOLEX_46436-9327,1,,65481d4a462c6d9e72056b06,,,,,,,,,,,,,,
 22,2x03 2.54 mm pitch header,HEADER_2x03,J3,HEADER_2x03,SMD_2x03,1,,x,,,,,,,,,,,,,,
 23,,SD_Card-FPS009-4200-0,J2,SD_Card-FPS009-4200-0,FPS009-4200-0,1,,5cdd24d5128750448edda353,,,,,,,,,,,,,,

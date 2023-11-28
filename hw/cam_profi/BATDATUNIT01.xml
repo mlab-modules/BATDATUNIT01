@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/BATDATUNIT01.kicad_sch</source>
-    <date>Tue Nov 28 14:52:28 2023</date>
+    <date>Tue Nov 28 15:44:32 2023</date>
     <tool>Eeschema 7.0.9-7.0.9~ubuntu23.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -2293,7 +2293,8 @@
     </comp>
     <comp ref="F1">
       <value>Fuse</value>
-      <footprint>Mlab_F:Drzak_2410</footprint>
+      <footprint>Fuse:Fuseholder_Littelfuse_Nano2_154x</footprint>
+      <datasheet>https://cz.mouser.com/datasheet/2/240/media-3321028.pdf</datasheet>
       <fields>
         <field name="UST_ID">5c70984512875079b91f88d8</field>
       </fields>
@@ -2308,7 +2309,8 @@
     </comp>
     <comp ref="F2">
       <value>Fuse</value>
-      <footprint>Mlab_F:Drzak_2410</footprint>
+      <footprint>Fuse:Fuseholder_Littelfuse_Nano2_154x</footprint>
+      <datasheet>https://cz.mouser.com/datasheet/2/240/media-3321028.pdf</datasheet>
       <fields>
         <field name="UST_ID">5c70984512875079b91f88d8</field>
       </fields>
@@ -2323,7 +2325,8 @@
     </comp>
     <comp ref="F3">
       <value>Fuse</value>
-      <footprint>Mlab_F:Drzak_2410</footprint>
+      <footprint>Fuse:Fuseholder_Littelfuse_Nano2_154x</footprint>
+      <datasheet>https://cz.mouser.com/datasheet/2/240/media-3321028.pdf</datasheet>
       <fields>
         <field name="UST_ID">5c70984512875079b91f88d8</field>
       </fields>
@@ -2338,7 +2341,8 @@
     </comp>
     <comp ref="F4">
       <value>Fuse</value>
-      <footprint>Mlab_F:Drzak_2410</footprint>
+      <footprint>Fuse:Fuseholder_Littelfuse_Nano2_154x</footprint>
+      <datasheet>https://cz.mouser.com/datasheet/2/240/media-3321028.pdf</datasheet>
       <fields>
         <field name="UST_ID">5c70984512875079b91f88d8</field>
       </fields>
@@ -2353,7 +2357,8 @@
     </comp>
     <comp ref="F5">
       <value>Fuse</value>
-      <footprint>Mlab_F:Drzak_2410</footprint>
+      <footprint>Fuse:Fuseholder_Littelfuse_Nano2_154x</footprint>
+      <datasheet>https://cz.mouser.com/datasheet/2/240/media-3321028.pdf</datasheet>
       <fields>
         <field name="UST_ID">5c70984512875079b91f88d8</field>
       </fields>
