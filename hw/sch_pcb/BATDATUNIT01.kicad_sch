@@ -12872,7 +12872,7 @@
     (property "Value" "19.2 MHz" (at 104.14 184.15 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm" (at 104.14 198.12 0)
+    (property "Footprint" "Crystal:Crystal_SMD_2520-4Pin_2.5x2.0mm" (at 104.14 198.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 90.17 189.23 0)
