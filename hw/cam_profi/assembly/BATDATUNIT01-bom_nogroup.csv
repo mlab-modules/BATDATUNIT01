@@ -12,7 +12,7 @@ Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
 11,"Unpolarized capacitor, small symbol",C_Small,C11C21C22C28C42C43C44C47,10u,C_0805_2012Metric,8,~,5c70984712875079b91f8b53,,,,,,,,,,,,,,
 12,"Unpolarized capacitor, small symbol",C_Small,C32C36C37C38,22u,C_0805_2012Metric,4,~,650b58f1462c6d9e7205463b,,,,,,,,,,,,,,
 13,"Unpolarized capacitor, small symbol",C_Small,C39C40C41,47u,C_0805_2012Metric,3,~,5c70984812875079b91f8bbf,,,,,,,,,,,,,,
-14,"Dual Schottky diode, anode/cathode/center",D_Schottky_Dual_Series_AKC,D6,BAS70-04,SOT-23,1,~,5c70984512875079b91f88b6,,,,,,,,,,,,,,
+14,"100V, 0.175A, High-speed Switching Diode, SOT-323",BAS16W,D6,BAS16W,SOT-323_SC-70,1,https://assets.nexperia.com/documents/data-sheet/BAS16_SER.pdf,5c70984512875079b91f88af,,,,,,,,,,,,,,
 15,"Light emitting diode, small symbol",LED_Small,D8D9D10D11D12,GREEN,SMD_LED_RIGHT_KINGBRIGHT_1605,5,~,65481f0c462c6d9e72056b3d,,,,,,,,,,,,,,
 16,Light emitting diode,LED,D2,GREEN,SMD_LED_RIGHT_KINGBRIGHT_1605,1,https://www.tme.eu/Document/283cf8402cc8d70fa16840405395cb5a/kptr-3216cgck.pdf,65481f0c462c6d9e72056b3d,,,C598394,,,,,,,,,,,
 17,"Light emitting diode, small symbol",LED_Small,D3D4D5D7D13D14,ORANGE,SMD_LED_RIGHT_KINGBRIGHT_1605,6,~,65481fdd462c6d9e72056b6a,,,,,,,,,,,,,,
