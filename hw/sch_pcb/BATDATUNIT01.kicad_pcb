@@ -6,9 +6,8 @@
 
   (paper "A4")
   (title_block
-    (title "BATDATUNIT01")
-    (date "11-2023")
-    (rev "01A")
+    (title "BATDATUNIT01B")
+    (date "2023-12-06")
     (company "MLAB.cz, roman-dvorak")
   )
 
