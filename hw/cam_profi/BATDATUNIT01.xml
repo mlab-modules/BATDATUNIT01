@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/BATDATUNIT01.kicad_sch</source>
-    <date>Wed Dec  6 22:07:27 2023</date>
+    <date>Wed Dec  6 22:32:57 2023</date>
     <tool>Eeschema 7.0.9-7.0.9~ubuntu23.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -1142,13 +1142,13 @@
       <tstamps>bbb48e04-450e-491f-977a-f7747cf83a3b</tstamps>
     </comp>
     <comp ref="R22">
-      <value>270R</value>
+      <value>180R</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
-        <field name="UST_ID">5c70984512875079b91f8983</field>
+        <field name="UST_ID">5c70984512875079b91f897c</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="UST_ID" value="5c70984512875079b91f8983"/>
+      <property name="UST_ID" value="5c70984512875079b91f897c"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BATDATUNIT01.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -2186,13 +2186,13 @@
       <tstamps>4d35a5a4-8e5a-4b0e-adc1-16ab727707de</tstamps>
     </comp>
     <comp ref="D9">
-      <value>GREEN</value>
+      <value>RED</value>
       <footprint>Mlab_D:SMD_LED_RIGHT_KINGBRIGHT_1605</footprint>
       <fields>
-        <field name="UST_ID">65481f0c462c6d9e72056b3d</field>
+        <field name="UST_ID">65481f96462c6d9e72056b54</field>
       </fields>
       <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
-      <property name="UST_ID" value="65481f0c462c6d9e72056b3d"/>
+      <property name="UST_ID" value="65481f96462c6d9e72056b54"/>
       <property name="Sheetname" value="liion"/>
       <property name="Sheetfile" value="liion.kicad_sch"/>
       <property name="ki_description" value="Light emitting diode, small symbol"/>
@@ -2201,13 +2201,13 @@
       <tstamps>56cc44b3-1a2e-4a7d-afe3-c2c5d5deca4a</tstamps>
     </comp>
     <comp ref="D10">
-      <value>GREEN</value>
+      <value>RED</value>
       <footprint>Mlab_D:SMD_LED_RIGHT_KINGBRIGHT_1605</footprint>
       <fields>
-        <field name="UST_ID">65481f0c462c6d9e72056b3d</field>
+        <field name="UST_ID">65481f96462c6d9e72056b54</field>
       </fields>
       <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
-      <property name="UST_ID" value="65481f0c462c6d9e72056b3d"/>
+      <property name="UST_ID" value="65481f96462c6d9e72056b54"/>
       <property name="Sheetname" value="liion"/>
       <property name="Sheetfile" value="liion.kicad_sch"/>
       <property name="ki_description" value="Light emitting diode, small symbol"/>
@@ -2216,13 +2216,13 @@
       <tstamps>8fcdf2f6-b2ad-4dc9-b528-2237a47514d2</tstamps>
     </comp>
     <comp ref="D11">
-      <value>GREEN</value>
+      <value>ORANGE</value>
       <footprint>Mlab_D:SMD_LED_RIGHT_KINGBRIGHT_1605</footprint>
       <fields>
-        <field name="UST_ID">65481f0c462c6d9e72056b3d</field>
+        <field name="UST_ID">65481fdd462c6d9e72056b6a</field>
       </fields>
       <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
-      <property name="UST_ID" value="65481f0c462c6d9e72056b3d"/>
+      <property name="UST_ID" value="65481fdd462c6d9e72056b6a"/>
       <property name="Sheetname" value="liion"/>
       <property name="Sheetfile" value="liion.kicad_sch"/>
       <property name="ki_description" value="Light emitting diode, small symbol"/>
@@ -2231,6 +2231,21 @@
       <tstamps>23794809-1c8c-4094-914f-32007e13fe1d</tstamps>
     </comp>
     <comp ref="D12">
+      <value>ORANGE</value>
+      <footprint>Mlab_D:SMD_LED_RIGHT_KINGBRIGHT_1605</footprint>
+      <fields>
+        <field name="UST_ID">65481fdd462c6d9e72056b6a</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <property name="UST_ID" value="65481fdd462c6d9e72056b6a"/>
+      <property name="Sheetname" value="liion"/>
+      <property name="Sheetfile" value="liion.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode, small symbol"/>
+      <property name="ki_keywords" value="LED diode light-emitting-diode"/>
+      <sheetpath names="/liion/" tstamps="/ac32fb25-724e-41e3-8a81-e04630a0599b/"/>
+      <tstamps>c5e518bd-219a-497c-97dc-b661f2027dde</tstamps>
+    </comp>
+    <comp ref="D13">
       <value>GREEN</value>
       <footprint>Mlab_D:SMD_LED_RIGHT_KINGBRIGHT_1605</footprint>
       <fields>
@@ -2243,31 +2258,16 @@
       <property name="ki_description" value="Light emitting diode, small symbol"/>
       <property name="ki_keywords" value="LED diode light-emitting-diode"/>
       <sheetpath names="/liion/" tstamps="/ac32fb25-724e-41e3-8a81-e04630a0599b/"/>
-      <tstamps>c5e518bd-219a-497c-97dc-b661f2027dde</tstamps>
-    </comp>
-    <comp ref="D13">
-      <value>ORANGE</value>
-      <footprint>Mlab_D:SMD_LED_RIGHT_KINGBRIGHT_1605</footprint>
-      <fields>
-        <field name="UST_ID">65481fdd462c6d9e72056b6a</field>
-      </fields>
-      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
-      <property name="UST_ID" value="65481fdd462c6d9e72056b6a"/>
-      <property name="Sheetname" value="liion"/>
-      <property name="Sheetfile" value="liion.kicad_sch"/>
-      <property name="ki_description" value="Light emitting diode, small symbol"/>
-      <property name="ki_keywords" value="LED diode light-emitting-diode"/>
-      <sheetpath names="/liion/" tstamps="/ac32fb25-724e-41e3-8a81-e04630a0599b/"/>
       <tstamps>44eb7ccb-ef6b-490b-b340-8d0205a6dc24</tstamps>
     </comp>
     <comp ref="D14">
-      <value>ORANGE</value>
+      <value>GREEN</value>
       <footprint>Mlab_D:SMD_LED_RIGHT_KINGBRIGHT_1605</footprint>
       <fields>
-        <field name="UST_ID">65481fdd462c6d9e72056b6a</field>
+        <field name="UST_ID">65481f0c462c6d9e72056b3d</field>
       </fields>
       <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
-      <property name="UST_ID" value="65481fdd462c6d9e72056b6a"/>
+      <property name="UST_ID" value="65481f0c462c6d9e72056b3d"/>
       <property name="Sheetname" value="liion"/>
       <property name="Sheetfile" value="liion.kicad_sch"/>
       <property name="ki_description" value="Light emitting diode, small symbol"/>
@@ -2276,13 +2276,13 @@
       <tstamps>87507442-190a-45b3-87c3-c8d120d71707</tstamps>
     </comp>
     <comp ref="D15">
-      <value>RED</value>
+      <value>GREEN</value>
       <footprint>Mlab_D:SMD_LED_RIGHT_KINGBRIGHT_1605</footprint>
       <fields>
-        <field name="UST_ID">65481f96462c6d9e72056b54</field>
+        <field name="UST_ID">65481f0c462c6d9e72056b3d</field>
       </fields>
       <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
-      <property name="UST_ID" value="65481f96462c6d9e72056b54"/>
+      <property name="UST_ID" value="65481f0c462c6d9e72056b3d"/>
       <property name="Sheetname" value="liion"/>
       <property name="Sheetfile" value="liion.kicad_sch"/>
       <property name="ki_description" value="Light emitting diode, small symbol"/>
@@ -2291,13 +2291,13 @@
       <tstamps>caf13728-2ddd-4e0b-8239-f16aba511640</tstamps>
     </comp>
     <comp ref="D16">
-      <value>RED</value>
+      <value>GREEN</value>
       <footprint>Mlab_D:SMD_LED_RIGHT_KINGBRIGHT_1605</footprint>
       <fields>
-        <field name="UST_ID">65481f96462c6d9e72056b54</field>
+        <field name="UST_ID">65481f0c462c6d9e72056b3d</field>
       </fields>
       <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
-      <property name="UST_ID" value="65481f96462c6d9e72056b54"/>
+      <property name="UST_ID" value="65481f0c462c6d9e72056b3d"/>
       <property name="Sheetname" value="liion"/>
       <property name="Sheetfile" value="liion.kicad_sch"/>
       <property name="ki_description" value="Light emitting diode, small symbol"/>
@@ -2800,13 +2800,13 @@
       <tstamps>83b32e6f-c899-4830-a984-fda17b57a0c2</tstamps>
     </comp>
     <comp ref="R66">
-      <value>270R</value>
+      <value>180R</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
-        <field name="UST_ID">5c70984512875079b91f8983</field>
+        <field name="UST_ID">5c70984512875079b91f897c</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="UST_ID" value="5c70984512875079b91f8983"/>
+      <property name="UST_ID" value="5c70984512875079b91f897c"/>
       <property name="Sheetname" value="liion"/>
       <property name="Sheetfile" value="liion.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -2815,13 +2815,13 @@
       <tstamps>00e4eb29-3028-4f24-bb53-58246bdd7f5d</tstamps>
     </comp>
     <comp ref="R67">
-      <value>270R</value>
+      <value>180R</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
-        <field name="UST_ID">5c70984512875079b91f8983</field>
+        <field name="UST_ID">5c70984512875079b91f897c</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="UST_ID" value="5c70984512875079b91f8983"/>
+      <property name="UST_ID" value="5c70984512875079b91f897c"/>
       <property name="Sheetname" value="liion"/>
       <property name="Sheetfile" value="liion.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -2830,13 +2830,13 @@
       <tstamps>0be3baca-7d0f-4085-967c-5fd3c910ab69</tstamps>
     </comp>
     <comp ref="R68">
-      <value>270R</value>
+      <value>180R</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
-        <field name="UST_ID">5c70984512875079b91f8983</field>
+        <field name="UST_ID">5c70984512875079b91f897c</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="UST_ID" value="5c70984512875079b91f8983"/>
+      <property name="UST_ID" value="5c70984512875079b91f897c"/>
       <property name="Sheetname" value="liion"/>
       <property name="Sheetfile" value="liion.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -2845,13 +2845,13 @@
       <tstamps>f5fd3f61-b136-49c0-a8f6-272e29f08caa</tstamps>
     </comp>
     <comp ref="R69">
-      <value>270R</value>
+      <value>180R</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
-        <field name="UST_ID">5c70984512875079b91f8983</field>
+        <field name="UST_ID">5c70984512875079b91f897c</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="UST_ID" value="5c70984512875079b91f8983"/>
+      <property name="UST_ID" value="5c70984512875079b91f897c"/>
       <property name="Sheetname" value="liion"/>
       <property name="Sheetfile" value="liion.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
