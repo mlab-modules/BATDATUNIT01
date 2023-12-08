@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/BATDATUNIT01.kicad_sch</source>
-    <date>Wed Dec  6 23:02:18 2023</date>
+    <date>Fri Dec  8 12:08:35 2023</date>
     <tool>Eeschema 7.0.9-7.0.9~ubuntu23.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -423,14 +423,12 @@
     <comp ref="D1">
       <value>RED</value>
       <footprint>Mlab_D:SMD_LED_RIGHT_KINGBRIGHT_1605</footprint>
-      <datasheet>http://www.kingbright.com/attachments/file/psearch/000/00/20160808bak/KPTR-3216SURCK(Ver.15A).pdf</datasheet>
+      <datasheet>https://cz.mouser.com/datasheet/2/216/APA1606SURCK-63848.pdf</datasheet>
       <fields>
-        <field name="LCSC">C598398</field>
         <field name="UST_ID">65481f96462c6d9e72056b54</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="UST_ID" value="65481f96462c6d9e72056b54"/>
-      <property name="LCSC" value="C598398"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BATDATUNIT01.kicad_sch"/>
       <property name="ki_description" value="Light emitting diode"/>
@@ -441,14 +439,12 @@
     <comp ref="D2">
       <value>GREEN</value>
       <footprint>Mlab_D:SMD_LED_RIGHT_KINGBRIGHT_1605</footprint>
-      <datasheet>https://www.tme.eu/Document/283cf8402cc8d70fa16840405395cb5a/kptr-3216cgck.pdf</datasheet>
+      <datasheet>https://cz.mouser.com/datasheet/2/216/APA1606SGC-76546.pdf</datasheet>
       <fields>
-        <field name="LCSC">C598394</field>
         <field name="UST_ID">65481f0c462c6d9e72056b3d</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="UST_ID" value="65481f0c462c6d9e72056b3d"/>
-      <property name="LCSC" value="C598394"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BATDATUNIT01.kicad_sch"/>
       <property name="ki_description" value="Light emitting diode"/>
@@ -1142,7 +1138,7 @@
       <tstamps>bbb48e04-450e-491f-977a-f7747cf83a3b</tstamps>
     </comp>
     <comp ref="R22">
-      <value>180R</value>
+      <value>68R</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
         <field name="UST_ID">5c70984512875079b91f897c</field>
