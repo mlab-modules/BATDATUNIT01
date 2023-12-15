@@ -2,17 +2,17 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/BATDATUNIT01.kicad_sch</source>
-    <date>Sun Dec 10 23:22:57 2023</date>
+    <date>Fri Dec 15 15:33:45 2023</date>
     <tool>Eeschema 7.0.9-7.0.9~ubuntu23.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>BATDATUNTI01</title>
         <company>MLAB.cz, roman-dvorak</company>
-        <rev>01A</rev>
+        <rev>B</rev>
         <date>11-2023</date>
         <source>BATDATUNIT01.kicad_sch</source>
         <comment number="1" value=""/>
-        <comment number="2" value="Universial battery and data storage unit."/>
+        <comment number="2" value="Universal battery and data storage unit."/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
         <comment number="5" value=""/>
@@ -25,12 +25,12 @@
     <sheet number="2" name="/liion/" tstamps="/ac32fb25-724e-41e3-8a81-e04630a0599b/">
       <title_block>
         <title>BATDATUNTI01</title>
-        <company>MLAB.cz</company>
-        <rev>01A</rev>
+        <company>MLAB.cz, roman-dvorak</company>
+        <rev>B</rev>
         <date/>
         <source>liion.kicad_sch</source>
         <comment number="1" value=""/>
-        <comment number="2" value="Universial battery and data storage unit."/>
+        <comment number="2" value="Universal battery and data storage unit."/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
         <comment number="5" value=""/>
@@ -43,12 +43,12 @@
     <sheet number="3" name="/sw_source/" tstamps="/c1fc2aff-2b12-4e41-a798-c0c7c2bf1b4c/">
       <title_block>
         <title>BATDATUNTI01</title>
-        <company>MLAB.cz</company>
-        <rev>01A</rev>
+        <company>MLAB.cz, roman-dvorak</company>
+        <rev>B</rev>
         <date/>
         <source>sw_source.kicad_sch</source>
         <comment number="1" value=""/>
-        <comment number="2" value="Universial battery and data storage unit."/>
+        <comment number="2" value="Universal battery and data storage unit."/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
         <comment number="5" value=""/>
@@ -1032,10 +1032,13 @@
       <tstamps>ce6774ff-ff39-4785-87fe-fa4eef792b49</tstamps>
     </comp>
     <comp ref="R14">
-      <value>27k</value>
+      <value>25k5</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984712875079b91f8a88</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="UST_ID" value=""/>
+      <property name="UST_ID" value="5c70984712875079b91f8a88"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BATDATUNIT01.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -2677,7 +2680,7 @@
       <tstamps>28a91a76-20b0-4643-b0b9-9edb8ec63376</tstamps>
     </comp>
     <comp ref="R56">
-      <value>2k49</value>
+      <value>2k4</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
         <field name="UST_ID">5c70984612875079b91f8991</field>
@@ -2692,7 +2695,7 @@
       <tstamps>8550312d-61fc-4d00-8f8c-b921edb8d8f9</tstamps>
     </comp>
     <comp ref="R57">
-      <value>5k3</value>
+      <value>5k1</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
         <field name="UST_ID">5fa0fc3e12875025b3977997</field>
@@ -2707,7 +2710,7 @@
       <tstamps>3fa5fa68-259d-46b3-9177-26d255191d3e</tstamps>
     </comp>
     <comp ref="R58">
-      <value>31k1</value>
+      <value>33k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
         <field name="UST_ID">5c70984712875079b91f8a8a</field>
