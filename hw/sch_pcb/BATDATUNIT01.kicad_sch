@@ -7,9 +7,9 @@
   (title_block
     (title "BATDATUNTI01")
     (date "11-2023")
-    (rev "01A")
+    (rev "B")
     (company "MLAB.cz, roman-dvorak")
-    (comment 2 "Universial battery and data storage unit.")
+    (comment 2 "Universal battery and data storage unit.")
   )
 
   (lib_symbols
@@ -5885,18 +5885,18 @@
     (uuid fe18f1d8-d65d-4060-ab71-a6d283a313f8)
   )
 
-  (text_box "I2C adresy\n=======\n\n0x44: HYGROMETER\n0x76: ALTIMET\n0x70: I2C switch\n0x6B: Charger\n0x55: Gauge\n0x50: EEPROM \n0x58: EEPROM SN\n0x51: RTC\n0x71: SDreader"
-    (at 199.39 -27.94 0) (size 21.59 29.21)
+  (text_box "I2C addresses\n=============\n\n0x44: HYGROMETER\n0x76: ALTIMET\n0x70: I2C switch\n0x6B: Charger\n0x55: Gauge\n0x50: EEPROM \n0x58: EEPROM SN\n0x51: RTC\n0x71: SDreader"
+    (at 287.02 64.77 0) (size 26.67 26.67)
     (stroke (width 0) (type default))
     (fill (type none))
     (effects (font (size 1.27 1.27)) (justify left top))
     (uuid 02e9b8a2-6754-40cb-bd5a-7221b42c8202)
   )
   (text_box "Je zde I2C master switch. Tím by mělo jít zajistit, aby komponenty byly \"programovatelné\" přímo přes USB pomocí FT260Q, který funguje jako USB-UART a zároveň USB-I2C bridge. Díky tomu by to mělo usnadnit konfiguraci. "
-    (at 223.52 -27.94 0) (size 77.47 20.32)
-    (stroke (width 0) (type default))
+    (at 123.19 222.25 0) (size 43.18 8.255)
+    (stroke (width -0.0001) (type default))
     (fill (type none))
-    (effects (font (size 1.27 1.27)) (justify left top))
+    (effects (font (size 0.635 0.635)) (justify left top))
     (uuid 43acbdb2-8420-42e2-81fc-8f67d390e1fe)
   )
 
@@ -5933,7 +5933,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 44de6fd7-1025-4a68-9bbc-fe0b050dc310)
   )
-  (text "Active: 12.5 μA\nStandby: 0.14 μA" (at 293.37 63.5 0)
+  (text "Active: 12.5 μA\nStandby: 0.14 μA" (at 280.67 39.37 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 4e7828bb-a561-4a6e-a686-efbf6f4f4ae2)
   )
@@ -6002,7 +6002,7 @@
     (effects (font (size 1.24 1.24)) (justify left bottom))
     (uuid c98612ee-5519-43b0-9fde-0116b30b7666)
   )
-  (text "I2C: 0x76" (at 299.72 38.1 0)
+  (text "I2C: 0x76" (at 304.8 40.005 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid cb6eb112-7b50-4b9e-b191-4e19783e8e0e)
   )
@@ -6829,7 +6829,7 @@
     (property "Reference" "R14" (at 111.76 128.27 0)
       (effects (font (size 1 1)) (justify left))
     )
-    (property "Value" "27k" (at 111.76 130.81 0)
+    (property "Value" "25k5" (at 111.76 130.81 0)
       (effects (font (size 1 1)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 109.22 129.54 0)
@@ -6838,7 +6838,7 @@
     (property "Datasheet" "~" (at 109.22 129.54 0)
       (effects (font (size 1 1)) hide)
     )
-    (property "UST_ID" "" (at 109.22 129.54 0)
+    (property "UST_ID" "5c70984712875079b91f8a88" (at 109.22 129.54 0)
       (effects (font (size 1 1)) hide)
     )
     (pin "1" (uuid 310e4025-2f71-464f-bad5-52ce104d6cba))
