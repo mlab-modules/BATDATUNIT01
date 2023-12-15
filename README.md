@@ -27,7 +27,7 @@ A durable connector brings together data and detection elements with impressive 
 
 The BATDATUNIT01 is designed for versatility:
 
-- As a **power module for semiconductor particle detectors** like the [AIRDOS04](https://github.com/mlab-modules/AIRDOS04), it ensures uninterrupted data acquisition in environmental monitoring.
+- As a **power module for semiconductor particle detectors** like the [AIRDOS04](https://github.com/UniversalScientificTechnologies/AIRDOS04), it ensures uninterrupted data acquisition in environmental monitoring.
 - It can be integrated into **remote sensing stations**, where it provides consistent power and data logging capabilities for long-term ecological studies.
 - In **automated weather stations**, the module's resilience and sensor suite offer valuable insights into meteorological conditions.
 - The module can be deployed in **mobile robotics** for energy supply and environmental data collection, aiding navigation and decision-making processes.
