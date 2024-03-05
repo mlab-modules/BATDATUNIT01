@@ -2686,9 +2686,6 @@
         )
       )
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "#PWR015") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
           (reference "#PWR0112") (unit 1)
         )
@@ -2865,7 +2862,7 @@
   (symbol (lib_id "Device:Q_PNP_BEC") (at 44.45 77.47 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0e43a2f6-02ba-4e62-a4a3-2026dfbe1a0b)
-    (property "Reference" "Q4" (at 49.53 78.74 0)
+    (property "Reference" "Q5" (at 49.53 78.74 0)
       (effects (font (size 1 1)) (justify left))
     )
     (property "Value" "BC807-25" (at 49.53 76.2 0)
@@ -2894,9 +2891,6 @@
     (pin "3" (uuid 78958db4-94a4-40da-a078-9d17df49539b))
     (instances
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "Q4") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
           (reference "Q5") (unit 1)
         )
@@ -3049,9 +3043,6 @@
         )
       )
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "#PWR015") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
           (reference "#PWR0110") (unit 1)
         )
@@ -3214,7 +3205,7 @@
   (symbol (lib_id "Device:R_Small") (at 67.31 173.99 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 28a91a76-20b0-4643-b0b9-9edb8ec63376)
-    (property "Reference" "R1" (at 69.85 173.99 90)
+    (property "Reference" "R55" (at 69.85 173.99 90)
       (effects (font (size 1 1)))
     )
     (property "Value" "1k" (at 72.39 173.99 90)
@@ -3233,9 +3224,6 @@
     (pin "2" (uuid 4fbbb01b-924d-4363-9a5a-a40af356f726))
     (instances
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "R1") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
           (reference "R55") (unit 1)
         )
@@ -3246,7 +3234,7 @@
   (symbol (lib_id "Device:R_Small") (at 35.56 77.47 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 294c2807-d942-4891-88fe-2fee4006fa5f)
-    (property "Reference" "R1" (at 35.56 80.01 90)
+    (property "Reference" "R49" (at 35.56 80.01 90)
       (effects (font (size 1 1)))
     )
     (property "Value" "1k" (at 35.56 82.55 90)
@@ -3265,9 +3253,6 @@
     (pin "2" (uuid 84deff23-b7e0-4396-96ff-4f91ff83ece3))
     (instances
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "R1") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
           (reference "R49") (unit 1)
         )
@@ -3278,7 +3263,7 @@
   (symbol (lib_id "power:GND") (at 46.99 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 29778485-a515-445c-b217-fad772ca5897)
-    (property "Reference" "#PWR028" (at 46.99 60.96 0)
+    (property "Reference" "#PWR0109" (at 46.99 60.96 0)
       (effects (font (size 1 1)) hide)
     )
     (property "Value" "GND" (at 44.45 57.15 0)
@@ -3293,9 +3278,6 @@
     (pin "1" (uuid c2ba0cad-eee7-432b-a959-71574392416d))
     (instances
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "#PWR028") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
           (reference "#PWR0109") (unit 1)
         )
@@ -3424,7 +3406,7 @@
   (symbol (lib_id "power:VBUS") (at 115.57 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3c1c0a58-adb4-4cf6-b6cd-f630b40a4850)
-    (property "Reference" "#PWR013" (at 115.57 36.83 0)
+    (property "Reference" "#PWR0116" (at 115.57 36.83 0)
       (effects (font (size 1 1)) hide)
     )
     (property "Value" "VBUS" (at 111.76 33.02 0)
@@ -3439,9 +3421,6 @@
     (pin "1" (uuid b9266a59-12e1-4069-bb97-9b6b8dbbd3d2))
     (instances
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "#PWR013") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
           (reference "#PWR0116") (unit 1)
         )
@@ -3520,7 +3499,7 @@
   (symbol (lib_id "power:GND") (at 46.99 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3fd25a63-db4b-4f61-995f-08a6e81050a4)
-    (property "Reference" "#PWR028" (at 46.99 102.87 0)
+    (property "Reference" "#PWR0111" (at 46.99 102.87 0)
       (effects (font (size 1 1)) hide)
     )
     (property "Value" "GND" (at 44.45 99.06 0)
@@ -3535,9 +3514,6 @@
     (pin "1" (uuid 5dd8b35e-7455-4616-8ab5-47e186f0c3a7))
     (instances
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "#PWR028") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
           (reference "#PWR0111") (unit 1)
         )
@@ -3573,9 +3549,6 @@
         )
       )
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "#PWR015") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
           (reference "#PWR0108") (unit 1)
         )
@@ -3723,7 +3696,7 @@
   (symbol (lib_id "Device:R_Small") (at 35.56 35.56 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4bd4d56e-1204-40f5-9e40-c56545f3d459)
-    (property "Reference" "R1" (at 35.56 38.1 90)
+    (property "Reference" "R48" (at 35.56 38.1 90)
       (effects (font (size 1 1)))
     )
     (property "Value" "1k" (at 35.56 40.64 90)
@@ -3742,9 +3715,6 @@
     (pin "2" (uuid c474c153-fd20-414a-862c-9d95a0396e3f))
     (instances
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "R1") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
           (reference "R48") (unit 1)
         )
@@ -3959,7 +3929,7 @@
   (symbol (lib_id "Jumper:SolderJumper_3_Bridged12") (at 152.4 175.26 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5f32c299-5a31-41f8-88fe-79e4ccdfefbc)
-    (property "Reference" "JP1" (at 154.94 175.26 0)
+    (property "Reference" "JP5" (at 154.94 175.26 0)
       (effects (font (size 1 1)))
     )
     (property "Value" "Jumper_3_Bridged12" (at 156.21 175.26 0)
@@ -3979,9 +3949,6 @@
     (pin "3" (uuid 87cd57e5-9e84-4856-9153-078714031c7c))
     (instances
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "JP1") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
           (reference "JP5") (unit 1)
         )
@@ -4026,7 +3993,7 @@
   (symbol (lib_id "Device:R_Small") (at 55.88 157.48 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 638b7892-d82f-49fd-82da-534ea662a1b7)
-    (property "Reference" "R1" (at 55.88 160.02 90)
+    (property "Reference" "R53" (at 55.88 160.02 90)
       (effects (font (size 1 1)))
     )
     (property "Value" "510R" (at 55.88 162.56 90)
@@ -4045,9 +4012,6 @@
     (pin "2" (uuid 057e4005-4afb-44b0-8bcf-b7e19fa0602e))
     (instances
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "R1") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
           (reference "R53") (unit 1)
         )
@@ -4112,9 +4076,6 @@
         )
       )
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "#PWR015") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
           (reference "#PWR0127") (unit 1)
         )
@@ -4248,7 +4209,7 @@
   (symbol (lib_id "Device:R_Small") (at 50.8 152.4 180) (unit 1)
     (in_bom no) (on_board yes) (dnp yes)
     (uuid 75b0e671-534b-475b-a89c-7afd64df6c26)
-    (property "Reference" "R1" (at 53.34 152.4 90)
+    (property "Reference" "R52" (at 53.34 152.4 90)
       (effects (font (size 1 1)))
     )
     (property "Value" "R" (at 55.88 152.4 90)
@@ -4267,9 +4228,6 @@
     (pin "2" (uuid 6d67c0e5-396a-45f5-8294-a99350cbad97))
     (instances
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "R1") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
           (reference "R52") (unit 1)
         )
@@ -4690,7 +4648,7 @@
   (symbol (lib_id "power:GND") (at 67.31 177.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 957d3285-ab1b-40e3-873b-db317874388d)
-    (property "Reference" "#PWR028" (at 67.31 184.15 0)
+    (property "Reference" "#PWR0114" (at 67.31 184.15 0)
       (effects (font (size 1 1)) hide)
     )
     (property "Value" "GND" (at 71.12 179.07 0)
@@ -4705,9 +4663,6 @@
     (pin "1" (uuid 6af007d2-3e55-43b5-810b-81c07248fca7))
     (instances
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "#PWR028") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
           (reference "#PWR0114") (unit 1)
         )
@@ -5166,9 +5121,6 @@
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
           (reference "L1") (unit 1)
         )
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/c1fc2aff-2b12-4e41-a798-c0c7c2bf1b4c"
-          (reference "L5") (unit 1)
-        )
       )
     )
   )
@@ -5530,9 +5482,6 @@
         )
       )
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "#PWR015") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
           (reference "#PWR0139") (unit 1)
         )
@@ -5652,7 +5601,7 @@
   (symbol (lib_id "Device:R_Small") (at 67.31 166.37 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e1cd4d78-c23b-47e5-a531-d667d6935d7b)
-    (property "Reference" "R1" (at 69.85 166.37 90)
+    (property "Reference" "R54" (at 69.85 166.37 90)
       (effects (font (size 1 1)))
     )
     (property "Value" "270R" (at 72.39 166.37 90)
@@ -5671,9 +5620,6 @@
     (pin "2" (uuid 5a2523f7-87bf-40a4-86f6-83ee3903b312))
     (instances
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "R1") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
           (reference "R54") (unit 1)
         )
@@ -5684,7 +5630,7 @@
   (symbol (lib_id "Device:Q_PNP_BEC") (at 44.45 35.56 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e7fd9b92-8a96-41f6-ac9c-765ce55abca0)
-    (property "Reference" "Q4" (at 49.53 36.83 0)
+    (property "Reference" "Q6" (at 49.53 36.83 0)
       (effects (font (size 1 1)) (justify left))
     )
     (property "Value" "BC807-25" (at 49.53 34.29 0)
@@ -5713,9 +5659,6 @@
     (pin "3" (uuid 8fbcaf1a-0fe3-49a6-9af0-c4d76fe8b394))
     (instances
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "Q4") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
           (reference "Q6") (unit 1)
         )
@@ -5775,9 +5718,6 @@
         )
       )
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "#PWR015") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
           (reference "#PWR0113") (unit 1)
         )
@@ -5842,9 +5782,6 @@
         )
       )
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "#PWR015") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
           (reference "#PWR0134") (unit 1)
         )

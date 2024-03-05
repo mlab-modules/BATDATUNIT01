@@ -1229,9 +1229,6 @@
         )
       )
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "#PWR020") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/c1fc2aff-2b12-4e41-a798-c0c7c2bf1b4c"
           (reference "#PWR0141") (unit 1)
         )
@@ -1262,9 +1259,6 @@
         )
       )
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "#PWR0124") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/c1fc2aff-2b12-4e41-a798-c0c7c2bf1b4c"
           (reference "#PWR0162") (unit 1)
         )
@@ -1299,9 +1293,6 @@
         )
       )
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "C26") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/c1fc2aff-2b12-4e41-a798-c0c7c2bf1b4c"
           (reference "C45") (unit 1)
         )
@@ -1341,9 +1332,6 @@
         )
       )
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "C46") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/c1fc2aff-2b12-4e41-a798-c0c7c2bf1b4c"
           (reference "C42") (unit 1)
         )
@@ -1354,7 +1342,7 @@
   (symbol (lib_id "power:+VSW") (at 100.33 147.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1b88eb98-7b44-4761-9016-af7e498406b4)
-    (property "Reference" "#PWR0108" (at 100.33 151.13 0)
+    (property "Reference" "#PWR0153" (at 100.33 151.13 0)
       (effects (font (size 1 1)) hide)
     )
     (property "Value" "+VSW" (at 100.33 143.51 0)
@@ -1369,9 +1357,6 @@
     (pin "1" (uuid 0345cedc-33fc-459d-a90e-5e7aabcf83a9))
     (instances
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "#PWR0108") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/c1fc2aff-2b12-4e41-a798-c0c7c2bf1b4c"
           (reference "#PWR0153") (unit 1)
         )
@@ -1444,9 +1429,6 @@
         )
       )
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "L6") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/c1fc2aff-2b12-4e41-a798-c0c7c2bf1b4c"
           (reference "L2") (unit 1)
         )
@@ -1484,9 +1466,6 @@
         )
       )
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "R51") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/c1fc2aff-2b12-4e41-a798-c0c7c2bf1b4c"
           (reference "R71") (unit 1)
         )
@@ -1497,7 +1476,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 146.05 31.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3308f987-2629-41cc-b085-61bbf9bf5135)
-    (property "Reference" "#FLG01" (at 146.05 29.845 0)
+    (property "Reference" "#FLG05" (at 146.05 29.845 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 146.05 27.6169 0)
@@ -1512,9 +1491,6 @@
     (pin "1" (uuid 46f255ee-7eff-4f0d-96da-7334852fad5d))
     (instances
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "#FLG01") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/c1fc2aff-2b12-4e41-a798-c0c7c2bf1b4c"
           (reference "#FLG05") (unit 1)
         )
@@ -1549,9 +1525,6 @@
         )
       )
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "JP4") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/c1fc2aff-2b12-4e41-a798-c0c7c2bf1b4c"
           (reference "JP6") (unit 1)
         )
@@ -1610,9 +1583,6 @@
         )
       )
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "U13") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/c1fc2aff-2b12-4e41-a798-c0c7c2bf1b4c"
           (reference "U15") (unit 1)
         )
@@ -1643,9 +1613,6 @@
         )
       )
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "#PWR031") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/c1fc2aff-2b12-4e41-a798-c0c7c2bf1b4c"
           (reference "#PWR0161") (unit 1)
         )
@@ -1676,9 +1643,6 @@
         )
       )
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "#PWR032") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/c1fc2aff-2b12-4e41-a798-c0c7c2bf1b4c"
           (reference "#PWR0163") (unit 1)
         )
@@ -1689,7 +1653,7 @@
   (symbol (lib_id "power:+VSW") (at 88.9 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 43d58b33-3cc5-4dcb-8860-db803f732aa0)
-    (property "Reference" "#PWR024" (at 88.9 88.9 0)
+    (property "Reference" "#PWR0145" (at 88.9 88.9 0)
       (effects (font (size 1 1)) hide)
     )
     (property "Value" "+VSW" (at 88.9 81.28 0)
@@ -1704,9 +1668,6 @@
     (pin "1" (uuid 102e9cdb-ed84-4c4d-9f66-df8e5da63d89))
     (instances
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "#PWR024") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/c1fc2aff-2b12-4e41-a798-c0c7c2bf1b4c"
           (reference "#PWR0145") (unit 1)
         )
@@ -1744,9 +1705,6 @@
         )
       )
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "R7") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/c1fc2aff-2b12-4e41-a798-c0c7c2bf1b4c"
           (reference "R74") (unit 1)
         )
@@ -1781,9 +1739,6 @@
         )
       )
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "C4") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/c1fc2aff-2b12-4e41-a798-c0c7c2bf1b4c"
           (reference "C38") (unit 1)
         )
@@ -1794,7 +1749,7 @@
   (symbol (lib_id "power:+VSW") (at 100.33 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 52ddb251-66dc-49f6-9b19-98c412b004b5)
-    (property "Reference" "#PWR027" (at 100.33 93.98 0)
+    (property "Reference" "#PWR0151" (at 100.33 93.98 0)
       (effects (font (size 1 1)) hide)
     )
     (property "Value" "+VSW" (at 100.33 86.36 0)
@@ -1809,9 +1764,6 @@
     (pin "1" (uuid da0d7f0e-1218-48bf-8bd0-9c980cb9bd63))
     (instances
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "#PWR027") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/c1fc2aff-2b12-4e41-a798-c0c7c2bf1b4c"
           (reference "#PWR0151") (unit 1)
         )
@@ -1842,9 +1794,6 @@
         )
       )
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "#PWR059") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/c1fc2aff-2b12-4e41-a798-c0c7c2bf1b4c"
           (reference "#PWR0170") (unit 1)
         )
@@ -1880,9 +1829,6 @@
         )
       )
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "#PWR0120") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/c1fc2aff-2b12-4e41-a798-c0c7c2bf1b4c"
           (reference "#PWR0150") (unit 1)
         )
@@ -1917,9 +1863,6 @@
         )
       )
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "R53") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/c1fc2aff-2b12-4e41-a798-c0c7c2bf1b4c"
           (reference "R75") (unit 1)
         )
@@ -1954,9 +1897,6 @@
         )
       )
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "JP2") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/c1fc2aff-2b12-4e41-a798-c0c7c2bf1b4c"
           (reference "JP10") (unit 1)
         )
@@ -1987,9 +1927,6 @@
         )
       )
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "#PWR023") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/c1fc2aff-2b12-4e41-a798-c0c7c2bf1b4c"
           (reference "#PWR0154") (unit 1)
         )
@@ -2000,7 +1937,7 @@
   (symbol (lib_id "power:+VSW") (at 125.73 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 759c9106-c3cb-4702-b222-8f7752824c58)
-    (property "Reference" "#PWR024" (at 125.73 71.12 0)
+    (property "Reference" "#PWR0158" (at 125.73 71.12 0)
       (effects (font (size 1 1)) hide)
     )
     (property "Value" "+VSW" (at 125.73 63.5 0)
@@ -2015,9 +1952,6 @@
     (pin "1" (uuid 75632f22-07ed-4301-b342-bc5831751ae7))
     (instances
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "#PWR024") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/c1fc2aff-2b12-4e41-a798-c0c7c2bf1b4c"
           (reference "#PWR0158") (unit 1)
         )
@@ -2052,9 +1986,6 @@
         )
       )
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "R11") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/c1fc2aff-2b12-4e41-a798-c0c7c2bf1b4c"
           (reference "R78") (unit 1)
         )
@@ -2089,9 +2020,6 @@
         )
       )
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "C7") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/c1fc2aff-2b12-4e41-a798-c0c7c2bf1b4c"
           (reference "C43") (unit 1)
         )
@@ -2126,9 +2054,6 @@
         )
       )
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "C8") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/c1fc2aff-2b12-4e41-a798-c0c7c2bf1b4c"
           (reference "C44") (unit 1)
         )
@@ -2166,9 +2091,6 @@
         )
       )
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "R7") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/c1fc2aff-2b12-4e41-a798-c0c7c2bf1b4c"
           (reference "R73") (unit 1)
         )
@@ -2199,9 +2121,6 @@
         )
       )
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "#PWR025") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/c1fc2aff-2b12-4e41-a798-c0c7c2bf1b4c"
           (reference "#PWR0142") (unit 1)
         )
@@ -2212,7 +2131,7 @@
   (symbol (lib_id "power:+VSW") (at 88.9 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 88eac9c0-fda1-4c3a-bb10-17add84e2458)
-    (property "Reference" "#PWR026" (at 88.9 101.6 0)
+    (property "Reference" "#PWR0146" (at 88.9 101.6 0)
       (effects (font (size 1 1)) hide)
     )
     (property "Value" "+VSW" (at 88.9 93.98 0)
@@ -2227,9 +2146,6 @@
     (pin "1" (uuid 53c3d8db-1f2a-4835-8345-9536bb0bf606))
     (instances
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "#PWR026") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/c1fc2aff-2b12-4e41-a798-c0c7c2bf1b4c"
           (reference "#PWR0146") (unit 1)
         )
@@ -2260,9 +2176,6 @@
         )
       )
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "#PWR058") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/c1fc2aff-2b12-4e41-a798-c0c7c2bf1b4c"
           (reference "#PWR0169") (unit 1)
         )
@@ -2298,12 +2211,6 @@
         )
       )
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "#PWR058") (unit 1)
-        )
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "#PWR0125") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/c1fc2aff-2b12-4e41-a798-c0c7c2bf1b4c"
           (reference "#PWR0140") (unit 1)
         )
@@ -2339,9 +2246,6 @@
         )
       )
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "#PWR019") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/c1fc2aff-2b12-4e41-a798-c0c7c2bf1b4c"
           (reference "#PWR0147") (unit 1)
         )
@@ -2376,9 +2280,6 @@
         )
       )
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "C44") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/c1fc2aff-2b12-4e41-a798-c0c7c2bf1b4c"
           (reference "C36") (unit 1)
         )
@@ -2409,9 +2310,6 @@
         )
       )
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "#PWR028") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/c1fc2aff-2b12-4e41-a798-c0c7c2bf1b4c"
           (reference "#PWR0156") (unit 1)
         )
@@ -2477,9 +2375,6 @@
         )
       )
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "#PWR029") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/c1fc2aff-2b12-4e41-a798-c0c7c2bf1b4c"
           (reference "#PWR0157") (unit 1)
         )
@@ -2538,9 +2433,6 @@
         )
       )
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "U4") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/c1fc2aff-2b12-4e41-a798-c0c7c2bf1b4c"
           (reference "U17") (unit 1)
         )
@@ -2571,9 +2463,6 @@
         )
       )
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "#PWR0126") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/c1fc2aff-2b12-4e41-a798-c0c7c2bf1b4c"
           (reference "#PWR0166") (unit 1)
         )
@@ -2643,9 +2532,6 @@
         )
       )
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "#PWR022") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/c1fc2aff-2b12-4e41-a798-c0c7c2bf1b4c"
           (reference "#PWR0152") (unit 1)
         )
@@ -2680,9 +2566,6 @@
         )
       )
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "C6") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/c1fc2aff-2b12-4e41-a798-c0c7c2bf1b4c"
           (reference "C41") (unit 1)
         )
@@ -2717,9 +2600,6 @@
         )
       )
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "C3") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/c1fc2aff-2b12-4e41-a798-c0c7c2bf1b4c"
           (reference "C37") (unit 1)
         )
@@ -2754,9 +2634,6 @@
         )
       )
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "C45") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/c1fc2aff-2b12-4e41-a798-c0c7c2bf1b4c"
           (reference "C39") (unit 1)
         )
@@ -2791,9 +2668,6 @@
         )
       )
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "R54") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/c1fc2aff-2b12-4e41-a798-c0c7c2bf1b4c"
           (reference "R76") (unit 1)
         )
@@ -2831,9 +2705,6 @@
         )
       )
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "L1") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/c1fc2aff-2b12-4e41-a798-c0c7c2bf1b4c"
           (reference "L3") (unit 1)
         )
@@ -2864,9 +2735,6 @@
         )
       )
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "#PWR036") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/c1fc2aff-2b12-4e41-a798-c0c7c2bf1b4c"
           (reference "#PWR0168") (unit 1)
         )
@@ -2901,9 +2769,6 @@
         )
       )
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "C5") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/c1fc2aff-2b12-4e41-a798-c0c7c2bf1b4c"
           (reference "C40") (unit 1)
         )
@@ -2934,9 +2799,6 @@
         )
       )
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "#PWR0123") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/c1fc2aff-2b12-4e41-a798-c0c7c2bf1b4c"
           (reference "#PWR0159") (unit 1)
         )
@@ -2967,12 +2829,6 @@
         )
       )
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "#PWR058") (unit 1)
-        )
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "#PWR0125") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/c1fc2aff-2b12-4e41-a798-c0c7c2bf1b4c"
           (reference "#PWR0165") (unit 1)
         )
@@ -3015,9 +2871,6 @@
         )
       )
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "R8") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/c1fc2aff-2b12-4e41-a798-c0c7c2bf1b4c"
           (reference "R70") (unit 1)
         )
@@ -3059,9 +2912,6 @@
         )
       )
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "U8") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/c1fc2aff-2b12-4e41-a798-c0c7c2bf1b4c"
           (reference "U18") (unit 1)
         )
@@ -3097,9 +2947,6 @@
         )
       )
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "#PWR019") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/c1fc2aff-2b12-4e41-a798-c0c7c2bf1b4c"
           (reference "#PWR0148") (unit 1)
         )
@@ -3137,9 +2984,6 @@
         )
       )
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "L2") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/c1fc2aff-2b12-4e41-a798-c0c7c2bf1b4c"
           (reference "L4") (unit 1)
         )
@@ -3150,7 +2994,7 @@
   (symbol (lib_id "power:+VSW") (at 100.33 34.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d927bd82-5241-4fc3-81a2-85b4a97fa566)
-    (property "Reference" "#PWR0119" (at 100.33 38.1 0)
+    (property "Reference" "#PWR0149" (at 100.33 38.1 0)
       (effects (font (size 1 1)) hide)
     )
     (property "Value" "+VSW" (at 100.33 30.48 0)
@@ -3165,9 +3009,6 @@
     (pin "1" (uuid d34135ad-9efa-4090-894a-663006ffbd4a))
     (instances
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "#PWR0119") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/c1fc2aff-2b12-4e41-a798-c0c7c2bf1b4c"
           (reference "#PWR0149") (unit 1)
         )
@@ -3202,9 +3043,6 @@
         )
       )
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "R12") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/c1fc2aff-2b12-4e41-a798-c0c7c2bf1b4c"
           (reference "R79") (unit 1)
         )
@@ -3235,9 +3073,6 @@
         )
       )
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "#PWR018") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/c1fc2aff-2b12-4e41-a798-c0c7c2bf1b4c"
           (reference "#PWR0143") (unit 1)
         )
@@ -3272,9 +3107,6 @@
         )
       )
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "JP4") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/c1fc2aff-2b12-4e41-a798-c0c7c2bf1b4c"
           (reference "JP8") (unit 1)
         )
@@ -3309,9 +3141,6 @@
         )
       )
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "C27") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/c1fc2aff-2b12-4e41-a798-c0c7c2bf1b4c"
           (reference "C46") (unit 1)
         )
@@ -3327,7 +3156,7 @@
   (symbol (lib_id "power:+VSW") (at 83.82 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e419c5c1-f9fa-4d5a-aae5-eb26500b1727)
-    (property "Reference" "#PWR034" (at 83.82 153.67 0)
+    (property "Reference" "#PWR0144" (at 83.82 153.67 0)
       (effects (font (size 1 1)) hide)
     )
     (property "Value" "+VSW" (at 83.82 146.05 0)
@@ -3342,9 +3171,6 @@
     (pin "1" (uuid b395bc0d-bcc7-47c5-b7e7-f3f07329b2cd))
     (instances
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "#PWR034") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/c1fc2aff-2b12-4e41-a798-c0c7c2bf1b4c"
           (reference "#PWR0144") (unit 1)
         )
@@ -3379,9 +3205,6 @@
         )
       )
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "R10") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/c1fc2aff-2b12-4e41-a798-c0c7c2bf1b4c"
           (reference "R77") (unit 1)
         )
@@ -3416,9 +3239,6 @@
         )
       )
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "JP7") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/c1fc2aff-2b12-4e41-a798-c0c7c2bf1b4c"
           (reference "JP9") (unit 1)
         )
@@ -3449,9 +3269,6 @@
         )
       )
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "#PWR0122") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/c1fc2aff-2b12-4e41-a798-c0c7c2bf1b4c"
           (reference "#PWR0155") (unit 1)
         )
@@ -3521,9 +3338,6 @@
         )
       )
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "#PWR033") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/c1fc2aff-2b12-4e41-a798-c0c7c2bf1b4c"
           (reference "#PWR0164") (unit 1)
         )
@@ -3558,9 +3372,6 @@
         )
       )
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "R13") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/c1fc2aff-2b12-4e41-a798-c0c7c2bf1b4c"
           (reference "R80") (unit 1)
         )
@@ -3591,9 +3402,6 @@
         )
       )
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad"
-          (reference "#PWR067") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/c1fc2aff-2b12-4e41-a798-c0c7c2bf1b4c"
           (reference "#PWR0171") (unit 1)
         )
@@ -3636,9 +3444,6 @@
         )
       )
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "R6") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/c1fc2aff-2b12-4e41-a798-c0c7c2bf1b4c"
           (reference "R72") (unit 1)
         )
@@ -3669,9 +3474,6 @@
         )
       )
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "#PWR030") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/c1fc2aff-2b12-4e41-a798-c0c7c2bf1b4c"
           (reference "#PWR0160") (unit 1)
         )
@@ -3702,9 +3504,6 @@
         )
       )
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "#PWR035") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/c1fc2aff-2b12-4e41-a798-c0c7c2bf1b4c"
           (reference "#PWR0167") (unit 1)
         )
@@ -3739,9 +3538,6 @@
         )
       )
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "JP4") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/c1fc2aff-2b12-4e41-a798-c0c7c2bf1b4c"
           (reference "JP7") (unit 1)
         )
@@ -3839,9 +3635,6 @@
         )
       )
       (project "BATDATUNIT01"
-        (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
-          (reference "U3") (unit 1)
-        )
         (path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/c1fc2aff-2b12-4e41-a798-c0c7c2bf1b4c"
           (reference "U16") (unit 1)
         )
