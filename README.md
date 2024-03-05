@@ -1,8 +1,8 @@
 # BATDATUNIT01B - Li-ion power and Data Storage Module
 
-## Overview
+The BATDATUNIT01 is a versatile battery and data module incorporating an ATmea1284p microcontroller paired with a quintet of Li-ion batteries. It is a reliable power source for extended durations, making it an integral component in various detectors or measuring systems.
 
-The BATDATUNIT01 is a versatile battery and data module incorporating an ATmea1284p processor paired with a quintet of Li-ion batteries. It is a reliable power source for extended durations, making it an integral component in a wide array of detectors or measuring systems.
+![Previw of BATDATUNIT01 PCB](/doc/img/kicad_render_BATDATUNIT01.png)
 
 ## Features
 
@@ -16,8 +16,8 @@ The BATDATUNIT01 is a versatile battery and data module incorporating an ATmea12
 The BATDATUNIT01 is designed for versatility:
 
 - As a **power module for semiconductor particle detectors** like the [AIRDOS04](https://github.com/UniversalScientificTechnologies/AIRDOS04), it ensures uninterrupted data acquisition in environmental monitoring.
-- It can be integrated into **remote sensing stations**, where it provides consistent power and data logging capabilities for long-term ecological studies.
-- In **automated weather stations**, the module's resilience and sensor suite offer valuable insights into meteorological conditions.
+- It can be integrated into **remote sensing stations**, providing consistent power and data logging capabilities for long-term ecological studies.
+- In **automated weather stations**, the module's resilience and sensor suite offers valuable insights into meteorological conditions.
 - The module can be deployed in **mobile robotics** for energy supply and environmental data collection, aiding navigation and decision-making processes.
 - It is also ideal for **educational purposes**, as a hands-on tool to teach about energy management, data acquisition, and sensor integration.
 
