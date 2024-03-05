@@ -5,16 +5,18 @@ github_repo: BATDATUNIT01
 github_url: https://github.com/mlab-modules/BATDATUNIT01
 homepage: false
 images:
+- doc/img/BATDATUNIT01_programming.jpg
+- doc/img/BATDATUNIT01_programming_device.jpg
 - doc/img/kicad_render_BATDATUNIT01_a.png
-- doc/gen/img/BATDATUNIT01-bottom.png
 - doc/gen/img/BATDATUNIT01-top.png
-- hw/cam_profi/assembly/BATDATUNIT01-assembly_page_02.svg
-- hw/cam_profi/assembly/BATDATUNIT01-assembly_page_01.svg
+- doc/gen/img/BATDATUNIT01-bottom.png
 - doc/gen/BATDATUNIT01-schematic.svg
-- doc/gen/BATDATUNIT01-sw_source.svg
 - doc/gen/BATDATUNIT01-liion.svg
+- doc/gen/BATDATUNIT01-sw_source.svg
 - doc/gen/img/BATDATUNIT01-top.svg
 - doc/gen/img/BATDATUNIT01-bottom.svg
+- hw/cam_profi/assembly/BATDATUNIT01-assembly_page_01.svg
+- hw/cam_profi/assembly/BATDATUNIT01-assembly_page_02.svg
 mark: 50
 mod_ibom: hw/cam_profi/BATDATUNIT01-ibom.html
 mod_scheme: doc/gen/BATDATUNIT01-schematic.pdf
@@ -31,4 +33,4 @@ tags:
 - measuring-device
 - measuring-platform
 title: BATDATUNIT01
-updated: '2023-12-21T22:47:26.130474+00:00'
+updated: '2024-03-05T17:11:32.085024+00:00'
