@@ -2,8 +2,8 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/BATDATUNIT01.kicad_sch</source>
-    <date>Fri Dec 15 15:33:45 2023</date>
-    <tool>Eeschema 7.0.9-7.0.9~ubuntu23.04.1</tool>
+    <date>Tue Mar  5 17:12:57 2024</date>
+    <tool>Eeschema 7.0.10-7.0.10~ubuntu23.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>BATDATUNTI01</title>
@@ -1847,7 +1847,7 @@
     <comp ref="U9">
       <value>MS561101BA03-50</value>
       <footprint>Mlab_IO:LGA-8_3x5mm_P1.25mm</footprint>
-      <datasheet>https://www.te.com/usa-en/product-MS561101BA03-50.datasheet.pdf</datasheet>
+      <datasheet>https://cz.mouser.com/datasheet/2/418/6/ENG_DS_MS5611_01BA03_B3-1134567.pdf</datasheet>
       <fields>
         <field name="Description">Sensor Pressure 1.2bar Barometric SMD MS561101BA03-50, Barometric Pressure Sensor, 1200mbar 0  3.6 V Output, 8-Pin QFN</field>
         <field name="Height">1</field>
