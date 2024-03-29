@@ -9163,7 +9163,7 @@
     (property "Footprint" "MLAB_BUZZER:MagneticBuzzer_LET9032ES-03L-2.7-16-R" (at 192.405 90.17 90)
       (effects (font (size 1 1)) hide)
     )
-    (property "Datasheet" "~" (at 192.405 90.17 90)
+    (property "Datasheet" "https://www.cre-soundbuzzer.com/datasheet/LET9032ES-03L-2.7-16-R.pdf" (at 192.405 90.17 90)
       (effects (font (size 1 1)) hide)
     )
     (property "UST_ID" "5fa0f13812875025b3977890" (at 193.04 92.71 0)
