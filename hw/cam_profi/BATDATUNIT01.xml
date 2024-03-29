@@ -2,8 +2,8 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/BATDATUNIT01.kicad_sch</source>
-    <date>Tue Mar  5 17:12:57 2024</date>
-    <tool>Eeschema 7.0.10-7.0.10~ubuntu23.04.1</tool>
+    <date>Fri Mar 29 13:02:47 2024</date>
+    <tool>Eeschema 7.0.11+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>BATDATUNTI01</title>
@@ -63,6 +63,7 @@
     <comp ref="BZ1">
       <value>LET9032ES-03L</value>
       <footprint>MLAB_BUZZER:MagneticBuzzer_LET9032ES-03L-2.7-16-R</footprint>
+      <datasheet>https://www.cre-soundbuzzer.com/datasheet/LET9032ES-03L-2.7-16-R.pdf</datasheet>
       <fields>
         <field name="UST_ID">5fa0f13812875025b3977890</field>
       </fields>

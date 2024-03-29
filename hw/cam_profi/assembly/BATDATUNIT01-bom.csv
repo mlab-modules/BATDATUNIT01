@@ -1,7 +1,7 @@
 Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,ust_id,mfpn,mpn,sim.device,sim.pins,sim.type,height,i2c,arrow part number,arrow price/stock,manufacturer_name,manufacturer_part_number,mouser part number,mouser price/stock,lcsc
 1,Single-cell battery,2xBATT,BT1,BATT,BAT_BK-18650-PC4,1,~,5c70984412875079b91f87e9,,,,,,,,,,,,,,
 2,Single-cell battery,3xBATT,BT2,BATT,BAT_BK-18650-PC6,1,~,63567f66c8e7b5bbef872ce1,,,,,,,,,,,,,,
-3,"Buzzer, polarized",Buzzer,BZ1,LET9032ES-03L,MagneticBuzzer_LET9032ES-03L-2.7-16-R,1,~,5fa0f13812875025b3977890,,,,,,,,,,,,,,
+3,"Buzzer, polarized",Buzzer,BZ1,LET9032ES-03L,MagneticBuzzer_LET9032ES-03L-2.7-16-R,1,https://www.cre-soundbuzzer.com/datasheet/LET9032ES-03L-2.7-16-R.pdf,5fa0f13812875025b3977890,,,,,,,,,,,,,,
 4,"Unpolarized capacitor, small symbol",C_Small,C9C14,15p,C_0805_2012Metric,2,~,5c70984712875079b91f8b32,,,,,,,,,,,,,,
 5,"Unpolarized capacitor, small symbol",C_Small,C5C46,1n,C_0805_2012Metric,2,~,5c70984712875079b91f8b45,C0805 1u,C0805 1u,,,,,,,,,,,,
 6,"Unpolarized capacitor, small symbol",C_Small,C34,3n3,C_0805_2012Metric,1,~,5c70984712875079b91f8b47,,,,,,,,,,,,,,
