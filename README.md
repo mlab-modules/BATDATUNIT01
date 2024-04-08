@@ -63,7 +63,7 @@ Designed for convenience, the module allows for fast detachment from the measuri
 
     subgraph one[Memory interface]
     SDR[SD card] <--> SDI
-    SDI[SD card interface] <--> USW
+    SDI[SD card interface] -- USB <--> USW
     USW[USB-SWITCH]
     SDW[SD card \n SPI-SWITCH] <--> SDI
     end
@@ -91,7 +91,6 @@ Designed for convenience, the module allows for fast detachment from the measuri
     GAUGE --> PWR3v3E
     GAUGE --> PWR5vE
     
-    USW -- USB <--> FTDI[FTDI\nI2C + UART]
     USB -- Power --> charger
 
     subgraph two[POWER sources]
