@@ -8,9 +8,9 @@ github_url: https://github.com/mlab-modules/BATDATUNIT01
 homepage: false
 image_title: doc/img/BATDATUNIT01.jpg
 images:
-- doc/img/BATDATUNIT01_programming.jpg
-- doc/img/BATDATUNIT01_programming_device.jpg
 - doc/img/BATDATUNIT01.jpg
+- doc/img/BATDATUNIT01_programming_device.jpg
+- doc/img/BATDATUNIT01_programming.jpg
 - doc/gen/img/BATDATUNIT01-top.png
 - doc/gen/img/BATDATUNIT01-bottom.png
 - doc/img/kicad_render_BATDATUNIT01.png
@@ -37,4 +37,4 @@ tags:
 - measuring-device
 - measuring-platform
 title: BATDATUNIT01
-updated: '2024-05-15T11:33:02.861900+00:00'
+updated: '2024-07-18T08:57:36.554231+00:00'
