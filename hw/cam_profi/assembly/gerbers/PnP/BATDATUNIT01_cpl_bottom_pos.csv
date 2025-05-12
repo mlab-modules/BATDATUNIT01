@@ -1,5 +1,6 @@
 Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
-"BZ1","LET9032ES-03L","MagneticBuzzer_LET9032ES-03L-2.7-16-R",69.0360,22.2260,90.0000,bottom
+"BT3","CR2032","BatteryHolder_Keystone_1060_1x2032",62.6502,26.1838,0.0000,bottom
+"BZ1","LET9032ES-03L","MagneticBuzzer_LET9032ES-03L-2.7-16-R",68.6341,9.7500,90.0000,bottom
 "C1","100n","C_0805_2012Metric",82.9860,46.6760,-90.0000,bottom
 "C2","100n","C_0805_2012Metric",88.6860,43.3010,-90.0000,bottom
 "C3","100n","C_0805_2012Metric",96.7860,47.6760,-90.0000,bottom
@@ -20,7 +21,7 @@ Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
 "C18","100n","C_0805_2012Metric",27.4860,6.5797,-90.0000,bottom
 "C19","1u","C_0805_2012Metric",86.6860,43.6510,-90.0000,bottom
 "C20","100n","C_0805_2012Metric",35.4860,25.9060,90.0000,bottom
-"C21","10u","C_0805_2012Metric",32.9360,60.5160,0.0000,bottom
+"C21","22u","C_0805_2012Metric",32.9360,60.5160,0.0000,bottom
 "C22","10u","C_0805_2012Metric",97.0164,57.6290,0.0000,bottom
 "C23","100n","C_0805_2012Metric",97.0164,55.4192,0.0000,bottom
 "C24","1u","C_0805_2012Metric",91.0860,66.2260,90.0000,bottom
@@ -49,7 +50,9 @@ Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
 "C47","10u","C_0805_2012Metric",94.2110,35.6260,180.0000,bottom
 "C48","100n","C_0805_2012Metric",94.2360,33.6010,180.0000,bottom
 "C49","100n","C_0805_2012Metric",106.5160,53.7936,180.0000,bottom
-"C50","100n","C_0805_2012Metric",49.9248,25.7266,-90.0000,bottom
+"C50","100n","C_0805_2012Metric",33.1100,29.5620,0.0000,bottom
+"C51","100n","C_0805_2012Metric",36.8184,51.2536,90.0000,bottom
+"C52","100n","C_0805_2012Metric",73.2166,4.6700,0.0000,bottom
 "D6","BAS16W","SOT-323_SC-70",29.6860,55.2760,90.0000,bottom
 "D7","ORANGE","SMD_LED_RIGHT_KINGBRIGHT_1605",134.5860,52.7010,90.0000,bottom
 "D8","GREEN","SMD_LED_RIGHT_KINGBRIGHT_1605",134.5860,58.2260,90.0000,bottom
@@ -61,7 +64,7 @@ Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
 "FID1","Fiducial","Fiducial_1mm_Mask2mm",29.2860,61.9260,180.0000,bottom
 "FID2","Fiducial","Fiducial_1mm_Mask2mm",49.2860,15.9260,180.0000,bottom
 "FID3","Fiducial","Fiducial_1mm_Mask2mm",101.4860,72.7260,180.0000,bottom
-"FID4","Fiducial","Fiducial_1mm_Mask2mm",122.2860,11.9260,180.0000,bottom
+"FID4","Fiducial","Fiducial_1mm_Mask2mm",124.1182,22.5008,180.0000,bottom
 "J1","USBC_USB4105-GF-A","USBC GCT_USB4105-GF-A",134.1360,68.2560,-90.0000,bottom
 "J2","SD_Card-FPS009-4200-0","FPS009-4200-0",133.0610,32.8310,0.0000,bottom
 "J3","HEADER_2x03","SMD_2x03",48.4360,52.9760,0.0000,bottom
@@ -73,7 +76,7 @@ Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
 "Q1","BC817-25","SOT-23-3",81.5860,22.0260,90.0000,bottom
 "Q2","BC817-25","SOT-23-3",88.5193,22.0260,90.0000,bottom
 "Q3","BC817-25","SOT-23-3",85.0527,22.0260,90.0000,bottom
-"Q4","BC817-25","SOT-23-3",91.9860,22.0260,90.0000,bottom
+"Q4","BC817-25","SOT-23-3",73.0642,15.6682,180.0000,bottom
 "Q5","BC807-25","SOT-23-3",110.2610,76.0635,90.0000,bottom
 "Q6","BC807-25","SOT-23-3",106.7610,76.0885,90.0000,bottom
 "Q7","BSS83P","SOT-23",79.5360,60.3260,180.0000,bottom
@@ -106,20 +109,20 @@ Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
 "R29","5k1","R_0805_2012Metric",84.2735,38.7260,180.0000,bottom
 "R30","10k","R_0805_2012Metric",69.5860,45.5885,90.0000,bottom
 "R31","1k","R_0805_2012Metric",86.7527,18.1260,90.0000,bottom
-"R32","1k","R_0805_2012Metric",92.6527,18.1260,90.0000,bottom
+"R32","1k","R_0805_2012Metric",39.6378,34.2102,0.0000,bottom
 "R33","33R","R_0805_2012Metric",80.9360,44.8760,90.0000,bottom
 "R34","33R","R_0805_2012Metric",78.9860,44.8760,90.0000,bottom
 "R35","270R","R_0805_2012Metric",84.7860,18.1260,90.0000,bottom
-"R36","10k","R_0805_2012Metric",52.2860,30.7260,-45.0000,bottom
-"R37","10k","R_0805_2012Metric",51.5860,28.6260,-45.0000,bottom
+"R36","10k","R_0805_2012Metric",44.1082,26.8442,90.0000,bottom
+"R37","10k","R_0805_2012Metric",44.0828,23.3644,-90.0000,bottom
 "R38","100R","R_0805_2012Metric",54.3860,53.0760,-90.0000,bottom
 "R39","10k","R_0805_2012Metric",58.9860,53.0260,-90.0000,bottom
 "R40","10k","R_0805_2012Metric",52.0860,53.0760,-90.0000,bottom
-"R41","100R","R_0805_2012Metric",47.9360,18.8260,0.0000,bottom
-"R42","10k","R_0805_2012Metric",31.5360,33.1760,90.0000,bottom
-"R43","1M","R_0805_2012Metric",32.9160,62.5460,0.0000,bottom
+"R41","100R","R_0805_2012Metric",45.8862,15.9476,-90.0000,bottom
+"R42","10k","R_0805_2012Metric",32.5766,33.0164,-90.0000,bottom
+"R43","270k","R_0805_2012Metric",32.9160,62.5460,0.0000,bottom
 "R44","10k","R_0805_2012Metric",29.7485,52.3260,0.0000,bottom
-"R45","10k","R_0805_2012Metric",56.7860,22.2260,180.0000,bottom
+"R45","10k","R_0805_2012Metric",48.2738,20.6212,180.0000,bottom
 "R46","10k","R_0805_2012Metric",23.9860,36.3260,90.0000,bottom
 "R47","10k","R_0805_2012Metric",25.9360,37.2260,90.0000,bottom
 "R48","1k","R_0805_2012Metric",107.5110,72.2510,90.0000,bottom
@@ -155,7 +158,7 @@ Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
 "U2","USBLC6-2SC6","SOT-23-6",124.8485,68.2260,0.0000,bottom
 "U3","FT260Q-T","QFN-28-1EP_5x5mm_P0.5mm_EP3.35x3.35mm",77.8860,39.8060,90.0000,bottom
 "U4","PCA9541ABS/01","QFN-16-1EP_4x4mm_P0.65mm_EP2.15x2.15mm",64.7110,39.9810,180.0000,bottom
-"U5","AT24CS64-SSHM","SOIC-8_3.9x4.9mm_P1.27mm",45.8860,24.1760,90.0000,bottom
+"U5","AT24CS64-SSHM","SOIC-8_3.9x4.9mm_P1.27mm",30.0366,24.5836,90.0000,bottom
 "U6","SHT31-DIS","Sensirion_DFN-8-1EP_2.5x2.5mm_P0.5mm_EP1.1x1.7mm",16.8848,5.1547,-90.0000,bottom
 "U7","TMUX1574DYYR","SOT-23-16 THIN",54.6860,47.2260,-90.0000,bottom
 "U8","ATMEGA1284P-AU","TQFP-44_10x10mm_P0.8mm",37.9110,42.6310,180.0000,bottom

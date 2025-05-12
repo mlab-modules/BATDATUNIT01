@@ -20,17 +20,17 @@ Silk screen: TOP / BOTTOM
 
 Stackup:
 
-| Name                 | Type                 | Color            | Thickness | Material        | Epsilon_r | Loss tangent |
-|----------------------|----------------------|------------------|-----------|-----------------|-----------|--------------|
-| F.SilkS              | Top Silk Screen      | White            |           |                 |           |              |
-| F.Paste              | Top Solder Paste     |                  |           |                 |           |              |
-| F.Mask               | Top Solder Mask      | Green            |        10 |                 |           |              |
-| F.Cu                 | copper               |                  |        35 |                 |           |              |
-| dielectric 1         | core                 | FR4 natural      |      1510 | FR4             |       4.5 |        0.020 |
-| B.Cu                 | copper               |                  |        35 |                 |           |              |
-| B.Mask               | Bottom Solder Mask   | Green            |        10 |                 |           |              |
-| B.Paste              | Bottom Solder Paste  |                  |           |                 |           |              |
-| B.SilkS              | Bottom Silk Screen   | White            |           |                 |           |              |
+| Name                 | Type                 | Color            | Thickness [µm]| Material        | Er        | Loss tan     |
+|----------------------|----------------------|------------------|---------------|-----------------|-----------|--------------|
+| F.SilkS              | Top Silk Screen      | White            |               |                 |           |              |
+| F.Paste              | Top Solder Paste     |                  |               |                 |           |              |
+| F.Mask               | Top Solder Mask      | Green            |            10 |                 |           |              |
+| F.Cu                 | copper               |                  |            35 |                 |           |              |
+| dielectric 1         | core                 | FR4 natural      |          1510 | FR4             |       4.5 |        0.020 |
+| B.Cu                 | copper               |                  |            35 |                 |           |              |
+| B.Mask               | Bottom Solder Mask   | Green            |            10 |                 |           |              |
+| B.Paste              | Bottom Solder Paste  |                  |               |                 |           |              |
+| B.SilkS              | Bottom Silk Screen   | White            |               |                 |           |              |
 
 # Important sizes
 
@@ -51,7 +51,7 @@ Via: 0.5/0.3 mm (20/12 mils)
 - By design rules: 0.5/0.25 mm (20/10 mils)
 - Micro via: yes [0.2/0.1 mm (8/4 mils)]
 - Buried/blind via: yes
-- Total: 412 (thru: 412 buried/blind: 0 micro: 0)
+- Total: 414 (thru: 414 buried/blind: 0 micro: 0)
 
 Outer Annular Ring: 0.05 mm (2 mils)
 
@@ -66,7 +66,7 @@ Eurocircuits class: 6D
 Components count: (SMD/THT)
 
 - Top: 27/7 (SMD + THT)
-- Bottom: 170/3 (SMD + THT)
+- Bottom: 173/3 (SMD + THT)
 
 Defined tracks:
 
@@ -77,14 +77,14 @@ Defined tracks:
 
 Used tracks:
 
-- 0.2 mm (8 mils) (149) defined: yes
-- 0.25 mm (10 mils) (72) defined: no
-- 0.3 mm (12 mils) (1358) defined: yes
-- 0.4 mm (16 mils) (146) defined: yes
-- 0.5 mm (20 mils) (60) defined: yes
+- 0.2 mm (8 mils) (136) defined: yes
+- 0.25 mm (10 mils) (71) defined: no
+- 0.3 mm (12 mils) (1351) defined: yes
+- 0.4 mm (16 mils) (125) defined: yes
+- 0.5 mm (20 mils) (55) defined: yes
 - 0.8 mm (31 mils) (38) defined: no
 - 0.9 mm (35 mils) (19) defined: no
-- 1.0 mm (39 mils) (25) defined: no
+- 1.0 mm (39 mils) (31) defined: no
 - 1.5 mm (59 mils) (3) defined: no
 
 Defined vias:
@@ -94,8 +94,8 @@ Defined vias:
 
 Used vias:
 
-- 0.5/0.3 mm (20/12 mils) (Count: 261, Aspect: 3.2 A) defined: yes
-- 0.8/0.4 mm (31/16 mils) (Count: 151, Aspect: 2.0 A) defined: yes
+- 0.5/0.3 mm (20/12 mils) (Count: 257, Aspect: 3.2 A) defined: yes
+- 0.8/0.4 mm (31/16 mils) (Count: 157, Aspect: 2.0 A) defined: yes
 
 Holes (excluding vias):
 
@@ -114,8 +114,8 @@ Oval holes:
 
 Drill tools (including vias and computing adjusts and rounding):
 
-- 0.4 mm (16 mils) (261)
-- 0.5 mm (20 mils) (151)
+- 0.4 mm (16 mils) (257)
+- 0.5 mm (20 mils) (157)
 - 0.6 mm (24 mils) (4)
 - 0.65 mm (26 mils) (2)
 - 0.7 mm (28 mils) (4)
@@ -125,6 +125,20 @@ Drill tools (including vias and computing adjusts and rounding):
 - 3.1 mm (122 mils) (4)
 - 3.2 mm (126 mils) (12)
 
+Solder paste stats:
+
+Using a paste with 87.75 % alloy, that has an specific gravity for the alloy of 7.4 g/cm³
+and 1.0 g/cm³ for the flux. This paste has an specific gravity of  4.15 g/cm³.
+
+The stencil thickness is  0.12 mm.
+
+| Side   | Pads with paste | Area [mm²] | Paste [g] |
+|--------|-----------------|------------|-----------|
+| Top    |              60 |      66.78 |      0.33 |
+| Bottom |             640 |     831.44 |      4.14 |
+| Total  |             700 |     898.22 |      4.47 |
+
+Note: this is just an approximation to the theoretical value. Margins of the solder mask and waste aren't computed.
 
 
 
