@@ -1,6 +1,6 @@
-# BATDATUNIT01B - Li-ion power and Data Storage Module
+# BATDATUNIT01 - Power and Data Storage Module
 
-The BATDATUNIT01 is a versatile battery and data module incorporating an ATmea1284p microcontroller paired with a quintet of Li-ion batteries. It is a reliable power source for extended durations, making it an integral component in various detectors or measuring systems.
+The BATDATUNIT01 is power and data storage module incorporating an ATmea1284p microcontroller paired with a five 18650 Li-ion safely rechargable accumulator cells. It is a reliable power source for extended durations, making it an integral component in various detectors or measuring systems.
 
 ![Previw of BATDATUNIT01 PCB](/doc/img/kicad_render_BATDATUNIT01.png)
 
@@ -8,7 +8,7 @@ The BATDATUNIT01 is a versatile battery and data module incorporating an ATmea12
 
 - **Microcontroller**: [ATmega1284p](https://www.microchip.com/wwwproducts/en/ATmega1284p) provides robust processing capabilities to manage complex tasks efficiently.
 - **Battery Pack**: A Set of up to five Li-ion batteries offers substantial power, facilitating long-term operations without frequent recharging.
-- **USB-C Charging**: Enables hassle-free charging with a modern USB-C interface, ensuring the module is readily powered for sustained use.
+- **USB-C Charging**: Enables hassle-free charging with a USB-C interface, ensuring the module is readily powered for sustained use.
 - **Charging and Monitoring Circuits**: The [BQ25628E](https://www.ti.com/product/BQ25628) circuit oversees the charging, while the [BQ34Z100](https://www.ti.com/product/BQ34Z100) gauge monitors the battery state for optimal energy management.
 
 ## Applications

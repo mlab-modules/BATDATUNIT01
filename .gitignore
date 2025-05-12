@@ -1,250 +1,203 @@
-doc/gen/*
-hw/cam_profi/*
-*-backups
 
-# For PCBs designed using KiCad: http://www.kicad-pcb.org/
-
-# Temporary files
-*.000
-*.bak
-*.bck
-*.kicad_pcb-bak
 *~
-*_autosave-*
-*.tmp
-*-backups
-*.lck
-*#auto_saved_files#
-
-
-# Netlist files (exported from Eeschema)
-#*.net
-
+*.000
+*~[0-9]*
+*.[1-9]
+*.[1-9][0-9]
+*.[1-9][0-9][0-9]
+*.[1-9][0-9][0-9]R
+*.[1-9][0-9]R
+*.[1-9]R
+# achemso
+*.acn
+*.acr
+acs-*.bib
+*.alg
+# algorithms
+# amsthm
+/auto/*
+# auto folder when using emacs and auctex 
 # Autorouter files (exported from Pcbnew)
-.dsn
-
-# Exported BOM files
-#*.xml
-#*.csv
-
-## Core latex/pdflatex auxiliary files:
+*_autosave-*
+_autosave-*
+*#auto_saved_files#
+*auto_saved_files#
 *.aux
-*.lof
-*.log
-*.lot
-*.fls
-*.out
-*.toc
-*.fmt
-*.fot
-*.cb
-*.cb2
-
-## Intermediate documents:
-*.dvi
-*-converted-to.*
-# these rules might exclude image files for figures etc.
-# *.ps
-# *.eps
-# *.pdf
-
-## Generated if empty string is given at "Please type another file name for output:"
-.pdf
-
-## Bibliography auxiliary files (bibtex/biblatex/biber):
+## Auxiliary and intermediate files from other packages:
+*.auxlock
+*.backup
+*backup*
+*-backups
+*.bak
 *.bbl
 *.bcf
+*.bck
+# beamer
+## Bibliography auxiliary files (bibtex/biblatex/biber):
 *.blg
 *-blx.aux
 *-blx.bib
 *.brf
-*.run.xml
-
 ## Build tool auxiliary files:
+*.cb
+*.cb2
+# changes
+*-concordance.tex
+*-converted-to.*
+## Core latex/pdflatex auxiliary files:
+# cprotect
+*.cpt
+#*.csv
+doc/gen/*
+*.dpth
+*.dsn
+.dsn
+*.dvi
+# easy-todo
+## Editors:
+*.eledsec[1-9]
+*.eledsec[1-9][0-9]
+*.eledsec[1-9][0-9][0-9]
+*.eledsec[1-9][0-9][0-9]R
+*.eledsec[1-9][0-9]R
+*.eledsec[1-9]R
+# elsarticle (documentclass of Elsevier journals)
+*.?end
+*.end
+# endfloat
+# endnotes
+*.ent
+# *.eps
+# expex forward references with \gathertags
+# Exported BOM files
 *.fdb_latexmk
+# feynmf/feynmp
+*.fff
+# fixme
+*.fls
+*.fmt
+# For PCBs designed using KiCad: http://www.kicad-pcb.org/
+*.fot
+*fp-info-cache
+fp-info-cache
+*.gaux
+## Generated if empty string is given at "Please type another file name for output:"
+*.glg
+*.glo
+# glossaries
+*.gls
+*.glsdefs
+# gnuplottex
+*-gnuplottex-*
+# gregoriotex
+*.gtex
+hw/cam_profi/*
+# hyperref
+*.idx
+*.ilg
+*.ind
+## Intermediate documents:
+*.ist
+# KBibTeX
+*.kicad_pcb-bak
+*.kicad_prl
+*.kicad_sch-bak
+# Kile
+# knitr
+# Latexian
+*.lck
+# listings
+*.loa
+*.lod
+*.loe
+*.lof
+*.log
+*.lol
+*.lot
+*.lox
+*.maf
+# makeidx
+*.md5
+*.mf
+# minitoc
+# minted
+_minted*
+*.mlf
+*.mlt
+# morewrites
+*.mp
+*.mtc[0-9]*
+*.mw
+# mylatexformat
+*.nav
+#*.net
+# Netlist files (exported from Eeschema)
+*.nlo
+# nomencl
+*.orig
+*.out
+# pax
+*.pax
+# *.pdf
+.pdf
+# pdfcomment
+*.pdfsync
+*.pre
+# *.ps
+*.pyg
+# pythontex
+pythontex-files-*/
+*.pytxcode
+#(r)(e)ledmac/(r)(e)ledpar
+*.run.xml
+# sagetex
+*.sagetex.py
+*.sagetex.sage
+*.sagetex.scmd
+*.sav
+*-save.kicad_pcb
+*-save.pro
+*.sch-bak
+# scrwfile
+*.ses
+*.snm
+*.soc
+*.sout
+*.spl
+# sympy
+*.sympy
+sympy-plots-for-*.tex/
 *.synctex
 *.synctex(busy)
 *.synctex.gz
 *.synctex.gz(busy)
-*.pdfsync
-
-## Auxiliary and intermediate files from other packages:
-# algorithms
-*.alg
-*.loa
-
-# achemso
-acs-*.bib
-
-# amsthm
-*.thm
-
-# beamer
-*.nav
-*.pre
-*.snm
-*.vrb
-
-# changes
-*.soc
-
-# cprotect
-*.cpt
-
-# elsarticle (documentclass of Elsevier journals)
-*.spl
-
-# endnotes
-*.ent
-
-# fixme
-*.lox
-
-# feynmf/feynmp
-*.mf
-*.mp
 *.t[1-9]
 *.t[1-9][0-9]
-*.tfm
-*.[1-9]
-*.[1-9][0-9]
-
-#(r)(e)ledmac/(r)(e)ledpar
-*.end
-*.?end
-*.[1-9]
-*.[1-9][0-9]
-*.[1-9][0-9][0-9]
-*.[1-9]R
-*.[1-9][0-9]R
-*.[1-9][0-9][0-9]R
-*.eledsec[1-9]
-*.eledsec[1-9]R
-*.eledsec[1-9][0-9]
-*.eledsec[1-9][0-9]R
-*.eledsec[1-9][0-9][0-9]
-*.eledsec[1-9][0-9][0-9]R
-
-# glossaries
-*.acn
-*.acr
-*.glg
-*.glo
-*.gls
-*.glsdefs
-
-# gnuplottex
-*-gnuplottex-*
-
-# gregoriotex
-*.gaux
-*.gtex
-
-# hyperref
-*.brf
-
-# knitr
-*-concordance.tex
-# TODO Comment the next line if you want to keep your tikz graphics files
-*.tikz
-*-tikzDictionary
-
-# listings
-*.lol
-
-# makeidx
-*.idx
-*.ilg
-*.ind
-*.ist
-
-# minitoc
-*.maf
-*.mlf
-*.mlt
-*.mtc[0-9]*
-
-# minted
-_minted*
-*.pyg
-
-# morewrites
-*.mw
-
-# mylatexformat
-*.fmt
-
-# nomencl
-*.nlo
-
-# pax
-*.pax
-
-# sagetex
-*.sagetex.sage
-*.sagetex.py
-*.sagetex.scmd
-
-# scrwfile
-*.wrt
-
-# sympy
-*.sout
-*.sympy
-sympy-plots-for-*.tex/
-
-# pdfcomment
-*.upa
-*.upb
-
-# pythontex
-*.pytxcode
-pythontex-files-*/
-
-# thmtools
-*.loe
-
-# TikZ & PGF
-*.dpth
-*.md5
-*.auxlock
-
-# todonotes
+*-tags.tex
 *.tdo
-
-# easy-todo
-*.lod
-
-# xindy
-*.xdy
-
-# xypic precompiled matrices
-*.xyc
-
-# endfloat
-*.ttt
-*.fff
-
-# Latexian
-TSWLatexianTemp*
-
-## Editors:
-# WinEdt
-*.bak
-*.sav
-
+# Temporary files
 # Texpad
 .texpadtmp
-
-# Kile
-*.backup
-
-# KBibTeX
-*~[0-9]*
-
-# auto folder when using emacs and auctex 
-/auto/*
-
-# expex forward references with \gathertags
-*-tags.tex
-
+*.tfm
+# these rules might exclude image files for figures etc.
+*.thm
+# thmtools
+*.tikz
+*-tikzDictionary
+# TikZ & PGF
+*.tmp
+*.toc
+# TODO Comment the next line if you want to keep your tikz graphics files
+# todonotes
+TSWLatexianTemp*
+*.ttt
+*.upa
+*.upb
+*.vrb
+# WinEdt
+*.wrt
+*.xdy
+# xindy
+#*.xml
+*.xyc
+# xypic precompiled matrices
