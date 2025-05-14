@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/BATDATUNIT01.kicad_sch</source>
-    <date>2025-05-12T22:31:58+0000</date>
+    <date>2025-05-14T11:50:12+0000</date>
     <tool>Eeschema 9.0.1+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -5524,7 +5524,7 @@ NVDC Power Path Management</field>
       <node ref="JP7" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="Q5" pin="2" pinfunction="E" pintype="passive"/>
       <node ref="Q6" pin="2" pinfunction="E" pintype="passive"/>
-      <node ref="Q7" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="Q7" pin="2" pinfunction="S" pintype="passive"/>
       <node ref="R15" pin="1" pintype="passive"/>
       <node ref="R17" pin="1" pintype="passive"/>
       <node ref="R18" pin="1" pintype="passive"/>
@@ -6355,13 +6355,13 @@ NVDC Power Path Management</field>
       <node ref="Q6" pin="3" pinfunction="C" pintype="passive"/>
       <node ref="R50" pin="1" pintype="passive"/>
     </net>
-    <net code="139" name="Net-(Q7-G)" class="Default">
+    <net code="139" name="Net-(Q7-D)" class="Default">
+      <node ref="Q7" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R54" pin="2" pintype="passive"/>
+    </net>
+    <net code="140" name="Net-(Q7-G)" class="Default">
       <node ref="Q7" pin="1" pinfunction="G" pintype="input"/>
       <node ref="R53" pin="2" pintype="passive"/>
-    </net>
-    <net code="140" name="Net-(Q7-S)" class="Default">
-      <node ref="Q7" pin="2" pinfunction="S" pintype="passive"/>
-      <node ref="R54" pin="2" pintype="passive"/>
     </net>
     <net code="141" name="Net-(R58-Pad2)" class="Default">
       <node ref="R58" pin="2" pintype="passive"/>

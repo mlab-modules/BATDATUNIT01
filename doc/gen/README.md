@@ -51,7 +51,7 @@ Via: 0.5/0.3 mm (20/12 mils)
 - By design rules: 0.5/0.25 mm (20/10 mils)
 - Micro via: yes [0.2/0.1 mm (8/4 mils)]
 - Buried/blind via: yes
-- Total: 414 (thru: 414 buried/blind: 0 micro: 0)
+- Total: 415 (thru: 415 buried/blind: 0 micro: 0)
 
 Outer Annular Ring: 0.05 mm (2 mils)
 
@@ -78,9 +78,9 @@ Defined tracks:
 Used tracks:
 
 - 0.2 mm (8 mils) (136) defined: yes
-- 0.25 mm (10 mils) (71) defined: no
-- 0.3 mm (12 mils) (1351) defined: yes
-- 0.4 mm (16 mils) (125) defined: yes
+- 0.25 mm (10 mils) (68) defined: no
+- 0.3 mm (12 mils) (1377) defined: yes
+- 0.4 mm (16 mils) (136) defined: yes
 - 0.5 mm (20 mils) (55) defined: yes
 - 0.8 mm (31 mils) (38) defined: no
 - 0.9 mm (35 mils) (19) defined: no
@@ -95,7 +95,7 @@ Defined vias:
 Used vias:
 
 - 0.5/0.3 mm (20/12 mils) (Count: 257, Aspect: 3.2 A) defined: yes
-- 0.8/0.4 mm (31/16 mils) (Count: 157, Aspect: 2.0 A) defined: yes
+- 0.8/0.4 mm (31/16 mils) (Count: 158, Aspect: 2.0 A) defined: yes
 
 Holes (excluding vias):
 
@@ -115,7 +115,7 @@ Oval holes:
 Drill tools (including vias and computing adjusts and rounding):
 
 - 0.4 mm (16 mils) (257)
-- 0.5 mm (20 mils) (157)
+- 0.5 mm (20 mils) (158)
 - 0.6 mm (24 mils) (4)
 - 0.65 mm (26 mils) (2)
 - 0.7 mm (28 mils) (4)
@@ -134,9 +134,9 @@ The stencil thickness is  0.12 mm.
 
 | Side   | Pads with paste | Area [mm²] | Paste [g] |
 |--------|-----------------|------------|-----------|
-| Top    |              60 |      66.78 |      0.33 |
-| Bottom |             640 |     831.44 |      4.14 |
-| Total  |             700 |     898.22 |      4.47 |
+| Top    |              60 |      68.31 |      0.34 |
+| Bottom |             640 |     831.67 |      4.14 |
+| Total  |             700 |     899.98 |      4.48 |
 
 Note: this is just an approximation to the theoretical value. Margins of the solder mask and waste aren't computed.
 
