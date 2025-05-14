@@ -23085,7 +23085,7 @@
 				)
 			)
 		)
-		(property "UST_ID" " 5c70984612875079b91f899f"
+		(property "UST_ID" "5c70984612875079b91f899f"
 			(at 218.3 4.9 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -46979,7 +46979,7 @@
 				(justify mirror)
 			)
 		)
-		(property "UST_ID" " 5c70984612875079b91f899f"
+		(property "UST_ID" "5c70984612875079b91f899f"
 			(at 228.9725 -71.9275 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -50242,7 +50242,7 @@
 				)
 			)
 		)
-		(property "UST_ID" " 5c70984612875079b91f899f"
+		(property "UST_ID" "5c70984612875079b91f899f"
 			(at 219.35 2.05 0)
 			(layer "B.Fab")
 			(hide yes)
