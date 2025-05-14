@@ -11516,6 +11516,20 @@
 				(justify mirror)
 			)
 		)
+		(property "UST_ID" "68249eacee7fc534862c6977"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d10e212a-7411-446c-a3f2-93df2436e739")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/80074ece-d600-46c1-8557-f2a579938b59")
 		(sheetname "/")
 		(sheetfile "BATDATUNIT01.kicad_sch")
@@ -14914,7 +14928,7 @@
 		(path "/c5b9fe1a-71b8-4ac7-8832-7884ef038d93")
 		(sheetname "/")
 		(sheetfile "BATDATUNIT01.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.95)
@@ -24560,7 +24574,7 @@
 		(path "/3fac4572-bcdd-4461-8d9b-dc3c34262021")
 		(sheetname "/")
 		(sheetfile "BATDATUNIT01.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.7)
@@ -41799,6 +41813,20 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+			)
+		)
+		(property "UST_ID" "67f16090ee7fc534862c5860"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "167482d9-30e3-4d5e-ae80-d6739b46e80e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
 			)
 		)
 		(path "/c8d63dc7-61df-42de-b6ce-46944373d173")

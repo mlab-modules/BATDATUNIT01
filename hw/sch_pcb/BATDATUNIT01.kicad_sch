@@ -22967,7 +22967,7 @@
 		(at 166.37 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "3fac4572-bcdd-4461-8d9b-dc3c34262021")
@@ -28813,6 +28813,15 @@
 				(hide yes)
 			)
 		)
+		(property "UST_ID" "68249eacee7fc534862c6977"
+			(at 336.55 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4b99b57f-e480-4e04-ad71-93705b76ce69")
 		)
@@ -34350,7 +34359,7 @@
 		(at 171.45 228.6 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "c5b9fe1a-71b8-4ac7-8832-7884ef038d93")
@@ -34464,6 +34473,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 92.71 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" "67f16090ee7fc534862c5860"
 			(at 92.71 189.23 0)
 			(effects
 				(font
