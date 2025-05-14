@@ -1625,18 +1625,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C598398"
-			(at 0 0 270)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bb27ac74-20ee-468d-bf4e-e3096445e09c")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "UST_ID" "65481f0c462c6d9e72056b3d"
 			(at 139.475 295.275 0)
 			(layer "F.Fab")
@@ -2828,18 +2816,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C598398"
-			(at 0 0 270)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5ca47367-1f37-4a84-8de0-b3acc5733f89")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "UST_ID" "65481fdd462c6d9e72056b6a"
 			(at 87.35 347.5 0)
 			(layer "F.Fab")
@@ -2996,18 +2972,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ba9e41b6-dcf8-4618-8ce6-d8de1a30c4a6")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C598398"
-			(at 0 0 270)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a6af4331-8a21-4f7d-8b7e-6fc3d25cbd47")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3763,18 +3727,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C598398"
-			(at 0 0 270)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "da511463-70db-495a-8c87-7f21957d84ab")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "UST_ID" "65481f0c462c6d9e72056b3d"
 			(at 130.39643 304.25357 0)
 			(layer "F.Fab")
@@ -4149,18 +4101,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C598398"
-			(at 0 0 270)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f8633e17-76a6-41f7-a716-ad8dfa72fa8a")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "UST_ID" "65481f96462c6d9e72056b54"
 			(at 135.475 299.075 0)
 			(layer "F.Fab")
@@ -4317,18 +4257,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e6471ef7-f285-4366-b8bb-583171c68734")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C598398"
-			(at 0 0 270)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9a21ed31-067c-4076-ab0f-a4e652d72001")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4614,18 +4542,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3f9bab75-c984-441d-9677-d5f906a330fd")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C598398"
-			(at 0 0 270)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0569181e-6df1-448a-8a76-8cdf98246755")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5218,18 +5134,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C598398"
-			(at 0 0 270)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ae7d1caf-2ce4-4765-8920-1928d0a447ab")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "UST_ID" "65481f0c462c6d9e72056b3d"
 			(at 127.629082 307.020918 0)
 			(layer "F.Fab")
@@ -5386,18 +5290,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "bdcd59ef-f167-4c23-891b-da640e727440")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C598398"
-			(at 0 0 270)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5f63347e-128c-4635-ba4a-8215751d178e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5568,18 +5460,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C598398"
-			(at 0 0 270)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a5418348-71ec-4cb1-bed7-2b6b791e73b1")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "UST_ID" "65481f0c462c6d9e72056b3d"
 			(at 122.094388 312.555612 0)
 			(layer "F.Fab")
@@ -5736,18 +5616,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "62e500fe-be33-4741-8d07-debc26bbdb4f")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C598398"
-			(at 0 0 270)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0a59f688-0722-49a4-9565-1e04e55d1810")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6244,18 +6112,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "30c24e2b-1a6b-4232-8c00-a47184a42527")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C598398"
-			(at 0 0 270)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5a0aadae-79e2-49cb-914d-143c242b55d6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7777,18 +7633,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "00b897de-5425-45a2-bd2a-753c3b13a9eb")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C598398"
-			(at 0 0 270)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d0387cfa-ab82-4ab7-ba14-090b41e91aa4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15349,7 +15193,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "91k"
 			(at 0 -1.65 90)
 			(layer "B.Fab")
 			(uuid "9cc9d323-e1a9-4e6f-a4d0-d3ce57695b02")
@@ -15398,7 +15242,7 @@
 				(justify mirror)
 			)
 		)
-		(property "UST_ID" ""
+		(property "UST_ID" "5c70984712875079b91f8a95"
 			(at 211.6275 -54.6725 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -20137,7 +19981,7 @@
 				)
 			)
 		)
-		(property "UST_ID" ""
+		(property "UST_ID" "5c70984712875079b91f8a91"
 			(at 95.305 273.195 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -23241,7 +23085,7 @@
 				)
 			)
 		)
-		(property "UST_ID" "5c70984512875079b91f898c"
+		(property "UST_ID" " 5c70984612875079b91f899f"
 			(at 218.3 4.9 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -36450,6 +36294,20 @@
 				)
 			)
 		)
+		(property "UST_ID" "5fa0fc3e12875025b3977997"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d450f44d-1a28-4110-a636-a1844885d9dc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/b40b65fc-277f-44c1-828b-4e0f8b1dfa60")
 		(sheetname "/")
@@ -39296,19 +39154,6 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-			)
-		)
-		(property "LCSC" "C598398"
-			(at 0 0 270)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "02cd2bb9-f31e-46cb-8fd1-41c1191167f1")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
 			)
 		)
 		(property "UST_ID" "65481f0c462c6d9e72056b3d"
@@ -42224,19 +42069,6 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-			)
-		)
-		(property "LCSC" "C598398"
-			(at 0 0 270)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "faa53d65-9000-494f-a267-78193ff30b71")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
 			)
 		)
 		(property "UST_ID" "65481fdd462c6d9e72056b6a"
@@ -47147,7 +46979,7 @@
 				(justify mirror)
 			)
 		)
-		(property "UST_ID" ""
+		(property "UST_ID" " 5c70984612875079b91f899f"
 			(at 228.9725 -71.9275 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -47326,7 +47158,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "91k"
 			(at 0 -1.65 90)
 			(layer "B.Fab")
 			(uuid "651c87e5-c957-4c42-9398-358448d1cbb5")
@@ -47375,7 +47207,7 @@
 				(justify mirror)
 			)
 		)
-		(property "UST_ID" ""
+		(property "UST_ID" "5c70984712875079b91f8a95"
 			(at 191.0825 -34.0175 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -50410,7 +50242,7 @@
 				)
 			)
 		)
-		(property "UST_ID" "5c70984512875079b91f898c"
+		(property "UST_ID" " 5c70984612875079b91f899f"
 			(at 219.35 2.05 0)
 			(layer "B.Fab")
 			(hide yes)

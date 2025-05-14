@@ -3826,7 +3826,7 @@
 				(hide yes)
 			)
 		)
-		(property "UST_ID" ""
+		(property "UST_ID" " 5c70984612875079b91f899f"
 			(at 82.55 85.09 0)
 			(effects
 				(font
@@ -4387,7 +4387,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "91k"
 			(at 85.09 129.54 90)
 			(effects
 				(font
@@ -4431,7 +4431,7 @@
 				(hide yes)
 			)
 		)
-		(property "UST_ID" ""
+		(property "UST_ID" "5c70984712875079b91f8a95"
 			(at 85.09 132.08 0)
 			(effects
 				(font
@@ -5337,7 +5337,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "91k"
 			(at 85.09 120.65 90)
 			(effects
 				(font
@@ -5381,7 +5381,7 @@
 				(hide yes)
 			)
 		)
-		(property "UST_ID" ""
+		(property "UST_ID" "5c70984712875079b91f8a95"
 			(at 85.09 123.19 0)
 			(effects
 				(font
