@@ -9970,23 +9970,14 @@
 	(symbol
 		(lib_id "Device:Q_PMOS_GSD")
 		(at 64.77 157.48 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "55c1c93f-3a3e-4378-9da4-085f10ddbda7")
 		(property "Reference" "Q7"
-			(at 71.12 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSS83P"
 			(at 71.12 158.75 0)
 			(effects
 				(font
@@ -9995,8 +9986,17 @@
 				(justify left)
 			)
 		)
+		(property "Value" "BSS83P"
+			(at 71.12 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 69.85 154.94 0)
+			(at 69.85 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
