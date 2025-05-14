@@ -69,11 +69,35 @@
           ""
         ],
         [
-          "clearance|161303091|91900000|b2875c4a-081a-4e15-b4b5-592b9f2104d5|00283054-8401-43ec-b8ff-fe75636d7b2d",
+          "clearance|121200000|139300000|b7ec76bc-5352-4565-ae77-c866d8a9cd01|a70dbc61-93cf-48a5-85cf-e93d793babac",
           ""
         ],
         [
-          "clearance|169300000|69250000|69c75199-8c79-4ece-9421-322e93fae5f7|0a1c5c59-d1af-432a-9cd0-cedbe9a31461",
+          "clearance|140500000|139300000|c5af6a11-1dd7-48b3-b77d-606b3c419ba3|a5443864-9358-4ede-b471-0cf08f89dad5",
+          ""
+        ],
+        [
+          "clearance|162200000|139250000|4807e29a-98cf-47aa-b3e7-b17f0c47a6ac|d4c657e3-2586-4879-bfde-54d34e2b855f",
+          ""
+        ],
+        [
+          "clearance|181500000|139250000|c189a04b-55c0-4c5f-a060-4e8f548313a4|1f1c92c9-bc50-4692-aad7-46c05789812c",
+          ""
+        ],
+        [
+          "clearance|196800000|139250000|824846fe-8d2f-4032-8843-8f8e16c06098|379508ee-7981-4e26-aaa7-ec606eeeaa75",
+          ""
+        ],
+        [
+          "courtyards_overlap|113985000|98655000|8153754d-6c07-486c-85c7-59e1973e7bc5|ee2c4c2d-1527-4b75-b4db-60d8e411529d",
+          ""
+        ],
+        [
+          "courtyards_overlap|158512500|85455000|1e78165a-a0e2-4f92-9f83-bce7b90a5cc8|4b8097a4-42ff-4577-8fc9-819d6ac44410",
+          ""
+        ],
+        [
+          "courtyards_overlap|158512500|87505000|2f89254e-8f84-4ecd-ada3-8a5592baa1ac|4b8097a4-42ff-4577-8fc9-819d6ac44410",
           ""
         ],
         [
@@ -98,14 +122,6 @@
         ],
         [
           "solder_mask_bridge|180575000|131570000|e0d06672-24c6-4dea-ab1e-dad768a75f6b|2ad8a7fc-1b35-4990-833f-342d6828bc93",
-          ""
-        ],
-        [
-          "track_dangling|168850000|98850000|7a73e6e6-2c5e-4acc-b9f8-0708597db2cf|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "track_dangling|168900000|99250000|e4c43cae-e4d6-4e94-9ea3-06efbb3bc8ba|00000000-0000-0000-0000-000000000000",
           ""
         ]
       ],
@@ -553,6 +569,14 @@
         "wire_width": 6
       },
       {
+        "clearance": 2.0,
+        "name": "BAT_unprotected",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.0
+      },
+      {
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.2,
@@ -562,7 +586,7 @@
         "microvia_drill": 0.1,
         "name": "USB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.8,
         "via_diameter": 0.8,
@@ -578,11 +602,19 @@
     "netclass_patterns": [
       {
         "netclass": "Default",
-        "pattern": "/liion/-BATT"
+        "pattern": "+BATT"
       },
       {
         "netclass": "Default",
-        "pattern": "+BATT"
+        "pattern": "/liion/-BATT"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "USB_D+"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "USB_D-"
       },
       {
         "netclass": "USB",
@@ -593,12 +625,12 @@
         "pattern": "USB_FTDI_D-"
       },
       {
-        "netclass": "USB",
-        "pattern": "USB_D-"
+        "netclass": "BAT_unprotected",
+        "pattern": "Net-(BT1*"
       },
       {
-        "netclass": "USB",
-        "pattern": "USB_D+"
+        "netclass": "BAT_unprotected",
+        "pattern": "Net-(BT2*"
       }
     ]
   },
