@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/BATDATUNIT01.kicad_sch</source>
-    <date>2025-05-14T13:27:26+0000</date>
+    <date>2025-05-14T14:08:46+0000</date>
     <tool>Eeschema 9.0.1+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -65,11 +65,13 @@
       <footprint>Battery:BatteryHolder_Keystone_1060_1x2032</footprint>
       <description>Single-cell battery</description>
       <fields>
+        <field name="UST_ID">68249eacee7fc534862c6977</field>
         <field name="Footprint">Battery:BatteryHolder_Keystone_1060_1x2032</field>
         <field name="Datasheet"/>
         <field name="Description">Single-cell battery</field>
       </fields>
       <libsource lib="Device" part="Battery_Cell" description="Single-cell battery"/>
+      <property name="UST_ID" value="68249eacee7fc534862c6977"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BATDATUNIT01.kicad_sch"/>
       <property name="ki_keywords" value="battery cell"/>
@@ -2004,6 +2006,7 @@
       <property name="UST_ID" value="x"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BATDATUNIT01.kicad_sch"/>
+      <property name="exclude_from_bom"/>
       <property name="ki_keywords" value="test point tp"/>
       <property name="ki_fp_filters" value="Pin* Test*"/>
       <sheetpath names="/" tstamps="/"/>
@@ -2022,6 +2025,7 @@
       <property name="UST_ID" value="x"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BATDATUNIT01.kicad_sch"/>
+      <property name="exclude_from_bom"/>
       <property name="ki_keywords" value="test point tp"/>
       <property name="ki_fp_filters" value="Pin* Test*"/>
       <sheetpath names="/" tstamps="/"/>
@@ -2311,11 +2315,13 @@
       <value>19.2 MHz</value>
       <footprint>Crystal:Crystal_SMD_2520-4Pin_2.5x2.0mm</footprint>
       <fields>
+        <field name="UST_ID">67f16090ee7fc534862c5860</field>
         <field name="Footprint">Crystal:Crystal_SMD_2520-4Pin_2.5x2.0mm</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Oscillator" part="CXO_DIP8" description="Crystal Clock Oscillator,"/>
+      <property name="UST_ID" value="67f16090ee7fc534862c5860"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BATDATUNIT01.kicad_sch"/>
       <property name="ki_keywords" value="Crystal Clock Oscillator"/>
