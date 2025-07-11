@@ -8,19 +8,19 @@ github_url: https://github.com/mlab-modules/BATDATUNIT01
 homepage: false
 image_title: doc/img/BATDATUNIT01.jpg
 images:
-- doc/img/BATDATUNIT01_programming_device.jpg
-- doc/img/BATDATUNIT01_programming.jpg
 - doc/img/BATDATUNIT01.jpg
+- doc/img/BATDATUNIT01_programming.jpg
+- doc/img/BATDATUNIT01_programming_device.jpg
+- doc/img/kicad_render_BATDATUNIT01.png
 - doc/gen/img/BATDATUNIT01-bottom.png
 - doc/gen/img/BATDATUNIT01-top.png
-- doc/img/kicad_render_BATDATUNIT01.png
-- hw/cam_profi/assembly/BATDATUNIT01-assembly_page_02.svg
-- hw/cam_profi/assembly/BATDATUNIT01-assembly_page_01.svg
-- doc/gen/BATDATUNIT01-sw_source.svg
-- doc/gen/BATDATUNIT01-liion.svg
 - doc/gen/BATDATUNIT01-schematic.svg
+- doc/gen/BATDATUNIT01-liion.svg
+- doc/gen/BATDATUNIT01-sw_source.svg
 - doc/gen/img/BATDATUNIT01-top.svg
 - doc/gen/img/BATDATUNIT01-bottom.svg
+- hw/cam_profi/assembly/BATDATUNIT01-assembly_page_02.svg
+- hw/cam_profi/assembly/BATDATUNIT01-assembly_page_01.svg
 mark: 50
 mod_ibom: hw/cam_profi/BATDATUNIT01-ibom.html
 mod_scheme: doc/gen/BATDATUNIT01-schematic.pdf
@@ -37,4 +37,4 @@ tags:
 - measuring-device
 - measuring-platform
 title: BATDATUNIT01
-updated: '2025-05-15T01:01:29.612442+00:00'
+updated: '2025-07-11T01:08:50.428842+00:00'
