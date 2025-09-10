@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/BATDATUNIT01.kicad_sch</source>
-    <date>2025-07-11T01:10:31+0000</date>
+    <date>2025-09-10T19:17:27+0000</date>
     <tool>Eeschema 9.0.1+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -4276,7 +4276,7 @@
         <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tps631000.pdf?ts=1652152702265</field>
         <field name="Description">Switching Voltage Regulators 1.5-A output current, high power density buck-boost converter</field>
       </fields>
-      <libsource lib="TPS631000DRLR" part="TPS631000DRLR" description="Switching Voltage Regulators 1.5-A output current, high power density buck-boost converter"/>
+      <libsource lib="" part="TPS631000DRLR_1" description="Switching Voltage Regulators 1.5-A output current, high power density buck-boost converter"/>
       <property name="Height" value="0.5"/>
       <property name="Mouser Part Number" value="595-TPS631000DRLR"/>
       <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS631000DRLR?qs=rSMjJ%252B1ewcRYwoN2deTeNA%3D%3D"/>
@@ -4307,6 +4307,33 @@
     </comp>
   </components>
   <libparts>
+    <libpart lib="" part="TPS631000DRLR_1">
+      <description>Switching Voltage Regulators 1.5-A output current, high power density buck-boost converter</description>
+      <docs>https://www.ti.com/lit/ds/symlink/tps631000.pdf?ts=1652152702265</docs>
+      <fields>
+        <field name="Reference">U17</field>
+        <field name="Value">TPS631000DRLR</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-583-8</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tps631000.pdf?ts=1652152702265</field>
+        <field name="Description">Switching Voltage Regulators 1.5-A output current, high power density buck-boost converter</field>
+        <field name="Height">0.5</field>
+        <field name="Mouser Part Number">595-TPS631000DRLR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS631000DRLR?qs=rSMjJ%252B1ewcRYwoN2deTeNA%3D%3D</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">TPS631000DRLR</field>
+        <field name="UST_ID">63de5ae4ae0b2d5aa05e2714</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VOUT" type="power_out"/>
+        <pin num="2" name="LX2" type="passive"/>
+        <pin num="3" name="LX1" type="passive"/>
+        <pin num="4" name="VIN" type="power_in"/>
+        <pin num="5" name="EN" type="passive"/>
+        <pin num="6" name="MODE" type="input"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="FB" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Connector" part="TestPoint">
       <description>test point</description>
       <docs>~</docs>
@@ -5611,7 +5638,7 @@ NVDC Power Path Management</field>
       <node ref="U15" pin="4" pinfunction="VIN" pintype="passive"/>
       <node ref="U15" pin="5" pinfunction="EN" pintype="passive"/>
       <node ref="U16" pin="4" pinfunction="VIN" pintype="passive"/>
-      <node ref="U17" pin="4" pinfunction="VIN" pintype="passive"/>
+      <node ref="U17" pin="4" pinfunction="VIN" pintype="power_in"/>
     </net>
     <net code="4" name="/#CTS" class="Default">
       <node ref="U3" pin="9" pinfunction="DIO2" pintype="passive"/>
@@ -5964,7 +5991,7 @@ NVDC Power Path Management</field>
     <net code="82" name="/sw_source/5v_mod" class="Default">
       <node ref="JP8" pin="2" pinfunction="B" pintype="passive"/>
       <node ref="R70" pin="1" pintype="passive"/>
-      <node ref="U17" pin="6" pinfunction="MODE" pintype="passive"/>
+      <node ref="U17" pin="6" pinfunction="MODE" pintype="input"/>
     </net>
     <net code="83" name="3v3_EXT" class="Default">
       <node ref="C40" pin="1" pintype="passive"/>
@@ -5991,7 +6018,7 @@ NVDC Power Path Management</field>
       <node ref="J4" pin="A4" pintype="unspecified"/>
       <node ref="J4" pin="B4" pintype="unspecified"/>
       <node ref="R79" pin="1" pintype="passive"/>
-      <node ref="U17" pin="1" pinfunction="VOUT" pintype="passive"/>
+      <node ref="U17" pin="1" pinfunction="VOUT" pintype="power_out"/>
     </net>
     <net code="87" name="EXT_DETECTION_CHARGER" class="Default">
       <node ref="C21" pin="2" pintype="passive"/>
@@ -6131,7 +6158,7 @@ NVDC Power Path Management</field>
       <node ref="U14" pin="7" pinfunction="GND" pintype="unspecified"/>
       <node ref="U15" pin="7" pinfunction="GND" pintype="passive"/>
       <node ref="U16" pin="7" pinfunction="GND" pintype="passive"/>
-      <node ref="U17" pin="7" pinfunction="GND" pintype="passive"/>
+      <node ref="U17" pin="7" pinfunction="GND" pintype="power_in"/>
       <node ref="U18" pin="5" pinfunction="GND" pintype="bidirectional"/>
       <node ref="U18" pin="9" pintype="bidirectional"/>
       <node ref="U2" pin="2" pinfunction="GND" pintype="passive"/>
