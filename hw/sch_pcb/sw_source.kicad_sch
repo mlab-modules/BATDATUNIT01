@@ -1086,6 +1086,284 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "TPS631000DRLR_1"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U17"
+				(at 25.4 1.27 90)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "TPS631000DRLR"
+				(at 13.97 -10.16 90)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-583-8"
+				(at 24.13 2.54 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps631000.pdf?ts=1652152702265"
+				(at 24.13 0 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switching Voltage Regulators 1.5-A output current, high power density buck-boost converter"
+				(at 24.13 -2.54 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.5"
+				(at 24.13 -5.08 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "595-TPS631000DRLR"
+				(at 24.13 -7.62 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS631000DRLR?qs=rSMjJ%252B1ewcRYwoN2deTeNA%3D%3D"
+				(at 24.13 -10.16 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Texas Instruments"
+				(at 24.13 -12.7 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "TPS631000DRLR"
+				(at 24.13 -15.24 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "UST_ID" "63de5ae4ae0b2d5aa05e2714"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TPS631000DRLR_1_0_0"
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "LX2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "LX1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 0 180)
+					(length 5.08)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -7.62 180)
+					(length 5.08)
+					(name "FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TPS631000DRLR_1_1_0"
+				(pin power_out line
+					(at 0 0 0)
+					(length 5.08)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 27.94 -2.54 180)
+					(length 5.08)
+					(name "MODE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 27.94 -5.08 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TPS631000DRLR_1_1_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 22.86 2.54) (xy 22.86 -10.16) (xy 5.08 -10.16) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_names
@@ -1614,6 +1892,12 @@
 		(uuid "334d6872-5ad4-43f1-a5c1-61d45472a1bf")
 	)
 	(junction
+		(at 134.62 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "38fc4300-82da-4bdf-a324-e11a2ad7327f")
+	)
+	(junction
 		(at 186.69 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1768,16 +2052,6 @@
 			(type default)
 		)
 		(uuid "0f7f1880-948b-495b-9a2b-9dbcd5ebe193")
-	)
-	(wire
-		(pts
-			(xy 55.88 149.86) (xy 57.15 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1109e709-caa6-4927-a68a-ac5c3816a904")
 	)
 	(wire
 		(pts
@@ -2401,7 +2675,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 180.34) (xy 120.65 175.26)
+			(xy 120.65 175.26) (xy 120.65 181.61)
 		)
 		(stroke
 			(width 0)
@@ -2511,6 +2785,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 181.61) (xy 134.62 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96eaed8d-983a-4bed-82e3-5041caecd92e")
+	)
+	(wire
+		(pts
 			(xy 228.6 30.48) (xy 238.76 30.48)
 		)
 		(stroke
@@ -2528,6 +2812,16 @@
 			(type default)
 		)
 		(uuid "9fd21da7-0028-4e00-9fea-19b0b1e39d7e")
+	)
+	(wire
+		(pts
+			(xy 134.62 181.61) (xy 134.62 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4ccce98-0cd2-46d4-8f4a-2e5f29e952bc")
 	)
 	(wire
 		(pts
@@ -2581,7 +2875,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 149.86) (xy 74.93 149.86)
+			(xy 134.62 182.88) (xy 134.62 181.61)
 		)
 		(stroke
 			(width 0)
@@ -2708,16 +3002,6 @@
 			(type default)
 		)
 		(uuid "db54936e-b91c-4f90-b91f-6a224162075f")
-	)
-	(wire
-		(pts
-			(xy 80.01 149.86) (xy 83.82 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "debf2f4a-687d-437e-90e9-adb3bfa4dc7b")
 	)
 	(wire
 		(pts
@@ -2928,16 +3212,6 @@
 			(justify left bottom)
 		)
 		(uuid "2e88a6d8-3586-4ad6-8b48-d9637f7c6cb1")
-	)
-	(label "5v_mod"
-		(at 73.66 149.86 180)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify right bottom)
-		)
-		(uuid "3d026d30-6ba6-4008-955a-7c340f95cd36")
 	)
 	(label "5v_FB"
 		(at 128.27 156.21 0)
@@ -3213,7 +3487,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 55.88 149.86 0)
+		(at 134.62 193.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3222,7 +3496,7 @@
 		(fields_autoplaced yes)
 		(uuid "0519cd2a-6e58-4fb9-aa72-fb92979a5bf1")
 		(property "Reference" "#PWR0141"
-			(at 55.88 156.21 0)
+			(at 134.62 199.39 0)
 			(effects
 				(font
 					(size 1 1)
@@ -3231,15 +3505,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 55.88 154.94 0)
+			(at 137.16 194.31 0)
 			(effects
 				(font
 					(size 1 1)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 149.86 0)
+			(at 134.62 193.04 0)
 			(effects
 				(font
 					(size 1 1)
@@ -3248,7 +3523,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 149.86 0)
+			(at 134.62 193.04 0)
 			(effects
 				(font
 					(size 1 1)
@@ -3257,7 +3532,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 55.88 149.86 0)
+			(at 134.62 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6084,6 +6359,7 @@
 		)
 	)
 	(symbol
+		(lib_name "TPS631000DRLR_1")
 		(lib_id "TPS631000DRLR:TPS631000DRLR")
 		(at 123.19 147.32 270)
 		(unit 1)
@@ -7205,7 +7481,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 77.47 149.86 90)
+		(at 134.62 177.8 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7213,7 +7489,7 @@
 		(dnp no)
 		(uuid "c8c7d03c-4416-42ea-b5a0-6deefeb31046")
 		(property "Reference" "R70"
-			(at 77.47 146.05 90)
+			(at 130.81 177.8 90)
 			(effects
 				(font
 					(size 1 1)
@@ -7221,7 +7497,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 77.47 147.32 90)
+			(at 132.08 177.8 90)
 			(effects
 				(font
 					(size 1 1)
@@ -7229,7 +7505,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 77.47 149.86 0)
+			(at 134.62 177.8 0)
 			(effects
 				(font
 					(size 1 1)
@@ -7238,7 +7514,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 77.47 149.86 0)
+			(at 134.62 177.8 0)
 			(effects
 				(font
 					(size 1 1)
@@ -7247,7 +7523,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 77.47 149.86 0)
+			(at 134.62 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7256,7 +7532,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 77.47 149.86 0)
+			(at 134.62 177.8 0)
 			(effects
 				(font
 					(size 1 1)
@@ -7265,7 +7541,7 @@
 			)
 		)
 		(property "UST_ID" "5c70984612875079b91f899f"
-			(at 77.47 149.86 0)
+			(at 134.62 177.8 0)
 			(effects
 				(font
 					(size 1 1)
@@ -7794,7 +8070,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_2_Open")
-		(at 62.23 149.86 0)
+		(at 134.62 187.96 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7803,7 +8079,7 @@
 		(fields_autoplaced yes)
 		(uuid "df251754-5c97-4806-987a-b3b3cdd8ccee")
 		(property "Reference" "JP8"
-			(at 62.23 146.05 0)
+			(at 130.81 187.96 0)
 			(effects
 				(font
 					(size 1 1)
@@ -7811,7 +8087,7 @@
 			)
 		)
 		(property "Value" "Jumper_2_Open"
-			(at 62.23 146.05 0)
+			(at 130.81 187.96 0)
 			(effects
 				(font
 					(size 1 1)
@@ -7820,7 +8096,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 62.23 149.86 0)
+			(at 134.62 187.96 0)
 			(effects
 				(font
 					(size 1 1)
@@ -7829,7 +8105,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 62.23 149.86 0)
+			(at 134.62 187.96 0)
 			(effects
 				(font
 					(size 1 1)
@@ -7838,7 +8114,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 62.23 149.86 0)
+			(at 134.62 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7847,7 +8123,7 @@
 			)
 		)
 		(property "UST_ID" "x"
-			(at 62.23 149.86 0)
+			(at 134.62 187.96 0)
 			(effects
 				(font
 					(size 1 1)
@@ -7968,7 +8244,7 @@
 	)
 	(symbol
 		(lib_id "power:+VSW")
-		(at 83.82 149.86 0)
+		(at 134.62 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7976,7 +8252,7 @@
 		(dnp no)
 		(uuid "e419c5c1-f9fa-4d5a-aae5-eb26500b1727")
 		(property "Reference" "#PWR0144"
-			(at 83.82 153.67 0)
+			(at 134.62 179.07 0)
 			(effects
 				(font
 					(size 1 1)
@@ -7985,7 +8261,7 @@
 			)
 		)
 		(property "Value" "+VSW"
-			(at 83.82 146.05 0)
+			(at 134.62 171.45 0)
 			(effects
 				(font
 					(size 1 1)
@@ -7993,7 +8269,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 149.86 0)
+			(at 134.62 175.26 0)
 			(effects
 				(font
 					(size 1 1)
@@ -8002,7 +8278,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 149.86 0)
+			(at 134.62 175.26 0)
 			(effects
 				(font
 					(size 1 1)
@@ -8011,7 +8287,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 83.82 149.86 0)
+			(at 134.62 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
