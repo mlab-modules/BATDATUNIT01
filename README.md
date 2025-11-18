@@ -115,5 +115,5 @@ Designed for convenience, the module allows for fast detachment from the measuri
 
 ## Connectivity
 
-A durable connector brings together data and detection elements with impressive mechanical resilience. It hosts UART, I2C, SPI buses, and extra GPIO signals, providing extensive interfacing options with various systems.
+A durable Molex connector brings together data and detection with impressive mechanical resilience. It hosts UART, I2C, SPI buses, and extra GPIO signals, providing extensive interfacing options with various systems. The complementary module to the interface connector is [BATDATSOCKET01](https://github.com/mlab-modules/BATDATSOCKET01).
 
