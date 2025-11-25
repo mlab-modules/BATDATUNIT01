@@ -819,274 +819,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "TPS631000DRLR:TPS631000DRLR"
-			(pin_names
-				(offset 0.762)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 24.13 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "TPS631000DRLR"
-				(at 24.13 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "SOTFL50P160X60-8N"
-				(at 24.13 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps631000.pdf?ts=1652152702265"
-				(at 24.13 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "Switching Voltage Regulators 1.5-A output current, high power density buck-boost converter"
-				(at 24.13 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Height" "0.6"
-				(at 24.13 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "595-TPS631000DRLR"
-				(at 24.13 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS631000DRLR?qs=rSMjJ%252B1ewcRYwoN2deTeNA%3D%3D"
-				(at 24.13 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Texas Instruments"
-				(at 24.13 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "TPS631000DRLR"
-				(at 24.13 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(symbol "TPS631000DRLR_0_0"
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "LX2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "LX1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 27.94 0 180)
-					(length 5.08)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 27.94 -2.54 180)
-					(length 5.08)
-					(name "MODE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 27.94 -5.08 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 27.94 -7.62 180)
-					(length 5.08)
-					(name "FB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "TPS631000DRLR_0_1"
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 22.86 2.54) (xy 22.86 -10.16) (xy 5.08 -10.16) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "TPS631000DRLR_1"
+		(symbol "MLAB_U:TPS631000DRLR"
 			(pin_names
 				(offset 0.762)
 			)
@@ -1200,7 +933,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "TPS631000DRLR_1_0_0"
+			(symbol "TPS631000DRLR_0_0"
 				(pin passive line
 					(at 0 -2.54 0)
 					(length 5.08)
@@ -1274,7 +1007,7 @@
 					)
 				)
 			)
-			(symbol "TPS631000DRLR_1_1_0"
+			(symbol "TPS631000DRLR_1_0"
 				(pin power_out line
 					(at 0 0 0)
 					(length 5.08)
@@ -1348,7 +1081,7 @@
 					)
 				)
 			)
-			(symbol "TPS631000DRLR_1_1_1"
+			(symbol "TPS631000DRLR_1_1"
 				(polyline
 					(pts
 						(xy 5.08 2.54) (xy 22.86 2.54) (xy 22.86 -10.16) (xy 5.08 -10.16) (xy 5.08 2.54)
@@ -4282,7 +4015,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TPS631000DRLR:TPS631000DRLR")
+		(lib_id "MLAB_U:TPS631000DRLR")
 		(at 123.19 34.29 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6359,8 +6092,7 @@
 		)
 	)
 	(symbol
-		(lib_name "TPS631000DRLR_1")
-		(lib_id "TPS631000DRLR:TPS631000DRLR")
+		(lib_id "MLAB_U:TPS631000DRLR")
 		(at 123.19 147.32 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9279,7 +9011,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TPS631000DRLR:TPS631000DRLR")
+		(lib_id "MLAB_U:TPS631000DRLR")
 		(at 123.19 91.44 270)
 		(unit 1)
 		(exclude_from_sim no)
