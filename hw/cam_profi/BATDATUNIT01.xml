@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/BATDATUNIT01.kicad_sch</source>
-    <date>2025-11-25T18:24:06+0000</date>
+    <date>2025-11-25T21:07:57+0000</date>
     <tool>Eeschema 9.0.1+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -2235,11 +2235,13 @@
         <field name="Datasheet">http://www.atmel.com/Images/Atmel-8272-8-bit-AVR-microcontroller-ATmega164A_PA-324A_PA-644A_PA-1284_P_datasheet.pdf</field>
         <field name="Description"/>
       </fields>
-      <libsource lib="SPACEDOS01A_PCB01A-rescue" part="ATMEGA1284P-AU-atmel-DATALOGGER01A-rescue-CCP2019V01A-rescue" description=""/>
+      <libsource lib="MCU_Microchip_ATmega" part="ATmega1284P-A" description="20MHz, 128kB Flash, 16kB SRAM, 4kB EEPROM, JTAG, TQFP-44"/>
       <property name="UST_ID" value="5c70984412875079b91f888e"/>
       <property name="Height" value="1.1"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BATDATUNIT01.kicad_sch"/>
+      <property name="ki_keywords" value="AVR 8bit Microcontroller MegaAVR PicoPower"/>
+      <property name="ki_fp_filters" value="TQFP*10x10mm*P0.8mm*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>1d7853c5-21fe-485c-bdfc-fbd831efcaee</tstamps>
     </comp>
@@ -4725,6 +4727,66 @@
         <pin num="14" name="P3/SDA" type="unspecified"/>
       </pins>
     </libpart>
+    <libpart lib="MCU_Microchip_ATmega" part="ATmega1284P-A">
+      <description>20MHz, 128kB Flash, 16kB SRAM, 4kB EEPROM, JTAG, TQFP-44</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8272-8-bit-AVR-microcontroller-ATmega164A_PA-324A_PA-644A_PA-1284_P_datasheet.pdf</docs>
+      <footprints>
+        <fp>TQFP*10x10mm*P0.8mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATmega1284P-A</field>
+        <field name="Footprint">Package_QFP:TQFP-44_10x10mm_P0.8mm</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8272-8-bit-AVR-microcontroller-ATmega164A_PA-324A_PA-644A_PA-1284_P_datasheet.pdf</field>
+        <field name="Description">20MHz, 128kB Flash, 16kB SRAM, 4kB EEPROM, JTAG, TQFP-44</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PB5" type="bidirectional"/>
+        <pin num="2" name="PB6" type="bidirectional"/>
+        <pin num="3" name="PB7" type="bidirectional"/>
+        <pin num="4" name="~{RESET}" type="input"/>
+        <pin num="5" name="VCC" type="power_in"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="XTAL2" type="output"/>
+        <pin num="8" name="XTAL1" type="input"/>
+        <pin num="9" name="PD0" type="bidirectional"/>
+        <pin num="10" name="PD1" type="bidirectional"/>
+        <pin num="11" name="PD2" type="bidirectional"/>
+        <pin num="12" name="PD3" type="bidirectional"/>
+        <pin num="13" name="PD4" type="bidirectional"/>
+        <pin num="14" name="PD5" type="bidirectional"/>
+        <pin num="15" name="PD6" type="bidirectional"/>
+        <pin num="16" name="PD7" type="bidirectional"/>
+        <pin num="17" name="VCC" type="passive"/>
+        <pin num="18" name="GND" type="passive"/>
+        <pin num="19" name="PC0" type="bidirectional"/>
+        <pin num="20" name="PC1" type="bidirectional"/>
+        <pin num="21" name="PC2" type="bidirectional"/>
+        <pin num="22" name="PC3" type="bidirectional"/>
+        <pin num="23" name="PC4" type="bidirectional"/>
+        <pin num="24" name="PC5" type="bidirectional"/>
+        <pin num="25" name="PC6" type="bidirectional"/>
+        <pin num="26" name="PC7" type="bidirectional"/>
+        <pin num="27" name="AVCC" type="power_in"/>
+        <pin num="28" name="GND" type="passive"/>
+        <pin num="29" name="AREF" type="passive"/>
+        <pin num="30" name="PA7" type="bidirectional"/>
+        <pin num="31" name="PA6" type="bidirectional"/>
+        <pin num="32" name="PA5" type="bidirectional"/>
+        <pin num="33" name="PA4" type="bidirectional"/>
+        <pin num="34" name="PA3" type="bidirectional"/>
+        <pin num="35" name="PA2" type="bidirectional"/>
+        <pin num="36" name="PA1" type="bidirectional"/>
+        <pin num="37" name="PA0" type="bidirectional"/>
+        <pin num="38" name="VCC" type="passive"/>
+        <pin num="39" name="GND" type="passive"/>
+        <pin num="40" name="PB0" type="bidirectional"/>
+        <pin num="41" name="PB1" type="bidirectional"/>
+        <pin num="42" name="PB2" type="bidirectional"/>
+        <pin num="43" name="PB3" type="bidirectional"/>
+        <pin num="44" name="PB4" type="bidirectional"/>
+      </pins>
+    </libpart>
     <libpart lib="MLAB_BATERY" part="2xBATT">
       <description>Single-cell battery</description>
       <docs>~</docs>
@@ -5330,61 +5392,6 @@ NVDC Power Path Management</field>
         <pin num="6" name="I/O1" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="SPACEDOS01A_PCB01A-rescue" part="ATMEGA1284P-AU-atmel-DATALOGGER01A-rescue-CCP2019V01A-rescue">
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">ATMEGA1284P-AU-atmel-DATALOGGER01A-rescue-CCP2019V01A-rescue</field>
-        <field name="Footprint">TQFP44</field>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <pins>
-        <pin num="1" name="(PCINT13/MOSI)PB5" type="bidirectional"/>
-        <pin num="2" name="(PCINT14/MISO)PB6" type="bidirectional"/>
-        <pin num="3" name="(PCINT15/SCK)PB7" type="bidirectional"/>
-        <pin num="4" name="~{RESET}" type="input"/>
-        <pin num="5" name="VCC" type="power_in"/>
-        <pin num="6" name="GND" type="power_in"/>
-        <pin num="7" name="XTAL2" type="bidirectional"/>
-        <pin num="8" name="XTAL1" type="bidirectional"/>
-        <pin num="9" name="(PCINT24/RXD0)PD0" type="bidirectional"/>
-        <pin num="10" name="(PCINT25/TXD0)PD1" type="bidirectional"/>
-        <pin num="11" name="(PCINT26/RXD1/INT0)PD2" type="bidirectional"/>
-        <pin num="12" name="(PCINT27/TXD1/INT1)PD3" type="bidirectional"/>
-        <pin num="13" name="(PCINT28/XCK1/OC1B)PD4" type="bidirectional"/>
-        <pin num="14" name="(PCINT294/OC1A)PD5" type="bidirectional"/>
-        <pin num="15" name="(PCINT30/OC2B/ICP)PD6" type="bidirectional"/>
-        <pin num="16" name="(PCINT31/OC2A)PD7" type="bidirectional"/>
-        <pin num="17" name="VCC" type="power_in"/>
-        <pin num="18" name="GND" type="power_in"/>
-        <pin num="19" name="(PCINT16/SCL)PC0" type="bidirectional"/>
-        <pin num="20" name="(PCINT17/SDA)PC1" type="bidirectional"/>
-        <pin num="21" name="(PCINT18/TCK)PC2" type="bidirectional"/>
-        <pin num="22" name="(PCINT19/TMS)PC3" type="bidirectional"/>
-        <pin num="23" name="(PCINT20/TDO)PC4" type="bidirectional"/>
-        <pin num="24" name="(PCINT21/TDI)PC5" type="bidirectional"/>
-        <pin num="25" name="(PCINT22/TOSC1)PC6" type="bidirectional"/>
-        <pin num="26" name="(PCINT23/TOSC2)PC7" type="bidirectional"/>
-        <pin num="27" name="AVCC" type="power_in"/>
-        <pin num="28" name="GND" type="power_in"/>
-        <pin num="29" name="AREF" type="power_in"/>
-        <pin num="30" name="(PCINT7/ADC7)PA7" type="bidirectional"/>
-        <pin num="31" name="(PCINT6/ADC6)PA6" type="bidirectional"/>
-        <pin num="32" name="(PCINT5/ADC5)PA5" type="bidirectional"/>
-        <pin num="33" name="(PCINT4/ADC4)PA4" type="bidirectional"/>
-        <pin num="34" name="(PCINT3/ADC3)PA3" type="bidirectional"/>
-        <pin num="35" name="(PCINT2/ADC2)PA2" type="bidirectional"/>
-        <pin num="36" name="(PCINT1/ADC1)PA1" type="bidirectional"/>
-        <pin num="37" name="(PCINT0/ADC0)PA0" type="bidirectional"/>
-        <pin num="38" name="VCC" type="power_in"/>
-        <pin num="39" name="GND" type="power_in"/>
-        <pin num="40" name="(PCINT8/T0/XCK)PB0" type="bidirectional"/>
-        <pin num="41" name="(PCINT9/CLKO/T1)PB1" type="bidirectional"/>
-        <pin num="42" name="(PCINT10/AIN0/INT2)PB2" type="bidirectional"/>
-        <pin num="43" name="(PCINT11/AIN1/OC0)PB3" type="bidirectional"/>
-        <pin num="44" name="(PCINT12/OC0B/~{SS})PB4" type="bidirectional"/>
-      </pins>
-    </libpart>
     <libpart lib="SPACEDOS01A_PCB01A-rescue" part="Crystal-device-DATALOGGER01A-rescue-CCP2019V01A-rescue">
       <footprints>
         <fp>Crystal*</fp>
@@ -5471,6 +5478,9 @@ NVDC Power Path Management</field>
     </library>
     <library logical="Jumper">
       <uri>/usr/share/kicad/symbols//Jumper.kicad_sym</uri>
+    </library>
+    <library logical="MCU_Microchip_ATmega">
+      <uri>/usr/share/kicad/symbols//MCU_Microchip_ATmega.kicad_sym</uri>
     </library>
     <library logical="Mechanical">
       <uri>/usr/share/kicad/symbols//Mechanical.kicad_sym</uri>
@@ -5576,9 +5586,9 @@ NVDC Power Path Management</field>
       <node ref="U5" pin="8" pinfunction="VCC" pintype="power_in"/>
       <node ref="U6" pin="5" pinfunction="VDD" pintype="power_in"/>
       <node ref="U7" pin="16" pinfunction="VDD" pintype="passive"/>
-      <node ref="U8" pin="17" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U8" pin="17" pinfunction="VCC" pintype="passive"/>
       <node ref="U8" pin="27" pinfunction="AVCC" pintype="power_in"/>
-      <node ref="U8" pin="38" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U8" pin="38" pinfunction="VCC" pintype="passive"/>
       <node ref="U8" pin="5" pinfunction="VCC" pintype="power_in"/>
       <node ref="U9" pin="1" pinfunction="VDD" pintype="power_in"/>
       <node ref="U9" pin="2" pinfunction="PS" pintype="input"/>
@@ -5616,27 +5626,27 @@ NVDC Power Path Management</field>
     </net>
     <net code="4" name="/#CTS" class="Default">
       <node ref="U3" pin="9" pinfunction="DIO2" pintype="passive"/>
-      <node ref="U8" pin="33" pinfunction="(PCINT4/ADC4)PA4" pintype="bidirectional"/>
+      <node ref="U8" pin="33" pinfunction="PA4" pintype="bidirectional"/>
     </net>
     <net code="5" name="/#ENUM_FTDI_USB" class="Default">
       <node ref="R81" pin="2" pintype="passive"/>
       <node ref="U3" pin="14" pinfunction="DIO7" pintype="passive"/>
-      <node ref="U8" pin="24" pinfunction="(PCINT21/TDI)PC5" pintype="bidirectional"/>
+      <node ref="U8" pin="24" pinfunction="PC5" pintype="bidirectional"/>
     </net>
     <net code="6" name="/#RTS" class="Default">
       <node ref="U3" pin="8" pinfunction="DIO1" pintype="passive"/>
-      <node ref="U8" pin="32" pinfunction="(PCINT5/ADC5)PA5" pintype="bidirectional"/>
+      <node ref="U8" pin="32" pinfunction="PA5" pintype="bidirectional"/>
     </net>
     <net code="7" name="/BTN_USER_A" class="Default">
       <node ref="R18" pin="2" pintype="passive"/>
       <node ref="R82" pin="1" pintype="passive"/>
       <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U8" pin="31" pinfunction="(PCINT6/ADC6)PA6" pintype="bidirectional"/>
+      <node ref="U8" pin="31" pinfunction="PA6" pintype="bidirectional"/>
     </net>
     <net code="8" name="/BTN_USER_B" class="Default">
       <node ref="R28" pin="2" pintype="passive"/>
       <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U8" pin="30" pinfunction="(PCINT7/ADC7)PA7" pintype="bidirectional"/>
+      <node ref="U8" pin="30" pinfunction="PA7" pintype="bidirectional"/>
     </net>
     <net code="9" name="/CCLK" class="Default">
       <node ref="R8" pin="1" pintype="passive"/>
@@ -5668,7 +5678,7 @@ NVDC Power Path Management</field>
     </net>
     <net code="16" name="/CS_SD" class="Default">
       <node ref="U1" pin="14" pinfunction="HDAT1_3" pintype="passive"/>
-      <node ref="U8" pin="44" pinfunction="(PCINT12/OC0B/~{SS})PB4" pintype="bidirectional"/>
+      <node ref="U8" pin="44" pinfunction="PB4" pintype="bidirectional"/>
     </net>
     <net code="17" name="/D+" class="Default">
       <node ref="J1" pin="A6" pinfunction="D+" pintype="bidirectional"/>
@@ -5686,27 +5696,27 @@ NVDC Power Path Management</field>
     </net>
     <net code="20" name="/EXT_A0" class="Default">
       <node ref="J4" pin="D4" pintype="unspecified"/>
-      <node ref="U8" pin="37" pinfunction="(PCINT0/ADC0)PA0" pintype="bidirectional"/>
+      <node ref="U8" pin="37" pinfunction="PA0" pintype="bidirectional"/>
     </net>
     <net code="21" name="/EXT_A1" class="Default">
       <node ref="J4" pin="D5" pintype="unspecified"/>
-      <node ref="U8" pin="36" pinfunction="(PCINT1/ADC1)PA1" pintype="bidirectional"/>
+      <node ref="U8" pin="36" pinfunction="PA1" pintype="bidirectional"/>
     </net>
     <net code="22" name="/EXT_B0" class="Default">
       <node ref="J4" pin="E5" pintype="unspecified"/>
-      <node ref="U8" pin="40" pinfunction="(PCINT8/T0/XCK)PB0" pintype="bidirectional"/>
+      <node ref="U8" pin="40" pinfunction="PB0" pintype="bidirectional"/>
     </net>
     <net code="23" name="/EXT_B1" class="Default">
       <node ref="J4" pin="E6" pintype="unspecified"/>
-      <node ref="U8" pin="41" pinfunction="(PCINT9/CLKO/T1)PB1" pintype="bidirectional"/>
+      <node ref="U8" pin="41" pinfunction="PB1" pintype="bidirectional"/>
     </net>
     <net code="24" name="/EXT_C0" class="Default">
       <node ref="J4" pin="E1" pintype="unspecified"/>
-      <node ref="U8" pin="25" pinfunction="(PCINT22/TOSC1)PC6" pintype="bidirectional"/>
+      <node ref="U8" pin="25" pinfunction="PC6" pintype="bidirectional"/>
     </net>
     <net code="25" name="/EXT_C1" class="Default">
       <node ref="J4" pin="E2" pintype="unspecified"/>
-      <node ref="U8" pin="26" pinfunction="(PCINT23/TOSC2)PC7" pintype="bidirectional"/>
+      <node ref="U8" pin="26" pinfunction="PC7" pintype="bidirectional"/>
     </net>
     <net code="26" name="/EXT_DETECTION" class="Default">
       <node ref="C21" pin="1" pintype="passive"/>
@@ -5717,20 +5727,20 @@ NVDC Power Path Management</field>
     <net code="27" name="/EXT_DETECTION_MCU" class="Default">
       <node ref="D6" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="R44" pin="2" pintype="passive"/>
-      <node ref="U8" pin="34" pinfunction="(PCINT3/ADC3)PA3" pintype="bidirectional"/>
+      <node ref="U8" pin="34" pinfunction="PA3" pintype="bidirectional"/>
     </net>
     <net code="28" name="/EXT_I2C_EN" class="Default">
       <node ref="R42" pin="1" pintype="passive"/>
       <node ref="U11" pin="1" pinfunction="EN" pintype="unspecified"/>
-      <node ref="U8" pin="23" pinfunction="(PCINT20/TDO)PC4" pintype="bidirectional"/>
+      <node ref="U8" pin="23" pinfunction="PC4" pintype="bidirectional"/>
     </net>
     <net code="29" name="/EXT_RX" class="Default">
       <node ref="J4" pin="E4" pintype="unspecified"/>
-      <node ref="U8" pin="11" pinfunction="(PCINT26/RXD1/INT0)PD2" pintype="bidirectional"/>
+      <node ref="U8" pin="11" pinfunction="PD2" pintype="bidirectional"/>
     </net>
     <net code="30" name="/EXT_TX" class="Default">
       <node ref="J4" pin="E3" pintype="unspecified"/>
-      <node ref="U8" pin="12" pinfunction="(PCINT27/TXD1/INT1)PD3" pintype="bidirectional"/>
+      <node ref="U8" pin="12" pinfunction="PD3" pintype="bidirectional"/>
     </net>
     <net code="31" name="/FREF" class="Default">
       <node ref="C49" pin="2" pintype="passive"/>
@@ -5738,20 +5748,20 @@ NVDC Power Path Management</field>
     </net>
     <net code="32" name="/LED_U1" class="Default">
       <node ref="R19" pin="1" pintype="passive"/>
-      <node ref="U8" pin="13" pinfunction="(PCINT28/XCK1/OC1B)PD4" pintype="bidirectional"/>
+      <node ref="U8" pin="13" pinfunction="PD4" pintype="bidirectional"/>
     </net>
     <net code="33" name="/LED_U2" class="Default">
       <node ref="R31" pin="1" pintype="passive"/>
-      <node ref="U8" pin="14" pinfunction="(PCINT294/OC1A)PD5" pintype="bidirectional"/>
+      <node ref="U8" pin="14" pinfunction="PD5" pintype="bidirectional"/>
     </net>
     <net code="34" name="/LED_U3" class="Default">
       <node ref="R20" pin="1" pintype="passive"/>
-      <node ref="U8" pin="15" pinfunction="(PCINT30/OC2B/ICP)PD6" pintype="bidirectional"/>
+      <node ref="U8" pin="15" pinfunction="PD6" pintype="bidirectional"/>
     </net>
     <net code="35" name="/MISO_MCU" class="Default">
       <node ref="J3" pin="1" pintype="input"/>
       <node ref="U7" pin="7" pinfunction="D2" pintype="passive"/>
-      <node ref="U8" pin="2" pinfunction="(PCINT14/MISO)PB6" pintype="bidirectional"/>
+      <node ref="U8" pin="2" pinfunction="PB6" pintype="bidirectional"/>
     </net>
     <net code="36" name="/MISO_OUT" class="Default">
       <node ref="J4" pin="D2" pintype="unspecified"/>
@@ -5764,7 +5774,7 @@ NVDC Power Path Management</field>
     <net code="38" name="/MOSI_MCU" class="Default">
       <node ref="J3" pin="4" pintype="input"/>
       <node ref="U7" pin="4" pinfunction="D1" pintype="passive"/>
-      <node ref="U8" pin="1" pinfunction="(PCINT13/MOSI)PB5" pintype="bidirectional"/>
+      <node ref="U8" pin="1" pinfunction="PB5" pintype="bidirectional"/>
     </net>
     <net code="39" name="/MOSI_OUT" class="Default">
       <node ref="J4" pin="D3" pintype="unspecified"/>
@@ -5788,7 +5798,7 @@ NVDC Power Path Management</field>
     <net code="43" name="/SCLK_MCU" class="Default">
       <node ref="J3" pin="3" pintype="input"/>
       <node ref="U7" pin="9" pinfunction="D3" pintype="passive"/>
-      <node ref="U8" pin="3" pinfunction="(PCINT15/SCK)PB7" pintype="bidirectional"/>
+      <node ref="U8" pin="3" pinfunction="PB7" pintype="bidirectional"/>
     </net>
     <net code="44" name="/SCLK_OUT" class="Default">
       <node ref="J4" pin="D1" pintype="unspecified"/>
@@ -5801,7 +5811,7 @@ NVDC Power Path Management</field>
     <net code="46" name="/SCL_MCU" class="Default">
       <node ref="R21" pin="1" pintype="passive"/>
       <node ref="U4" pin="1" pinfunction="SCL_MST0" pintype="passive"/>
-      <node ref="U8" pin="19" pinfunction="(PCINT16/SCL)PC0" pintype="bidirectional"/>
+      <node ref="U8" pin="19" pinfunction="PC0" pintype="bidirectional"/>
     </net>
     <net code="47" name="/SCL_OUT" class="Default">
       <node ref="J4" pin="C1" pintype="unspecified"/>
@@ -5816,7 +5826,7 @@ NVDC Power Path Management</field>
     <net code="49" name="/SDA_MCU" class="Default">
       <node ref="R23" pin="1" pintype="passive"/>
       <node ref="U4" pin="16" pinfunction="SDA_MST0" pintype="passive"/>
-      <node ref="U8" pin="20" pinfunction="(PCINT17/SDA)PC1" pintype="bidirectional"/>
+      <node ref="U8" pin="20" pinfunction="PC1" pintype="bidirectional"/>
     </net>
     <net code="50" name="/SDA_OUT" class="Default">
       <node ref="J4" pin="C2" pintype="unspecified"/>
@@ -5831,7 +5841,7 @@ NVDC Power Path Management</field>
     <net code="52" name="/SPI_MUX_SEL" class="Default">
       <node ref="R39" pin="2" pintype="passive"/>
       <node ref="U7" pin="1" pinfunction="SEL" pintype="passive"/>
-      <node ref="U8" pin="21" pinfunction="(PCINT18/TCK)PC2" pintype="bidirectional"/>
+      <node ref="U8" pin="21" pinfunction="PC2" pintype="bidirectional"/>
     </net>
     <net code="53" name="/UART_RX_LED" class="Default">
       <node ref="R22" pin="2" pintype="passive"/>
@@ -5843,15 +5853,15 @@ NVDC Power Path Management</field>
     </net>
     <net code="55" name="/USB_RXD" class="Default">
       <node ref="U3" pin="10" pinfunction="DIO3" pintype="passive"/>
-      <node ref="U8" pin="10" pinfunction="(PCINT25/TXD0)PD1" pintype="bidirectional"/>
+      <node ref="U8" pin="10" pinfunction="PD1" pintype="bidirectional"/>
     </net>
     <net code="56" name="/USB_TXD" class="Default">
       <node ref="U3" pin="11" pinfunction="DIO4" pintype="passive"/>
-      <node ref="U8" pin="9" pinfunction="(PCINT24/RXD0)PD0" pintype="bidirectional"/>
+      <node ref="U8" pin="9" pinfunction="PD0" pintype="bidirectional"/>
     </net>
     <net code="57" name="/buzzer" class="Default">
       <node ref="R32" pin="1" pintype="passive"/>
-      <node ref="U8" pin="16" pinfunction="(PCINT31/OC2A)PD7" pintype="bidirectional"/>
+      <node ref="U8" pin="16" pinfunction="PD7" pintype="bidirectional"/>
     </net>
     <net code="58" name="/liion/-BATT" class="Default">
       <node ref="BT1" pin="1-" pinfunction="-" pintype="passive"/>
@@ -5927,7 +5937,7 @@ NVDC Power Path Management</field>
     <net code="74" name="/mode" class="Default">
       <node ref="JP2" pin="2" pinfunction="C" pintype="passive"/>
       <node ref="R12" pin="2" pintype="passive"/>
-      <node ref="U8" pin="43" pinfunction="(PCINT11/AIN1/OC0)PB3" pintype="bidirectional"/>
+      <node ref="U8" pin="43" pinfunction="PB3" pintype="bidirectional"/>
     </net>
     <net code="75" name="/mode_max" class="Default">
       <node ref="JP2" pin="3" pinfunction="B" pintype="passive"/>
@@ -5984,7 +5994,7 @@ NVDC Power Path Management</field>
     </net>
     <net code="85" name="3v3_SD_CTRL" class="Default">
       <node ref="U18" pin="3" pinfunction="ON" pintype="bidirectional"/>
-      <node ref="U8" pin="22" pinfunction="(PCINT19/TMS)PC3" pintype="bidirectional"/>
+      <node ref="U8" pin="22" pinfunction="PC3" pintype="bidirectional"/>
     </net>
     <net code="86" name="5v_EXT" class="Default">
       <node ref="C41" pin="1" pintype="passive"/>
@@ -6007,13 +6017,13 @@ NVDC Power Path Management</field>
       <node ref="JP6" pin="2" pinfunction="B" pintype="passive"/>
       <node ref="R73" pin="2" pintype="passive"/>
       <node ref="U16" pin="5" pinfunction="EN" pintype="passive"/>
-      <node ref="U8" pin="42" pinfunction="(PCINT10/AIN0/INT2)PB2" pintype="bidirectional"/>
+      <node ref="U8" pin="42" pinfunction="PB2" pintype="bidirectional"/>
     </net>
     <net code="89" name="EXT_PWR_5v_EN" class="Default">
       <node ref="JP7" pin="2" pinfunction="B" pintype="passive"/>
       <node ref="R74" pin="2" pintype="passive"/>
       <node ref="U17" pin="5" pinfunction="EN" pintype="passive"/>
-      <node ref="U8" pin="35" pinfunction="(PCINT2/ADC2)PA2" pintype="bidirectional"/>
+      <node ref="U8" pin="35" pinfunction="PA2" pintype="bidirectional"/>
     </net>
     <net code="90" name="GND" class="Default">
       <node ref="BT3" pin="2" pinfunction="-" pintype="passive"/>
@@ -6156,9 +6166,9 @@ NVDC Power Path Management</field>
       <node ref="U6" pin="9" pinfunction="VSS" pintype="passive"/>
       <node ref="U7" pin="15" pinfunction="~{EN}" pintype="passive"/>
       <node ref="U7" pin="8" pinfunction="GND" pintype="passive"/>
-      <node ref="U8" pin="18" pinfunction="GND" pintype="power_in"/>
-      <node ref="U8" pin="28" pinfunction="GND" pintype="power_in"/>
-      <node ref="U8" pin="39" pinfunction="GND" pintype="power_in"/>
+      <node ref="U8" pin="18" pinfunction="GND" pintype="passive"/>
+      <node ref="U8" pin="28" pinfunction="GND" pintype="passive"/>
+      <node ref="U8" pin="39" pinfunction="GND" pintype="passive"/>
       <node ref="U8" pin="6" pinfunction="GND" pintype="power_in"/>
       <node ref="U9" pin="3" pinfunction="GND" pintype="power_in"/>
       <node ref="U9" pin="4" pinfunction="CSB_1" pintype="input"/>
@@ -6413,16 +6423,16 @@ NVDC Power Path Management</field>
     <net code="150" name="Net-(U8-AREF)" class="Default">
       <node ref="C11" pin="1" pintype="passive"/>
       <node ref="C15" pin="1" pintype="passive"/>
-      <node ref="U8" pin="29" pinfunction="AREF" pintype="power_in"/>
+      <node ref="U8" pin="29" pinfunction="AREF" pintype="passive"/>
     </net>
     <net code="151" name="Net-(U8-XTAL1)" class="Default">
       <node ref="C14" pin="1" pintype="passive"/>
-      <node ref="U8" pin="8" pinfunction="XTAL1" pintype="bidirectional"/>
+      <node ref="U8" pin="8" pinfunction="XTAL1" pintype="input"/>
       <node ref="Y2" pin="3" pinfunction="3" pintype="passive"/>
     </net>
     <net code="152" name="Net-(U8-XTAL2)" class="Default">
       <node ref="C9" pin="1" pintype="passive"/>
-      <node ref="U8" pin="7" pinfunction="XTAL2" pintype="bidirectional"/>
+      <node ref="U8" pin="7" pinfunction="XTAL2" pintype="output"/>
       <node ref="Y2" pin="1" pinfunction="1" pintype="passive"/>
     </net>
     <net code="153" name="Net-(U10-INTA)" class="Default">

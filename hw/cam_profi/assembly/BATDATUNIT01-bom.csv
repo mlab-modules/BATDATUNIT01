@@ -54,7 +54,7 @@ Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
 53,Temperature dependent resistor,Thermistor,TH1,10k NTC,R_0805_2012Metric,1,~,5c70984712875079b91f8ac5,,,,,,,,,,,,,,
 54,"Temperature dependent resistor, negative temperature coefficient",Thermistor_NTC,TH2,10k NTC,R_0805_2012Metric,1,~,5c70984712875079b91f8ac5,,,,,,,,,,,,,,
 55,"I2C Serial EEPROM, 64Kb (8192x8) with Unique Serial Number, SO8",AT24CS64-SSHM,U5,AT24CS64-SSHM,SOIC-8_3.9x4.9mm_P1.27mm,1,http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8870-SEEPROM-AT24CS64-Datasheet.pdf,5c70984712875079b91f8b99,,,,,,1.5,,,,,,,,
-56,,ATMEGA1284P-AU-atmel-DATALOGGER01A-rescue-CCP2019V01A-rescue,U8,ATMEGA1284P-AU,TQFP-44_10x10mm_P0.8mm,1,http://www.atmel.com/Images/Atmel-8272-8-bit-AVR-microcontroller-ATmega164A_PA-324A_PA-644A_PA-1284_P_datasheet.pdf,5c70984412875079b91f888e,,,,,,1.1,,,,,,,,
+56,"20MHz, 128kB Flash, 16kB SRAM, 4kB EEPROM, JTAG, TQFP-44",ATmega1284P-A,U8,ATMEGA1284P-AU,TQFP-44_10x10mm_P0.8mm,1,http://www.atmel.com/Images/Atmel-8272-8-bit-AVR-microcontroller-ATmega164A_PA-324A_PA-644A_PA-1284_P_datasheet.pdf,5c70984412875079b91f888e,,,,,,1.1,,,,,,,,
 57,"BQ25628E I2C Controlled 1-Cell, 2-A, Maximum 18-V Input, Buck Battery Charger with
 NVDC Power Path Management",BQ25628E,U13,BQ25628E,Texas_S-WQFN-HR-18,1,https://www.ti.com/lit/ds/symlink/bq25628e.pdf,65481a71462c6d9e72056aa4,,,,,,,0x6B,,,,,,,
 58,,BQ34Z100,U12,BQ34Z100,TSSOP-14_4.4x5mm_Pitch0.65mm,1,https://www.ti.com/lit/ds/symlink/bq34z100-g1.pdf,5c70984612875079b91f89c3,,,,,,"1,2",0xAA,,,,,,,
