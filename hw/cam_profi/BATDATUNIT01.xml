@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/BATDATUNIT01.kicad_sch</source>
-    <date>2025-09-10T19:17:27+0000</date>
+    <date>2025-11-25T18:24:06+0000</date>
     <tool>Eeschema 9.0.1+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -4220,7 +4220,7 @@
         <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tps631000.pdf?ts=1652152702265</field>
         <field name="Description">Switching Voltage Regulators 1.5-A output current, high power density buck-boost converter</field>
       </fields>
-      <libsource lib="TPS631000DRLR" part="TPS631000DRLR" description="Switching Voltage Regulators 1.5-A output current, high power density buck-boost converter"/>
+      <libsource lib="MLAB_U" part="TPS631000DRLR" description="Switching Voltage Regulators 1.5-A output current, high power density buck-boost converter"/>
       <property name="Height" value="0.5"/>
       <property name="Mouser Part Number" value="595-TPS631000DRLR"/>
       <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS631000DRLR?qs=rSMjJ%252B1ewcRYwoN2deTeNA%3D%3D"/>
@@ -4248,7 +4248,7 @@
         <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tps631000.pdf?ts=1652152702265</field>
         <field name="Description">Switching Voltage Regulators 1.5-A output current, high power density buck-boost converter</field>
       </fields>
-      <libsource lib="TPS631000DRLR" part="TPS631000DRLR" description="Switching Voltage Regulators 1.5-A output current, high power density buck-boost converter"/>
+      <libsource lib="MLAB_U" part="TPS631000DRLR" description="Switching Voltage Regulators 1.5-A output current, high power density buck-boost converter"/>
       <property name="Height" value="0.5"/>
       <property name="Mouser Part Number" value="595-TPS631000DRLR"/>
       <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS631000DRLR?qs=rSMjJ%252B1ewcRYwoN2deTeNA%3D%3D"/>
@@ -4276,7 +4276,7 @@
         <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tps631000.pdf?ts=1652152702265</field>
         <field name="Description">Switching Voltage Regulators 1.5-A output current, high power density buck-boost converter</field>
       </fields>
-      <libsource lib="" part="TPS631000DRLR_1" description="Switching Voltage Regulators 1.5-A output current, high power density buck-boost converter"/>
+      <libsource lib="MLAB_U" part="TPS631000DRLR" description="Switching Voltage Regulators 1.5-A output current, high power density buck-boost converter"/>
       <property name="Height" value="0.5"/>
       <property name="Mouser Part Number" value="595-TPS631000DRLR"/>
       <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS631000DRLR?qs=rSMjJ%252B1ewcRYwoN2deTeNA%3D%3D"/>
@@ -4307,33 +4307,6 @@
     </comp>
   </components>
   <libparts>
-    <libpart lib="" part="TPS631000DRLR_1">
-      <description>Switching Voltage Regulators 1.5-A output current, high power density buck-boost converter</description>
-      <docs>https://www.ti.com/lit/ds/symlink/tps631000.pdf?ts=1652152702265</docs>
-      <fields>
-        <field name="Reference">U17</field>
-        <field name="Value">TPS631000DRLR</field>
-        <field name="Footprint">Package_TO_SOT_SMD:SOT-583-8</field>
-        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tps631000.pdf?ts=1652152702265</field>
-        <field name="Description">Switching Voltage Regulators 1.5-A output current, high power density buck-boost converter</field>
-        <field name="Height">0.5</field>
-        <field name="Mouser Part Number">595-TPS631000DRLR</field>
-        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS631000DRLR?qs=rSMjJ%252B1ewcRYwoN2deTeNA%3D%3D</field>
-        <field name="Manufacturer_Name">Texas Instruments</field>
-        <field name="Manufacturer_Part_Number">TPS631000DRLR</field>
-        <field name="UST_ID">63de5ae4ae0b2d5aa05e2714</field>
-      </fields>
-      <pins>
-        <pin num="1" name="VOUT" type="power_out"/>
-        <pin num="2" name="LX2" type="passive"/>
-        <pin num="3" name="LX1" type="passive"/>
-        <pin num="4" name="VIN" type="power_in"/>
-        <pin num="5" name="EN" type="passive"/>
-        <pin num="6" name="MODE" type="input"/>
-        <pin num="7" name="GND" type="power_in"/>
-        <pin num="8" name="FB" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="Connector" part="TestPoint">
       <description>test point</description>
       <docs>~</docs>
@@ -5210,6 +5183,33 @@ NVDC Power Path Management</field>
         <pin num="GND" name="SHIELD" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="MLAB_U" part="TPS631000DRLR">
+      <description>Switching Voltage Regulators 1.5-A output current, high power density buck-boost converter</description>
+      <docs>https://www.ti.com/lit/ds/symlink/tps631000.pdf?ts=1652152702265</docs>
+      <fields>
+        <field name="Reference">U17</field>
+        <field name="Value">TPS631000DRLR</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-583-8</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tps631000.pdf?ts=1652152702265</field>
+        <field name="Description">Switching Voltage Regulators 1.5-A output current, high power density buck-boost converter</field>
+        <field name="Height">0.5</field>
+        <field name="Mouser Part Number">595-TPS631000DRLR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS631000DRLR?qs=rSMjJ%252B1ewcRYwoN2deTeNA%3D%3D</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">TPS631000DRLR</field>
+        <field name="UST_ID">63de5ae4ae0b2d5aa05e2714</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VOUT" type="power_out"/>
+        <pin num="2" name="LX2" type="passive"/>
+        <pin num="3" name="LX1" type="passive"/>
+        <pin num="4" name="VIN" type="power_in"/>
+        <pin num="5" name="EN" type="passive"/>
+        <pin num="6" name="MODE" type="input"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="FB" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="MS561101BA03-50" part="MS561101BA03-50">
       <description>Sensor Pressure 1.2bar Barometric SMD MS561101BA03-50, Barometric Pressure Sensor, 1200mbar 0  3.6 V Output, 8-Pin QFN</description>
       <docs>http://www.te.com/usa-en/search.html?q=ms5611&amp;source=header</docs>
@@ -5458,32 +5458,6 @@ NVDC Power Path Management</field>
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="TPS631000DRLR" part="TPS631000DRLR">
-      <description>Switching Voltage Regulators 1.5-A output current, high power density buck-boost converter</description>
-      <docs>https://www.ti.com/lit/ds/symlink/tps631000.pdf?ts=1652152702265</docs>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">TPS631000DRLR</field>
-        <field name="Footprint">SOTFL50P160X60-8N</field>
-        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tps631000.pdf?ts=1652152702265</field>
-        <field name="Description">Switching Voltage Regulators 1.5-A output current, high power density buck-boost converter</field>
-        <field name="Height">0.6</field>
-        <field name="Mouser Part Number">595-TPS631000DRLR</field>
-        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS631000DRLR?qs=rSMjJ%252B1ewcRYwoN2deTeNA%3D%3D</field>
-        <field name="Manufacturer_Name">Texas Instruments</field>
-        <field name="Manufacturer_Part_Number">TPS631000DRLR</field>
-      </fields>
-      <pins>
-        <pin num="1" name="VOUT" type="passive"/>
-        <pin num="2" name="LX2" type="passive"/>
-        <pin num="3" name="LX1" type="passive"/>
-        <pin num="4" name="VIN" type="passive"/>
-        <pin num="5" name="EN" type="passive"/>
-        <pin num="6" name="MODE" type="passive"/>
-        <pin num="7" name="GND" type="passive"/>
-        <pin num="8" name="FB" type="passive"/>
-      </pins>
-    </libpart>
   </libparts>
   <libraries>
     <library logical="Connector">
@@ -5588,7 +5562,7 @@ NVDC Power Path Management</field>
       <node ref="U11" pin="8" pinfunction="VCC" pintype="unspecified"/>
       <node ref="U14" pin="14" pinfunction="VCC" pintype="unspecified"/>
       <node ref="U14" pin="9" pinfunction="CLR" pintype="unspecified"/>
-      <node ref="U15" pin="1" pinfunction="VOUT" pintype="passive"/>
+      <node ref="U15" pin="1" pinfunction="VOUT" pintype="power_out"/>
       <node ref="U18" pin="1" pinfunction="VIN" pintype="bidirectional"/>
       <node ref="U18" pin="2" pinfunction="VIN" pintype="bidirectional"/>
       <node ref="U18" pin="4" pinfunction="VBIAS" pintype="bidirectional"/>
@@ -5635,9 +5609,9 @@ NVDC Power Path Management</field>
       <node ref="R71" pin="2" pintype="passive"/>
       <node ref="R72" pin="2" pintype="passive"/>
       <node ref="U13" pin="9" pinfunction="SYS" pintype="power_out"/>
-      <node ref="U15" pin="4" pinfunction="VIN" pintype="passive"/>
+      <node ref="U15" pin="4" pinfunction="VIN" pintype="power_in"/>
       <node ref="U15" pin="5" pinfunction="EN" pintype="passive"/>
-      <node ref="U16" pin="4" pinfunction="VIN" pintype="passive"/>
+      <node ref="U16" pin="4" pinfunction="VIN" pintype="power_in"/>
       <node ref="U17" pin="4" pinfunction="VIN" pintype="power_in"/>
     </net>
     <net code="4" name="/#CTS" class="Default">
@@ -5971,7 +5945,7 @@ NVDC Power Path Management</field>
     <net code="78" name="/sw_source/3v3_mod" class="Default">
       <node ref="JP10" pin="2" pinfunction="B" pintype="passive"/>
       <node ref="R72" pin="1" pintype="passive"/>
-      <node ref="U16" pin="6" pinfunction="MODE" pintype="passive"/>
+      <node ref="U16" pin="6" pinfunction="MODE" pintype="input"/>
     </net>
     <net code="79" name="/sw_source/3v3i_FB" class="Default">
       <node ref="R75" pin="2" pintype="passive"/>
@@ -5981,7 +5955,7 @@ NVDC Power Path Management</field>
     <net code="80" name="/sw_source/3v3i_mod" class="Default">
       <node ref="JP9" pin="2" pinfunction="B" pintype="passive"/>
       <node ref="R71" pin="1" pintype="passive"/>
-      <node ref="U15" pin="6" pinfunction="MODE" pintype="passive"/>
+      <node ref="U15" pin="6" pinfunction="MODE" pintype="input"/>
     </net>
     <net code="81" name="/sw_source/5v_FB" class="Default">
       <node ref="R79" pin="2" pintype="passive"/>
@@ -5999,7 +5973,7 @@ NVDC Power Path Management</field>
       <node ref="J4" pin="A3" pintype="unspecified"/>
       <node ref="J4" pin="B3" pintype="unspecified"/>
       <node ref="R77" pin="1" pintype="passive"/>
-      <node ref="U16" pin="1" pinfunction="VOUT" pintype="passive"/>
+      <node ref="U16" pin="1" pinfunction="VOUT" pintype="power_out"/>
     </net>
     <net code="84" name="3v3_SD" class="Default">
       <node ref="C47" pin="1" pintype="passive"/>
@@ -6156,8 +6130,8 @@ NVDC Power Path Management</field>
       <node ref="U13" pin="14" pinfunction="~{CE}" pintype="input"/>
       <node ref="U13" pin="15" pinfunction="GND" pintype="power_in"/>
       <node ref="U14" pin="7" pinfunction="GND" pintype="unspecified"/>
-      <node ref="U15" pin="7" pinfunction="GND" pintype="passive"/>
-      <node ref="U16" pin="7" pinfunction="GND" pintype="passive"/>
+      <node ref="U15" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="U16" pin="7" pinfunction="GND" pintype="power_in"/>
       <node ref="U17" pin="7" pinfunction="GND" pintype="power_in"/>
       <node ref="U18" pin="5" pinfunction="GND" pintype="bidirectional"/>
       <node ref="U18" pin="9" pintype="bidirectional"/>
