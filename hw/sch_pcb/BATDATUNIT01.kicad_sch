@@ -11428,7 +11428,7 @@
 	)
 	(text "Active: 1.5mA\nStandby: 6 uA"
 		(exclude_from_sim no)
-		(at 224.79 43.18 0)
+		(at 228.6 41.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11450,7 +11450,7 @@
 	)
 	(text "Active: 1.0 mA\nStandby: 2 uA"
 		(exclude_from_sim no)
-		(at 250.19 91.44 0)
+		(at 245.11 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11691,7 +11691,7 @@
 	)
 	(text "I2C: 0x76"
 		(exclude_from_sim no)
-		(at 304.8 40.005 0)
+		(at 316.23 44.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14883,6 +14883,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 142.24) (xy 228.6 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a48ddf9-967a-42dd-a2c7-d648f28cae80")
+	)
+	(wire
+		(pts
 			(xy 359.41 35.56) (xy 359.41 38.1)
 		)
 		(stroke
@@ -15773,7 +15783,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 146.05) (xy 228.6 148.59)
+			(xy 228.6 147.32) (xy 228.6 148.59)
 		)
 		(stroke
 			(width 0)
@@ -20099,7 +20109,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 240.03 38.1 0)
+			(at 243.84 36.83 0)
 			(effects
 				(font
 					(size 1 1)
@@ -26660,7 +26670,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 228.6 143.51 0)
+		(at 228.6 144.78 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -26669,7 +26679,7 @@
 		(dnp no)
 		(uuid "68657fe9-9b2b-4d40-9784-c9a58a5c60d8")
 		(property "Reference" "C14"
-			(at 226.695 143.51 0)
+			(at 226.695 144.78 0)
 			(effects
 				(font
 					(size 1 1)
@@ -26678,7 +26688,7 @@
 			)
 		)
 		(property "Value" "15p"
-			(at 226.695 145.415 0)
+			(at 226.695 146.685 0)
 			(effects
 				(font
 					(size 1 1)
@@ -26687,7 +26697,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 228.6 143.51 0)
+			(at 228.6 144.78 0)
 			(effects
 				(font
 					(size 1 1)
@@ -26696,7 +26706,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 228.6 143.51 0)
+			(at 228.6 144.78 0)
 			(effects
 				(font
 					(size 1 1)
@@ -26705,7 +26715,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 228.6 143.51 0)
+			(at 228.6 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26714,7 +26724,7 @@
 			)
 		)
 		(property "UST_ID" "5c70984712875079b91f8b32"
-			(at 228.6 143.51 0)
+			(at 228.6 144.78 0)
 			(effects
 				(font
 					(size 1 1)
@@ -29333,7 +29343,7 @@
 		(dnp no)
 		(uuid "8823f251-b1b6-4eea-880d-700bba6ff4b9")
 		(property "Reference" "U5"
-			(at 247.65 71.12 0)
+			(at 237.49 72.39 0)
 			(effects
 				(font
 					(size 1 1)
@@ -29341,7 +29351,7 @@
 			)
 		)
 		(property "Value" "AT24CS64-SSHM"
-			(at 252.73 68.58 0)
+			(at 250.19 72.39 0)
 			(effects
 				(font
 					(size 1 1)
