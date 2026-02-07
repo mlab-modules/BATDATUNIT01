@@ -968,7 +968,7 @@ var d={x:c.clientX,y:c.clientY};b.push(d);var e=function(a,b){var c=a.indexOf(b)
 ///////////////////////////////////////////////
 
 ///////////////////////////////////////////////
-var config = {"dark_mode": false, "show_pads": true, "show_fabrication": false, "show_silkscreen": true, "highlight_pin1": "none", "redraw_on_drag": true, "board_rotation": 0.0, "checkboxes": "Sourced,Placed", "bom_view": "left-right", "layer_view": "FB", "offset_back_rotation": false, "kicad_text_formatting": true, "fields": ["Value", "Footprint", "UST_ID"]}
+var config = {"dark_mode": false, "show_pads": true, "show_fabrication": false, "show_silkscreen": true, "highlight_pin1": "none", "redraw_on_drag": true, "board_rotation": 0.0, "checkboxes": "Sourced,Placed", "bom_view": "left-right", "layer_view": "FB", "offset_back_rotation": false, "kicad_text_formatting": true, "mark_when_checked": "", "fields": ["Value", "Footprint", "UST_ID"]}
 ///////////////////////////////////////////////
 
 ///////////////////////////////////////////////
@@ -1527,7 +1527,10 @@ function initDefaults() {
   setHighlightPin1(highlightpin1);
   document.forms.highlightpin1.highlightpin1.value = highlightpin1;
 
-  settings.markWhenChecked = readStorage("markWhenChecked") || "";
+  settings.markWhenChecked = readStorage("markWhenChecked");
+  if (settings.markWhenChecked == null) {
+    settings.markWhenChecked = config.mark_when_checked;
+  }
   populateMarkWhenCheckedOptions();
 
   function initBooleanSetting(storageString, def, elementId, func) {
@@ -1650,11 +1653,18 @@ function drawText(ctx, text, color) {
   ctx.strokeStyle = color;
   ctx.lineCap = "round";
   ctx.lineJoin = "round";
-  ctx.lineWidth = text.thickness;
   if ("svgpath" in text) {
-    ctx.stroke(new Path2D(text.svgpath));
-    ctx.restore();
-    return;
+    if ("thickness" in text) {
+      ctx.lineWidth = text.thickness;
+      ctx.stroke(new Path2D(text.svgpath));
+      ctx.restore();
+      return;
+    }
+    if ("fillrule" in text) {
+      ctx.fill(new Path2D(text.svgpath), text.fillrule);
+      ctx.restore();
+      return;
+    }
   }
   if ("polygons" in text) {
     ctx.fill(getPolygonsPath(text));
@@ -2727,7 +2737,7 @@ function setBomHandlers() {
     draggingElement.remove();
 
     // Make BOM selectable again
-    bom.style.removeProperty("userSelect");
+    bom.style.removeProperty("user-select");
 
     // Remove listeners
     document.removeEventListener('mousemove', mouseMoveHandler);
