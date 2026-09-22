@@ -3,6 +3,8 @@
     "3dviewports": [],
     "design_settings": {
       "defaults": {
+        "apply_defaults_to_fp_barcodes": false,
+        "apply_defaults_to_fp_dimensions": false,
         "apply_defaults_to_fp_fields": false,
         "apply_defaults_to_fp_shapes": false,
         "apply_defaults_to_fp_text": false,
@@ -48,7 +50,23 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "border_display_style": 2,
+          "border_hatch_pitch": 0.5,
+          "corner_radius": 0.0,
+          "corner_smoothing": 0,
+          "fill_mode": 0,
+          "hatch_gap": 1.5,
+          "hatch_orientation": 0.0,
+          "hatch_smoothing_level": 0,
+          "hatch_smoothing_value": 0.1,
+          "hatch_thickness": 1.0,
+          "min_clearance": 0.0,
+          "min_island_area": 10.0,
+          "min_thickness": 0.25,
+          "pad_connection": 1,
+          "remove_islands": 0,
+          "thermal_relief_gap": 0.5,
+          "thermal_relief_spoke_width": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -101,26 +119,6 @@
           ""
         ],
         [
-          "hole_clearance|180575000|131570000|fe1dbe91-ec6b-4d18-9c02-5943c76f43eb|2ad8a7fc-1b35-4990-833f-342d6828bc93",
-          ""
-        ],
-        [
-          "hole_clearance|212670000|76770000|d148af18-f6d6-45ec-8a1c-feb539a2f240|00e554df-8fcc-49b3-92bf-9029b79be7e9",
-          ""
-        ],
-        [
-          "hole_clearance|212670000|82570000|a5d75c22-beff-4591-959e-2ddc6256445d|3266b757-2124-419a-8a04-525ef4ba8ce7",
-          ""
-        ],
-        [
-          "solder_mask_bridge|163800000|68750000|581daab7-965b-47ba-8bbb-5d09565011e1|f4481856-5dbd-4b72-baa8-79f0e05304ce",
-          ""
-        ],
-        [
-          "solder_mask_bridge|169300000|68750000|69c75199-8c79-4ece-9421-322e93fae5f7|1bdb2a72-f832-4d4b-9456-210e6a7d154e",
-          ""
-        ],
-        [
           "solder_mask_bridge|180575000|131570000|fe1dbe91-ec6b-4d18-9c02-5943c76f43eb|2ad8a7fc-1b35-4990-833f-342d6828bc93",
           ""
         ]
@@ -143,6 +141,7 @@
         "extra_footprint": "warning",
         "footprint": "error",
         "footprint_filters_mismatch": "ignore",
+        "footprint_symbol_field_mismatch": "warning",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
@@ -161,6 +160,7 @@
         "mirrored_text_on_front_layer": "warning",
         "missing_courtyard": "ignore",
         "missing_footprint": "warning",
+        "missing_tuning_profile": "warning",
         "net_conflict": "warning",
         "nonmirrored_text_on_back_layer": "warning",
         "npth_inside_courtyard": "ignore",
@@ -180,9 +180,12 @@
         "too_many_vias": "error",
         "track_angle": "error",
         "track_dangling": "warning",
+        "track_not_centered_on_via": "ignore",
+        "track_on_post_machined_layer": "error",
         "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
+        "tuning_profile_track_geometries": "ignore",
         "unconnected_items": "error",
         "unresolved_variable": "error",
         "via_dangling": "warning",
@@ -305,17 +308,28 @@
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
+      "bom_rev": "",
       "dist": "",
       "distpn": "",
       "internal_id": "",
       "mfg": "",
-      "mpn": ""
+      "mpn": "",
+      "sch_revision": "C"
     },
     "layer_pairs": [],
     "layer_presets": [],
     "viewports": []
   },
   "boards": [],
+  "component_class_settings": {
+    "assignments": [],
+    "meta": {
+      "version": 0
+    },
+    "sheet_component_classes": {
+      "enabled": false
+    }
+  },
   "cvpcb": {
     "equivalence_files": []
   },
@@ -506,11 +520,14 @@
       "duplicate_sheet_names": "error",
       "endpoint_off_grid": "warning",
       "extra_units": "error",
+      "field_name_whitespace": "warning",
       "footprint_filter": "ignore",
       "footprint_link_issues": "warning",
       "four_way_junction": "ignore",
       "global_label_dangling": "warning",
+      "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
+      "isolated_pin_label": "warning",
       "label_dangling": "error",
       "label_multiple_wires": "warning",
       "lib_symbol_issues": "warning",
@@ -533,6 +550,7 @@
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
       "single_global_label": "ignore",
+      "stacked_pin_name": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
       "undefined_netclass": "error",
@@ -565,6 +583,7 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3,
+        "tuning_profile": "",
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
@@ -575,7 +594,8 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.0
+        "track_width": 1.0,
+        "tuning_profile": ""
       },
       {
         "bus_width": 12,
@@ -590,13 +610,14 @@
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.8,
+        "tuning_profile": "",
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
       }
     ],
     "meta": {
-      "version": 4
+      "version": 5
     },
     "net_colors": null,
     "netclass_assignments": null,
@@ -651,6 +672,10 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "annotation": {
+      "method": 0,
+      "sort_order": 0
+    },
     "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
@@ -710,6 +735,7 @@
       "sort_asc": true,
       "sort_field": "Reference"
     },
+    "bus_aliases": {},
     "connection_grid_size": 50.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
@@ -717,6 +743,7 @@
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
       "field_names": [],
+      "hop_over_size_choice": 0,
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
@@ -748,6 +775,7 @@
     },
     "page_layout_descr_file": "../../doc/assets/templates/KiCAD/page_layout.kicad_wks",
     "plot_directory": "",
+    "reuse_designators": true,
     "space_save_all_events": true,
     "spice_current_sheet_as_root": true,
     "spice_external_command": "spice \"%I\"",
@@ -756,12 +784,21 @@
     "spice_save_all_dissipations": false,
     "spice_save_all_voltages": false,
     "subpart_first_id": 65,
-    "subpart_id_separator": 0
+    "subpart_id_separator": 0,
+    "top_level_sheets": [
+      {
+        "filename": "BATDATUNIT01.kicad_sch",
+        "name": "BATDATUNIT01",
+        "uuid": "cca3030a-cb35-4155-89c2-3a41e5a0afad"
+      }
+    ],
+    "used_designators": "",
+    "variants": []
   },
   "sheets": [
     [
       "cca3030a-cb35-4155-89c2-3a41e5a0afad",
-      "Root"
+      "BATDATUNIT01"
     ],
     [
       "ac32fb25-724e-41e3-8a81-e04630a0599b",
@@ -772,5 +809,11 @@
       "sw_source"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {},
+  "tuning_profiles": {
+    "meta": {
+      "version": 0
+    },
+    "tuning_profiles_impedance_geometric": []
+  }
 }
