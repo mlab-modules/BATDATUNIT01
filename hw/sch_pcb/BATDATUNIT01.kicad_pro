@@ -87,11 +87,11 @@
           ""
         ],
         [
-          "clearance|121200000|139300000|b7ec76bc-5352-4565-ae77-c866d8a9cd01|a70dbc61-93cf-48a5-85cf-e93d793babac",
+          "clearance|122148600|137745000|a70dbc61-93cf-48a5-85cf-e93d793babac|b7ec76bc-5352-4565-ae77-c866d8a9cd01",
           ""
         ],
         [
-          "clearance|140500000|139300000|c5af6a11-1dd7-48b3-b77d-606b3c419ba3|a5443864-9358-4ede-b471-0cf08f89dad5",
+          "clearance|141503400|137822200|a5443864-9358-4ede-b471-0cf08f89dad5|c5af6a11-1dd7-48b3-b77d-606b3c419ba3",
           ""
         ],
         [
@@ -99,11 +99,11 @@
           ""
         ],
         [
-          "clearance|181500000|139250000|c189a04b-55c0-4c5f-a060-4e8f548313a4|1f1c92c9-bc50-4692-aad7-46c05789812c",
+          "clearance|182422800|137720600|1f1c92c9-bc50-4692-aad7-46c05789812c|c189a04b-55c0-4c5f-a060-4e8f548313a4",
           ""
         ],
         [
-          "clearance|196800000|139250000|824846fe-8d2f-4032-8843-8f8e16c06098|379508ee-7981-4e26-aaa7-ec606eeeaa75",
+          "clearance|195808600|137822200|379508ee-7981-4e26-aaa7-ec606eeeaa75|824846fe-8d2f-4032-8843-8f8e16c06098",
           ""
         ],
         [
@@ -116,6 +116,10 @@
         ],
         [
           "courtyards_overlap|158512500|87505000|2f89254e-8f84-4ecd-ada3-8a5592baa1ac|4b8097a4-42ff-4577-8fc9-819d6ac44410",
+          ""
+        ],
+        [
+          "hole_clearance|180575000|131570000|2ad8a7fc-1b35-4990-833f-342d6828bc93|fe1dbe91-ec6b-4d18-9c02-5943c76f43eb",
           ""
         ],
         [
@@ -792,7 +796,7 @@
         "uuid": "cca3030a-cb35-4155-89c2-3a41e5a0afad"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR177",
     "variants": []
   },
   "sheets": [

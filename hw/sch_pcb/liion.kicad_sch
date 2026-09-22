@@ -5051,6 +5051,12 @@
 		(uuid "7e4af6e7-0902-411b-a0cc-b9ad4738fbfb")
 	)
 	(junction
+		(at 157.48 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f825326-6bea-492e-a352-1e1cdedf67c5")
+	)
+	(junction
 		(at 231.14 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5695,6 +5701,16 @@
 			(type default)
 		)
 		(uuid "55e54d96-5264-4db5-9d89-0619db05908e")
+	)
+	(wire
+		(pts
+			(xy 160.02 73.66) (xy 160.02 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "564a7b69-2597-4d90-b0b2-9af6552ae24a")
 	)
 	(wire
 		(pts
@@ -6905,6 +6921,16 @@
 			(type default)
 		)
 		(uuid "fb29e81b-c4fb-4646-9860-9d82a9e79aec")
+	)
+	(wire
+		(pts
+			(xy 160.02 71.12) (xy 157.48 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc4af0e4-2433-41c2-87c5-8836d83300cd")
 	)
 	(wire
 		(pts
@@ -9583,6 +9609,83 @@
 			(project "BATDATUNIT01"
 				(path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
 					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 160.02 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "39b7ae88-ecd2-4098-a789-4fefd4a1873c")
+		(property "Reference" "#PWR0177"
+			(at 160.02 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 162.56 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 160.02 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ec2eb6df-fa3c-4f6a-a00b-b5ab73c95d6e")
+		)
+		(instances
+			(project "BATDATUNIT01"
+				(path "/cca3030a-cb35-4155-89c2-3a41e5a0afad/ac32fb25-724e-41e3-8a81-e04630a0599b"
+					(reference "#PWR0177")
 					(unit 1)
 				)
 			)
@@ -12803,7 +12906,7 @@
 		(dnp no)
 		(uuid "8aaf6d85-1c14-4372-9615-53157b2fd38c")
 		(property "Reference" "TH2"
-			(at 160.02 71.12 90)
+			(at 153.67 77.47 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
