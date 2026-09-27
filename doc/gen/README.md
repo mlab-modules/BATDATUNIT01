@@ -66,7 +66,7 @@ Eurocircuits class: 6D
 Components count: (SMD/THT)
 
 - Top: 27/7 (SMD + THT)
-- Bottom: 173/3 (SMD + THT)
+- Bottom: 173/18 (SMD + THT)
 
 Defined tracks:
 
@@ -77,10 +77,10 @@ Defined tracks:
 
 Used tracks:
 
-- 0.2 mm (8 mils) (136) defined: yes
-- 0.25 mm (10 mils) (68) defined: no
-- 0.3 mm (12 mils) (1377) defined: yes
-- 0.4 mm (16 mils) (136) defined: yes
+- 0.2 mm (8 mils) (140) defined: yes
+- 0.25 mm (10 mils) (70) defined: no
+- 0.3 mm (12 mils) (1385) defined: yes
+- 0.4 mm (16 mils) (141) defined: yes
 - 0.5 mm (20 mils) (55) defined: yes
 - 0.8 mm (31 mils) (38) defined: no
 - 0.9 mm (35 mils) (19) defined: no
@@ -139,6 +139,10 @@ The stencil thickness is  0.12 mm.
 | Total  |             700 |     899.98 |      4.48 |
 
 Note: this is just an approximation to the theoretical value. Margins of the solder mask and waste aren't computed.
+
+
+
+
 
 
 

@@ -21,7 +21,7 @@ Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
 "C18","100n","C_0805_2012Metric",27.4860,6.5797,-90.0000,bottom
 "C19","1u","C_0805_2012Metric",86.6860,43.6510,-90.0000,bottom
 "C20","100n","C_0805_2012Metric",35.4860,25.9060,90.0000,bottom
-"C21","22u","C_0805_2012Metric",32.9360,60.5160,0.0000,bottom
+"C21","47u","C_0805_2012Metric",32.9360,60.5160,0.0000,bottom
 "C22","10u","C_0805_2012Metric",97.0164,57.6290,0.0000,bottom
 "C23","100n","C_0805_2012Metric",97.0164,55.4192,0.0000,bottom
 "C24","1u","C_0805_2012Metric",91.0860,66.2260,90.0000,bottom
@@ -68,11 +68,24 @@ Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
 "J1","USBC_USB4105-GF-A","USBC GCT_USB4105-GF-A",134.1360,68.2560,-90.0000,bottom
 "J2","SD_Card-FPS009-4200-0","FPS009-4200-0",133.0610,32.8310,0.0000,bottom
 "J3","HEADER_2x03","SMD_2x03",48.4360,52.9760,0.0000,bottom
+"JP1","Jumper_3_Bridged12","SolderJumper-3_P1.3mm_Bridged2Bar12_RoundedPad1.0x1.5mm",78.9360,53.3000,180.0000,bottom
+"JP2","SolderJumper_3_Bridged123","SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm",76.9860,50.1260,0.0000,bottom
+"JP3","SolderJumper_2_Open","SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm",56.6860,53.0260,90.0000,bottom
+"JP5","Jumper_3_Bridged12","SolderJumper-3_P1.3mm_Bridged2Bar12_RoundedPad1.0x1.5mm",91.9360,57.1260,90.0000,bottom
+"JP6","Jumper_2_Open","SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm",51.5860,72.4235,180.0000,bottom
+"JP7","Jumper_2_Open","SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm",31.1360,72.3685,180.0000,bottom
+"JP8","Jumper_2_Open","SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm",24.9360,67.8060,90.0000,bottom
+"JP9","Jumper_2_Open","SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm",64.9860,68.0160,90.0000,bottom
+"JP10","Jumper_2_Open","SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm",45.4860,67.8610,90.0000,bottom
+"JP11","Jumper_2_Open","SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm",90.2860,71.2260,-90.0000,bottom
+"JP12","Jumper_2_Open","SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm",87.7360,71.2260,-90.0000,bottom
 "L1","1uH - DFE252012P-1R0M=P2","L_1008_2520Metric",100.6860,63.7260,90.0000,bottom
 "L2","1uH - DFE252012P-1R0M=P2","L_1008_2520Metric",64.7360,73.8660,180.0000,bottom
 "L3","1uH - DFE252012P-1R0M=P2","L_1008_2520Metric",45.1860,73.7110,180.0000,bottom
 "L4","1uH - DFE252012P-1R0M=P2","L_1008_2520Metric",24.8110,73.6685,180.0000,bottom
 "L5","100uH","L_0805_2012Metric_Pad1.15x1.40mm_HandSolder",88.1360,35.0260,0.0000,bottom
+"NT1","NetTie_2","NetTie-2_SMD_Pad0.5mm",81.5860,78.9260,180.0000,bottom
+"NT2","NetTie_2","NetTie-2_SMD_Pad0.5mm",86.0860,78.9260,0.0000,bottom
 "Q1","BC817-25","SOT-23-3",81.5860,22.0260,90.0000,bottom
 "Q2","BC817-25","SOT-23-3",88.5193,22.0260,90.0000,bottom
 "Q3","BC817-25","SOT-23-3",85.0527,22.0260,90.0000,bottom
@@ -120,17 +133,17 @@ Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
 "R40","10k","R_0805_2012Metric",52.0860,53.0760,-90.0000,bottom
 "R41","100R","R_0805_2012Metric",45.8862,15.9476,-90.0000,bottom
 "R42","10k","R_0805_2012Metric",32.5766,33.0164,-90.0000,bottom
-"R43","270k","R_0805_2012Metric",32.9160,62.5460,0.0000,bottom
+"R43","511k","R_0805_2012Metric",32.9160,62.5460,0.0000,bottom
 "R44","10k","R_0805_2012Metric",29.7485,52.3260,0.0000,bottom
 "R45","10k","R_0805_2012Metric",48.2738,20.6212,180.0000,bottom
-"R46","10k","R_0805_2012Metric",23.9860,36.3260,90.0000,bottom
-"R47","10k","R_0805_2012Metric",25.9360,37.2260,90.0000,bottom
+"R46","10k","R_0805_2012Metric",26.3536,33.9816,90.0000,bottom
+"R47","10k","R_0805_2012Metric",28.5380,37.8424,0.0000,bottom
 "R48","1k","R_0805_2012Metric",107.5110,72.2510,90.0000,bottom
 "R49","1k","R_0805_2012Metric",111.4860,72.2260,90.0000,bottom
 "R50","270R","R_0805_2012Metric",105.5860,72.2510,-90.0000,bottom
 "R51","68R","R_0805_2012Metric",109.5110,72.2260,-90.0000,bottom
 "R52","R","R_0805_2012Metric",94.2360,56.7260,-90.0000,bottom
-"R53","510R","R_0805_2012Metric",78.1360,63.3760,0.0000,bottom
+"R53","1k","R_0805_2012Metric",78.1360,63.3760,0.0000,bottom
 "R54","270R","R_0805_2012Metric",87.0860,58.6260,-90.0000,bottom
 "R55","1k","R_0805_2012Metric",89.1678,58.6260,90.0000,bottom
 "R56","2k4","R_0805_2012Metric",91.0220,62.6836,-90.0000,bottom
@@ -154,6 +167,8 @@ Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
 "R82","100R","R_0805_2012Metric",39.3584,27.3014,180.0000,bottom
 "SW2","KMT031","KMT031 NGJ LHS C&K",34.8860,54.8510,0.0000,bottom
 "SW4","KMT031","KMT031 NGJ LHS C&K",42.0860,54.8510,180.0000,bottom
+"TP1","FS","TestPoint_Pad_D1.0mm",85.0860,40.8260,180.0000,bottom
+"TP2","MUX_RST","TestPoint_Pad_D1.5mm",69.1360,42.3260,180.0000,bottom
 "U1","MAX14502AETL+","QFN40P500X500X80-41N",90.1860,48.4760,0.0000,bottom
 "U2","USBLC6-2SC6","SOT-23-6",124.8485,68.2260,0.0000,bottom
 "U3","FT260Q-T","QFN-28-1EP_5x5mm_P0.5mm_EP3.35x3.35mm",77.8860,39.8060,90.0000,bottom
@@ -164,7 +179,7 @@ Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
 "U8","ATMEGA1284P-AU","TQFP-44_10x10mm_P0.8mm",37.9110,42.6310,180.0000,bottom
 "U9","MS561101BA03-50","LGA-8_3x5mm_P1.25mm",24.5847,5.8297,180.0000,bottom
 "U10","PCF85263A","TSSOP-10_3x3mm_P0.5mm",39.4860,24.4060,0.0000,bottom
-"U11","TCA4307","VSSOP-8_3.0x3.0mm_P0.65mm",28.6860,32.9260,90.0000,bottom
+"U11","TCA4307","VSSOP-8_3.0x3.0mm_P0.65mm",29.2492,32.9260,90.0000,bottom
 "U12","BQ34Z100","TSSOP-14_4.4x5mm_Pitch0.65mm",84.7860,65.0260,90.0000,bottom
 "U13","BQ25628E","Texas_S-WQFN-HR-18",96.2010,63.3260,0.0000,bottom
 "U14","SN74HC164P","TSSOP-14_4.4x5mm_P0.65mm",122.7860,52.1010,90.0000,bottom
