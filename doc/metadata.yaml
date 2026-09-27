@@ -16,9 +16,9 @@ images:
 - doc/img/kicad_render_BATDATUNIT01.png
 - hw/cam_profi/assembly/BATDATUNIT01-assembly_page_02.svg
 - hw/cam_profi/assembly/BATDATUNIT01-assembly_page_01.svg
-- doc/gen/BATDATUNIT01-sw_source.svg
+- doc/gen/BATDATUNIT01-liion-schematic.svg
+- doc/gen/BATDATUNIT01-sw_source-schematic.svg
 - doc/gen/BATDATUNIT01-schematic.svg
-- doc/gen/BATDATUNIT01-liion.svg
 - doc/gen/img/BATDATUNIT01-bottom.svg
 - doc/gen/img/BATDATUNIT01-top.svg
 mark: 50
@@ -37,4 +37,4 @@ tags:
 - measuring-device
 - measuring-platform
 title: BATDATUNIT01
-updated: '2026-09-27T17:49:15.337361+00:00'
+updated: '2026-09-27T17:53:45.651716+00:00'
