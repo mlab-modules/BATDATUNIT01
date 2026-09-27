@@ -11444,7 +11444,7 @@
 				)
 			)
 		)
-		(property "Value" "510R"
+		(property "Value" "1k"
 			(at 55.88 162.56 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11487,7 +11487,7 @@
 				)
 			)
 		)
-		(property "UST_ID" "5c70984512875079b91f8988"
+		(property "UST_ID" "5c70984512875079b91f898c"
 			(at 55.88 157.48 0)
 			(hide yes)
 			(show_name no)

@@ -30072,7 +30072,7 @@
 				)
 			)
 		)
-		(property "Value" "22u"
+		(property "Value" "47u"
 			(at 365.76 237.49 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30115,7 +30115,7 @@
 				)
 			)
 		)
-		(property "UST_ID" "650b58f1462c6d9e7205463b"
+		(property "UST_ID" "5c70984812875079b91f8bbf"
 			(at 365.76 240.03 90)
 			(hide yes)
 			(show_name no)
@@ -40474,7 +40474,7 @@
 				)
 			)
 		)
-		(property "Value" "270k"
+		(property "Value" "511k"
 			(at 365.76 245.11 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40517,7 +40517,7 @@
 				)
 			)
 		)
-		(property "UST_ID" "5c70984712875079b91f8aa0"
+		(property "UST_ID" "650b5a43462c6d9e7205468e"
 			(at 365.76 245.11 0)
 			(hide yes)
 			(show_name no)

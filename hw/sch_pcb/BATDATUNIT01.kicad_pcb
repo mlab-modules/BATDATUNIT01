@@ -17873,7 +17873,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "22u"
+		(property "Value" "47u"
 			(at 0 -1.68 0)
 			(layer "B.Fab")
 			(uuid "2abb2fd6-81c4-4493-9b34-083a890a905e")
@@ -17909,7 +17909,7 @@
 				)
 			)
 		)
-		(property "UST_ID" "650b58f1462c6d9e7205463b"
+		(property "UST_ID" "5c70984812875079b91f8bbf"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -26251,7 +26251,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "270k"
+		(property "Value" "511k"
 			(at 0 -1.65 0)
 			(layer "B.Fab")
 			(uuid "f4c1f07f-faf2-4459-9040-241d76937c72")
@@ -26287,7 +26287,7 @@
 				)
 			)
 		)
-		(property "UST_ID" "5c70984712875079b91f8aa0"
+		(property "UST_ID" "650b5a43462c6d9e7205468e"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -53369,7 +53369,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "510R"
+		(property "Value" "1k"
 			(at -0.1 -1.3 0)
 			(layer "B.Fab")
 			(uuid "ac912d81-8329-46a7-863c-40cf5f84b42e")
@@ -53405,7 +53405,7 @@
 				)
 			)
 		)
-		(property "UST_ID" "5c70984512875079b91f8988"
+		(property "UST_ID" "5c70984512875079b91f898c"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
